@@ -17,11 +17,11 @@ class MLPReg1(nn.Module):
     def __init__(self,DO):
         super(MLPReg1, self).__init__()
         self.layer1 = torch.nn.Linear(38, 152)
-        #self.dropout1 = nn.Dropout(p=drop1, inplace=True)
+        # self.dropout1 = nn.Dropout(p=drop1, inplace=True)
         self.layer2 = torch.nn.Linear(152, 152)
-        #self.dropout2 = nn.Dropout(p=drop2, inplace=True)
+        # self.dropout2 = nn.Dropout(p=drop2, inplace=True)
         self.layer3 = torch.nn.Linear(152, 76)
-        #self.dropout3 = nn.Dropout(p=drop3, inplace=True)
+        # self.dropout3 = nn.Dropout(p=drop3, inplace=True)
         # self.layer4 = torch.nn.Linear(456, 228)
         # self.dropout4 = nn.Dropout(p=drop4, inplace=True)
         # self.layer5 = torch.nn.Linear(228, 114)
@@ -67,27 +67,27 @@ class MLPReg2(nn.Module):
     def __init__(self, DO):
         super(MLPReg2, self).__init__()
         self.layer1 = torch.nn.Linear(38, 152)
-        #self.dropout1 = nn.Dropout(p=0.5, inplace=True)
+        # self.dropout1 = nn.Dropout(p=0.5, inplace=True)
         self.layer2 = torch.nn.Linear(152, 256)
-        #self.dropout2 = nn.Dropout(p=0.5, inplace=True)
+        # self.dropout2 = nn.Dropout(p=0.5, inplace=True)
         self.layer3 = torch.nn.Linear(256, 256)
-        #self.dropout3 = nn.Dropout(p=0.5, inplace=True)
+        # self.dropout3 = nn.Dropout(p=0.5, inplace=True)
         self.layer4 = torch.nn.Linear(256, 512)
-        #self.dropout4 = nn.Dropout(p=0.5, inplace=True)
+        # self.dropout4 = nn.Dropout(p=0.5, inplace=True)
         self.layer5 = torch.nn.Linear(512, 512)
-        #self.dropout5 = nn.Dropout(p=0.5, inplace=True)
+        # self.dropout5 = nn.Dropout(p=0.5, inplace=True)
         self.layer6 = torch.nn.Linear(512, 1024)
-        #self.dropout6 = nn.Dropout(p=0.5, inplace=True)
+        # self.dropout6 = nn.Dropout(p=0.5, inplace=True)
         self.layer7 = torch.nn.Linear(1024, 1024)
-        #self.dropout7 = nn.Dropout(p=0.5, inplace=True)
+        # self.dropout7 = nn.Dropout(p=0.5, inplace=True)
         self.layer8 = torch.nn.Linear(1024, 512)
-        #self.dropout8 = nn.Dropout(p=0.5, inplace=True)
+        # self.dropout8 = nn.Dropout(p=0.5, inplace=True)
         self.layer9 = torch.nn.Linear(512, 256)
-        #self.dropout9 = nn.Dropout(p=0.5, inplace=True)
+        # self.dropout9 = nn.Dropout(p=0.5, inplace=True)
         self.layer10 = torch.nn.Linear(256, 128)
-        #self.dropout10 = nn.Dropout(p=0.5, inplace=True)
+        # self.dropout10 = nn.Dropout(p=0.5, inplace=True)
         self.layer11 = torch.nn.Linear(128, 38)
-        #self.dropout11 = nn.Dropout(p=0.5, inplace=True)
+        # self.dropout11 = nn.Dropout(p=0.5, inplace=True)
         self.layer12 = nn.Linear(38,1)
 
     def forward(self, x):
@@ -210,13 +210,13 @@ class MLPReg3Doen(nn.Module):
             nn.Dropout(p=DO),
             nn.Linear(608, 608),
             nn.ReLU(inplace=True),
-            #nn.Dropout(p=DO),
+            # nn.Dropout(p=DO),
             nn.Linear(608, 304),
             nn.ReLU(inplace=True),
-            #nn.Dropout(p=DO),
+            # nn.Dropout(p=DO),
             nn.Linear(304, 152),
             nn.ReLU(inplace=True),
-            #nn.Dropout(p=DO),
+            # nn.Dropout(p=DO),
         )
         self.regressor = torch.nn.Linear(152, 1)
 
@@ -232,19 +232,19 @@ class MLPReg3Dode(nn.Module):
         self.rep_learner = nn.Sequential(
             nn.Linear(38, 76),
             nn.ReLU(inplace=True),
-            #nn.Dropout(p=DO),
+            # nn.Dropout(p=DO),
             nn.Linear(76, 152),
             nn.ReLU(inplace=True),
-            #nn.Dropout(p=DO),
+            # nn.Dropout(p=DO),
             nn.Linear(152, 304),
             nn.ReLU(inplace=True),
-            #nn.Dropout(p=DO),
+            # nn.Dropout(p=DO),
             nn.Linear(304, 304),
             nn.ReLU(inplace=True),
-            #nn.Dropout(p=DO),
+            # nn.Dropout(p=DO),
             nn.Linear(304, 608),
             nn.ReLU(inplace=True),
-            #nn.Dropout(p=DO),
+            # nn.Dropout(p=DO),
             nn.Linear(608, 608),
             nn.ReLU(inplace=True),
             nn.Dropout(p=DO),
@@ -988,19 +988,19 @@ class MLPReg4Doen(nn.Module):
             nn.Dropout(p=DO),
             nn.Linear(608, 608),
             nn.ReLU(inplace=True),
-            #nn.Dropout(p=DO),
+            # nn.Dropout(p=DO),
             nn.Linear(608, 304),
             nn.ReLU(inplace=True),
-            #nn.Dropout(p=DO),
+            # nn.Dropout(p=DO),
             nn.Linear(304, 304),
             nn.ReLU(inplace=True),
-            #nn.Dropout(p=DO),
+            # nn.Dropout(p=DO),
             nn.Linear(304, 152),
             nn.ReLU(inplace=True),
-            #nn.Dropout(p=DO),
+            # nn.Dropout(p=DO),
             nn.Linear(152, 72),
             nn.ReLU(inplace=True),
-            #nn.Dropout(p=DO),
+            # nn.Dropout(p=DO),
         )
         self.regressor = torch.nn.Linear(72, 1)
 
@@ -1016,19 +1016,19 @@ class MLPReg4Dode(nn.Module):
         self.rep_learner = nn.Sequential(
             nn.Linear(38, 76),
             nn.ReLU(inplace=True),
-            #nn.Dropout(p=DO),
+            # nn.Dropout(p=DO),
             nn.Linear(76, 152),
             nn.ReLU(inplace=True),
-            #nn.Dropout(p=DO),
+            # nn.Dropout(p=DO),
             nn.Linear(152, 304),
             nn.ReLU(inplace=True),
-            #nn.Dropout(p=DO),
+            # nn.Dropout(p=DO),
             nn.Linear(304, 304),
             nn.ReLU(inplace=True),
-            #nn.Dropout(p=DO),
+            # nn.Dropout(p=DO),
             nn.Linear(304, 608),
             nn.ReLU(inplace=True),
-            #nn.Dropout(p=DO),
+            # nn.Dropout(p=DO),
             nn.Linear(608, 608),
             nn.ReLU(inplace=True),
             nn.Dropout(p=DO),
@@ -1139,13 +1139,13 @@ class MLPReg5Doen(nn.Module):
             nn.Dropout(p=DO),
             nn.Linear(608, 608),
             nn.ReLU(inplace=True),
-            #nn.Dropout(p=DO),
+            # nn.Dropout(p=DO),
             nn.Linear(608, 608),
             nn.ReLU(inplace=True),
-            #nn.Dropout(p=DO),
+            # nn.Dropout(p=DO),
             nn.Linear(608, 304),
             nn.ReLU(inplace=True),
-            #nn.Dropout(p=DO),
+            # nn.Dropout(p=DO),
         )
         self.regressor = nn.Linear(304, 1)
 
@@ -1161,16 +1161,16 @@ class MLPReg5Dode(nn.Module):
         self.rep_learner = nn.Sequential(
             nn.Linear(38, 76),
             nn.ReLU(inplace=True),
-            #nn.Dropout(p=DO),
+            # nn.Dropout(p=DO),
             nn.Linear(76, 152),
             nn.ReLU(inplace=True),
-            #nn.Dropout(p=DO),
+            # nn.Dropout(p=DO),
             nn.Linear(152, 304),
             nn.ReLU(inplace=True),
-            #nn.Dropout(p=DO),
+            # nn.Dropout(p=DO),
             nn.Linear(304, 608),
             nn.ReLU(inplace=True),
-            #nn.Dropout(p=DO),
+            # nn.Dropout(p=DO),
             nn.Linear(608, 608),
             nn.ReLU(inplace=True),
             nn.Dropout(p=DO),
@@ -1513,10 +1513,10 @@ class MLPReg5bDoen(nn.Module):
             nn.Dropout(p=DO),
             torch.nn.Linear(304, 304),
             nn.ReLU(inplace=True),
-            #nn.Dropout(p=DO),
+            # nn.Dropout(p=DO),
             torch.nn.Linear(304, 152),
             nn.ReLU(inplace=True),
-            #nn.Dropout(p=DO),
+            # nn.Dropout(p=DO),
         )
         self.regressor = torch.nn.Linear(152, 1)
 
@@ -1532,13 +1532,13 @@ class MLPReg5bDode(nn.Module):
         self.rep_learner = nn.Sequential(
             torch.nn.Linear(38, 76),
             nn.ReLU(inplace=True),
-            #nn.Dropout(p=DO),
+            # nn.Dropout(p=DO),
             torch.nn.Linear(76, 152),
             nn.ReLU(inplace=True),
-            #nn.Dropout(p=DO),
+            # nn.Dropout(p=DO),
             torch.nn.Linear(152, 304),
             nn.ReLU(inplace=True),
-            #nn.Dropout(p=DO),
+            # nn.Dropout(p=DO),
             torch.nn.Linear(304, 304),
             nn.ReLU(inplace=True),
             nn.Dropout(p=DO),
@@ -1567,13 +1567,13 @@ class MLPReg5b_rido(nn.Module):
             nn.Dropout(p=DO),
             torch.nn.Linear(152, 304),
             nn.ReLU(inplace=True),
-            #nn.Dropout(p=DO),
+            # nn.Dropout(p=DO),
             torch.nn.Linear(304, 304),
             nn.ReLU(inplace=True),
-            #nn.Dropout(p=DO),
+            # nn.Dropout(p=DO),
             torch.nn.Linear(304, 152),
             nn.ReLU(inplace=True),
-            #nn.Dropout(p=DO),
+            # nn.Dropout(p=DO),
         )
         self.regressor = torch.nn.Linear(152, 1)
 
@@ -1595,13 +1595,13 @@ class MLPReg5b_apdo(nn.Module):
             nn.Dropout(p=DO),
             torch.nn.Linear(152, 304),
             nn.ReLU(inplace=True),
-            #nn.Dropout(p=DO),
+            # nn.Dropout(p=DO),
             torch.nn.Linear(304, 304),
             nn.ReLU(inplace=True),
-            #nn.Dropout(p=DO),
+            # nn.Dropout(p=DO),
             torch.nn.Linear(304, 152),
             nn.ReLU(inplace=True),
-            #nn.Dropout(p=DO),
+            # nn.Dropout(p=DO),
         )
         self.regressor = torch.nn.Linear(152, 1)
 
@@ -1624,13 +1624,13 @@ class MLPReg5b_riapdo(nn.Module):
             nn.Dropout(p=DO),
             torch.nn.Linear(304, 608),
             nn.ReLU(inplace=True),
-            #nn.Dropout(p=DO),
+            # nn.Dropout(p=DO),
             torch.nn.Linear(608, 608),
             nn.ReLU(inplace=True),
-            #nn.Dropout(p=DO),
+            # nn.Dropout(p=DO),
             torch.nn.Linear(608, 304),
             nn.ReLU(inplace=True),
-            #nn.Dropout(p=DO),
+            # nn.Dropout(p=DO),
         )
         self.regressor = torch.nn.Linear(304, 1)
 
@@ -1646,19 +1646,19 @@ class MLPReg5c(nn.Module):
         self.rep_learner = nn.Sequential(
             torch.nn.Linear(38, 76),
             nn.ReLU(inplace=True),
-            #nn.Dropout(p=DO),
+            # nn.Dropout(p=DO),
             torch.nn.Linear(76, 152),
             nn.ReLU(inplace=True),
-            #nn.Dropout(p=DO),
+            # nn.Dropout(p=DO),
             torch.nn.Linear(152, 304),
             nn.ReLU(inplace=True),
-            #nn.Dropout(p=DO),
+            # nn.Dropout(p=DO),
             torch.nn.Linear(304, 304),
             nn.ReLU(inplace=True),
-            #nn.Dropout(p=DO),
+            # nn.Dropout(p=DO),
             torch.nn.Linear(304, 152),
             nn.ReLU(inplace=True),
-            #nn.Dropout(p=DO),
+            # nn.Dropout(p=DO),
             torch.nn.Linear(152, 76),
             nn.ReLU(inplace=True),
             # nn.Dropout(p=DO),
@@ -1689,10 +1689,10 @@ class MLPReg5cDoen(nn.Module):
             nn.Dropout(p=DO),
             torch.nn.Linear(304, 304),
             nn.ReLU(inplace=True),
-            #nn.Dropout(p=DO),
+            # nn.Dropout(p=DO),
             torch.nn.Linear(304, 152),
             nn.ReLU(inplace=True),
-            #nn.Dropout(p=DO),
+            # nn.Dropout(p=DO),
             torch.nn.Linear(152, 76),
             nn.ReLU(inplace=True),
             # nn.Dropout(p=DO),
@@ -1714,16 +1714,16 @@ class MLPReg5cDode(nn.Module):
         self.rep_learner = nn.Sequential(
             torch.nn.Linear(38, 76),
             nn.ReLU(inplace=True),
-            #nn.Dropout(p=DO),
+            # nn.Dropout(p=DO),
             torch.nn.Linear(76, 152),
             nn.ReLU(inplace=True),
-            #nn.Dropout(p=DO),
+            # nn.Dropout(p=DO),
             torch.nn.Linear(152, 304),
             nn.ReLU(inplace=True),
-            #nn.Dropout(p=DO),
+            # nn.Dropout(p=DO),
             torch.nn.Linear(304, 304),
             nn.ReLU(inplace=True),
-            #nn.Dropout(p=DO),
+            # nn.Dropout(p=DO),
             torch.nn.Linear(304, 152),
             nn.ReLU(inplace=True),
             nn.Dropout(p=DO),
@@ -1901,22 +1901,22 @@ class MLPReg6cDode(nn.Module):
         self.rep_learner = nn.Sequential(
             nn.Linear(38, 76),
             nn.ReLU(inplace=True),
-            #nn.Dropout(p=DO),
+            # nn.Dropout(p=DO),
             nn.Linear(76, 152),
             nn.ReLU(inplace=True),
-            #nn.Dropout(p=DO),
+            # nn.Dropout(p=DO),
             nn.Linear(152, 304),
             nn.ReLU(inplace=True),
-            #nn.Dropout(p=DO),
+            # nn.Dropout(p=DO),
             nn.Linear(304, 304),
             nn.ReLU(inplace=True),
-            #nn.Dropout(p=DO),
+            # nn.Dropout(p=DO),
             nn.Linear(304, 608),
             nn.ReLU(inplace=True),
-            #nn.Dropout(p=DO),
+            # nn.Dropout(p=DO),
             nn.Linear(608, 1152),
             nn.ReLU(inplace=True),
-            #nn.Dropout(p=DO),
+            # nn.Dropout(p=DO),
             nn.Linear(1152, 1152),
             nn.ReLU(inplace=True),
             # nn.Dropout(p=DO),
@@ -2029,10 +2029,10 @@ class MLReg10a_ri(nn.Module):
         self.encoder = nn.Sequential(
             torch.nn.Linear(38, 76),
             nn.ReLU(inplace=True),
-            #nn.Dropout(p=.9),
+            # nn.Dropout(p=.9),
             torch.nn.Linear(76, 152),
             nn.ReLU(inplace=True),
-            #nn.Dropout(p=.9),
+            # nn.Dropout(p=.9),
             torch.nn.Linear(152, 304),
             nn.ReLU(inplace=True),
             # nn.Dropout(p=.2),
@@ -2051,10 +2051,10 @@ class MLReg10a_ri(nn.Module):
             nn.ReLU(inplace=True),
             torch.nn.Linear(304, 152),
             nn.ReLU(inplace=True),
-            #nn.Dropout(p=.2),
+            # nn.Dropout(p=.2),
             torch.nn.Linear(152, 76),
             nn.ReLU(inplace=True),
-            #nn.Dropout(p=.1),
+            # nn.Dropout(p=.1),
             torch.nn.Linear(76, 38),
             nn.ReLU(inplace=True)
 
@@ -2097,10 +2097,10 @@ class MLReg10a_rido(nn.Module):
             nn.ReLU(inplace=True),
             torch.nn.Linear(304, 152),
             nn.ReLU(inplace=True),
-            #nn.Dropout(p=.2),
+            # nn.Dropout(p=.2),
             torch.nn.Linear(152, 76),
             nn.ReLU(inplace=True),
-            #nn.Dropout(p=.1),
+            # nn.Dropout(p=.1),
             torch.nn.Linear(76, 38),
             nn.ReLU(inplace=True)
 
@@ -2121,10 +2121,10 @@ class MLReg10a_ap(nn.Module):
         self.encoder = nn.Sequential(
             torch.nn.Linear(38, 76),
             nn.ReLU(inplace=True),
-            #nn.Dropout(p=.9),
+            # nn.Dropout(p=.9),
             torch.nn.Linear(76, 152),
             nn.ReLU(inplace=True),
-            #nn.Dropout(p=.9),
+            # nn.Dropout(p=.9),
             torch.nn.Linear(152, 304),
             nn.ReLU(inplace=True),
             # nn.Dropout(p=.2),
@@ -2143,10 +2143,10 @@ class MLReg10a_ap(nn.Module):
             nn.ReLU(inplace=True),
             torch.nn.Linear(304, 152),
             nn.ReLU(inplace=True),
-            #nn.Dropout(p=.2),
+            # nn.Dropout(p=.2),
             torch.nn.Linear(152, 76),
             nn.ReLU(inplace=True),
-            #nn.Dropout(p=.1),
+            # nn.Dropout(p=.1),
             torch.nn.Linear(76, 38),
             nn.ReLU(inplace=True)
 
@@ -2189,10 +2189,10 @@ class MLReg10a_apdo(nn.Module):
             nn.ReLU(inplace=True),
             torch.nn.Linear(304, 152),
             nn.ReLU(inplace=True),
-            #nn.Dropout(p=.2),
+            # nn.Dropout(p=.2),
             torch.nn.Linear(152, 76),
             nn.ReLU(inplace=True),
-            #nn.Dropout(p=.1),
+            # nn.Dropout(p=.1),
             torch.nn.Linear(76, 38),
             nn.ReLU(inplace=True)
 
@@ -2213,10 +2213,10 @@ class MLReg10a_riap(nn.Module):
         self.encoder = nn.Sequential(
             torch.nn.Linear(76, 152),
             nn.ReLU(inplace=True),
-            #nn.Dropout(p=.9),
+            # nn.Dropout(p=.9),
             torch.nn.Linear(152, 304),
             nn.ReLU(inplace=True),
-            #nn.Dropout(p=.9),
+            # nn.Dropout(p=.9),
             torch.nn.Linear(304, 608),
             nn.ReLU(inplace=True),
             # nn.Dropout(p=.2),
@@ -2235,10 +2235,10 @@ class MLReg10a_riap(nn.Module):
             nn.ReLU(inplace=True),
             torch.nn.Linear(608, 304),
             nn.ReLU(inplace=True),
-            #nn.Dropout(p=.2),
+            # nn.Dropout(p=.2),
             torch.nn.Linear(304, 152),
             nn.ReLU(inplace=True),
-            #nn.Dropout(p=.1),
+            # nn.Dropout(p=.1),
             torch.nn.Linear(152, 76),
             nn.ReLU(inplace=True)
 
@@ -2281,10 +2281,10 @@ class MLReg10a_riapdo(nn.Module):
             nn.ReLU(inplace=True),
             torch.nn.Linear(608, 304),
             nn.ReLU(inplace=True),
-            #nn.Dropout(p=.2),
+            # nn.Dropout(p=.2),
             torch.nn.Linear(304, 152),
             nn.ReLU(inplace=True),
-            #nn.Dropout(p=.1),
+            # nn.Dropout(p=.1),
             torch.nn.Linear(152, 76),
             nn.ReLU(inplace=True)
 
@@ -2309,10 +2309,10 @@ class MLPArc1_ys(nn.Module):
         self.encoder = nn.Sequential(
             torch.nn.Linear(38, 608),
             nn.ReLU(inplace=True),
-            #nn.Dropout(p=.9),
+            # nn.Dropout(p=.9),
             torch.nn.Linear(608, 608),
             nn.ReLU(inplace=True),
-            #nn.Dropout(p=.9),
+            # nn.Dropout(p=.9),
             torch.nn.Linear(608, 304),
             nn.ReLU(inplace=True),
             # nn.Dropout(p=.2),
@@ -2331,10 +2331,10 @@ class MLPArc1_ys(nn.Module):
             nn.ReLU(inplace=True),
             torch.nn.Linear(76, 76),
             nn.ReLU(inplace=True),
-            #nn.Dropout(p=.2),
+            # nn.Dropout(p=.2),
             torch.nn.Linear(76, 76),
             nn.ReLU(inplace=True),
-            #nn.Dropout(p=.1),
+            # nn.Dropout(p=.1),
             torch.nn.Linear(76, 38),
             nn.ReLU(inplace=True)
 
@@ -2382,10 +2382,10 @@ class MLPArc2_ys(nn.Module):
         self.encoder = nn.Sequential(
             torch.nn.Linear(38, 38),
             nn.ReLU(inplace=True),
-            #nn.Dropout(p=.9),
+            # nn.Dropout(p=.9),
             torch.nn.Linear(38, 38),
             nn.ReLU(inplace=True),
-            #nn.Dropout(p=.9),
+            # nn.Dropout(p=.9),
             torch.nn.Linear(38, 38),
             nn.ReLU(inplace=True),
             # nn.Dropout(p=.2),
@@ -2404,10 +2404,10 @@ class MLPArc2_ys(nn.Module):
             nn.ReLU(inplace=True),
             torch.nn.Linear(38, 38),
             nn.ReLU(inplace=True),
-            #nn.Dropout(p=.2),
+            # nn.Dropout(p=.2),
             torch.nn.Linear(38, 38),
             nn.ReLU(inplace=True),
-            #nn.Dropout(p=.1),
+            # nn.Dropout(p=.1),
             torch.nn.Linear(38, 38),
             nn.ReLU(inplace=True)
 
@@ -2455,10 +2455,10 @@ class MLPArc3_ys(nn.Module):
         self.encoder = nn.Sequential(
             torch.nn.Linear(38, 304),
             nn.ReLU(inplace=True),
-            #nn.Dropout(p=.9),
+            # nn.Dropout(p=.9),
             torch.nn.Linear(304, 152),
             nn.ReLU(inplace=True),
-            #nn.Dropout(p=.9),
+            # nn.Dropout(p=.9),
             torch.nn.Linear(152, 152),
             nn.ReLU(inplace=True),
             # nn.Dropout(p=.2),
@@ -2477,10 +2477,10 @@ class MLPArc3_ys(nn.Module):
             nn.ReLU(inplace=True),
             torch.nn.Linear(38, 76),
             nn.ReLU(inplace=True),
-            #nn.Dropout(p=.2),
+            # nn.Dropout(p=.2),
             torch.nn.Linear(76, 76),
             nn.ReLU(inplace=True),
-            #nn.Dropout(p=.1),
+            # nn.Dropout(p=.1),
             torch.nn.Linear(76, 152),
             nn.ReLU(inplace=True)
 
