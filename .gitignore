@@ -7,9 +7,10 @@
 **/.DS_Store
 **/._.DS_Store
 
-# publish folder ignore
+# specific folders ignore
 publish/
 plots/
+models/
 
 ### Python ###
 # Byte-compiled / optimized / DLL files
