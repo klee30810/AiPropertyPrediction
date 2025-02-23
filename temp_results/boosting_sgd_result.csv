@@ -1,0 +1,2959 @@
+01:31.3,,
+Base model spec,,
+alpha: 0.001, l1_ratio: 0.3, sgd_penalty: l2
+,,
+Overall Results,,
+,,
+Yield Stress GridSearch Best Estimator:,,
+AdaBoostRegressor(base_estimator=SGDRegressor(alpha=0.001, average=False,
+                                              early_stopping=False, epsilon=0.1,
+                                              eta0=0.01, fit_intercept=True,
+                                              l1_ratio=0.3,,
+                                              learning_rate='invscaling',,
+                                              loss='squared_loss',,
+                                              max_iter=1000, n_iter_no_change=5,
+                                              penalty='l2', power_t=0.25,
+                                              random_state=777, shuffle=True,
+                                              tol=0.001,,
+                                              validation_fraction=0.1,,
+                                              verbose=0, warm_start=False),
+                  learning_rate=0.001, loss='linear', n_estimators=100
+                  random_state=777),,
+,,
+ys:rmse   mean=14.427191959391797 std=4.052029753730361,,
+ys:nrmse  mean=0.05541556267927468 std=0.020953353011794563,,
+ys:r2     mean=0.7613849898722982 std=0.18224109040321432,,
+ys:adj-r2 mean=1.0310658233854586 std=0.021813925054341664,,
+,,
+--------------------,,
+,,
+Elongation GridSearch Best Estimator:,,
+AdaBoostRegressor(base_estimator=SGDRegressor(alpha=0.001, average=False,
+                                              early_stopping=False, epsilon=0.1,
+                                              eta0=0.01, fit_intercept=True,
+                                              l1_ratio=0.3,,
+                                              learning_rate='invscaling',,
+                                              loss='squared_loss',,
+                                              max_iter=1000, n_iter_no_change=5,
+                                              penalty='l2', power_t=0.25,
+                                              random_state=777, shuffle=True,
+                                              tol=0.001,,
+                                              validation_fraction=0.1,,
+                                              verbose=0, warm_start=False),
+                  learning_rate=0.001, loss='linear', n_estimators=100
+                  random_state=777),,
+,,
+el:rmse   mean=0.10109068889002851 std=0.0179677099739854,,
+el:nrmse  mean=0.5684255959241693 std=0.2073739919554327,,
+el:r2     mean=-0.5454991670105744 std=1.2365033327723791,,
+el:adj-r2 mean=1.190313036250226 std=0.13978996045326264,,
+,,
+,,
+01:51.7,,
+Base model spec,,
+alpha: 0.001, l1_ratio: 0.3, sgd_penalty: l1
+,,
+Overall Results,,
+,,
+Yield Stress GridSearch Best Estimator:,,
+AdaBoostRegressor(base_estimator=SGDRegressor(alpha=0.001, average=False,
+                                              early_stopping=False, epsilon=0.1,
+                                              eta0=0.01, fit_intercept=True,
+                                              l1_ratio=0.3,,
+                                              learning_rate='invscaling',,
+                                              loss='squared_loss',,
+                                              max_iter=1000, n_iter_no_change=5,
+                                              penalty='l1', power_t=0.25,
+                                              random_state=777, shuffle=True,
+                                              tol=0.001,,
+                                              validation_fraction=0.1,,
+                                              verbose=0, warm_start=False),
+                  learning_rate=0.001, loss='linear', n_estimators=100
+                  random_state=777),,
+,,
+ys:rmse   mean=14.344236839452392 std=4.087390827430169,,
+ys:nrmse  mean=0.0551085367353593 std=0.02103136848500804,,
+ys:r2     mean=0.7637242746401385 std=0.18112161102420668,,
+ys:adj-r2 mean=1.030787423176541 std=0.0217204731706486,,
+,,
+--------------------,,
+,,
+Elongation GridSearch Best Estimator:,,
+AdaBoostRegressor(base_estimator=SGDRegressor(alpha=0.001, average=False,
+                                              early_stopping=False, epsilon=0.1,
+                                              eta0=0.01, fit_intercept=True,
+                                              l1_ratio=0.3,,
+                                              learning_rate='invscaling',,
+                                              loss='squared_loss',,
+                                              max_iter=1000, n_iter_no_change=5,
+                                              penalty='l1', power_t=0.25,
+                                              random_state=777, shuffle=True,
+                                              tol=0.001,,
+                                              validation_fraction=0.1,,
+                                              verbose=0, warm_start=False),
+                  learning_rate=0.001, loss='linear', n_estimators=100
+                  random_state=777),,
+,,
+el:rmse   mean=0.10080584437681253 std=0.018570579311018454,,
+el:nrmse  mean=0.5635085602956723 std=0.19904699830751602,,
+el:r2     mean=-0.5675740005614562 std=1.3123130324225207,,
+el:adj-r2 mean=1.1927653833680079 std=0.14899489003476352,,
+,,
+,,
+02:13.5,,
+Base model spec,,
+alpha: 0.001, l1_ratio: 0.3, sgd_penalty: elasticnet
+,,
+Overall Results,,
+,,
+Yield Stress GridSearch Best Estimator:,,
+AdaBoostRegressor(base_estimator=SGDRegressor(alpha=0.001, average=False,
+                                              early_stopping=False, epsilon=0.1,
+                                              eta0=0.01, fit_intercept=True,
+                                              l1_ratio=0.3,,
+                                              learning_rate='invscaling',,
+                                              loss='squared_loss',,
+                                              max_iter=1000, n_iter_no_change=5,
+                                              penalty='elasticnet',,
+                                              power_t=0.25, random_state=777,
+                                              shuffle=True, tol=0.001,
+                                              validation_fraction=0.1,,
+                                              verbose=0, warm_start=False),
+                  learning_rate=0.001, loss='linear', n_estimators=100
+                  random_state=777),,
+,,
+ys:rmse   mean=14.411877681461103 std=4.053080811773326,,
+ys:nrmse  mean=0.05535681690948652 std=0.020946282417892072,,
+ys:r2     mean=0.7617499716610723 std=0.1821093802319434,,
+ys:adj-r2 mean=1.0310219405750964 std=0.021804028803136963,,
+,,
+--------------------,,
+,,
+Elongation GridSearch Best Estimator:,,
+AdaBoostRegressor(base_estimator=SGDRegressor(alpha=0.001, average=False,
+                                              early_stopping=False, epsilon=0.1,
+                                              eta0=0.01, fit_intercept=True,
+                                              l1_ratio=0.3,,
+                                              learning_rate='invscaling',,
+                                              loss='squared_loss',,
+                                              max_iter=1000, n_iter_no_change=5,
+                                              penalty='elasticnet',,
+                                              power_t=0.25, random_state=777,
+                                              shuffle=True, tol=0.001,
+                                              validation_fraction=0.1,,
+                                              verbose=0, warm_start=False),
+                  learning_rate=0.001, loss='linear', n_estimators=100
+                  random_state=777),,
+,,
+el:rmse   mean=0.10104233300445079 std=0.018142047070976487,,
+el:nrmse  mean=0.5671658608138006 std=0.20495183480078347,,
+el:r2     mean=-0.5530735831721131 std=1.259653563360749,,
+el:adj-r2 mean=1.1911626440536813 std=0.1425962044050301,,
+,,
+,,
+02:34.1,,
+Base model spec,,
+alpha: 0.001, l1_ratio: 0.5, sgd_penalty: l2
+,,
+Overall Results,,
+,,
+Yield Stress GridSearch Best Estimator:,,
+AdaBoostRegressor(base_estimator=SGDRegressor(alpha=0.001, average=False,
+                                              early_stopping=False, epsilon=0.1,
+                                              eta0=0.01, fit_intercept=True,
+                                              l1_ratio=0.5,,
+                                              learning_rate='invscaling',,
+                                              loss='squared_loss',,
+                                              max_iter=1000, n_iter_no_change=5,
+                                              penalty='l2', power_t=0.25,
+                                              random_state=777, shuffle=True,
+                                              tol=0.001,,
+                                              validation_fraction=0.1,,
+                                              verbose=0, warm_start=False),
+                  learning_rate=0.001, loss='linear', n_estimators=100
+                  random_state=777),,
+,,
+ys:rmse   mean=14.427191959391797 std=4.052029753730361,,
+ys:nrmse  mean=0.05541556267927468 std=0.020953353011794563,,
+ys:r2     mean=0.7613849898722982 std=0.18224109040321432,,
+ys:adj-r2 mean=1.0310658233854586 std=0.021813925054341664,,
+,,
+--------------------,,
+,,
+Elongation GridSearch Best Estimator:,,
+AdaBoostRegressor(base_estimator=SGDRegressor(alpha=0.001, average=False,
+                                              early_stopping=False, epsilon=0.1,
+                                              eta0=0.01, fit_intercept=True,
+                                              l1_ratio=0.5,,
+                                              learning_rate='invscaling',,
+                                              loss='squared_loss',,
+                                              max_iter=1000, n_iter_no_change=5,
+                                              penalty='l2', power_t=0.25,
+                                              random_state=777, shuffle=True,
+                                              tol=0.001,,
+                                              validation_fraction=0.1,,
+                                              verbose=0, warm_start=False),
+                  learning_rate=0.001, loss='linear', n_estimators=100
+                  random_state=777),,
+,,
+el:rmse   mean=0.10109068889002851 std=0.0179677099739854,,
+el:nrmse  mean=0.5684255959241693 std=0.2073739919554327,,
+el:r2     mean=-0.5454991670105744 std=1.2365033327723791,,
+el:adj-r2 mean=1.190313036250226 std=0.13978996045326264,,
+,,
+,,
+02:57.6,,
+Base model spec,,
+alpha: 0.001, l1_ratio: 0.5, sgd_penalty: l1
+,,
+Overall Results,,
+,,
+Yield Stress GridSearch Best Estimator:,,
+AdaBoostRegressor(base_estimator=SGDRegressor(alpha=0.001, average=False,
+                                              early_stopping=False, epsilon=0.1,
+                                              eta0=0.01, fit_intercept=True,
+                                              l1_ratio=0.5,,
+                                              learning_rate='invscaling',,
+                                              loss='squared_loss',,
+                                              max_iter=1000, n_iter_no_change=5,
+                                              penalty='l1', power_t=0.25,
+                                              random_state=777, shuffle=True,
+                                              tol=0.001,,
+                                              validation_fraction=0.1,,
+                                              verbose=0, warm_start=False),
+                  learning_rate=0.001, loss='linear', n_estimators=100
+                  random_state=777),,
+,,
+ys:rmse   mean=14.344236839452392 std=4.087390827430169,,
+ys:nrmse  mean=0.0551085367353593 std=0.02103136848500804,,
+ys:r2     mean=0.7637242746401385 std=0.18112161102420668,,
+ys:adj-r2 mean=1.030787423176541 std=0.0217204731706486,,
+,,
+--------------------,,
+,,
+Elongation GridSearch Best Estimator:,,
+AdaBoostRegressor(base_estimator=SGDRegressor(alpha=0.001, average=False,
+                                              early_stopping=False, epsilon=0.1,
+                                              eta0=0.01, fit_intercept=True,
+                                              l1_ratio=0.5,,
+                                              learning_rate='invscaling',,
+                                              loss='squared_loss',,
+                                              max_iter=1000, n_iter_no_change=5,
+                                              penalty='l1', power_t=0.25,
+                                              random_state=777, shuffle=True,
+                                              tol=0.001,,
+                                              validation_fraction=0.1,,
+                                              verbose=0, warm_start=False),
+                  learning_rate=0.001, loss='linear', n_estimators=100
+                  random_state=777),,
+,,
+el:rmse   mean=0.10080584437681253 std=0.018570579311018454,,
+el:nrmse  mean=0.5635085602956723 std=0.19904699830751602,,
+el:r2     mean=-0.5675740005614562 std=1.3123130324225207,,
+el:adj-r2 mean=1.1927653833680079 std=0.14899489003476352,,
+,,
+,,
+03:22.0,,
+Base model spec,,
+alpha: 0.001, l1_ratio: 0.5, sgd_penalty: elasticnet
+,,
+Overall Results,,
+,,
+Yield Stress GridSearch Best Estimator:,,
+AdaBoostRegressor(base_estimator=SGDRegressor(alpha=0.001, average=False,
+                                              early_stopping=False, epsilon=0.1,
+                                              eta0=0.01, fit_intercept=True,
+                                              l1_ratio=0.5,,
+                                              learning_rate='invscaling',,
+                                              loss='squared_loss',,
+                                              max_iter=1000, n_iter_no_change=5,
+                                              penalty='elasticnet',,
+                                              power_t=0.25, random_state=777,
+                                              shuffle=True, tol=0.001,
+                                              validation_fraction=0.1,,
+                                              verbose=0, warm_start=False),
+                  learning_rate=0.001, loss='linear', n_estimators=100
+                  random_state=777),,
+,,
+ys:rmse   mean=14.404246541395528 std=4.051489180378885,,
+ys:nrmse  mean=0.05532677650944573 std=0.020934155449801522,,
+ys:r2     mean=0.761941848613675 std=0.1819850916322972,,
+ys:adj-r2 mean=1.0309987357263972 std=0.02179238558962124,,
+,,
+--------------------,,
+,,
+Elongation GridSearch Best Estimator:,,
+AdaBoostRegressor(base_estimator=SGDRegressor(alpha=0.001, average=False,
+                                              early_stopping=False, epsilon=0.1,
+                                              eta0=0.01, fit_intercept=True,
+                                              l1_ratio=0.5,,
+                                              learning_rate='invscaling',,
+                                              loss='squared_loss',,
+                                              max_iter=1000, n_iter_no_change=5,
+                                              penalty='elasticnet',,
+                                              power_t=0.25, random_state=777,
+                                              shuffle=True, tol=0.001,
+                                              validation_fraction=0.1,,
+                                              verbose=0, warm_start=False),
+                  learning_rate=0.001, loss='linear', n_estimators=100
+                  random_state=777),,
+,,
+el:rmse   mean=0.1009797980419472 std=0.01826013006077147,,
+el:nrmse  mean=0.5661292396553629 std=0.20319960075956434,,
+el:r2     mean=-0.5573938122286037 std=1.2748444201121294,,
+el:adj-r2 mean=1.1916395198317478 std=0.1444424222763434,,
+,,
+,,
+03:42.6,,
+Base model spec,,
+alpha: 0.001, l1_ratio: 0.7, sgd_penalty: l2
+,,
+Overall Results,,
+,,
+Yield Stress GridSearch Best Estimator:,,
+AdaBoostRegressor(base_estimator=SGDRegressor(alpha=0.001, average=False,
+                                              early_stopping=False, epsilon=0.1,
+                                              eta0=0.01, fit_intercept=True,
+                                              l1_ratio=0.7,,
+                                              learning_rate='invscaling',,
+                                              loss='squared_loss',,
+                                              max_iter=1000, n_iter_no_change=5,
+                                              penalty='l2', power_t=0.25,
+                                              random_state=777, shuffle=True,
+                                              tol=0.001,,
+                                              validation_fraction=0.1,,
+                                              verbose=0, warm_start=False),
+                  learning_rate=0.001, loss='linear', n_estimators=100
+                  random_state=777),,
+,,
+ys:rmse   mean=14.427191959391797 std=4.052029753730361,,
+ys:nrmse  mean=0.05541556267927468 std=0.020953353011794563,,
+ys:r2     mean=0.7613849898722982 std=0.18224109040321432,,
+ys:adj-r2 mean=1.0310658233854586 std=0.021813925054341664,,
+,,
+--------------------,,
+,,
+Elongation GridSearch Best Estimator:,,
+AdaBoostRegressor(base_estimator=SGDRegressor(alpha=0.001, average=False,
+                                              early_stopping=False, epsilon=0.1,
+                                              eta0=0.01, fit_intercept=True,
+                                              l1_ratio=0.7,,
+                                              learning_rate='invscaling',,
+                                              loss='squared_loss',,
+                                              max_iter=1000, n_iter_no_change=5,
+                                              penalty='l2', power_t=0.25,
+                                              random_state=777, shuffle=True,
+                                              tol=0.001,,
+                                              validation_fraction=0.1,,
+                                              verbose=0, warm_start=False),
+                  learning_rate=0.001, loss='linear', n_estimators=100
+                  random_state=777),,
+,,
+el:rmse   mean=0.10109068889002851 std=0.0179677099739854,,
+el:nrmse  mean=0.5684255959241693 std=0.2073739919554327,,
+el:r2     mean=-0.5454991670105744 std=1.2365033327723791,,
+el:adj-r2 mean=1.190313036250226 std=0.13978996045326264,,
+,,
+,,
+04:05.7,,
+Base model spec,,
+alpha: 0.001, l1_ratio: 0.7, sgd_penalty: l1
+,,
+Overall Results,,
+,,
+Yield Stress GridSearch Best Estimator:,,
+AdaBoostRegressor(base_estimator=SGDRegressor(alpha=0.001, average=False,
+                                              early_stopping=False, epsilon=0.1,
+                                              eta0=0.01, fit_intercept=True,
+                                              l1_ratio=0.7,,
+                                              learning_rate='invscaling',,
+                                              loss='squared_loss',,
+                                              max_iter=1000, n_iter_no_change=5,
+                                              penalty='l1', power_t=0.25,
+                                              random_state=777, shuffle=True,
+                                              tol=0.001,,
+                                              validation_fraction=0.1,,
+                                              verbose=0, warm_start=False),
+                  learning_rate=0.001, loss='linear', n_estimators=100
+                  random_state=777),,
+,,
+ys:rmse   mean=14.344236839452392 std=4.087390827430169,,
+ys:nrmse  mean=0.0551085367353593 std=0.02103136848500804,,
+ys:r2     mean=0.7637242746401385 std=0.18112161102420668,,
+ys:adj-r2 mean=1.030787423176541 std=0.0217204731706486,,
+,,
+--------------------,,
+,,
+Elongation GridSearch Best Estimator:,,
+AdaBoostRegressor(base_estimator=SGDRegressor(alpha=0.001, average=False,
+                                              early_stopping=False, epsilon=0.1,
+                                              eta0=0.01, fit_intercept=True,
+                                              l1_ratio=0.7,,
+                                              learning_rate='invscaling',,
+                                              loss='squared_loss',,
+                                              max_iter=1000, n_iter_no_change=5,
+                                              penalty='l1', power_t=0.25,
+                                              random_state=777, shuffle=True,
+                                              tol=0.001,,
+                                              validation_fraction=0.1,,
+                                              verbose=0, warm_start=False),
+                  learning_rate=0.001, loss='linear', n_estimators=100
+                  random_state=777),,
+,,
+el:rmse   mean=0.10080584437681253 std=0.018570579311018454,,
+el:nrmse  mean=0.5635085602956723 std=0.19904699830751602,,
+el:r2     mean=-0.5675740005614562 std=1.3123130324225207,,
+el:adj-r2 mean=1.1927653833680079 std=0.14899489003476352,,
+,,
+,,
+04:31.6,,
+Base model spec,,
+alpha: 0.001, l1_ratio: 0.7, sgd_penalty: elasticnet
+,,
+Overall Results,,
+,,
+Yield Stress GridSearch Best Estimator:,,
+AdaBoostRegressor(base_estimator=SGDRegressor(alpha=0.001, average=False,
+                                              early_stopping=False, epsilon=0.1,
+                                              eta0=0.01, fit_intercept=True,
+                                              l1_ratio=0.7,,
+                                              learning_rate='invscaling',,
+                                              loss='squared_loss',,
+                                              max_iter=1000, n_iter_no_change=5,
+                                              penalty='elasticnet',,
+                                              power_t=0.25, random_state=777,
+                                              shuffle=True, tol=0.001,
+                                              validation_fraction=0.1,,
+                                              verbose=0, warm_start=False),
+                  learning_rate=0.001, loss='linear', n_estimators=100
+                  random_state=777),,
+,,
+ys:rmse   mean=14.394688360966958 std=4.052637609215022,,
+ys:nrmse  mean=0.055290616007905045 std=0.020930269419256638,,
+ys:r2     mean=0.7623990191727437 std=0.18136746187443853,,
+ys:adj-r2 mean=1.030944315573386 std=0.02172802571968443,,
+,,
+--------------------,,
+,,
+Elongation GridSearch Best Estimator:,,
+AdaBoostRegressor(base_estimator=SGDRegressor(alpha=0.001, average=False,
+                                              early_stopping=False, epsilon=0.1,
+                                              eta0=0.01, fit_intercept=True,
+                                              l1_ratio=0.7,,
+                                              learning_rate='invscaling',,
+                                              loss='squared_loss',,
+                                              max_iter=1000, n_iter_no_change=5,
+                                              penalty='elasticnet',,
+                                              power_t=0.25, random_state=777,
+                                              shuffle=True, tol=0.001,
+                                              validation_fraction=0.1,,
+                                              verbose=0, warm_start=False),
+                  learning_rate=0.001, loss='linear', n_estimators=100
+                  random_state=777),,
+,,
+el:rmse   mean=0.10089390927711836 std=0.018387105413508582,,
+el:nrmse  mean=0.5649632430904524 std=0.20146788233069407,,
+el:r2     mean=-0.5612251721013836 std=1.2901571487919314,,
+el:adj-r2 mean=1.192057851021903 std=0.14630675803972937,,
+,,
+,,
+04:47.5,,
+Base model spec,,
+alpha: 0.01, l1_ratio: 0.3, sgd_penalty: l2
+,,
+Overall Results,,
+,,
+Yield Stress GridSearch Best Estimator:,,
+AdaBoostRegressor(base_estimator=SGDRegressor(alpha=0.01, average=False,
+                                              early_stopping=False, epsilon=0.1,
+                                              eta0=0.01, fit_intercept=True,
+                                              l1_ratio=0.3,,
+                                              learning_rate='invscaling',,
+                                              loss='squared_loss',,
+                                              max_iter=1000, n_iter_no_change=5,
+                                              penalty='l2', power_t=0.25,
+                                              random_state=777, shuffle=True,
+                                              tol=0.001,,
+                                              validation_fraction=0.1,,
+                                              verbose=0, warm_start=False),
+                  learning_rate=0.001, loss='linear', n_estimators=100
+                  random_state=777),,
+,,
+ys:rmse   mean=15.257023473952533 std=3.9197594587748994,,
+ys:nrmse  mean=0.05852969298500619 std=0.021027685110060115,,
+ys:r2     mean=0.727580745721674 std=0.217193967978684,,
+ys:adj-r2 mean=1.0351495445408925 std=0.025446054546844322,,
+,,
+--------------------,,
+,,
+Elongation GridSearch Best Estimator:,,
+AdaBoostRegressor(base_estimator=SGDRegressor(alpha=0.01, average=False,
+                                              early_stopping=False, epsilon=0.1,
+                                              eta0=0.01, fit_intercept=True,
+                                              l1_ratio=0.3,,
+                                              learning_rate='invscaling',,
+                                              loss='squared_loss',,
+                                              max_iter=1000, n_iter_no_change=5,
+                                              penalty='l2', power_t=0.25,
+                                              random_state=777, shuffle=True,
+                                              tol=0.001,,
+                                              validation_fraction=0.1,,
+                                              verbose=0, warm_start=False),
+                  learning_rate=0.001, loss='linear', n_estimators=100
+                  random_state=777),,
+,,
+el:rmse   mean=0.10106249194963099 std=0.018023269552945594,,
+el:nrmse  mean=0.5680374581399736 std=0.20687995386946958,,
+el:r2     mean=-0.5468465389296217 std=1.2416921912123218,,
+el:adj-r2 mean=1.190456718728937 std=0.14042326403323183,,
+,,
+,,
+05:11.6,,
+Base model spec,,
+alpha: 0.01, l1_ratio: 0.3, sgd_penalty: l1
+,,
+Overall Results,,
+,,
+Yield Stress GridSearch Best Estimator:,,
+AdaBoostRegressor(base_estimator=SGDRegressor(alpha=0.01, average=False,
+                                              early_stopping=False, epsilon=0.1,
+                                              eta0=0.01, fit_intercept=True,
+                                              l1_ratio=0.3,,
+                                              learning_rate='invscaling',,
+                                              loss='squared_loss',,
+                                              max_iter=1000, n_iter_no_change=5,
+                                              penalty='l1', power_t=0.25,
+                                              random_state=777, shuffle=True,
+                                              tol=0.001,,
+                                              validation_fraction=0.1,,
+                                              verbose=0, warm_start=False),
+                  learning_rate=0.001, loss='linear', n_estimators=100
+                  random_state=777),,
+,,
+ys:rmse   mean=14.449255755232224 std=4.022559008386213,,
+ys:nrmse  mean=0.055480958166554274 std=0.02087234634567591,,
+ys:r2     mean=0.755855179395516 std=0.19376080112200553,,
+ys:adj-r2 mean=1.031719673211374 std=0.023072331106789756,,
+,,
+--------------------,,
+,,
+Elongation GridSearch Best Estimator:,,
+AdaBoostRegressor(base_estimator=SGDRegressor(alpha=0.01, average=False,
+                                              early_stopping=False, epsilon=0.1,
+                                              eta0=0.01, fit_intercept=True,
+                                              l1_ratio=0.3,,
+                                              learning_rate='invscaling',,
+                                              loss='squared_loss',,
+                                              max_iter=1000, n_iter_no_change=5,
+                                              penalty='l1', power_t=0.25,
+                                              random_state=777, shuffle=True,
+                                              tol=0.001,,
+                                              validation_fraction=0.1,,
+                                              verbose=0, warm_start=False),
+                  learning_rate=0.001, loss='linear', n_estimators=100
+                  random_state=777),,
+,,
+el:rmse   mean=0.10446003626103102 std=0.03305080465590768,,
+el:nrmse  mean=0.5522246933133439 std=0.14540290141047893,,
+el:r2     mean=-1.2187429532293035 std=2.824197947021399,,
+el:adj-r2 mean=1.2690702376708491 std=0.3281933216531277,,
+,,
+,,
+05:26.1,,
+Base model spec,,
+alpha: 0.01, l1_ratio: 0.3, sgd_penalty: elasticnet
+,,
+Overall Results,,
+,,
+Yield Stress GridSearch Best Estimator:,,
+AdaBoostRegressor(base_estimator=SGDRegressor(alpha=0.01, average=False,
+                                              early_stopping=False, epsilon=0.1,
+                                              eta0=0.01, fit_intercept=True,
+                                              l1_ratio=0.3,,
+                                              learning_rate='invscaling',,
+                                              loss='squared_loss',,
+                                              max_iter=1000, n_iter_no_change=5,
+                                              penalty='elasticnet',,
+                                              power_t=0.25, random_state=777,
+                                              shuffle=True, tol=0.001,
+                                              validation_fraction=0.1,,
+                                              verbose=0, warm_start=False),
+                  learning_rate=0.001, loss='linear', n_estimators=100
+                  random_state=777),,
+,,
+ys:rmse   mean=15.145795151213255 std=3.96535983899212,,
+ys:nrmse  mean=0.05812106824342063 std=0.021122698359671132,,
+ys:r2     mean=0.7325799638328454 std=0.21141484963967985,,
+ys:adj-r2 mean=1.0345634500236862 std=0.02483751583021313,,
+,,
+--------------------,,
+,,
+Elongation GridSearch Best Estimator:,,
+AdaBoostRegressor(base_estimator=SGDRegressor(alpha=0.01, average=False,
+                                              early_stopping=False, epsilon=0.1,
+                                              eta0=0.01, fit_intercept=True,
+                                              l1_ratio=0.3,,
+                                              learning_rate='invscaling',,
+                                              loss='squared_loss',,
+                                              max_iter=1000, n_iter_no_change=5,
+                                              penalty='elasticnet',,
+                                              power_t=0.25, random_state=777,
+                                              shuffle=True, tol=0.001,
+                                              validation_fraction=0.1,,
+                                              verbose=0, warm_start=False),
+                  learning_rate=0.001, loss='linear', n_estimators=100
+                  random_state=777),,
+,,
+el:rmse   mean=0.10971168613802576 std=0.028900247467024257,,
+el:nrmse  mean=0.5945178103548272 std=0.16917697231912393,,
+el:r2     mean=-1.2871941471546529 std=2.739355037010832,,
+el:adj-r2 mean=1.277953940988369 std=0.31728196416894267,,
+,,
+,,
+05:43.7,,
+Base model spec,,
+alpha: 0.01, l1_ratio: 0.5, sgd_penalty: l2
+,,
+Overall Results,,
+,,
+Yield Stress GridSearch Best Estimator:,,
+AdaBoostRegressor(base_estimator=SGDRegressor(alpha=0.01, average=False,
+                                              early_stopping=False, epsilon=0.1,
+                                              eta0=0.01, fit_intercept=True,
+                                              l1_ratio=0.5,,
+                                              learning_rate='invscaling',,
+                                              loss='squared_loss',,
+                                              max_iter=1000, n_iter_no_change=5,
+                                              penalty='l2', power_t=0.25,
+                                              random_state=777, shuffle=True,
+                                              tol=0.001,,
+                                              validation_fraction=0.1,,
+                                              verbose=0, warm_start=False),
+                  learning_rate=0.001, loss='linear', n_estimators=100
+                  random_state=777),,
+,,
+ys:rmse   mean=15.257023473952533 std=3.9197594587748994,,
+ys:nrmse  mean=0.05852969298500619 std=0.021027685110060115,,
+ys:r2     mean=0.727580745721674 std=0.217193967978684,,
+ys:adj-r2 mean=1.0351495445408925 std=0.025446054546844322,,
+,,
+--------------------,,
+,,
+Elongation GridSearch Best Estimator:,,
+AdaBoostRegressor(base_estimator=SGDRegressor(alpha=0.01, average=False,
+                                              early_stopping=False, epsilon=0.1,
+                                              eta0=0.01, fit_intercept=True,
+                                              l1_ratio=0.5,,
+                                              learning_rate='invscaling',,
+                                              loss='squared_loss',,
+                                              max_iter=1000, n_iter_no_change=5,
+                                              penalty='l2', power_t=0.25,
+                                              random_state=777, shuffle=True,
+                                              tol=0.001,,
+                                              validation_fraction=0.1,,
+                                              verbose=0, warm_start=False),
+                  learning_rate=0.001, loss='linear', n_estimators=100
+                  random_state=777),,
+,,
+el:rmse   mean=0.10106249194963099 std=0.018023269552945594,,
+el:nrmse  mean=0.5680374581399736 std=0.20687995386946958,,
+el:r2     mean=-0.5468465389296217 std=1.2416921912123218,,
+el:adj-r2 mean=1.190456718728937 std=0.14042326403323183,,
+,,
+,,
+06:06.8,,
+Base model spec,,
+alpha: 0.01, l1_ratio: 0.5, sgd_penalty: l1
+,,
+Overall Results,,
+,,
+Yield Stress GridSearch Best Estimator:,,
+AdaBoostRegressor(base_estimator=SGDRegressor(alpha=0.01, average=False,
+                                              early_stopping=False, epsilon=0.1,
+                                              eta0=0.01, fit_intercept=True,
+                                              l1_ratio=0.5,,
+                                              learning_rate='invscaling',,
+                                              loss='squared_loss',,
+                                              max_iter=1000, n_iter_no_change=5,
+                                              penalty='l1', power_t=0.25,
+                                              random_state=777, shuffle=True,
+                                              tol=0.001,,
+                                              validation_fraction=0.1,,
+                                              verbose=0, warm_start=False),
+                  learning_rate=0.001, loss='linear', n_estimators=100
+                  random_state=777),,
+,,
+ys:rmse   mean=14.449255755232224 std=4.022559008386213,,
+ys:nrmse  mean=0.055480958166554274 std=0.02087234634567591,,
+ys:r2     mean=0.755855179395516 std=0.19376080112200553,,
+ys:adj-r2 mean=1.031719673211374 std=0.023072331106789756,,
+,,
+--------------------,,
+,,
+Elongation GridSearch Best Estimator:,,
+AdaBoostRegressor(base_estimator=SGDRegressor(alpha=0.01, average=False,
+                                              early_stopping=False, epsilon=0.1,
+                                              eta0=0.01, fit_intercept=True,
+                                              l1_ratio=0.5,,
+                                              learning_rate='invscaling',,
+                                              loss='squared_loss',,
+                                              max_iter=1000, n_iter_no_change=5,
+                                              penalty='l1', power_t=0.25,
+                                              random_state=777, shuffle=True,
+                                              tol=0.001,,
+                                              validation_fraction=0.1,,
+                                              verbose=0, warm_start=False),
+                  learning_rate=0.001, loss='linear', n_estimators=100
+                  random_state=777),,
+,,
+el:rmse   mean=0.10446003626103102 std=0.03305080465590768,,
+el:nrmse  mean=0.5522246933133439 std=0.14540290141047893,,
+el:r2     mean=-1.2187429532293035 std=2.824197947021399,,
+el:adj-r2 mean=1.2690702376708491 std=0.3281933216531277,,
+,,
+,,
+06:24.0,,
+Base model spec,,
+alpha: 0.01, l1_ratio: 0.5, sgd_penalty: elasticnet
+,,
+Overall Results,,
+,,
+Yield Stress GridSearch Best Estimator:,,
+AdaBoostRegressor(base_estimator=SGDRegressor(alpha=0.01, average=False,
+                                              early_stopping=False, epsilon=0.1,
+                                              eta0=0.01, fit_intercept=True,
+                                              l1_ratio=0.5,,
+                                              learning_rate='invscaling',,
+                                              loss='squared_loss',,
+                                              max_iter=1000, n_iter_no_change=5,
+                                              penalty='elasticnet',,
+                                              power_t=0.25, random_state=777,
+                                              shuffle=True, tol=0.001,
+                                              validation_fraction=0.1,,
+                                              verbose=0, warm_start=False),
+                  learning_rate=0.001, loss='linear', n_estimators=100
+                  random_state=777),,
+,,
+ys:rmse   mean=14.715925855324674 std=3.9214459702922535,,
+ys:nrmse  mean=0.05646416467654247 std=0.020708739024719834,,
+ys:r2     mean=0.7421862634231119 std=0.2124173534645669,,
+ys:adj-r2 mean=1.03333211818902 std=0.02505386253835443,,
+,,
+--------------------,,
+,,
+Elongation GridSearch Best Estimator:,,
+AdaBoostRegressor(base_estimator=SGDRegressor(alpha=0.01, average=False,
+                                              early_stopping=False, epsilon=0.1,
+                                              eta0=0.01, fit_intercept=True,
+                                              l1_ratio=0.5,,
+                                              learning_rate='invscaling',,
+                                              loss='squared_loss',,
+                                              max_iter=1000, n_iter_no_change=5,
+                                              penalty='elasticnet',,
+                                              power_t=0.25, random_state=777,
+                                              shuffle=True, tol=0.001,
+                                              validation_fraction=0.1,,
+                                              verbose=0, warm_start=False),
+                  learning_rate=0.001, loss='linear', n_estimators=100
+                  random_state=777),,
+,,
+el:rmse   mean=0.10315211643253135 std=0.03436230315915706,,
+el:nrmse  mean=0.5615325930579732 std=0.19312978595767386,,
+el:r2     mean=-1.213969021476461 std=2.9358308985457513,,
+el:adj-r2 mean=1.2697739561902546 std=0.34082094183672657,,
+,,
+,,
+06:42.2,,
+Base model spec,,
+alpha: 0.01, l1_ratio: 0.7, sgd_penalty: l2
+,,
+Overall Results,,
+,,
+Yield Stress GridSearch Best Estimator:,,
+AdaBoostRegressor(base_estimator=SGDRegressor(alpha=0.01, average=False,
+                                              early_stopping=False, epsilon=0.1,
+                                              eta0=0.01, fit_intercept=True,
+                                              l1_ratio=0.7,,
+                                              learning_rate='invscaling',,
+                                              loss='squared_loss',,
+                                              max_iter=1000, n_iter_no_change=5,
+                                              penalty='l2', power_t=0.25,
+                                              random_state=777, shuffle=True,
+                                              tol=0.001,,
+                                              validation_fraction=0.1,,
+                                              verbose=0, warm_start=False),
+                  learning_rate=0.001, loss='linear', n_estimators=100
+                  random_state=777),,
+,,
+ys:rmse   mean=15.257023473952533 std=3.9197594587748994,,
+ys:nrmse  mean=0.05852969298500619 std=0.021027685110060115,,
+ys:r2     mean=0.727580745721674 std=0.217193967978684,,
+ys:adj-r2 mean=1.0351495445408925 std=0.025446054546844322,,
+,,
+--------------------,,
+,,
+Elongation GridSearch Best Estimator:,,
+AdaBoostRegressor(base_estimator=SGDRegressor(alpha=0.01, average=False,
+                                              early_stopping=False, epsilon=0.1,
+                                              eta0=0.01, fit_intercept=True,
+                                              l1_ratio=0.7,,
+                                              learning_rate='invscaling',,
+                                              loss='squared_loss',,
+                                              max_iter=1000, n_iter_no_change=5,
+                                              penalty='l2', power_t=0.25,
+                                              random_state=777, shuffle=True,
+                                              tol=0.001,,
+                                              validation_fraction=0.1,,
+                                              verbose=0, warm_start=False),
+                  learning_rate=0.001, loss='linear', n_estimators=100
+                  random_state=777),,
+,,
+el:rmse   mean=0.10106249194963099 std=0.018023269552945594,,
+el:nrmse  mean=0.5680374581399736 std=0.20687995386946958,,
+el:r2     mean=-0.5468465389296217 std=1.2416921912123218,,
+el:adj-r2 mean=1.190456718728937 std=0.14042326403323183,,
+,,
+,,
+07:05.9,,
+Base model spec,,
+alpha: 0.01, l1_ratio: 0.7, sgd_penalty: l1
+,,
+Overall Results,,
+,,
+Yield Stress GridSearch Best Estimator:,,
+AdaBoostRegressor(base_estimator=SGDRegressor(alpha=0.01, average=False,
+                                              early_stopping=False, epsilon=0.1,
+                                              eta0=0.01, fit_intercept=True,
+                                              l1_ratio=0.7,,
+                                              learning_rate='invscaling',,
+                                              loss='squared_loss',,
+                                              max_iter=1000, n_iter_no_change=5,
+                                              penalty='l1', power_t=0.25,
+                                              random_state=777, shuffle=True,
+                                              tol=0.001,,
+                                              validation_fraction=0.1,,
+                                              verbose=0, warm_start=False),
+                  learning_rate=0.001, loss='linear', n_estimators=100
+                  random_state=777),,
+,,
+ys:rmse   mean=14.449255755232224 std=4.022559008386213,,
+ys:nrmse  mean=0.055480958166554274 std=0.02087234634567591,,
+ys:r2     mean=0.755855179395516 std=0.19376080112200553,,
+ys:adj-r2 mean=1.031719673211374 std=0.023072331106789756,,
+,,
+--------------------,,
+,,
+Elongation GridSearch Best Estimator:,,
+AdaBoostRegressor(base_estimator=SGDRegressor(alpha=0.01, average=False,
+                                              early_stopping=False, epsilon=0.1,
+                                              eta0=0.01, fit_intercept=True,
+                                              l1_ratio=0.7,,
+                                              learning_rate='invscaling',,
+                                              loss='squared_loss',,
+                                              max_iter=1000, n_iter_no_change=5,
+                                              penalty='l1', power_t=0.25,
+                                              random_state=777, shuffle=True,
+                                              tol=0.001,,
+                                              validation_fraction=0.1,,
+                                              verbose=0, warm_start=False),
+                  learning_rate=0.001, loss='linear', n_estimators=100
+                  random_state=777),,
+,,
+el:rmse   mean=0.10446003626103102 std=0.03305080465590768,,
+el:nrmse  mean=0.5522246933133439 std=0.14540290141047893,,
+el:r2     mean=-1.2187429532293035 std=2.824197947021399,,
+el:adj-r2 mean=1.2690702376708491 std=0.3281933216531277,,
+,,
+,,
+07:24.8,,
+Base model spec,,
+alpha: 0.01, l1_ratio: 0.7, sgd_penalty: elasticnet
+,,
+Overall Results,,
+,,
+Yield Stress GridSearch Best Estimator:,,
+AdaBoostRegressor(base_estimator=SGDRegressor(alpha=0.01, average=False,
+                                              early_stopping=False, epsilon=0.1,
+                                              eta0=0.01, fit_intercept=True,
+                                              l1_ratio=0.7,,
+                                              learning_rate='invscaling',,
+                                              loss='squared_loss',,
+                                              max_iter=1000, n_iter_no_change=5,
+                                              penalty='elasticnet',,
+                                              power_t=0.25, random_state=777,
+                                              shuffle=True, tol=0.001,
+                                              validation_fraction=0.1,,
+                                              verbose=0, warm_start=False),
+                  learning_rate=0.001, loss='linear', n_estimators=100
+                  random_state=777),,
+,,
+ys:rmse   mean=14.546551682659109 std=4.039344900568993,,
+ys:nrmse  mean=0.05586641861756382 std=0.021007709760392863,,
+ys:r2     mean=0.7551778435068612 std=0.19140995839702052,,
+ys:adj-r2 mean=1.0317996708138257 std=0.022790111629283422,,
+,,
+--------------------,,
+,,
+Elongation GridSearch Best Estimator:,,
+AdaBoostRegressor(base_estimator=SGDRegressor(alpha=0.01, average=False,
+                                              early_stopping=False, epsilon=0.1,
+                                              eta0=0.01, fit_intercept=True,
+                                              l1_ratio=0.7,,
+                                              learning_rate='invscaling',,
+                                              loss='squared_loss',,
+                                              max_iter=1000, n_iter_no_change=5,
+                                              penalty='elasticnet',,
+                                              power_t=0.25, random_state=777,
+                                              shuffle=True, tol=0.001,
+                                              validation_fraction=0.1,,
+                                              verbose=0, warm_start=False),
+                  learning_rate=0.001, loss='linear', n_estimators=100
+                  random_state=777),,
+,,
+el:rmse   mean=0.10426245262379205 std=0.03076881455821682,,
+el:nrmse  mean=0.5555622540438832 std=0.1526414115408608,,
+el:r2     mean=-1.1278201721527363 std=2.6010690768225646,,
+el:adj-r2 mean=1.2582866958613823 std=0.3018338226145514,,
+,,
+,,
+07:40.6,,
+Base model spec,,
+alpha: 0.1, l1_ratio: 0.3, sgd_penalty: l2
+,,
+Overall Results,,
+,,
+Yield Stress GridSearch Best Estimator:,,
+AdaBoostRegressor(base_estimator=SGDRegressor(alpha=0.1, average=False,
+                                              early_stopping=False, epsilon=0.1,
+                                              eta0=0.01, fit_intercept=True,
+                                              l1_ratio=0.3,,
+                                              learning_rate='invscaling',,
+                                              loss='squared_loss',,
+                                              max_iter=1000, n_iter_no_change=5,
+                                              penalty='l2', power_t=0.25,
+                                              random_state=777, shuffle=True,
+                                              tol=0.001,,
+                                              validation_fraction=0.1,,
+                                              verbose=0, warm_start=False),
+                  learning_rate=0.001, loss='linear', n_estimators=100
+                  random_state=777),,
+,,
+ys:rmse   mean=18.294643970395658 std=4.644682322291824,,
+ys:nrmse  mean=0.07019999521838027 std=0.02534340241902518,,
+ys:r2     mean=0.6080865425479687 std=0.33281579423834995,,
+ys:adj-r2 mean=1.0496733826490352 std=0.038227252037915764,,
+,,
+--------------------,,
+,,
+Elongation GridSearch Best Estimator:,,
+AdaBoostRegressor(base_estimator=SGDRegressor(alpha=0.1, average=False,
+                                              early_stopping=False, epsilon=0.1,
+                                              eta0=0.01, fit_intercept=True,
+                                              l1_ratio=0.3,,
+                                              learning_rate='invscaling',,
+                                              loss='squared_loss',,
+                                              max_iter=1000, n_iter_no_change=5,
+                                              penalty='l2', power_t=0.25,
+                                              random_state=777, shuffle=True,
+                                              tol=0.001,,
+                                              validation_fraction=0.1,,
+                                              verbose=0, warm_start=False),
+                  learning_rate=0.001, loss='linear', n_estimators=100
+                  random_state=777),,
+,,
+el:rmse   mean=0.10080998590432251 std=0.01857523981328226,,
+el:nrmse  mean=0.564418367743381 std=0.20217444640464713,,
+el:r2     mean=-0.5606453076951801 std=1.2926607574511872,,
+el:adj-r2 mean=1.191946470735686 std=0.1466305340886015,,
+,,
+,,
+08:22.1,,
+Base model spec,,
+alpha: 0.1, l1_ratio: 0.3, sgd_penalty: l1
+,,
+Overall Results,,
+,,
+Yield Stress GridSearch Best Estimator:,,
+AdaBoostRegressor(base_estimator=SGDRegressor(alpha=0.1, average=False,
+                                              early_stopping=False, epsilon=0.1,
+                                              eta0=0.01, fit_intercept=True,
+                                              l1_ratio=0.3,,
+                                              learning_rate='invscaling',,
+                                              loss='squared_loss',,
+                                              max_iter=1000, n_iter_no_change=5,
+                                              penalty='l1', power_t=0.25,
+                                              random_state=777, shuffle=True,
+                                              tol=0.001,,
+                                              validation_fraction=0.1,,
+                                              verbose=0, warm_start=False),
+                  learning_rate=0.001, loss='linear', n_estimators=100
+                  random_state=777),,
+,,
+ys:rmse   mean=15.390028705750197 std=3.6078490784259616,,
+ys:nrmse  mean=0.05890300868746175 std=0.01989615161662257,,
+ys:r2     mean=0.7117954153549543 std=0.24302569686939546,,
+ys:adj-r2 mean=1.037004085600743 std=0.02835150687129793,,
+,,
+--------------------,,
+,,
+Elongation GridSearch Best Estimator:,,
+AdaBoostRegressor(base_estimator=SGDRegressor(alpha=0.1, average=False,
+                                              early_stopping=False, epsilon=0.1,
+                                              eta0=0.01, fit_intercept=True,
+                                              l1_ratio=0.3,,
+                                              learning_rate='invscaling',,
+                                              loss='squared_loss',,
+                                              max_iter=1000, n_iter_no_change=5,
+                                              penalty='l1', power_t=0.25,
+                                              random_state=777, shuffle=True,
+                                              tol=0.001,,
+                                              validation_fraction=0.1,,
+                                              verbose=0, warm_start=False),
+                  learning_rate=0.001, loss='linear', n_estimators=1000
+                  random_state=777),,
+,,
+el:rmse   mean=0.12153962993296634 std=0.03309390529337451,,
+el:nrmse  mean=0.6410141921561581 std=0.09647428235734155,,
+el:r2     mean=-1.8131586102263402 std=3.3813693700113667,,
+el:adj-r2 mean=1.348513189773 std=0.3914475932396669,,
+,,
+,,
+08:47.2,,
+Base model spec,,
+alpha: 0.1, l1_ratio: 0.3, sgd_penalty: elasticnet
+,,
+Overall Results,,
+,,
+Yield Stress GridSearch Best Estimator:,,
+AdaBoostRegressor(base_estimator=SGDRegressor(alpha=0.1, average=False,
+                                              early_stopping=False, epsilon=0.1,
+                                              eta0=0.01, fit_intercept=True,
+                                              l1_ratio=0.3,,
+                                              learning_rate='invscaling',,
+                                              loss='squared_loss',,
+                                              max_iter=1000, n_iter_no_change=5,
+                                              penalty='elasticnet',,
+                                              power_t=0.25, random_state=777,
+                                              shuffle=True, tol=0.001,
+                                              validation_fraction=0.1,,
+                                              verbose=0, warm_start=False),
+                  learning_rate=0.001, loss='linear', n_estimators=100
+                  random_state=777),,
+,,
+ys:rmse   mean=17.808392511120996 std=4.423172381439132,,
+ys:nrmse  mean=0.06825851950834713 std=0.024109799081501595,,
+ys:r2     mean=0.6317030904690812 std=0.30196804803162863,,
+ys:adj-r2 mean=1.046763747194867 std=0.03476807828702093,,
+,,
+--------------------,,
+,,
+Elongation GridSearch Best Estimator:,,
+AdaBoostRegressor(base_estimator=SGDRegressor(alpha=0.1, average=False,
+                                              early_stopping=False, epsilon=0.1,
+                                              eta0=0.01, fit_intercept=True,
+                                              l1_ratio=0.3,,
+                                              learning_rate='invscaling',,
+                                              loss='squared_loss',,
+                                              max_iter=1000, n_iter_no_change=5,
+                                              penalty='elasticnet',,
+                                              power_t=0.25, random_state=777,
+                                              shuffle=True, tol=0.001,
+                                              validation_fraction=0.1,,
+                                              verbose=0, warm_start=False),
+                  learning_rate=0.001, loss='linear', n_estimators=100
+                  random_state=777),,
+,,
+el:rmse   mean=0.10157619519284622 std=0.032657241224907395,,
+el:nrmse  mean=0.5326969106318791 std=0.09369021088365262,,
+el:r2     mean=-1.1259091661533713 std=2.783143839613048,,
+el:adj-r2 mean=1.2621472833878034 std=0.3230042045121401,,
+,,
+,,
+09:05.7,,
+Base model spec,,
+alpha: 0.1, l1_ratio: 0.5, sgd_penalty: l2
+,,
+Overall Results,,
+,,
+Yield Stress GridSearch Best Estimator:,,
+AdaBoostRegressor(base_estimator=SGDRegressor(alpha=0.1, average=False,
+                                              early_stopping=False, epsilon=0.1,
+                                              eta0=0.01, fit_intercept=True,
+                                              l1_ratio=0.5,,
+                                              learning_rate='invscaling',,
+                                              loss='squared_loss',,
+                                              max_iter=1000, n_iter_no_change=5,
+                                              penalty='l2', power_t=0.25,
+                                              random_state=777, shuffle=True,
+                                              tol=0.001,,
+                                              validation_fraction=0.1,,
+                                              verbose=0, warm_start=False),
+                  learning_rate=0.001, loss='linear', n_estimators=100
+                  random_state=777),,
+,,
+ys:rmse   mean=18.294643970395658 std=4.644682322291824,,
+ys:nrmse  mean=0.07019999521838027 std=0.02534340241902518,,
+ys:r2     mean=0.6080865425479687 std=0.33281579423834995,,
+ys:adj-r2 mean=1.0496733826490352 std=0.038227252037915764,,
+,,
+--------------------,,
+,,
+Elongation GridSearch Best Estimator:,,
+AdaBoostRegressor(base_estimator=SGDRegressor(alpha=0.1, average=False,
+                                              early_stopping=False, epsilon=0.1,
+                                              eta0=0.01, fit_intercept=True,
+                                              l1_ratio=0.5,,
+                                              learning_rate='invscaling',,
+                                              loss='squared_loss',,
+                                              max_iter=1000, n_iter_no_change=5,
+                                              penalty='l2', power_t=0.25,
+                                              random_state=777, shuffle=True,
+                                              tol=0.001,,
+                                              validation_fraction=0.1,,
+                                              verbose=0, warm_start=False),
+                  learning_rate=0.001, loss='linear', n_estimators=100
+                  random_state=777),,
+,,
+el:rmse   mean=0.10080998590432251 std=0.01857523981328226,,
+el:nrmse  mean=0.564418367743381 std=0.20217444640464713,,
+el:r2     mean=-0.5606453076951801 std=1.2926607574511872,,
+el:adj-r2 mean=1.191946470735686 std=0.1466305340886015,,
+,,
+,,
+09:49.3,,
+Base model spec,,
+alpha: 0.1, l1_ratio: 0.5, sgd_penalty: l1
+,,
+Overall Results,,
+,,
+Yield Stress GridSearch Best Estimator:,,
+AdaBoostRegressor(base_estimator=SGDRegressor(alpha=0.1, average=False,
+                                              early_stopping=False, epsilon=0.1,
+                                              eta0=0.01, fit_intercept=True,
+                                              l1_ratio=0.5,,
+                                              learning_rate='invscaling',,
+                                              loss='squared_loss',,
+                                              max_iter=1000, n_iter_no_change=5,
+                                              penalty='l1', power_t=0.25,
+                                              random_state=777, shuffle=True,
+                                              tol=0.001,,
+                                              validation_fraction=0.1,,
+                                              verbose=0, warm_start=False),
+                  learning_rate=0.001, loss='linear', n_estimators=100
+                  random_state=777),,
+,,
+ys:rmse   mean=15.390028705750197 std=3.6078490784259616,,
+ys:nrmse  mean=0.05890300868746175 std=0.01989615161662257,,
+ys:r2     mean=0.7117954153549543 std=0.24302569686939546,,
+ys:adj-r2 mean=1.037004085600743 std=0.02835150687129793,,
+,,
+--------------------,,
+,,
+Elongation GridSearch Best Estimator:,,
+AdaBoostRegressor(base_estimator=SGDRegressor(alpha=0.1, average=False,
+                                              early_stopping=False, epsilon=0.1,
+                                              eta0=0.01, fit_intercept=True,
+                                              l1_ratio=0.5,,
+                                              learning_rate='invscaling',,
+                                              loss='squared_loss',,
+                                              max_iter=1000, n_iter_no_change=5,
+                                              penalty='l1', power_t=0.25,
+                                              random_state=777, shuffle=True,
+                                              tol=0.001,,
+                                              validation_fraction=0.1,,
+                                              verbose=0, warm_start=False),
+                  learning_rate=0.001, loss='linear', n_estimators=1000
+                  random_state=777),,
+,,
+el:rmse   mean=0.12153962993296634 std=0.03309390529337451,,
+el:nrmse  mean=0.6410141921561581 std=0.09647428235734155,,
+el:r2     mean=-1.8131586102263402 std=3.3813693700113667,,
+el:adj-r2 mean=1.348513189773 std=0.3914475932396669,,
+,,
+,,
+10:19.7,,
+Base model spec,,
+alpha: 0.1, l1_ratio: 0.5, sgd_penalty: elasticnet
+,,
+Overall Results,,
+,,
+Yield Stress GridSearch Best Estimator:,,
+AdaBoostRegressor(base_estimator=SGDRegressor(alpha=0.1, average=False,
+                                              early_stopping=False, epsilon=0.1,
+                                              eta0=0.01, fit_intercept=True,
+                                              l1_ratio=0.5,,
+                                              learning_rate='invscaling',,
+                                              loss='squared_loss',,
+                                              max_iter=1000, n_iter_no_change=5,
+                                              penalty='elasticnet',,
+                                              power_t=0.25, random_state=777,
+                                              shuffle=True, tol=0.001,
+                                              validation_fraction=0.1,,
+                                              verbose=0, warm_start=False),
+                  learning_rate=0.001, loss='linear', n_estimators=100
+                  random_state=777),,
+,,
+ys:rmse   mean=17.861388661199015 std=4.461057846375,,
+ys:nrmse  mean=0.06848854835620831 std=0.02421914255423882,,
+ys:r2     mean=0.6349950621161916 std=0.28731198709578565,,
+ys:adj-r2 mean=1.0466346841852345 std=0.033294861125983365,,
+,,
+--------------------,,
+,,
+Elongation GridSearch Best Estimator:,,
+AdaBoostRegressor(base_estimator=SGDRegressor(alpha=0.1, average=False,
+                                              early_stopping=False, epsilon=0.1,
+                                              eta0=0.01, fit_intercept=True,
+                                              l1_ratio=0.5,,
+                                              learning_rate='invscaling',,
+                                              loss='squared_loss',,
+                                              max_iter=1000, n_iter_no_change=5,
+                                              penalty='elasticnet',,
+                                              power_t=0.25, random_state=777,
+                                              shuffle=True, tol=0.001,
+                                              validation_fraction=0.1,,
+                                              verbose=0, warm_start=False),
+                  learning_rate=0.001, loss='linear', n_estimators=100
+                  random_state=777),,
+,,
+el:rmse   mean=0.10189427777526647 std=0.03413158645258489,,
+el:nrmse  mean=0.5311391954160626 std=0.08694765245769265,,
+el:r2     mean=-1.1894561464466578 std=2.9211973772423905,,
+el:adj-r2 mean=1.2695178937678822 std=0.3391931013496909,,
+,,
+,,
+10:35.7,,
+Base model spec,,
+alpha: 0.1, l1_ratio: 0.7, sgd_penalty: l2
+,,
+Overall Results,,
+,,
+Yield Stress GridSearch Best Estimator:,,
+AdaBoostRegressor(base_estimator=SGDRegressor(alpha=0.1, average=False,
+                                              early_stopping=False, epsilon=0.1,
+                                              eta0=0.01, fit_intercept=True,
+                                              l1_ratio=0.7,,
+                                              learning_rate='invscaling',,
+                                              loss='squared_loss',,
+                                              max_iter=1000, n_iter_no_change=5,
+                                              penalty='l2', power_t=0.25,
+                                              random_state=777, shuffle=True,
+                                              tol=0.001,,
+                                              validation_fraction=0.1,,
+                                              verbose=0, warm_start=False),
+                  learning_rate=0.001, loss='linear', n_estimators=100
+                  random_state=777),,
+,,
+ys:rmse   mean=18.294643970395658 std=4.644682322291824,,
+ys:nrmse  mean=0.07019999521838027 std=0.02534340241902518,,
+ys:r2     mean=0.6080865425479687 std=0.33281579423834995,,
+ys:adj-r2 mean=1.0496733826490352 std=0.038227252037915764,,
+,,
+--------------------,,
+,,
+Elongation GridSearch Best Estimator:,,
+AdaBoostRegressor(base_estimator=SGDRegressor(alpha=0.1, average=False,
+                                              early_stopping=False, epsilon=0.1,
+                                              eta0=0.01, fit_intercept=True,
+                                              l1_ratio=0.7,,
+                                              learning_rate='invscaling',,
+                                              loss='squared_loss',,
+                                              max_iter=1000, n_iter_no_change=5,
+                                              penalty='l2', power_t=0.25,
+                                              random_state=777, shuffle=True,
+                                              tol=0.001,,
+                                              validation_fraction=0.1,,
+                                              verbose=0, warm_start=False),
+                  learning_rate=0.001, loss='linear', n_estimators=100
+                  random_state=777),,
+,,
+el:rmse   mean=0.10080998590432251 std=0.01857523981328226,,
+el:nrmse  mean=0.564418367743381 std=0.20217444640464713,,
+el:r2     mean=-0.5606453076951801 std=1.2926607574511872,,
+el:adj-r2 mean=1.191946470735686 std=0.1466305340886015,,
+,,
+,,
+11:18.2,,
+Base model spec,,
+alpha: 0.1, l1_ratio: 0.7, sgd_penalty: l1
+,,
+Overall Results,,
+,,
+Yield Stress GridSearch Best Estimator:,,
+AdaBoostRegressor(base_estimator=SGDRegressor(alpha=0.1, average=False,
+                                              early_stopping=False, epsilon=0.1,
+                                              eta0=0.01, fit_intercept=True,
+                                              l1_ratio=0.7,,
+                                              learning_rate='invscaling',,
+                                              loss='squared_loss',,
+                                              max_iter=1000, n_iter_no_change=5,
+                                              penalty='l1', power_t=0.25,
+                                              random_state=777, shuffle=True,
+                                              tol=0.001,,
+                                              validation_fraction=0.1,,
+                                              verbose=0, warm_start=False),
+                  learning_rate=0.001, loss='linear', n_estimators=100
+                  random_state=777),,
+,,
+ys:rmse   mean=15.390028705750197 std=3.6078490784259616,,
+ys:nrmse  mean=0.05890300868746175 std=0.01989615161662257,,
+ys:r2     mean=0.7117954153549543 std=0.24302569686939546,,
+ys:adj-r2 mean=1.037004085600743 std=0.02835150687129793,,
+,,
+--------------------,,
+,,
+Elongation GridSearch Best Estimator:,,
+AdaBoostRegressor(base_estimator=SGDRegressor(alpha=0.1, average=False,
+                                              early_stopping=False, epsilon=0.1,
+                                              eta0=0.01, fit_intercept=True,
+                                              l1_ratio=0.7,,
+                                              learning_rate='invscaling',,
+                                              loss='squared_loss',,
+                                              max_iter=1000, n_iter_no_change=5,
+                                              penalty='l1', power_t=0.25,
+                                              random_state=777, shuffle=True,
+                                              tol=0.001,,
+                                              validation_fraction=0.1,,
+                                              verbose=0, warm_start=False),
+                  learning_rate=0.001, loss='linear', n_estimators=1000
+                  random_state=777),,
+,,
+el:rmse   mean=0.12153962993296634 std=0.03309390529337451,,
+el:nrmse  mean=0.6410141921561581 std=0.09647428235734155,,
+el:r2     mean=-1.8131586102263402 std=3.3813693700113667,,
+el:adj-r2 mean=1.348513189773 std=0.3914475932396669,,
+,,
+,,
+11:52.1,,
+Base model spec,,
+alpha: 0.1, l1_ratio: 0.7, sgd_penalty: elasticnet
+,,
+Overall Results,,
+,,
+Yield Stress GridSearch Best Estimator:,,
+AdaBoostRegressor(base_estimator=SGDRegressor(alpha=0.1, average=False,
+                                              early_stopping=False, epsilon=0.1,
+                                              eta0=0.01, fit_intercept=True,
+                                              l1_ratio=0.7,,
+                                              learning_rate='invscaling',,
+                                              loss='squared_loss',,
+                                              max_iter=1000, n_iter_no_change=5,
+                                              penalty='elasticnet',,
+                                              power_t=0.25, random_state=777,
+                                              shuffle=True, tol=0.001,
+                                              validation_fraction=0.1,,
+                                              verbose=0, warm_start=False),
+                  learning_rate=0.001, loss='linear', n_estimators=100
+                  random_state=777),,
+,,
+ys:rmse   mean=16.838957556946696 std=4.106226861338866,,
+ys:nrmse  mean=0.06450699545494715 std=0.02252402835410469,,
+ys:r2     mean=0.6614665387050845 std=0.2886064909866394,,
+ys:adj-r2 mean=1.0431260647083225 std=0.03346664378574462,,
+,,
+--------------------,,
+,,
+Elongation GridSearch Best Estimator:,,
+AdaBoostRegressor(base_estimator=SGDRegressor(alpha=0.1, average=False,
+                                              early_stopping=False, epsilon=0.1,
+                                              eta0=0.01, fit_intercept=True,
+                                              l1_ratio=0.7,,
+                                              learning_rate='invscaling',,
+                                              loss='squared_loss',,
+                                              max_iter=1000, n_iter_no_change=5,
+                                              penalty='elasticnet',,
+                                              power_t=0.25, random_state=777,
+                                              shuffle=True, tol=0.001,
+                                              validation_fraction=0.1,,
+                                              verbose=0, warm_start=False),
+                  learning_rate=0.001, loss='linear', n_estimators=100
+                  random_state=777),,
+,,
+el:rmse   mean=0.10714375882250234 std=0.031135785990158125,,
+el:nrmse  mean=0.5629437681424282 std=0.08614874727210282,,
+el:r2     mean=-1.2501247898545726 std=2.792008605131545,,
+el:adj-r2 mean=1.2783440590172173 std=0.32350863854880496,,
+,,
+,,
+200604 0931 ====================================================,,
+2020-06-04 14:37:06.629004
+Base model spec
+alpha: 0.0001, l1_ratio: 0.001, sgd_penalty: l2, sgd_power_t: 0.01, sgd_eta0: 0.001, en_max_iter: 0
+
+Overall Results
+
+Yield Stress GridSearch Best Estimator:
+AdaBoostRegressor(base_estimator=SGDRegressor(alpha=0.0001, average=False,
+                                              early_stopping=False, epsilon=0.1,
+                                              eta0=0.001, fit_intercept=True,
+                                              l1_ratio=0.001,
+                                              learning_rate='invscaling',
+                                              loss='squared_loss',
+                                              max_iter=1000, n_iter_no_change=5,
+                                              penalty='l2', power_t=0.01,
+                                              random_state=777, shuffle=True,
+                                              tol=0.001,
+                                              validation_fraction=0.1,
+                                              verbose=0, warm_start=False),
+                  learning_rate=0.03, loss='exponential', n_estimators=1000,
+                  random_state=777)
+
+ys:rmse   mean=11.7270225308631 std=2.644976196817647
+ys:nrmse  mean=0.04390824488027535 std=0.011620908185211708
+ys:r2     mean=0.7900903596914921 std=0.19928211268407325
+ys:adj-r2 mean=1.0268075427819796 std=0.024183745253233194
+
+--------------------
+
+Elongation GridSearch Best Estimator:
+AdaBoostRegressor(base_estimator=SGDRegressor(alpha=0.0001, average=False,
+                                              early_stopping=False, epsilon=0.1,
+                                              eta0=0.001, fit_intercept=True,
+                                              l1_ratio=0.001,
+                                              learning_rate='invscaling',
+                                              loss='squared_loss',
+                                              max_iter=1000, n_iter_no_change=5,
+                                              penalty='l2', power_t=0.01,
+                                              random_state=777, shuffle=True,
+                                              tol=0.001,
+                                              validation_fraction=0.1,
+                                              verbose=0, warm_start=False),
+                  learning_rate=0.001, loss='exponential', n_estimators=1000,
+                  random_state=777)
+
+el:rmse   mean=0.17211423147605398 std=0.021654621669086403
+el:nrmse  mean=0.9711120219574623 std=0.31787235665806773
+el:r2     mean=-3.630090910583371 std=4.239580507295321
+el:adj-r2 mean=1.5802443306649743 std=0.48366459294039044
+
+
+2020-06-04 16:01:11.012099
+Base model spec
+alpha: 0.0001, l1_ratio: 0.001, sgd_penalty: l2, sgd_power_t: 0.01, sgd_eta0: 0.01, en_max_iter: 0
+
+Overall Results
+
+Yield Stress GridSearch Best Estimator:
+AdaBoostRegressor(base_estimator=SGDRegressor(alpha=0.0001, average=False,
+                                              early_stopping=False, epsilon=0.1,
+                                              eta0=0.01, fit_intercept=True,
+                                              l1_ratio=0.001,
+                                              learning_rate='invscaling',
+                                              loss='squared_loss',
+                                              max_iter=1000, n_iter_no_change=5,
+                                              penalty='l2', power_t=0.01,
+                                              random_state=777, shuffle=True,
+                                              tol=0.001,
+                                              validation_fraction=0.1,
+                                              verbose=0, warm_start=False),
+                  learning_rate=0.001, loss='square', n_estimators=3000,
+                  random_state=777)
+
+ys:rmse   mean=13.96373438710629 std=2.096981582291591
+ys:nrmse  mean=0.05224084172605916 std=0.010006670469054924
+ys:r2     mean=0.6827927144370705 std=0.32653832314092496
+ys:adj-r2 mean=1.0402920382038492 std=0.03880850007305253
+
+--------------------
+
+Elongation GridSearch Best Estimator:
+AdaBoostRegressor(base_estimator=SGDRegressor(alpha=0.0001, average=False,
+                                              early_stopping=False, epsilon=0.1,
+                                              eta0=0.01, fit_intercept=True,
+                                              l1_ratio=0.001,
+                                              learning_rate='invscaling',
+                                              loss='squared_loss',
+                                              max_iter=1000, n_iter_no_change=5,
+                                              penalty='l2', power_t=0.01,
+                                              random_state=777, shuffle=True,
+                                              tol=0.001,
+                                              validation_fraction=0.1,
+                                              verbose=0, warm_start=False),
+                  learning_rate=0.03, loss='square', n_estimators=500,
+                  random_state=777)
+
+el:rmse   mean=0.03383483622267247 std=0.00791807558518502
+el:nrmse  mean=0.20135695397714465 std=0.10341333359532727
+el:r2     mean=0.8360845402677187 std=0.11660265892007264
+el:adj-r2 mean=1.020386603811073 std=0.013003590988730902
+
+
+2020-06-04 16:26:37.144436
+Base model spec
+alpha: 0.0001, l1_ratio: 0.001, sgd_penalty: l2, sgd_power_t: 0.01, sgd_eta0: 0.1, en_max_iter: 0
+
+Overall Results
+
+Yield Stress GridSearch Best Estimator:
+AdaBoostRegressor(base_estimator=SGDRegressor(alpha=0.0001, average=False,
+                                              early_stopping=False, epsilon=0.1,
+                                              eta0=0.1, fit_intercept=True,
+                                              l1_ratio=0.001,
+                                              learning_rate='invscaling',
+                                              loss='squared_loss',
+                                              max_iter=1000, n_iter_no_change=5,
+                                              penalty='l2', power_t=0.01,
+                                              random_state=777, shuffle=True,
+                                              tol=0.001,
+                                              validation_fraction=0.1,
+                                              verbose=0, warm_start=False),
+                  learning_rate=0.0001, loss='exponential', n_estimators=1000,
+                  random_state=777)
+
+ys:rmse   mean=58471767395.372696 std=57705857693.43258
+ys:nrmse  mean=208718004.59317034 std=196600064.70118368
+ys:r2     mean=-3.6665738192677634e+19 std=7.1819020580768285e+19
+ys:adj-r2 mean=4.320956152133322e+18 std=8.445672024135648e+18
+
+--------------------
+
+Elongation GridSearch Best Estimator:
+AdaBoostRegressor(base_estimator=SGDRegressor(alpha=0.0001, average=False,
+                                              early_stopping=False, epsilon=0.1,
+                                              eta0=0.1, fit_intercept=True,
+                                              l1_ratio=0.001,
+                                              learning_rate='invscaling',
+                                              loss='squared_loss',
+                                              max_iter=1000, n_iter_no_change=5,
+                                              penalty='l2', power_t=0.01,
+                                              random_state=777, shuffle=True,
+                                              tol=0.001,
+                                              validation_fraction=0.1,
+                                              verbose=0, warm_start=False),
+                  learning_rate=0.001, loss='exponential', n_estimators=500,
+                  random_state=777)
+
+el:rmse   mean=62334948092.93192 std=60817394318.852394
+el:nrmse  mean=246661595886.2482 std=212016471470.853
+el:r2     mean=-1.7782244406742468e+24 std=2.996351683019564e+24
+el:adj-r2 mean=2.1526516775194193e+23 std=3.509250382213131e+23
+
+
+2020-06-04 19:38:47.301763
+Base model spec
+alpha: 0.0001, l1_ratio: 0.001, sgd_penalty: l2, sgd_power_t: 0.02, sgd_eta0: 0.001, en_max_iter: 0
+
+Overall Results
+
+Yield Stress GridSearch Best Estimator:
+AdaBoostRegressor(base_estimator=SGDRegressor(alpha=0.0001, average=False,
+                                              early_stopping=False, epsilon=0.1,
+                                              eta0=0.001, fit_intercept=True,
+                                              l1_ratio=0.001,
+                                              learning_rate='invscaling',
+                                              loss='squared_loss',
+                                              max_iter=1000, n_iter_no_change=5,
+                                              penalty='l2', power_t=0.02,
+                                              random_state=777, shuffle=True,
+                                              tol=0.001,
+                                              validation_fraction=0.1,
+                                              verbose=0, warm_start=False),
+                  learning_rate=0.005, loss='exponential', n_estimators=3000,
+                  random_state=777)
+
+ys:rmse   mean=11.951753822098045 std=2.2768973510983144
+ys:nrmse  mean=0.04476854968869514 std=0.010354719952728195
+ys:r2     mean=0.777283302540097 std=0.21868625999027613
+ys:adj-r2 mean=1.0284372228892198 std=0.026340277845324285
+
+--------------------
+
+Elongation GridSearch Best Estimator:
+AdaBoostRegressor(base_estimator=SGDRegressor(alpha=0.0001, average=False,
+                                              early_stopping=False, epsilon=0.1,
+                                              eta0=0.001, fit_intercept=True,
+                                              l1_ratio=0.001,
+                                              learning_rate='invscaling',
+                                              loss='squared_loss',
+                                              max_iter=1000, n_iter_no_change=5,
+                                              penalty='l2', power_t=0.02,
+                                              random_state=777, shuffle=True,
+                                              tol=0.001,
+                                              validation_fraction=0.1,
+                                              verbose=0, warm_start=False),
+                  learning_rate=0.005, loss='exponential', n_estimators=500,
+                  random_state=777)
+
+el:rmse   mean=0.17279311213228238 std=0.022515348132062397
+el:nrmse  mean=0.9752586426774907 std=0.3220570107023198
+el:r2     mean=-3.6808784647047106 std=4.314050966630473
+el:adj-r2 mean=1.5867056678198221 std=0.49238192846388246
+
+
+2020-06-04 21:04:06.012389
+Base model spec
+alpha: 0.0001, l1_ratio: 0.001, sgd_penalty: l2, sgd_power_t: 0.02, sgd_eta0: 0.01, en_max_iter: 0
+
+Overall Results
+
+Yield Stress GridSearch Best Estimator:
+AdaBoostRegressor(base_estimator=SGDRegressor(alpha=0.0001, average=False,
+                                              early_stopping=False, epsilon=0.1,
+                                              eta0=0.01, fit_intercept=True,
+                                              l1_ratio=0.001,
+                                              learning_rate='invscaling',
+                                              loss='squared_loss',
+                                              max_iter=1000, n_iter_no_change=5,
+                                              penalty='l2', power_t=0.02,
+                                              random_state=777, shuffle=True,
+                                              tol=0.001,
+                                              validation_fraction=0.1,
+                                              verbose=0, warm_start=False),
+                  learning_rate=0.03, loss='square', n_estimators=500,
+                  random_state=777)
+
+ys:rmse   mean=13.322138887098205 std=2.1422182639826186
+ys:nrmse  mean=0.04970885839634835 std=0.00895503238030014
+ys:r2     mean=0.7132976557087328 std=0.28066830241512325
+ys:adj-r2 mean=1.0366079548829383 std=0.033678616475816575
+
+--------------------
+
+Elongation GridSearch Best Estimator:
+AdaBoostRegressor(base_estimator=SGDRegressor(alpha=0.0001, average=False,
+                                              early_stopping=False, epsilon=0.1,
+                                              eta0=0.01, fit_intercept=True,
+                                              l1_ratio=0.001,
+                                              learning_rate='invscaling',
+                                              loss='squared_loss',
+                                              max_iter=1000, n_iter_no_change=5,
+                                              penalty='l2', power_t=0.02,
+                                              random_state=777, shuffle=True,
+                                              tol=0.001,
+                                              validation_fraction=0.1,
+                                              verbose=0, warm_start=False),
+                  learning_rate=0.03, loss='square', n_estimators=500,
+                  random_state=777)
+
+el:rmse   mean=0.034659606201316584 std=0.008160620767795244
+el:nrmse  mean=0.2045003151068577 std=0.10289183372516335
+el:r2     mean=0.8264583378012013 std=0.1269041098662335
+el:adj-r2 mean=1.021589967571535 std=0.014176281299882262
+
+
+2020-06-04 21:29:30.377464
+Base model spec
+alpha: 0.0001, l1_ratio: 0.001, sgd_penalty: l2, sgd_power_t: 0.02, sgd_eta0: 0.1, en_max_iter: 0
+
+Overall Results
+
+Yield Stress GridSearch Best Estimator:
+AdaBoostRegressor(base_estimator=SGDRegressor(alpha=0.0001, average=False,
+                                              early_stopping=False, epsilon=0.1,
+                                              eta0=0.1, fit_intercept=True,
+                                              l1_ratio=0.001,
+                                              learning_rate='invscaling',
+                                              loss='squared_loss',
+                                              max_iter=1000, n_iter_no_change=5,
+                                              penalty='l2', power_t=0.02,
+                                              random_state=777, shuffle=True,
+                                              tol=0.001,
+                                              validation_fraction=0.1,
+                                              verbose=0, warm_start=False),
+                  learning_rate=0.05, loss='exponential', n_estimators=500,
+                  random_state=777)
+
+ys:rmse   mean=84339486392.1728 std=59640970467.89182
+ys:nrmse  mean=310683472.87115043 std=231099857.65682617
+ys:r2     mean=-2.211425758875321e+19 std=3.2549144191464444e+19
+ys:adj-r2 mean=2.6081875248745687e+18 std=3.825100055013192e+18
+
+--------------------
+
+Elongation GridSearch Best Estimator:
+AdaBoostRegressor(base_estimator=SGDRegressor(alpha=0.0001, average=False,
+                                              early_stopping=False, epsilon=0.1,
+                                              eta0=0.1, fit_intercept=True,
+                                              l1_ratio=0.001,
+                                              learning_rate='invscaling',
+                                              loss='squared_loss',
+                                              max_iter=1000, n_iter_no_change=5,
+                                              penalty='l2', power_t=0.02,
+                                              random_state=777, shuffle=True,
+                                              tol=0.001,
+                                              validation_fraction=0.1,
+                                              verbose=0, warm_start=False),
+                  learning_rate=0.0003, loss='exponential', n_estimators=1000,
+                  random_state=777)
+
+el:rmse   mean=24126189775.642162 std=25892718055.11971
+el:nrmse  mean=144693538361.79752 std=199771568612.5328
+el:r2     mean=-1.681727553924829e+23 std=1.9891894345375965e+23
+el:adj-r2 mean=1.9909067595923283e+22 std=2.330991442641345e+22
+
+
+2020-06-05 00:51:03.750612
+Base model spec
+alpha: 0.0001, l1_ratio: 0.001, sgd_penalty: l2, sgd_power_t: 0.25, sgd_eta0: 0.001, en_max_iter: 0
+
+Overall Results
+
+Yield Stress GridSearch Best Estimator:
+AdaBoostRegressor(base_estimator=SGDRegressor(alpha=0.0001, average=False,
+                                              early_stopping=False, epsilon=0.1,
+                                              eta0=0.001, fit_intercept=True,
+                                              l1_ratio=0.001,
+                                              learning_rate='invscaling',
+                                              loss='squared_loss',
+                                              max_iter=1000, n_iter_no_change=5,
+                                              penalty='l2', power_t=0.25,
+                                              random_state=777, shuffle=True,
+                                              tol=0.001,
+                                              validation_fraction=0.1,
+                                              verbose=0, warm_start=False),
+                  learning_rate=0.1, loss='exponential', n_estimators=500,
+                  random_state=777)
+
+ys:rmse   mean=34.58693751715926 std=3.2781165733337683
+ys:nrmse  mean=0.12824644045051217 std=0.011810486524160023
+ys:r2     mean=-1.5054062714380259 std=3.1735676843433316
+ys:adj-r2 mean=1.3118021420379367 std=0.3700728775657827
+
+--------------------
+
+Elongation GridSearch Best Estimator:
+AdaBoostRegressor(base_estimator=SGDRegressor(alpha=0.0001, average=False,
+                                              early_stopping=False, epsilon=0.1,
+                                              eta0=0.001, fit_intercept=True,
+                                              l1_ratio=0.001,
+                                              learning_rate='invscaling',
+                                              loss='squared_loss',
+                                              max_iter=1000, n_iter_no_change=5,
+                                              penalty='l2', power_t=0.25,
+                                              random_state=777, shuffle=True,
+                                              tol=0.001,
+                                              validation_fraction=0.1,
+                                              verbose=0, warm_start=False),
+                  learning_rate=0.05, loss='exponential', n_estimators=500,
+                  random_state=777)
+
+el:rmse   mean=0.19246136248672693 std=0.031303460679185144
+el:nrmse  mean=1.0678672454422313 std=0.3052856130678084
+el:r2     mean=-5.151082803663366 std=6.286815950980865
+el:adj-r2 mean=1.7670282311079029 std=0.7212983997720547
+
+
+2020-06-05 04:03:06.126003
+Base model spec
+alpha: 0.0001, l1_ratio: 0.001, sgd_penalty: l2, sgd_power_t: 0.25, sgd_eta0: 0.01, en_max_iter: 0
+
+Overall Results
+
+Yield Stress GridSearch Best Estimator:
+AdaBoostRegressor(base_estimator=SGDRegressor(alpha=0.0001, average=False,
+                                              early_stopping=False, epsilon=0.1,
+                                              eta0=0.01, fit_intercept=True,
+                                              l1_ratio=0.001,
+                                              learning_rate='invscaling',
+                                              loss='squared_loss',
+                                              max_iter=1000, n_iter_no_change=5,
+                                              penalty='l2', power_t=0.25,
+                                              random_state=777, shuffle=True,
+                                              tol=0.001,
+                                              validation_fraction=0.1,
+                                              verbose=0, warm_start=False),
+                  learning_rate=0.1, loss='exponential', n_estimators=500,
+                  random_state=777)
+
+ys:rmse   mean=13.040104578365225 std=2.3296167960273335
+ys:nrmse  mean=0.04939721973624622 std=0.013156564314234292
+ys:r2     mean=0.7641069808683101 std=0.22245676031597583
+ys:adj-r2 mean=1.0301248620015104 std=0.026317761041532738
+
+--------------------
+
+Elongation GridSearch Best Estimator:
+AdaBoostRegressor(base_estimator=SGDRegressor(alpha=0.0001, average=False,
+                                              early_stopping=False, epsilon=0.1,
+                                              eta0=0.01, fit_intercept=True,
+                                              l1_ratio=0.001,
+                                              learning_rate='invscaling',
+                                              loss='squared_loss',
+                                              max_iter=1000, n_iter_no_change=5,
+                                              penalty='l2', power_t=0.25,
+                                              random_state=777, shuffle=True,
+                                              tol=0.001,
+                                              validation_fraction=0.1,
+                                              verbose=0, warm_start=False),
+                  learning_rate=0.1, loss='exponential', n_estimators=500,
+                  random_state=777)
+
+el:rmse   mean=0.09632132183340872 std=0.019788865817264877
+el:nrmse  mean=0.5544114287916904 std=0.2386648537995194
+el:r2     mean=-0.44382260206336416 std=1.2804942468529052
+el:adj-r2 mean=1.179231529982045 std=0.1455266899192519
+
+
+2020-06-05 04:29:08.309728
+Base model spec
+alpha: 0.0001, l1_ratio: 0.001, sgd_penalty: l2, sgd_power_t: 0.25, sgd_eta0: 0.1, en_max_iter: 0
+
+Overall Results
+
+Yield Stress GridSearch Best Estimator:
+AdaBoostRegressor(base_estimator=SGDRegressor(alpha=0.0001, average=False,
+                                              early_stopping=False, epsilon=0.1,
+                                              eta0=0.1, fit_intercept=True,
+                                              l1_ratio=0.001,
+                                              learning_rate='invscaling',
+                                              loss='squared_loss',
+                                              max_iter=1000, n_iter_no_change=5,
+                                              penalty='l2', power_t=0.25,
+                                              random_state=777, shuffle=True,
+                                              tol=0.001,
+                                              validation_fraction=0.1,
+                                              verbose=0, warm_start=False),
+                  learning_rate=0.0001, loss='exponential', n_estimators=1000,
+                  random_state=777)
+
+ys:rmse   mean=16.00950455014018 std=8.412679929583463
+ys:nrmse  mean=0.060374278242307344 std=0.03085999684045016
+ys:r2     mean=0.6700098513521029 std=0.40819215707315337
+ys:adj-r2 mean=1.0470163951195484 std=0.06302141406292848
+
+--------------------
+
+Elongation GridSearch Best Estimator:
+AdaBoostRegressor(base_estimator=SGDRegressor(alpha=0.0001, average=False,
+                                              early_stopping=False, epsilon=0.1,
+                                              eta0=0.1, fit_intercept=True,
+                                              l1_ratio=0.001,
+                                              learning_rate='invscaling',
+                                              loss='squared_loss',
+                                              max_iter=1000, n_iter_no_change=5,
+                                              penalty='l2', power_t=0.25,
+                                              random_state=777, shuffle=True,
+                                              tol=0.001,
+                                              validation_fraction=0.1,
+                                              verbose=0, warm_start=False),
+                  learning_rate=0.0001, loss='exponential', n_estimators=500,
+                  random_state=777)
+
+el:rmse   mean=0.2601183761081497 std=0.4679564055137371
+el:nrmse  mean=1.9655249843272984 std=3.653217229811393
+el:r2     mean=-24.997114545366454 std=51.81846471969645
+el:adj-r2 mean=4.059646889348155 std=6.095708756307132
+
+
+2020-06-05 07:31:01.424375
+Base model spec
+alpha: 0.0001, l1_ratio: 0.001, sgd_penalty: l2, sgd_power_t: 0.03, sgd_eta0: 0.001, en_max_iter: 0
+
+Overall Results
+
+Yield Stress GridSearch Best Estimator:
+AdaBoostRegressor(base_estimator=SGDRegressor(alpha=0.0001, average=False,
+                                              early_stopping=False, epsilon=0.1,
+                                              eta0=0.001, fit_intercept=True,
+                                              l1_ratio=0.001,
+                                              learning_rate='invscaling',
+                                              loss='squared_loss',
+                                              max_iter=1000, n_iter_no_change=5,
+                                              penalty='l2', power_t=0.03,
+                                              random_state=777, shuffle=True,
+                                              tol=0.001,
+                                              validation_fraction=0.1,
+                                              verbose=0, warm_start=False),
+                  learning_rate=0.1, loss='exponential', n_estimators=500,
+                  random_state=777)
+
+ys:rmse   mean=12.667123595662725 std=2.209404214984864
+ys:nrmse  mean=0.04776500286735873 std=0.011329045543327634
+ys:r2     mean=0.7775746916134683 std=0.19239377620934975
+ys:adj-r2 mean=1.028713934273973 std=0.023299753765079367
+
+--------------------
+
+Elongation GridSearch Best Estimator:
+AdaBoostRegressor(base_estimator=SGDRegressor(alpha=0.0001, average=False,
+                                              early_stopping=False, epsilon=0.1,
+                                              eta0=0.001, fit_intercept=True,
+                                              l1_ratio=0.001,
+                                              learning_rate='invscaling',
+                                              loss='squared_loss',
+                                              max_iter=1000, n_iter_no_change=5,
+                                              penalty='l2', power_t=0.03,
+                                              random_state=777, shuffle=True,
+                                              tol=0.001,
+                                              validation_fraction=0.1,
+                                              verbose=0, warm_start=False),
+                  learning_rate=0.1, loss='exponential', n_estimators=500,
+                  random_state=777)
+
+el:rmse   mean=0.1737579558754764 std=0.022210184421863923
+el:nrmse  mean=0.9759658201774208 std=0.3054224275626514
+el:r2     mean=-3.7436949665769816 std=4.379727252842694
+el:adj-r2 mean=1.5926800287806144 std=0.4997179811640914
+
+
+2020-06-05 08:58:58.549238
+Base model spec
+alpha: 0.0001, l1_ratio: 0.001, sgd_penalty: l2, sgd_power_t: 0.03, sgd_eta0: 0.01, en_max_iter: 0
+
+Overall Results
+
+Yield Stress GridSearch Best Estimator:
+AdaBoostRegressor(base_estimator=SGDRegressor(alpha=0.0001, average=False,
+                                              early_stopping=False, epsilon=0.1,
+                                              eta0=0.01, fit_intercept=True,
+                                              l1_ratio=0.001,
+                                              learning_rate='invscaling',
+                                              loss='squared_loss',
+                                              max_iter=1000, n_iter_no_change=5,
+                                              penalty='l2', power_t=0.03,
+                                              random_state=777, shuffle=True,
+                                              tol=0.001,
+                                              validation_fraction=0.1,
+                                              verbose=0, warm_start=False),
+                  learning_rate=0.1, loss='exponential', n_estimators=500,
+                  random_state=777)
+
+ys:rmse   mean=13.58132437018221 std=2.4053015487369325
+ys:nrmse  mean=0.05081750721458089 std=0.01099426340502501
+ys:r2     mean=0.7035827976093827 std=0.30063146146331726
+ys:adj-r2 mean=1.037718292588186 std=0.03595300534898867
+
+--------------------
+
+Elongation GridSearch Best Estimator:
+AdaBoostRegressor(base_estimator=SGDRegressor(alpha=0.0001, average=False,
+                                              early_stopping=False, epsilon=0.1,
+                                              eta0=0.01, fit_intercept=True,
+                                              l1_ratio=0.001,
+                                              learning_rate='invscaling',
+                                              loss='squared_loss',
+                                              max_iter=1000, n_iter_no_change=5,
+                                              penalty='l2', power_t=0.03,
+                                              random_state=777, shuffle=True,
+                                              tol=0.001,
+                                              validation_fraction=0.1,
+                                              verbose=0, warm_start=False),
+                  learning_rate=0.03, loss='square', n_estimators=500,
+                  random_state=777)
+
+el:rmse   mean=0.03452653301538925 std=0.007579867898709464
+el:nrmse  mean=0.2026002640653788 std=0.09833291616337049
+el:r2     mean=0.827766240451959 std=0.1255246098280045
+el:adj-r2 mean=1.021352261499974 std=0.01401171463203261
+
+
+2020-06-05 09:20:44.296894
+Base model spec
+alpha: 0.0001, l1_ratio: 0.001, sgd_penalty: l2, sgd_power_t: 0.03, sgd_eta0: 0.1, en_max_iter: 0
+
+Overall Results
+
+Yield Stress GridSearch Best Estimator:
+AdaBoostRegressor(base_estimator=SGDRegressor(alpha=0.0001, average=False,
+                                              early_stopping=False, epsilon=0.1,
+                                              eta0=0.1, fit_intercept=True,
+                                              l1_ratio=0.001,
+                                              learning_rate='invscaling',
+                                              loss='squared_loss',
+                                              max_iter=1000, n_iter_no_change=5,
+                                              penalty='l2', power_t=0.03,
+                                              random_state=777, shuffle=True,
+                                              tol=0.001,
+                                              validation_fraction=0.1,
+                                              verbose=0, warm_start=False),
+                  learning_rate=0.008, loss='exponential', n_estimators=1000,
+                  random_state=777)
+
+ys:rmse   mean=149184621337.60748 std=143961679875.97192
+ys:nrmse  mean=617101386.837765 std=615316309.0562748
+ys:r2     mean=-1.5300513992921887e+19 std=1.670470071496684e+19
+ys:adj-r2 mean=2.1044253767775596e+18 std=2.520911646620059e+18
+
+--------------------
+
+Elongation GridSearch Best Estimator:
+AdaBoostRegressor(base_estimator=SGDRegressor(alpha=0.0001, average=False,
+                                              early_stopping=False, epsilon=0.1,
+                                              eta0=0.1, fit_intercept=True,
+                                              l1_ratio=0.001,
+                                              learning_rate='invscaling',
+                                              loss='squared_loss',
+                                              max_iter=1000, n_iter_no_change=5,
+                                              penalty='l2', power_t=0.03,
+                                              random_state=777, shuffle=True,
+                                              tol=0.001,
+                                              validation_fraction=0.1,
+                                              verbose=0, warm_start=False),
+                  learning_rate=0.003, loss='exponential', n_estimators=500,
+                  random_state=777)
+
+el:rmse   mean=5590136477.011108 std=6615769378.593193
+el:nrmse  mean=23006293785.73667 std=24971617020.721016
+el:r2     mean=-1.7925886559108043e+22 std=2.970926991189055e+22
+el:adj-r2 mean=2.108927830572979e+21 std=3.4952082248741893e+21
+
+
+2020-06-05 13:50:41.153900
+Base model spec
+alpha: 0.0001, l1_ratio: 0.001, sgd_penalty: l1, sgd_power_t: 0.01, sgd_eta0: 0.001, en_max_iter: 0
+
+Overall Results
+
+Yield Stress GridSearch Best Estimator:
+AdaBoostRegressor(base_estimator=SGDRegressor(alpha=0.0001, average=False,
+                                              early_stopping=False, epsilon=0.1,
+                                              eta0=0.001, fit_intercept=True,
+                                              l1_ratio=0.001,
+                                              learning_rate='invscaling',
+                                              loss='squared_loss',
+                                              max_iter=1000, n_iter_no_change=5,
+                                              penalty='l1', power_t=0.01,
+                                              random_state=777, shuffle=True,
+                                              tol=0.001,
+                                              validation_fraction=0.1,
+                                              verbose=0, warm_start=False),
+                  learning_rate=0.03, loss='exponential', n_estimators=1000,
+                  random_state=777)
+
+ys:rmse   mean=11.78046690652567 std=2.680252021791865
+ys:nrmse  mean=0.04409946795762858 std=0.01167546479374843
+ys:r2     mean=0.7886707723188415 std=0.19916521803317766
+ys:adj-r2 mean=1.0270209195693851 std=0.024244493643363944
+
+--------------------
+
+Elongation GridSearch Best Estimator:
+AdaBoostRegressor(base_estimator=SGDRegressor(alpha=0.0001, average=False,
+                                              early_stopping=False, epsilon=0.1,
+                                              eta0=0.001, fit_intercept=True,
+                                              l1_ratio=0.001,
+                                              learning_rate='invscaling',
+                                              loss='squared_loss',
+                                              max_iter=1000, n_iter_no_change=5,
+                                              penalty='l1', power_t=0.01,
+                                              random_state=777, shuffle=True,
+                                              tol=0.001,
+                                              validation_fraction=0.1,
+                                              verbose=0, warm_start=False),
+                  learning_rate=0.001, loss='exponential', n_estimators=1000,
+                  random_state=777)
+
+el:rmse   mean=0.1721148215372581 std=0.021677436383458593
+el:nrmse  mean=0.9710381980493432 std=0.3176474345122803
+el:r2     mean=-3.631208972301836 std=4.2426254459519175
+el:adj-r2 mean=1.5803733412657905 std=0.48402474528822087
+
+
+2020-06-05 15:25:25.590070
+Base model spec
+alpha: 0.0001, l1_ratio: 0.001, sgd_penalty: l1, sgd_power_t: 0.01, sgd_eta0: 0.01, en_max_iter: 0
+
+Overall Results
+
+Yield Stress GridSearch Best Estimator:
+AdaBoostRegressor(base_estimator=SGDRegressor(alpha=0.0001, average=False,
+                                              early_stopping=False, epsilon=0.1,
+                                              eta0=0.01, fit_intercept=True,
+                                              l1_ratio=0.001,
+                                              learning_rate='invscaling',
+                                              loss='squared_loss',
+                                              max_iter=1000, n_iter_no_change=5,
+                                              penalty='l1', power_t=0.01,
+                                              random_state=777, shuffle=True,
+                                              tol=0.001,
+                                              validation_fraction=0.1,
+                                              verbose=0, warm_start=False),
+                  learning_rate=0.001, loss='square', n_estimators=3000,
+                  random_state=777)
+
+ys:rmse   mean=13.837290911982956 std=2.2060708999989442
+ys:nrmse  mean=0.051885366921128995 std=0.01080691153103921
+ys:r2     mean=0.7051643261558744 std=0.2880907466602758
+ys:adj-r2 mean=1.0375771864800445 std=0.03440549691812877
+
+--------------------
+
+Elongation GridSearch Best Estimator:
+AdaBoostRegressor(base_estimator=SGDRegressor(alpha=0.0001, average=False,
+                                              early_stopping=False, epsilon=0.1,
+                                              eta0=0.01, fit_intercept=True,
+                                              l1_ratio=0.001,
+                                              learning_rate='invscaling',
+                                              loss='squared_loss',
+                                              max_iter=1000, n_iter_no_change=5,
+                                              penalty='l1', power_t=0.01,
+                                              random_state=777, shuffle=True,
+                                              tol=0.001,
+                                              validation_fraction=0.1,
+                                              verbose=0, warm_start=False),
+                  learning_rate=0.03, loss='square', n_estimators=500,
+                  random_state=777)
+
+el:rmse   mean=0.033950052966365 std=0.0077446499881605214
+el:nrmse  mean=0.20110479038338885 std=0.10116503009507108
+el:r2     mean=0.8333118581825504 std=0.1220494321040794
+el:adj-r2 mean=1.020708527951028 std=0.013644145174746419
+
+
+2020-06-05 15:46:05.375179
+Base model spec
+alpha: 0.0001, l1_ratio: 0.001, sgd_penalty: l1, sgd_power_t: 0.01, sgd_eta0: 0.1, en_max_iter: 0
+
+Overall Results
+
+Yield Stress GridSearch Best Estimator:
+AdaBoostRegressor(base_estimator=SGDRegressor(alpha=0.0001, average=False,
+                                              early_stopping=False, epsilon=0.1,
+                                              eta0=0.1, fit_intercept=True,
+                                              l1_ratio=0.001,
+                                              learning_rate='invscaling',
+                                              loss='squared_loss',
+                                              max_iter=1000, n_iter_no_change=5,
+                                              penalty='l1', power_t=0.01,
+                                              random_state=777, shuffle=True,
+                                              tol=0.001,
+                                              validation_fraction=0.1,
+                                              verbose=0, warm_start=False),
+                  learning_rate=0.05, loss='square', n_estimators=500,
+                  random_state=777)
+
+ys:rmse   mean=83182674922.6212 std=95459374482.4575
+ys:nrmse  mean=278330449.7757128 std=305439544.3167402
+ys:r2     mean=-1.0004937031626596e+20 std=1.9380447217668384e+20
+ys:adj-r2 mean=1.1780713320634608e+19 std=2.2795348711105065e+19
+
+--------------------
+
+Elongation GridSearch Best Estimator:
+AdaBoostRegressor(base_estimator=SGDRegressor(alpha=0.0001, average=False,
+                                              early_stopping=False, epsilon=0.1,
+                                              eta0=0.1, fit_intercept=True,
+                                              l1_ratio=0.001,
+                                              learning_rate='invscaling',
+                                              loss='squared_loss',
+                                              max_iter=1000, n_iter_no_change=5,
+                                              penalty='l1', power_t=0.01,
+                                              random_state=777, shuffle=True,
+                                              tol=0.001,
+                                              validation_fraction=0.1,
+                                              verbose=0, warm_start=False),
+                  learning_rate=0.0003, loss='exponential', n_estimators=500,
+                  random_state=777)
+
+el:rmse   mean=41876784265.22148 std=61362974093.99201
+el:nrmse  mean=184787362687.28738 std=263937609585.2172
+el:r2     mean=-5.393912756657626e+23 std=9.54668585613529e+23
+el:adj-r2 mean=7.998525780439095e+22 std=1.4523947565799133e+23
+
+
+2020-06-05 19:17:28.560831
+Base model spec
+alpha: 0.0001, l1_ratio: 0.001, sgd_penalty: l1, sgd_power_t: 0.02, sgd_eta0: 0.001, en_max_iter: 0
+
+Overall Results
+
+Yield Stress GridSearch Best Estimator:
+AdaBoostRegressor(base_estimator=SGDRegressor(alpha=0.0001, average=False,
+                                              early_stopping=False, epsilon=0.1,
+                                              eta0=0.001, fit_intercept=True,
+                                              l1_ratio=0.001,
+                                              learning_rate='invscaling',
+                                              loss='squared_loss',
+                                              max_iter=1000, n_iter_no_change=5,
+                                              penalty='l1', power_t=0.02,
+                                              random_state=777, shuffle=True,
+                                              tol=0.001,
+                                              validation_fraction=0.1,
+                                              verbose=0, warm_start=False),
+                  learning_rate=0.005, loss='exponential', n_estimators=3000,
+                  random_state=777)
+
+ys:rmse   mean=11.938324409068096 std=2.2681436158973294
+ys:nrmse  mean=0.04471536085327171 std=0.010304777210757043
+ys:r2     mean=0.7775706327519465 std=0.2185055794770191
+ys:adj-r2 mean=1.0284012504878002 std=0.026318235573928248
+
+--------------------
+
+Elongation GridSearch Best Estimator:
+AdaBoostRegressor(base_estimator=SGDRegressor(alpha=0.0001, average=False,
+                                              early_stopping=False, epsilon=0.1,
+                                              eta0=0.001, fit_intercept=True,
+                                              l1_ratio=0.001,
+                                              learning_rate='invscaling',
+                                              loss='squared_loss',
+                                              max_iter=1000, n_iter_no_change=5,
+                                              penalty='l1', power_t=0.02,
+                                              random_state=777, shuffle=True,
+                                              tol=0.001,
+                                              validation_fraction=0.1,
+                                              verbose=0, warm_start=False),
+                  learning_rate=0.005, loss='exponential', n_estimators=500,
+                  random_state=777)
+
+el:rmse   mean=0.17279199970047368 std=0.022537684846409608
+el:nrmse  mean=0.9751755867415886 std=0.32183259223968297
+el:r2     mean=-3.681902652120379 std=4.317004005384659
+el:adj-r2 mean=1.586824112539056 std=0.4927316666094527
+
+
+2020-06-05 20:41:44.656078
+Base model spec
+alpha: 0.0001, l1_ratio: 0.001, sgd_penalty: l1, sgd_power_t: 0.02, sgd_eta0: 0.01, en_max_iter: 0
+
+Overall Results
+
+Yield Stress GridSearch Best Estimator:
+AdaBoostRegressor(base_estimator=SGDRegressor(alpha=0.0001, average=False,
+                                              early_stopping=False, epsilon=0.1,
+                                              eta0=0.01, fit_intercept=True,
+                                              l1_ratio=0.001,
+                                              learning_rate='invscaling',
+                                              loss='squared_loss',
+                                              max_iter=1000, n_iter_no_change=5,
+                                              penalty='l1', power_t=0.02,
+                                              random_state=777, shuffle=True,
+                                              tol=0.001,
+                                              validation_fraction=0.1,
+                                              verbose=0, warm_start=False),
+                  learning_rate=0.03, loss='square', n_estimators=500,
+                  random_state=777)
+
+ys:rmse   mean=13.462722129539927 std=2.080532296693793
+ys:nrmse  mean=0.05030207250638959 std=0.00912368191320677
+ys:r2     mean=0.7118120524104592 std=0.27934232074528087
+ys:adj-r2 mean=1.0368370327165657 std=0.03348034638298736
+
+--------------------
+
+Elongation GridSearch Best Estimator:
+AdaBoostRegressor(base_estimator=SGDRegressor(alpha=0.0001, average=False,
+                                              early_stopping=False, epsilon=0.1,
+                                              eta0=0.01, fit_intercept=True,
+                                              l1_ratio=0.001,
+                                              learning_rate='invscaling',
+                                              loss='squared_loss',
+                                              max_iter=1000, n_iter_no_change=5,
+                                              penalty='l1', power_t=0.02,
+                                              random_state=777, shuffle=True,
+                                              tol=0.001,
+                                              validation_fraction=0.1,
+                                              verbose=0, warm_start=False),
+                  learning_rate=0.03, loss='square', n_estimators=500,
+                  random_state=777)
+
+el:rmse   mean=0.03460943139997446 std=0.008000121736828078
+el:nrmse  mean=0.20412829952847572 std=0.10190808786155932
+el:r2     mean=0.8268208830884349 std=0.12705234273485647
+el:adj-r2 mean=1.0215550985792332 std=0.014199250813709893
+
+
+2020-06-05 21:05:43.978252
+Base model spec
+alpha: 0.0001, l1_ratio: 0.001, sgd_penalty: l1, sgd_power_t: 0.02, sgd_eta0: 0.1, en_max_iter: 0
+
+Overall Results
+
+Yield Stress GridSearch Best Estimator:
+AdaBoostRegressor(base_estimator=SGDRegressor(alpha=0.0001, average=False,
+                                              early_stopping=False, epsilon=0.1,
+                                              eta0=0.1, fit_intercept=True,
+                                              l1_ratio=0.001,
+                                              learning_rate='invscaling',
+                                              loss='squared_loss',
+                                              max_iter=1000, n_iter_no_change=5,
+                                              penalty='l1', power_t=0.02,
+                                              random_state=777, shuffle=True,
+                                              tol=0.001,
+                                              validation_fraction=0.1,
+                                              verbose=0, warm_start=False),
+                  learning_rate=0.03, loss='exponential', n_estimators=500,
+                  random_state=777)
+
+ys:rmse   mean=59904242284.7406 std=63972734814.31541
+ys:nrmse  mean=220514217.5174014 std=230095738.27094528
+ys:r2     mean=-6.784415993309194e+18 std=1.1384413877282202e+19
+ys:adj-r2 mean=8.071376838544008e+17 std=1.3351538730118835e+18
+
+--------------------
+
+Elongation GridSearch Best Estimator:
+AdaBoostRegressor(base_estimator=SGDRegressor(alpha=0.0001, average=False,
+                                              early_stopping=False, epsilon=0.1,
+                                              eta0=0.1, fit_intercept=True,
+                                              l1_ratio=0.001,
+                                              learning_rate='invscaling',
+                                              loss='squared_loss',
+                                              max_iter=1000, n_iter_no_change=5,
+                                              penalty='l1', power_t=0.02,
+                                              random_state=777, shuffle=True,
+                                              tol=0.001,
+                                              validation_fraction=0.1,
+                                              verbose=0, warm_start=False),
+                  learning_rate=0.0001, loss='exponential', n_estimators=1000,
+                  random_state=777)
+
+el:rmse   mean=24817918830.29992 std=28756980893.051636
+el:nrmse  mean=124342443830.75557 std=141420642519.80713
+el:r2     mean=-3.485308529936563e+23 std=6.085075565169032e+23
+el:adj-r2 mean=4.100362995900574e+22 std=7.158912418439096e+22
+
+
+2020-06-06 01:44:58.658779
+Base model spec
+alpha: 0.0001, l1_ratio: 0.001, sgd_penalty: l1, sgd_power_t: 0.25, sgd_eta0: 0.001, en_max_iter: 0
+
+Overall Results
+
+Yield Stress GridSearch Best Estimator:
+AdaBoostRegressor(base_estimator=SGDRegressor(alpha=0.0001, average=False,
+                                              early_stopping=False, epsilon=0.1,
+                                              eta0=0.001, fit_intercept=True,
+                                              l1_ratio=0.001,
+                                              learning_rate='invscaling',
+                                              loss='squared_loss',
+                                              max_iter=1000, n_iter_no_change=5,
+                                              penalty='l1', power_t=0.25,
+                                              random_state=777, shuffle=True,
+                                              tol=0.001,
+                                              validation_fraction=0.1,
+                                              verbose=0, warm_start=False),
+                  learning_rate=0.1, loss='exponential', n_estimators=500,
+                  random_state=777)
+
+ys:rmse   mean=34.587179909496804 std=3.2785053717546164
+ys:nrmse  mean=0.1282474830486564 std=0.011813476903260447
+ys:r2     mean=-1.505311506513237 std=3.1733052568483036
+ys:adj-r2 mean=1.3117918736177647 std=0.37004250628547763
+
+--------------------
+
+Elongation GridSearch Best Estimator:
+AdaBoostRegressor(base_estimator=SGDRegressor(alpha=0.0001, average=False,
+                                              early_stopping=False, epsilon=0.1,
+                                              eta0=0.001, fit_intercept=True,
+                                              l1_ratio=0.001,
+                                              learning_rate='invscaling',
+                                              loss='squared_loss',
+                                              max_iter=1000, n_iter_no_change=5,
+                                              penalty='l1', power_t=0.25,
+                                              random_state=777, shuffle=True,
+                                              tol=0.001,
+                                              validation_fraction=0.1,
+                                              verbose=0, warm_start=False),
+                  learning_rate=0.05, loss='exponential', n_estimators=500,
+                  random_state=777)
+
+el:rmse   mean=0.192261736693934 std=0.03135582875193841
+el:nrmse  mean=1.066273546585214 std=0.3033595653162864
+el:r2     mean=-5.1445262962806115 std=6.289846451851817
+el:adj-r2 mean=1.7662302125113005 std=0.7217062276637123
+
+
+2020-06-06 06:39:19.591682
+Base model spec
+alpha: 0.0001, l1_ratio: 0.001, sgd_penalty: l1, sgd_power_t: 0.25, sgd_eta0: 0.01, en_max_iter: 0
+
+Overall Results
+
+Yield Stress GridSearch Best Estimator:
+AdaBoostRegressor(base_estimator=SGDRegressor(alpha=0.0001, average=False,
+                                              early_stopping=False, epsilon=0.1,
+                                              eta0=0.01, fit_intercept=True,
+                                              l1_ratio=0.001,
+                                              learning_rate='invscaling',
+                                              loss='squared_loss',
+                                              max_iter=1000, n_iter_no_change=5,
+                                              penalty='l1', power_t=0.25,
+                                              random_state=777, shuffle=True,
+                                              tol=0.001,
+                                              validation_fraction=0.1,
+                                              verbose=0, warm_start=False),
+                  learning_rate=0.1, loss='exponential', n_estimators=500,
+                  random_state=777)
+
+ys:rmse   mean=13.050161067719248 std=2.3154622001407428
+ys:nrmse  mean=0.04943510859811131 std=0.01312303501465696
+ys:r2     mean=0.7644455788653449 std=0.22125319711189217
+ys:adj-r2 mean=1.0300747417954577 std=0.02616379204849391
+
+--------------------
+
+Elongation GridSearch Best Estimator:
+AdaBoostRegressor(base_estimator=SGDRegressor(alpha=0.0001, average=False,
+                                              early_stopping=False, epsilon=0.1,
+                                              eta0=0.01, fit_intercept=True,
+                                              l1_ratio=0.001,
+                                              learning_rate='invscaling',
+                                              loss='squared_loss',
+                                              max_iter=1000, n_iter_no_change=5,
+                                              penalty='l1', power_t=0.25,
+                                              random_state=777, shuffle=True,
+                                              tol=0.001,
+                                              validation_fraction=0.1,
+                                              verbose=0, warm_start=False),
+                  learning_rate=0.1, loss='exponential', n_estimators=500,
+                  random_state=777)
+
+el:rmse   mean=0.09635968764398911 std=0.01979407708671874
+el:nrmse  mean=0.5544638595090919 std=0.23814303201403197
+el:r2     mean=-0.44708842278564676 std=1.2877308435599242
+el:adj-r2 mean=1.1796446805511407 std=0.1463847833100493
+
+
+2020-06-06 07:17:08.659366
+Base model spec
+alpha: 0.0001, l1_ratio: 0.001, sgd_penalty: l1, sgd_power_t: 0.25, sgd_eta0: 0.1, en_max_iter: 0
+
+Overall Results
+
+Yield Stress GridSearch Best Estimator:
+AdaBoostRegressor(base_estimator=SGDRegressor(alpha=0.0001, average=False,
+                                              early_stopping=False, epsilon=0.1,
+                                              eta0=0.1, fit_intercept=True,
+                                              l1_ratio=0.001,
+                                              learning_rate='invscaling',
+                                              loss='squared_loss',
+                                              max_iter=1000, n_iter_no_change=5,
+                                              penalty='l1', power_t=0.25,
+                                              random_state=777, shuffle=True,
+                                              tol=0.001,
+                                              validation_fraction=0.1,
+                                              verbose=0, warm_start=False),
+                  learning_rate=0.0001, loss='exponential', n_estimators=1000,
+                  random_state=777)
+
+ys:rmse   mean=13.861434216039749 std=4.533806629418057
+ys:nrmse  mean=0.05282648549804132 std=0.020529545471557553
+ys:r2     mean=0.7838118257816472 std=0.15615477767401176
+ys:adj-r2 mean=1.0287147892199644 std=0.021890061357905166
+
+--------------------
+
+Elongation GridSearch Best Estimator:
+AdaBoostRegressor(base_estimator=SGDRegressor(alpha=0.0001, average=False,
+                                              early_stopping=False, epsilon=0.1,
+                                              eta0=0.1, fit_intercept=True,
+                                              l1_ratio=0.001,
+                                              learning_rate='invscaling',
+                                              loss='squared_loss',
+                                              max_iter=1000, n_iter_no_change=5,
+                                              penalty='l1', power_t=0.25,
+                                              random_state=777, shuffle=True,
+                                              tol=0.001,
+                                              validation_fraction=0.1,
+                                              verbose=0, warm_start=False),
+                  learning_rate=0.0003, loss='exponential', n_estimators=500,
+                  random_state=777)
+
+el:rmse   mean=0.06553568593050717 std=0.08229860340394637
+el:nrmse  mean=0.46288920315517057 std=0.661497606989891
+el:r2     mean=-0.018315329879736518 std=1.8826774631960128
+el:adj-r2 mean=1.1205165680590388 std=0.22112715196715405
+
+
+2020-06-06 11:43:12.576143
+Base model spec
+alpha: 0.0001, l1_ratio: 0.001, sgd_penalty: l1, sgd_power_t: 0.03, sgd_eta0: 0.001, en_max_iter: 0
+
+Overall Results
+
+Yield Stress GridSearch Best Estimator:
+AdaBoostRegressor(base_estimator=SGDRegressor(alpha=0.0001, average=False,
+                                              early_stopping=False, epsilon=0.1,
+                                              eta0=0.001, fit_intercept=True,
+                                              l1_ratio=0.001,
+                                              learning_rate='invscaling',
+                                              loss='squared_loss',
+                                              max_iter=1000, n_iter_no_change=5,
+                                              penalty='l1', power_t=0.03,
+                                              random_state=777, shuffle=True,
+                                              tol=0.001,
+                                              validation_fraction=0.1,
+                                              verbose=0, warm_start=False),
+                  learning_rate=0.1, loss='exponential', n_estimators=500,
+                  random_state=777)
+
+ys:rmse   mean=12.652607971178952 std=2.1970444498788204
+ys:nrmse  mean=0.047713587273374124 std=0.011310654213286033
+ys:r2     mean=0.7781645018014609 std=0.19199633854525308
+ys:adj-r2 mean=1.0286296242534259 std=0.02323004357368519
+
+--------------------
+
+Elongation GridSearch Best Estimator:
+AdaBoostRegressor(base_estimator=SGDRegressor(alpha=0.0001, average=False,
+                                              early_stopping=False, epsilon=0.1,
+                                              eta0=0.001, fit_intercept=True,
+                                              l1_ratio=0.001,
+                                              learning_rate='invscaling',
+                                              loss='squared_loss',
+                                              max_iter=1000, n_iter_no_change=5,
+                                              penalty='l1', power_t=0.03,
+                                              random_state=777, shuffle=True,
+                                              tol=0.001,
+                                              validation_fraction=0.1,
+                                              verbose=0, warm_start=False),
+                  learning_rate=0.1, loss='exponential', n_estimators=500,
+                  random_state=777)
+
+el:rmse   mean=0.17405350830125424 std=0.022227438823634586
+el:nrmse  mean=0.9771798726390513 std=0.3042376113899444
+el:r2     mean=-3.7542811807179666 std=4.378444453333248
+el:adj-r2 mean=1.594228432954385 std=0.49958071898759504
+
+
+2020-06-06 14:46:36.354350
+Base model spec
+alpha: 0.0001, l1_ratio: 0.001, sgd_penalty: l1, sgd_power_t: 0.03, sgd_eta0: 0.01, en_max_iter: 0
+
+Overall Results
+
+Yield Stress GridSearch Best Estimator:
+AdaBoostRegressor(base_estimator=SGDRegressor(alpha=0.0001, average=False,
+                                              early_stopping=False, epsilon=0.1,
+                                              eta0=0.01, fit_intercept=True,
+                                              l1_ratio=0.001,
+                                              learning_rate='invscaling',
+                                              loss='squared_loss',
+                                              max_iter=1000, n_iter_no_change=5,
+                                              penalty='l1', power_t=0.03,
+                                              random_state=777, shuffle=True,
+                                              tol=0.001,
+                                              validation_fraction=0.1,
+                                              verbose=0, warm_start=False),
+                  learning_rate=0.1, loss='exponential', n_estimators=500,
+                  random_state=777)
+
+ys:rmse   mean=13.190816816756362 std=2.097503761189926
+ys:nrmse  mean=0.04922594410900752 std=0.009168585834079465
+ys:r2     mean=0.708405988698477 std=0.3036136467477353
+ys:adj-r2 mean=1.0370193079427414 std=0.036147560735172356
+
+--------------------
+
+Elongation GridSearch Best Estimator:
+AdaBoostRegressor(base_estimator=SGDRegressor(alpha=0.0001, average=False,
+                                              early_stopping=False, epsilon=0.1,
+                                              eta0=0.01, fit_intercept=True,
+                                              l1_ratio=0.001,
+                                              learning_rate='invscaling',
+                                              loss='squared_loss',
+                                              max_iter=1000, n_iter_no_change=5,
+                                              penalty='l1', power_t=0.03,
+                                              random_state=777, shuffle=True,
+                                              tol=0.001,
+                                              validation_fraction=0.1,
+                                              verbose=0, warm_start=False),
+                  learning_rate=0.005, loss='exponential', n_estimators=1000,
+                  random_state=777)
+
+el:rmse   mean=0.034609039388831524 std=0.00786675220843513
+el:nrmse  mean=0.20340798039736444 std=0.1004589428576436
+el:r2     mean=0.827913988043122 std=0.12330468968429052
+el:adj-r2 mean=1.0213355651612575 std=0.013737944953215259
+
+
+2020-06-06 15:32:07.916784
+Base model spec
+alpha: 0.0001, l1_ratio: 0.001, sgd_penalty: l1, sgd_power_t: 0.03, sgd_eta0: 0.1, en_max_iter: 0
+
+Overall Results
+
+Yield Stress GridSearch Best Estimator:
+AdaBoostRegressor(base_estimator=SGDRegressor(alpha=0.0001, average=False,
+                                              early_stopping=False, epsilon=0.1,
+                                              eta0=0.1, fit_intercept=True,
+                                              l1_ratio=0.001,
+                                              learning_rate='invscaling',
+                                              loss='squared_loss',
+                                              max_iter=1000, n_iter_no_change=5,
+                                              penalty='l1', power_t=0.03,
+                                              random_state=777, shuffle=True,
+                                              tol=0.001,
+                                              validation_fraction=0.1,
+                                              verbose=0, warm_start=False),
+                  learning_rate=0.03, loss='exponential', n_estimators=500,
+                  random_state=777)
+
+ys:rmse   mean=74158670400.34273 std=99272370290.03752
+ys:nrmse  mean=255676409.96037477 std=348210052.7879716
+ys:r2     mean=-2.9246283303864705e+19 std=3.674515509138753e+19
+ys:adj-r2 mean=3.4407823025716634e+18 std=4.3229251340463324e+18
+
+--------------------
+
+Elongation GridSearch Best Estimator:
+AdaBoostRegressor(base_estimator=SGDRegressor(alpha=0.0001, average=False,
+                                              early_stopping=False, epsilon=0.1,
+                                              eta0=0.1, fit_intercept=True,
+                                              l1_ratio=0.001,
+                                              learning_rate='invscaling',
+                                              loss='squared_loss',
+                                              max_iter=1000, n_iter_no_change=5,
+                                              penalty='l1', power_t=0.03,
+                                              random_state=777, shuffle=True,
+                                              tol=0.001,
+                                              validation_fraction=0.1,
+                                              verbose=0, warm_start=False),
+                  learning_rate=0.03, loss='exponential', n_estimators=500,
+                  random_state=777)
+
+el:rmse   mean=152820746627.2468 std=186530010014.15784
+el:nrmse  mean=992057868607.9075 std=1487037144951.7253
+el:r2     mean=-6.218422133216758e+24 std=8.864016056706559e+24
+el:adj-r2 mean=7.315790749617798e+23 std=1.0428254181093672e+24
+
+
+2020-06-07 00:21:37.790786
+Base model spec
+alpha: 0.0001, l1_ratio: 0.001, sgd_penalty: elasticnet, sgd_power_t: 0.01, sgd_eta0: 0.001, en_max_iter: 0
+
+Overall Results
+
+Yield Stress GridSearch Best Estimator:
+AdaBoostRegressor(base_estimator=SGDRegressor(alpha=0.0001, average=False,
+                                              early_stopping=False, epsilon=0.1,
+                                              eta0=0.001, fit_intercept=True,
+                                              l1_ratio=0.001,
+                                              learning_rate='invscaling',
+                                              loss='squared_loss',
+                                              max_iter=1000, n_iter_no_change=5,
+                                              penalty='elasticnet',
+                                              power_t=0.01, random_state=777,
+                                              shuffle=True, tol=0.001,
+                                              validation_fraction=0.1,
+                                              verbose=0, warm_start=False),
+                  learning_rate=0.03, loss='exponential', n_estimators=1000,
+                  random_state=777)
+
+ys:rmse   mean=11.727019822280903 std=2.6449738157200695
+ys:nrmse  mean=0.04390823450517598 std=0.01162089809764218
+ys:r2     mean=0.7900904012253683 std=0.1992821379205777
+ys:adj-r2 mean=1.026807537284779 std=0.024183747171018715
+
+--------------------
+
+Elongation GridSearch Best Estimator:
+AdaBoostRegressor(base_estimator=SGDRegressor(alpha=0.0001, average=False,
+                                              early_stopping=False, epsilon=0.1,
+                                              eta0=0.001, fit_intercept=True,
+                                              l1_ratio=0.001,
+                                              learning_rate='invscaling',
+                                              loss='squared_loss',
+                                              max_iter=1000, n_iter_no_change=5,
+                                              penalty='elasticnet',
+                                              power_t=0.01, random_state=777,
+                                              shuffle=True, tol=0.001,
+                                              validation_fraction=0.1,
+                                              verbose=0, warm_start=False),
+                  learning_rate=0.001, loss='exponential', n_estimators=1000,
+                  random_state=777)
+
+el:rmse   mean=0.17211423534729617 std=0.02165463664638823
+el:nrmse  mean=0.9711119639160228 std=0.31787210963083173
+el:r2     mean=-3.6300921316838446 std=4.239583495130314
+el:adj-r2 mean=1.5802444697659417 std=0.4836649446277322
+
+
+2020-06-07 03:16:32.583310
+Base model spec
+alpha: 0.0001, l1_ratio: 0.001, sgd_penalty: elasticnet, sgd_power_t: 0.01, sgd_eta0: 0.01, en_max_iter: 0
+
+Overall Results
+
+Yield Stress GridSearch Best Estimator:
+AdaBoostRegressor(base_estimator=SGDRegressor(alpha=0.0001, average=False,
+                                              early_stopping=False, epsilon=0.1,
+                                              eta0=0.01, fit_intercept=True,
+                                              l1_ratio=0.001,
+                                              learning_rate='invscaling',
+                                              loss='squared_loss',
+                                              max_iter=1000, n_iter_no_change=5,
+                                              penalty='elasticnet',
+                                              power_t=0.01, random_state=777,
+                                              shuffle=True, tol=0.001,
+                                              validation_fraction=0.1,
+                                              verbose=0, warm_start=False),
+                  learning_rate=0.001, loss='square', n_estimators=3000,
+                  random_state=777)
+
+ys:rmse   mean=13.96373269376414 std=2.0969797940057764
+ys:nrmse  mean=0.052240835378229655 std=0.010006664640131533
+ys:r2     mean=0.6827927708989948 std=0.3265382959157312
+ys:adj-r2 mean=1.0402920304520626 std=0.03880849554046885
+
+--------------------
+
+Elongation GridSearch Best Estimator:
+AdaBoostRegressor(base_estimator=SGDRegressor(alpha=0.0001, average=False,
+                                              early_stopping=False, epsilon=0.1,
+                                              eta0=0.01, fit_intercept=True,
+                                              l1_ratio=0.001,
+                                              learning_rate='invscaling',
+                                              loss='squared_loss',
+                                              max_iter=1000, n_iter_no_change=5,
+                                              penalty='elasticnet',
+                                              power_t=0.01, random_state=777,
+                                              shuffle=True, tol=0.001,
+                                              validation_fraction=0.1,
+                                              verbose=0, warm_start=False),
+                  learning_rate=0.03, loss='square', n_estimators=500,
+                  random_state=777)
+
+el:rmse   mean=0.0337424458743562 std=0.007936723401780052
+el:nrmse  mean=0.20058730067591518 std=0.10291389482330911
+el:r2     mean=0.8366163024492657 std=0.1169235327013239
+el:adj-r2 mean=1.020306292498586 std=0.013042730770947331
+
+
+2020-06-07 04:12:47.517499
+Base model spec
+alpha: 0.0001, l1_ratio: 0.001, sgd_penalty: elasticnet, sgd_power_t: 0.01, sgd_eta0: 0.1, en_max_iter: 0
+
+Overall Results
+
+Yield Stress GridSearch Best Estimator:
+AdaBoostRegressor(base_estimator=SGDRegressor(alpha=0.0001, average=False,
+                                              early_stopping=False, epsilon=0.1,
+                                              eta0=0.1, fit_intercept=True,
+                                              l1_ratio=0.001,
+                                              learning_rate='invscaling',
+                                              loss='squared_loss',
+                                              max_iter=1000, n_iter_no_change=5,
+                                              penalty='elasticnet',
+                                              power_t=0.01, random_state=777,
+                                              shuffle=True, tol=0.001,
+                                              validation_fraction=0.1,
+                                              verbose=0, warm_start=False),
+                  learning_rate=0.0003, loss='exponential', n_estimators=1000,
+                  random_state=777)
+
+ys:rmse   mean=60577885457.503235 std=68792874963.79985
+ys:nrmse  mean=222550118.62250787 std=245858594.23092666
+ys:r2     mean=-9.47178212453976e+18 std=1.6152650864878875e+19
+ys:adj-r2 mean=1.3964531119564805e+18 std=2.46286052197301e+18
+
+--------------------
+
+Elongation GridSearch Best Estimator:
+AdaBoostRegressor(base_estimator=SGDRegressor(alpha=0.0001, average=False,
+                                              early_stopping=False, epsilon=0.1,
+                                              eta0=0.1, fit_intercept=True,
+                                              l1_ratio=0.001,
+                                              learning_rate='invscaling',
+                                              loss='squared_loss',
+                                              max_iter=1000, n_iter_no_change=5,
+                                              penalty='elasticnet',
+                                              power_t=0.01, random_state=777,
+                                              shuffle=True, tol=0.001,
+                                              validation_fraction=0.1,
+                                              verbose=0, warm_start=False),
+                  learning_rate=0.01, loss='exponential', n_estimators=1000,
+                  random_state=777)
+
+el:rmse   mean=107356676759.18082 std=123824650133.84062
+el:nrmse  mean=545747785826.62286 std=616641182252.1702
+el:r2     mean=-3.333392245954466e+24 std=4.759161496711961e+24
+el:adj-r2 mean=3.9216379364172287e+23 std=5.599013525543337e+23
+
+
+2020-06-07 12:41:25.595815
+Base model spec
+alpha: 0.0001, l1_ratio: 0.001, sgd_penalty: elasticnet, sgd_power_t: 0.02, sgd_eta0: 0.001, en_max_iter: 0
+
+Overall Results
+
+Yield Stress GridSearch Best Estimator:
+AdaBoostRegressor(base_estimator=SGDRegressor(alpha=0.0001, average=False,
+                                              early_stopping=False, epsilon=0.1,
+                                              eta0=0.001, fit_intercept=True,
+                                              l1_ratio=0.001,
+                                              learning_rate='invscaling',
+                                              loss='squared_loss',
+                                              max_iter=1000, n_iter_no_change=5,
+                                              penalty='elasticnet',
+                                              power_t=0.02, random_state=777,
+                                              shuffle=True, tol=0.001,
+                                              validation_fraction=0.1,
+                                              verbose=0, warm_start=False),
+                  learning_rate=0.005, loss='exponential', n_estimators=3000,
+                  random_state=777)
+
+ys:rmse   mean=11.951750854600466 std=2.2768976052305017
+ys:nrmse  mean=0.04476853966737384 std=0.010354724381480319
+ys:r2     mean=0.7772834838381139 std=0.21868603933791558
+ys:adj-r2 mean=1.028437200641442 std=0.026340252474863077
+
+--------------------
+
+Elongation GridSearch Best Estimator:
+AdaBoostRegressor(base_estimator=SGDRegressor(alpha=0.0001, average=False,
+                                              early_stopping=False, epsilon=0.1,
+                                              eta0=0.001, fit_intercept=True,
+                                              l1_ratio=0.001,
+                                              learning_rate='invscaling',
+                                              loss='squared_loss',
+                                              max_iter=1000, n_iter_no_change=5,
+                                              penalty='elasticnet',
+                                              power_t=0.02, random_state=777,
+                                              shuffle=True, tol=0.001,
+                                              validation_fraction=0.1,
+                                              verbose=0, warm_start=False),
+                  learning_rate=0.005, loss='exponential', n_estimators=500,
+                  random_state=777)
+
+el:rmse   mean=0.17279310782260202 std=0.02251537470869491
+el:nrmse  mean=0.9752585425600604 std=0.3220567943218704
+el:r2     mean=-3.6808793929502444 std=4.314053981000722
+el:adj-r2 mean=1.5867057746073001 std=0.4923822863862615
+
+
+2020-06-07 15:39:24.968118
+Base model spec
+alpha: 0.0001, l1_ratio: 0.001, sgd_penalty: elasticnet, sgd_power_t: 0.02, sgd_eta0: 0.01, en_max_iter: 0
+
+Overall Results
+
+Yield Stress GridSearch Best Estimator:
+AdaBoostRegressor(base_estimator=SGDRegressor(alpha=0.0001, average=False,
+                                              early_stopping=False, epsilon=0.1,
+                                              eta0=0.01, fit_intercept=True,
+                                              l1_ratio=0.001,
+                                              learning_rate='invscaling',
+                                              loss='squared_loss',
+                                              max_iter=1000, n_iter_no_change=5,
+                                              penalty='elasticnet',
+                                              power_t=0.02, random_state=777,
+                                              shuffle=True, tol=0.001,
+                                              validation_fraction=0.1,
+                                              verbose=0, warm_start=False),
+                  learning_rate=0.03, loss='square', n_estimators=500,
+                  random_state=777)
+
+ys:rmse   mean=13.322139803968678 std=2.142218606886617
+ys:nrmse  mean=0.049708862715673374 std=0.008955038056430446
+ys:r2     mean=0.7132977064154604 std=0.2806681821704868
+ys:adj-r2 mean=1.0366079492441576 std=0.03367860317044223
+
+--------------------
+
+Elongation GridSearch Best Estimator:
+AdaBoostRegressor(base_estimator=SGDRegressor(alpha=0.0001, average=False,
+                                              early_stopping=False, epsilon=0.1,
+                                              eta0=0.01, fit_intercept=True,
+                                              l1_ratio=0.001,
+                                              learning_rate='invscaling',
+                                              loss='squared_loss',
+                                              max_iter=1000, n_iter_no_change=5,
+                                              penalty='elasticnet',
+                                              power_t=0.02, random_state=777,
+                                              shuffle=True, tol=0.001,
+                                              validation_fraction=0.1,
+                                              verbose=0, warm_start=False),
+                  learning_rate=0.03, loss='square', n_estimators=500,
+                  random_state=777)
+
+el:rmse   mean=0.034641052917831636 std=0.00816416875687194
+el:nrmse  mean=0.20434680762007976 std=0.10279118619893318
+el:r2     mean=0.8265679443071228 std=0.12696168891039722
+el:adj-r2 mean=1.0215739606552343 std=0.014184108918079908
+
+
+2020-06-07 16:27:38.498512
+Base model spec
+alpha: 0.0001, l1_ratio: 0.001, sgd_penalty: elasticnet, sgd_power_t: 0.02, sgd_eta0: 0.1, en_max_iter: 0
+
+Overall Results
+
+Yield Stress GridSearch Best Estimator:
+AdaBoostRegressor(base_estimator=SGDRegressor(alpha=0.0001, average=False,
+                                              early_stopping=False, epsilon=0.1,
+                                              eta0=0.1, fit_intercept=True,
+                                              l1_ratio=0.001,
+                                              learning_rate='invscaling',
+                                              loss='squared_loss',
+                                              max_iter=1000, n_iter_no_change=5,
+                                              penalty='elasticnet',
+                                              power_t=0.02, random_state=777,
+                                              shuffle=True, tol=0.001,
+                                              validation_fraction=0.1,
+                                              verbose=0, warm_start=False),
+                  learning_rate=0.008, loss='square', n_estimators=500,
+                  random_state=777)
+
+ys:rmse   mean=94834703219.94894 std=102827951610.21878
+ys:nrmse  mean=365388350.82729244 std=403346305.7727014
+ys:r2     mean=-1.1660985775987749e+19 std=1.8199058755698164e+19
+ys:adj-r2 mean=1.378731468200566e+18 std=2.1370970040043523e+18
+
+--------------------
+
+Elongation GridSearch Best Estimator:
+AdaBoostRegressor(base_estimator=SGDRegressor(alpha=0.0001, average=False,
+                                              early_stopping=False, epsilon=0.1,
+                                              eta0=0.1, fit_intercept=True,
+                                              l1_ratio=0.001,
+                                              learning_rate='invscaling',
+                                              loss='squared_loss',
+                                              max_iter=1000, n_iter_no_change=5,
+                                              penalty='elasticnet',
+                                              power_t=0.02, random_state=777,
+                                              shuffle=True, tol=0.001,
+                                              validation_fraction=0.1,
+                                              verbose=0, warm_start=False),
+                  learning_rate=0.0003, loss='exponential', n_estimators=1000,
+                  random_state=777)
+
+el:rmse   mean=12407758457.427326 std=13611416214.162622
+el:nrmse  mean=77387414359.4257 std=109369063550.87021
+el:r2     mean=-3.6647866574730772e+22 std=4.882028361103143e+22
+el:adj-r2 mean=4.3907255336423407e+21 std=5.705131241728214e+21
+
+
+2020-06-08 00:58:39.728867
+Base model spec
+alpha: 0.0001, l1_ratio: 0.001, sgd_penalty: elasticnet, sgd_power_t: 0.25, sgd_eta0: 0.001, en_max_iter: 0
+
+Overall Results
+
+Yield Stress GridSearch Best Estimator:
+AdaBoostRegressor(base_estimator=SGDRegressor(alpha=0.0001, average=False,
+                                              early_stopping=False, epsilon=0.1,
+                                              eta0=0.001, fit_intercept=True,
+                                              l1_ratio=0.001,
+                                              learning_rate='invscaling',
+                                              loss='squared_loss',
+                                              max_iter=1000, n_iter_no_change=5,
+                                              penalty='elasticnet',
+                                              power_t=0.25, random_state=777,
+                                              shuffle=True, tol=0.001,
+                                              validation_fraction=0.1,
+                                              verbose=0, warm_start=False),
+                  learning_rate=0.1, loss='exponential', n_estimators=500,
+                  random_state=777)
+
+ys:rmse   mean=34.58693775967091 std=3.2781169620429296
+ys:nrmse  mean=0.1282464414934233 std=0.011810489513268907
+ys:r2     mean=-1.5054061767696791 std=3.1735674221128005
+ys:adj-r2 mean=1.3118021317807853 std=0.3700728472172425
+
+--------------------
+
+Elongation GridSearch Best Estimator:
+AdaBoostRegressor(base_estimator=SGDRegressor(alpha=0.0001, average=False,
+                                              early_stopping=False, epsilon=0.1,
+                                              eta0=0.001, fit_intercept=True,
+                                              l1_ratio=0.001,
+                                              learning_rate='invscaling',
+                                              loss='squared_loss',
+                                              max_iter=1000, n_iter_no_change=5,
+                                              penalty='elasticnet',
+                                              power_t=0.25, random_state=777,
+                                              shuffle=True, tol=0.001,
+                                              validation_fraction=0.1,
+                                              verbose=0, warm_start=False),
+                  learning_rate=0.05, loss='exponential', n_estimators=500,
+                  random_state=777)
+
+el:rmse   mean=0.19246136370401476 std=0.03130347934062496
+el:nrmse  mean=1.0678671692315784 std=0.30528533762705623
+el:r2     mean=-5.151083866320574 std=6.286818567149431
+el:adj-r2 mean=1.7670283540019132 std=0.7212987104383587
+
+

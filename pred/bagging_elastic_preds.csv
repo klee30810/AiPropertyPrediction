@@ -1,0 +1,1537 @@
+
+2020-06-03 21:36:49.632835
+Base model spec
+
+alpha: 0.3, l1_ratio: 0.3, sgd_penalty: NONE
+             0         1
+0   176.282185  0.179597
+1   205.334322  0.187465
+2   219.535401  0.194044
+3   226.224246  0.193381
+4   237.654000  0.196645
+5   244.775648  0.198988
+6   227.630634  0.179970
+7   239.038591  0.184174
+8   236.483768  0.176042
+9   240.859693  0.178181
+10  267.527073  0.185545
+11  292.054450  0.215336
+12  290.780391  0.218189
+13  272.692774  0.205086
+14  273.413062  0.166327
+15  294.397570  0.204945
+16  287.518763  0.189193
+17  284.718983  0.196208
+18  286.190961  0.209343
+19  294.450643  0.171741
+20  294.697754  0.169792
+21  322.885144  0.180150
+22  315.436978  0.216375
+23  366.986174  0.233238
+24  339.000142  0.204185
+25  343.420421  0.204384
+26  328.210254  0.177604
+2020-06-03 21:57:28.835551
+Base model spec
+
+alpha: 0.3, l1_ratio: 0.5, sgd_penalty: NONE
+             0         1
+0   173.907543  0.208275
+1   203.415285  0.208416
+2   218.367396  0.210369
+3   226.273024  0.210359
+4   237.941589  0.210455
+5   244.686005  0.210533
+6   227.638734  0.184701
+7   238.894375  0.185135
+8   236.265496  0.183872
+9   240.091933  0.183967
+10  266.799252  0.184255
+11  290.915899  0.208940
+12  289.501074  0.211120
+13  273.631728  0.208713
+14  274.316868  0.165379
+15  293.750747  0.187278
+16  288.330269  0.184386
+17  285.756586  0.186375
+18  287.509323  0.208787
+19  295.469094  0.165571
+20  296.726926  0.165497
+21  322.932346  0.165861
+22  317.407382  0.211077
+23  364.897360  0.190182
+24  339.608504  0.184986
+25  344.271065  0.184993
+26  330.502920  0.165768
+2020-06-03 22:17:51.975628
+Base model spec
+
+alpha: 0.3, l1_ratio: 0.7, sgd_penalty: NONE
+             0         1
+0   170.397485  0.208799
+1   200.605346  0.208799
+2   216.670315  0.210868
+3   226.130555  0.210868
+4   238.255610  0.210868
+5   244.340517  0.210868
+6   227.901959  0.185999
+7   238.934949  0.186000
+8   236.006782  0.184203
+9   239.128254  0.184206
+10  265.875982  0.184212
+11  289.608477  0.208799
+12  287.985065  0.210868
+13  274.966999  0.208799
+14  275.630254  0.165464
+15  293.073653  0.186002
+16  289.556070  0.184213
+17  287.209276  0.186001
+18  289.477551  0.208799
+19  296.851203  0.165464
+20  299.277630  0.165464
+21  322.753489  0.165464
+22  319.682645  0.210868
+23  361.946515  0.186006
+24  340.096447  0.184226
+25  345.016566  0.184226
+26  333.024752  0.165464
+2020-06-03 23:45:18.713728
+Base model spec
+
+alpha: 0.001, l1_ratio: 0.3, sgd_penalty: NONE
+
+Yield Stress GridSearch Best Estimator:
+BaggingRegressor(base_estimator=ElasticNet(alpha=0.001, copy_X=True,
+                                           fit_intercept=True, l1_ratio=0.3,
+                                           max_iter=1000, normalize=False,
+                                           positive=False, precompute=False,
+                                           random_state=777, selection='cyclic',
+                                           tol=0.0001, warm_start=False),
+                 bootstrap=True, bootstrap_features=False, max_features=1.0,
+                 max_samples=0.9, n_estimators=10000, n_jobs=None,
+                 oob_score=True, random_state=777, verbose=0, warm_start=False)
+Elongation GridSearch Best Estimator:
+BaggingRegressor(base_estimator=ElasticNet(alpha=0.001, copy_X=True,
+                                           fit_intercept=True, l1_ratio=0.3,
+                                           max_iter=1000, normalize=False,
+                                           positive=False, precompute=False,
+                                           random_state=777, selection='cyclic',
+                                           tol=0.0001, warm_start=False),
+                 bootstrap=True, bootstrap_features=False, max_features=1.0,
+                 max_samples=0.9, n_estimators=1000, n_jobs=None,
+                 oob_score=True, random_state=777, verbose=0, warm_start=False)             0         1
+0   120.013031 -0.105950
+1   165.202936 -0.021149
+2   197.168511  0.049664
+3   215.512221  0.088667
+4   228.014640  0.115362
+5   236.325008  0.122957
+6   242.521529  0.083556
+7   251.582950  0.115267
+8   242.665937  0.115531
+9   248.808850  0.116453
+10  255.461887  0.150998
+11  286.196906  0.189107
+12  291.809523  0.183461
+13  281.847673  0.216732
+14  292.586526  0.204232
+15  279.137951  0.237382
+16  302.038641  0.233903
+17  299.674199  0.233176
+18  295.868380  0.264523
+19  312.867227  0.262817
+20  313.522815  0.274015
+21  326.864051  0.298307
+22  323.161020  0.338563
+23  300.014787  0.395636
+24  325.003973  0.363623
+25  325.829267  0.373706
+26  330.832790  0.371230
+2020-06-04 00:17:35.789961
+Base model spec
+
+alpha: 0.001, l1_ratio: 0.5, sgd_penalty: NONE
+
+Yield Stress GridSearch Best Estimator:
+BaggingRegressor(base_estimator=ElasticNet(alpha=0.001, copy_X=True,
+                                           fit_intercept=True, l1_ratio=0.5,
+                                           max_iter=1000, normalize=False,
+                                           positive=False, precompute=False,
+                                           random_state=777, selection='cyclic',
+                                           tol=0.0001, warm_start=False),
+                 bootstrap=True, bootstrap_features=False, max_features=1.0,
+                 max_samples=0.9, n_estimators=10000, n_jobs=None,
+                 oob_score=True, random_state=777, verbose=0, warm_start=False)
+Elongation GridSearch Best Estimator:
+BaggingRegressor(base_estimator=ElasticNet(alpha=0.001, copy_X=True,
+                                           fit_intercept=True, l1_ratio=0.5,
+                                           max_iter=1000, normalize=False,
+                                           positive=False, precompute=False,
+                                           random_state=777, selection='cyclic',
+                                           tol=0.0001, warm_start=False),
+                 bootstrap=True, bootstrap_features=False, max_features=1.0,
+                 max_samples=0.9, n_estimators=1000, n_jobs=None,
+                 oob_score=True, random_state=777, verbose=0, warm_start=False)             0         1
+0   119.657398 -0.098499
+1   164.307296 -0.017808
+2   196.656556  0.052672
+3   215.389814  0.090950
+4   227.863563  0.118078
+5   235.992472  0.124263
+6   243.324180  0.082918
+7   252.387286  0.112391
+8   242.731615  0.112339
+9   247.978233  0.110615
+10  255.031032  0.154105
+11  285.354589  0.190675
+12  292.154432  0.184974
+13  281.359550  0.216010
+14  293.493534  0.203108
+15  278.174202  0.237192
+16  302.841184  0.233474
+17  299.592491  0.232068
+18  295.276042  0.265044
+19  313.046967  0.259902
+20  313.890591  0.272385
+21  326.717439  0.297156
+22  322.646497  0.336654
+23  301.020885  0.392208
+24  323.931342  0.359705
+25  326.265977  0.374053
+26  331.122908  0.371717
+2020-06-04 00:51:04.759737
+Base model spec
+
+alpha: 0.001, l1_ratio: 0.7, sgd_penalty: NONE
+
+Yield Stress GridSearch Best Estimator:
+BaggingRegressor(base_estimator=ElasticNet(alpha=0.001, copy_X=True,
+                                           fit_intercept=True, l1_ratio=0.7,
+                                           max_iter=1000, normalize=False,
+                                           positive=False, precompute=False,
+                                           random_state=777, selection='cyclic',
+                                           tol=0.0001, warm_start=False),
+                 bootstrap=True, bootstrap_features=False, max_features=1.0,
+                 max_samples=0.9, n_estimators=10000, n_jobs=None,
+                 oob_score=True, random_state=777, verbose=0, warm_start=False)
+Elongation GridSearch Best Estimator:
+BaggingRegressor(base_estimator=ElasticNet(alpha=0.001, copy_X=True,
+                                           fit_intercept=True, l1_ratio=0.7,
+                                           max_iter=1000, normalize=False,
+                                           positive=False, precompute=False,
+                                           random_state=777, selection='cyclic',
+                                           tol=0.0001, warm_start=False),
+                 bootstrap=True, bootstrap_features=False, max_features=1.0,
+                 max_samples=0.9, n_estimators=1000, n_jobs=None,
+                 oob_score=True, random_state=777, verbose=0, warm_start=False)             0         1
+0   119.221084 -0.092914
+1   163.233894 -0.014989
+2   197.885950  0.054589
+3   216.993221  0.091764
+4   229.133057  0.119248
+5   236.765522  0.125405
+6   244.275162  0.083036
+7   253.224727  0.111671
+8   242.848977  0.111351
+9   247.237815  0.108612
+10  254.716405  0.155350
+11  284.091350  0.191904
+12  292.559061  0.187758
+13  280.740824  0.215233
+14  294.512060  0.202068
+15  277.184905  0.236034
+16  303.699773  0.232576
+17  299.635126  0.231739
+18  294.632937  0.264110
+19  313.267663  0.258230
+20  314.334781  0.270942
+21  326.533811  0.298484
+22  321.788026  0.334278
+23  302.766668  0.392442
+24  322.705803  0.357266
+25  326.889815  0.373325
+26  331.409295  0.368595
+2020-06-04 01:21:36.989978
+Base model spec
+
+alpha: 0.01, l1_ratio: 0.3, sgd_penalty: NONE
+
+Yield Stress GridSearch Best Estimator:
+BaggingRegressor(base_estimator=ElasticNet(alpha=0.01, copy_X=True,
+                                           fit_intercept=True, l1_ratio=0.3,
+                                           max_iter=1000, normalize=False,
+                                           positive=False, precompute=False,
+                                           random_state=777, selection='cyclic',
+                                           tol=0.0001, warm_start=False),
+                 bootstrap=True, bootstrap_features=False, max_features=1.0,
+                 max_samples=0.9, n_estimators=10000, n_jobs=None,
+                 oob_score=True, random_state=777, verbose=0, warm_start=False)
+Elongation GridSearch Best Estimator:
+BaggingRegressor(base_estimator=ElasticNet(alpha=0.01, copy_X=True,
+                                           fit_intercept=True, l1_ratio=0.3,
+                                           max_iter=1000, normalize=False,
+                                           positive=False, precompute=False,
+                                           random_state=777, selection='cyclic',
+                                           tol=0.0001, warm_start=False),
+                 bootstrap=True, bootstrap_features=False, max_features=1.0,
+                 max_samples=0.9, n_estimators=1000, n_jobs=None,
+                 oob_score=True, random_state=777, verbose=0, warm_start=False)             0         1
+0   131.871980 -0.068830
+1   174.910792  0.003512
+2   201.228385  0.066523
+3   213.275516  0.094418
+4   229.815948  0.124602
+5   238.854999  0.130443
+6   237.254835  0.091601
+7   244.979667  0.116207
+8   243.080466  0.111105
+9   254.832389  0.103889
+10  265.857897  0.172286
+11  285.325922  0.208217
+12  286.455172  0.215907
+13  283.119850  0.208062
+14  284.867332  0.196066
+15  287.298832  0.235521
+16  300.643920  0.231509
+17  301.876782  0.229210
+18  298.318914  0.246950
+19  303.883648  0.243037
+20  310.154344  0.252473
+21  319.340457  0.300429
+22  327.816615  0.310383
+23  320.161014  0.402408
+24  337.899899  0.335742
+25  339.236982  0.352783
+26  324.293755  0.335318
+2020-06-04 01:52:51.730433
+Base model spec
+
+alpha: 0.01, l1_ratio: 0.5, sgd_penalty: NONE
+
+Yield Stress GridSearch Best Estimator:
+BaggingRegressor(base_estimator=ElasticNet(alpha=0.01, copy_X=True,
+                                           fit_intercept=True, l1_ratio=0.5,
+                                           max_iter=1000, normalize=False,
+                                           positive=False, precompute=False,
+                                           random_state=777, selection='cyclic',
+                                           tol=0.0001, warm_start=False),
+                 bootstrap=True, bootstrap_features=False, max_features=1.0,
+                 max_samples=0.9, n_estimators=10000, n_jobs=None,
+                 oob_score=True, random_state=777, verbose=0, warm_start=False)
+Elongation GridSearch Best Estimator:
+BaggingRegressor(base_estimator=ElasticNet(alpha=0.01, copy_X=True,
+                                           fit_intercept=True, l1_ratio=0.5,
+                                           max_iter=1000, normalize=False,
+                                           positive=False, precompute=False,
+                                           random_state=777, selection='cyclic',
+                                           tol=0.0001, warm_start=False),
+                 bootstrap=True, bootstrap_features=False, max_features=1.0,
+                 max_samples=0.9, n_estimators=1000, n_jobs=None,
+                 oob_score=True, random_state=777, verbose=0, warm_start=False)             0         1
+0   129.550546 -0.057084
+1   173.396896  0.012789
+2   200.706067  0.071910
+3   212.662569  0.093040
+4   229.677132  0.121764
+5   238.668127  0.130253
+6   238.771032  0.096746
+7   244.794141  0.120453
+8   242.704458  0.115363
+9   256.439146  0.111709
+10  264.760311  0.176732
+11  284.889029  0.221017
+12  287.123934  0.226557
+13  283.413981  0.202235
+14  285.818056  0.192596
+15  286.769175  0.240729
+16  299.701545  0.228664
+17  302.587715  0.227567
+18  299.250610  0.239831
+19  305.908491  0.237669
+20  310.967776  0.241824
+21  321.281044  0.297675
+22  327.051509  0.298014
+23  312.601834  0.404455
+24  336.720830  0.329320
+25  334.926032  0.343670
+26  325.648890  0.317246
+2020-06-04 02:22:48.276622
+Base model spec
+
+alpha: 0.01, l1_ratio: 0.7, sgd_penalty: NONE
+
+Yield Stress GridSearch Best Estimator:
+BaggingRegressor(base_estimator=ElasticNet(alpha=0.01, copy_X=True,
+                                           fit_intercept=True, l1_ratio=0.7,
+                                           max_iter=1000, normalize=False,
+                                           positive=False, precompute=False,
+                                           random_state=777, selection='cyclic',
+                                           tol=0.0001, warm_start=False),
+                 bootstrap=True, bootstrap_features=False, max_features=1.0,
+                 max_samples=0.9, n_estimators=10000, n_jobs=None,
+                 oob_score=True, random_state=777, verbose=0, warm_start=False)
+Elongation GridSearch Best Estimator:
+BaggingRegressor(base_estimator=ElasticNet(alpha=0.01, copy_X=True,
+                                           fit_intercept=True, l1_ratio=0.7,
+                                           max_iter=1000, normalize=False,
+                                           positive=False, precompute=False,
+                                           random_state=777, selection='cyclic',
+                                           tol=0.0001, warm_start=False),
+                 bootstrap=True, bootstrap_features=False, max_features=1.0,
+                 max_samples=0.9, n_estimators=1000, n_jobs=None,
+                 oob_score=True, random_state=777, verbose=0, warm_start=False)             0         1
+0   125.107464 -0.044966
+1   170.900054  0.022321
+2   200.399463  0.077017
+3   213.303143  0.091633
+4   229.799307  0.118608
+5   238.279577  0.129827
+6   239.618450  0.101461
+7   245.650775  0.124786
+8   242.490733  0.119743
+9   256.100678  0.120173
+10  261.722930  0.179908
+11  285.398903  0.231511
+12  288.108632  0.235443
+13  283.562050  0.196785
+14  287.043856  0.189345
+15  285.575552  0.243546
+16  298.476369  0.225473
+17  302.315567  0.224855
+18  299.495024  0.233086
+19  309.202137  0.233646
+20  311.773545  0.232972
+21  325.031622  0.295169
+22  326.001564  0.286620
+23  306.348558  0.406966
+24  333.530746  0.325120
+25  329.118631  0.336588
+26  328.024996  0.302440
+2020-06-04 02:50:33.202724
+Base model spec
+
+alpha: 0.1, l1_ratio: 0.3, sgd_penalty: NONE
+
+Yield Stress GridSearch Best Estimator:
+BaggingRegressor(base_estimator=ElasticNet(alpha=0.1, copy_X=True,
+                                           fit_intercept=True, l1_ratio=0.3,
+                                           max_iter=1000, normalize=False,
+                                           positive=False, precompute=False,
+                                           random_state=777, selection='cyclic',
+                                           tol=0.0001, warm_start=False),
+                 bootstrap=True, bootstrap_features=False, max_features=1.0,
+                 max_samples=0.9, n_estimators=1000, n_jobs=None,
+                 oob_score=True, random_state=777, verbose=0, warm_start=False)
+Elongation GridSearch Best Estimator:
+BaggingRegressor(base_estimator=ElasticNet(alpha=0.1, copy_X=True,
+                                           fit_intercept=True, l1_ratio=0.3,
+                                           max_iter=1000, normalize=False,
+                                           positive=False, precompute=False,
+                                           random_state=777, selection='cyclic',
+                                           tol=0.0001, warm_start=False),
+                 bootstrap=True, bootstrap_features=False, max_features=1.0,
+                 max_samples=0.9, n_estimators=1000, n_jobs=None,
+                 oob_score=True, random_state=777, verbose=0, warm_start=False)             0         1
+0   162.901363  0.042091
+1   195.815145  0.087369
+2   210.492827  0.123321
+3   221.440555  0.119964
+4   234.756951  0.137434
+5   241.551535  0.149624
+6   229.275015  0.129128
+7   239.648491  0.148178
+8   237.130382  0.142290
+9   241.069856  0.152754
+10  265.642793  0.190492
+11  287.034301  0.245680
+12  286.244288  0.251169
+13  277.521284  0.190065
+14  277.526183  0.180052
+15  290.914591  0.245296
+16  290.994016  0.209929
+17  289.941542  0.208427
+18  291.875909  0.214641
+19  298.208628  0.212092
+20  302.300369  0.201636
+21  322.253248  0.260964
+22  323.433659  0.242177
+23  352.490747  0.376907
+24  339.682153  0.286684
+25  344.169583  0.287832
+26  333.184952  0.248551
+2020-06-04 03:22:33.785168
+Base model spec
+
+alpha: 0.1, l1_ratio: 0.5, sgd_penalty: NONE
+
+Yield Stress GridSearch Best Estimator:
+BaggingRegressor(base_estimator=ElasticNet(alpha=0.1, copy_X=True,
+                                           fit_intercept=True, l1_ratio=0.5,
+                                           max_iter=1000, normalize=False,
+                                           positive=False, precompute=False,
+                                           random_state=777, selection='cyclic',
+                                           tol=0.0001, warm_start=False),
+                 bootstrap=True, bootstrap_features=False, max_features=1.0,
+                 max_samples=0.9, n_estimators=10000, n_jobs=None,
+                 oob_score=True, random_state=777, verbose=0, warm_start=False)
+Elongation GridSearch Best Estimator:
+BaggingRegressor(base_estimator=ElasticNet(alpha=0.1, copy_X=True,
+                                           fit_intercept=True, l1_ratio=0.5,
+                                           max_iter=1000, normalize=False,
+                                           positive=False, precompute=False,
+                                           random_state=777, selection='cyclic',
+                                           tol=0.0001, warm_start=False),
+                 bootstrap=True, bootstrap_features=False, max_features=1.0,
+                 max_samples=0.9, n_estimators=1000, n_jobs=None,
+                 oob_score=True, random_state=777, verbose=0, warm_start=False)             0         1
+0   158.711948  0.093116
+1   192.751776  0.124720
+2   209.160719  0.154867
+3   220.689746  0.152586
+4   234.352248  0.164131
+5   241.220339  0.172432
+6   230.431783  0.147395
+7   240.664940  0.161149
+8   237.595564  0.155850
+9   241.710564  0.163146
+10  265.550985  0.188896
+11  286.721107  0.234368
+12  285.968278  0.240051
+13  278.113710  0.195782
+14  278.575312  0.173045
+15  290.809509  0.230731
+16  292.168231  0.202276
+17  291.395738  0.204481
+18  292.830647  0.212806
+19  299.039281  0.194448
+20  303.718994  0.187548
+21  321.754892  0.227173
+22  324.495258  0.234142
+23  350.171654  0.325636
+24  339.587251  0.255081
+25  343.915109  0.255909
+26  332.966871  0.218533
+2020-06-04 03:52:56.056950
+Base model spec
+
+alpha: 0.1, l1_ratio: 0.7, sgd_penalty: NONE
+
+Yield Stress GridSearch Best Estimator:
+BaggingRegressor(base_estimator=ElasticNet(alpha=0.1, copy_X=True,
+                                           fit_intercept=True, l1_ratio=0.7,
+                                           max_iter=1000, normalize=False,
+                                           positive=False, precompute=False,
+                                           random_state=777, selection='cyclic',
+                                           tol=0.0001, warm_start=False),
+                 bootstrap=True, bootstrap_features=False, max_features=1.0,
+                 max_samples=0.9, n_estimators=10000, n_jobs=None,
+                 oob_score=True, random_state=777, verbose=0, warm_start=False)
+Elongation GridSearch Best Estimator:
+BaggingRegressor(base_estimator=ElasticNet(alpha=0.1, copy_X=True,
+                                           fit_intercept=True, l1_ratio=0.7,
+                                           max_iter=1000, normalize=False,
+                                           positive=False, precompute=False,
+                                           random_state=777, selection='cyclic',
+                                           tol=0.0001, warm_start=False),
+                 bootstrap=True, bootstrap_features=False, max_features=1.0,
+                 max_samples=0.8, n_estimators=1000, n_jobs=None,
+                 oob_score=True, random_state=777, verbose=0, warm_start=False)             0         1
+0   154.090876  0.203535
+1   189.284912  0.203535
+2   207.053628  0.180488
+3   219.408699  0.179135
+4   233.930457  0.185747
+5   239.813229  0.190845
+6   231.669288  0.164179
+7   241.489006  0.173051
+8   238.059244  0.167335
+9   242.394731  0.171860
+10  265.620818  0.187215
+11  286.349787  0.203535
+12  285.653942  0.230367
+13  279.439608  0.203535
+14  280.195445  0.165375
+15  290.018774  0.216575
+16  293.985342  0.195210
+17  293.318435  0.200064
+18  294.883171  0.203535
+19  300.621242  0.165375
+20  305.299111  0.165375
+21  321.577399  0.165375
+22  325.070804  0.226996
+23  343.899350  0.276591
+24  339.303194  0.227182
+25  343.199531  0.227679
+26  333.742461  0.165375
+2020-06-04 12:07:07.318297
+Base model spec
+
+alpha: 0.001, l1_ratio: 0.2, sgd_penalty: NONE, sgd_power_t: 0, sgd_eta0: 0, en_max_iter: 1000
+
+Yield Stress GridSearch Best Estimator:
+BaggingRegressor(base_estimator=ElasticNet(alpha=0.001, copy_X=True,
+                                           fit_intercept=True, l1_ratio=0.2,
+                                           max_iter=1000, normalize=False,
+                                           positive=False, precompute=False,
+                                           random_state=777, selection='cyclic',
+                                           tol=0.0001, warm_start=False),
+                 bootstrap=True, bootstrap_features=False, max_features=1.0,
+                 max_samples=0.9, n_estimators=10000, n_jobs=None,
+                 oob_score=False, random_state=777, verbose=0,
+                 warm_start=False)
+Elongation GridSearch Best Estimator:
+BaggingRegressor(base_estimator=ElasticNet(alpha=0.001, copy_X=True,
+                                           fit_intercept=True, l1_ratio=0.2,
+                                           max_iter=1000, normalize=False,
+                                           positive=False, precompute=False,
+                                           random_state=777, selection='cyclic',
+                                           tol=0.0001, warm_start=False),
+                 bootstrap=True, bootstrap_features=False, max_features=1.0,
+                 max_samples=0.9, n_estimators=1000, n_jobs=None,
+                 oob_score=False, random_state=777, verbose=0,
+                 warm_start=False)             0         1
+0   118.597462 -0.111465
+1   164.396444 -0.022898
+2   197.393695  0.048162
+3   215.507623  0.088137
+4   228.088616  0.113981
+5   236.462028  0.123719
+6   242.175357  0.084656
+7   251.197428  0.117592
+8   242.645620  0.119014
+9   249.241418  0.123917
+10  255.702554  0.148184
+11  286.194902  0.188385
+12  291.642948  0.184073
+13  281.654567  0.216495
+14  292.171543  0.204546
+15  279.596994  0.234750
+16  301.663433  0.231709
+17  299.746327  0.234180
+18  295.873484  0.262917
+19  312.779100  0.266300
+20  313.362302  0.275089
+21  326.923726  0.303128
+22  323.396228  0.340714
+23  299.726798  0.397766
+24  325.493192  0.367557
+25  325.676491  0.372244
+26  330.686188  0.368727
+2020-06-04 16:46:27.025826
+Base model spec
+
+alpha: 0.001, l1_ratio: 0.2, sgd_penalty: NONE, sgd_power_t: 0, sgd_eta0: 0, en_max_iter: 10000
+
+Yield Stress GridSearch Best Estimator:
+BaggingRegressor(base_estimator=ElasticNet(alpha=0.001, copy_X=True,
+                                           fit_intercept=True, l1_ratio=0.2,
+                                           max_iter=10000, normalize=False,
+                                           positive=False, precompute=False,
+                                           random_state=777, selection='cyclic',
+                                           tol=0.0001, warm_start=False),
+                 bootstrap=True, bootstrap_features=False, max_features=1.0,
+                 max_samples=0.9, n_estimators=10000, n_jobs=None,
+                 oob_score=False, random_state=777, verbose=0,
+                 warm_start=False)
+Elongation GridSearch Best Estimator:
+BaggingRegressor(base_estimator=ElasticNet(alpha=0.001, copy_X=True,
+                                           fit_intercept=True, l1_ratio=0.2,
+                                           max_iter=10000, normalize=False,
+                                           positive=False, precompute=False,
+                                           random_state=777, selection='cyclic',
+                                           tol=0.0001, warm_start=False),
+                 bootstrap=True, bootstrap_features=False, max_features=1.0,
+                 max_samples=0.9, n_estimators=100, n_jobs=None,
+                 oob_score=False, random_state=777, verbose=0,
+                 warm_start=False)             0         1
+0   121.708955 -0.106572
+1   166.157745 -0.021913
+2   194.239955  0.048371
+3   207.754153  0.088320
+4   227.073137  0.114653
+5   232.620829  0.122223
+6   240.039745  0.083530
+7   248.394749  0.115911
+8   244.788814  0.115575
+9   257.123130  0.117519
+10  260.271535  0.150644
+11  286.838211  0.187306
+12  284.935988  0.183993
+13  285.472587  0.215999
+14  287.816129  0.204447
+15  287.410811  0.239506
+16  305.578269  0.234823
+17  302.836993  0.231535
+18  302.436021  0.265506
+19  305.720599  0.264513
+20  310.954702  0.274043
+21  315.198767  0.297294
+22  327.321891  0.339686
+23  310.232927  0.393632
+24  331.621844  0.365598
+25  335.472443  0.374878
+26  315.738592  0.376825
+2020-06-04 17:41:53.059807
+Base model spec
+
+alpha: 0.001, l1_ratio: 0.3, sgd_penalty: NONE, sgd_power_t: 0, sgd_eta0: 0, en_max_iter: 1000
+
+Yield Stress GridSearch Best Estimator:
+BaggingRegressor(base_estimator=ElasticNet(alpha=0.001, copy_X=True,
+                                           fit_intercept=True, l1_ratio=0.3,
+                                           max_iter=1000, normalize=False,
+                                           positive=False, precompute=False,
+                                           random_state=777, selection='cyclic',
+                                           tol=0.0001, warm_start=False),
+                 bootstrap=True, bootstrap_features=False, max_features=1.0,
+                 max_samples=0.9, n_estimators=10000, n_jobs=None,
+                 oob_score=False, random_state=777, verbose=0,
+                 warm_start=False)
+Elongation GridSearch Best Estimator:
+BaggingRegressor(base_estimator=ElasticNet(alpha=0.001, copy_X=True,
+                                           fit_intercept=True, l1_ratio=0.3,
+                                           max_iter=1000, normalize=False,
+                                           positive=False, precompute=False,
+                                           random_state=777, selection='cyclic',
+                                           tol=0.0001, warm_start=False),
+                 bootstrap=True, bootstrap_features=False, max_features=1.0,
+                 max_samples=0.9, n_estimators=1000, n_jobs=None,
+                 oob_score=False, random_state=777, verbose=0,
+                 warm_start=False)             0         1
+0   120.013031 -0.105950
+1   165.202936 -0.021149
+2   197.168511  0.049664
+3   215.512221  0.088667
+4   228.014640  0.115362
+5   236.325008  0.122957
+6   242.521529  0.083556
+7   251.582950  0.115267
+8   242.665937  0.115531
+9   248.808850  0.116453
+10  255.461887  0.150998
+11  286.196906  0.189107
+12  291.809523  0.183461
+13  281.847673  0.216732
+14  292.586526  0.204232
+15  279.137951  0.237382
+16  302.038641  0.233903
+17  299.674199  0.233176
+18  295.868380  0.264523
+19  312.867227  0.262817
+20  313.522815  0.274015
+21  326.864051  0.298307
+22  323.161020  0.338563
+23  300.014787  0.395636
+24  325.003973  0.363623
+25  325.829267  0.373706
+26  330.832790  0.371230
+2020-06-04 22:10:00.685608
+Base model spec
+
+alpha: 0.001, l1_ratio: 0.3, sgd_penalty: NONE, sgd_power_t: 0, sgd_eta0: 0, en_max_iter: 10000
+
+Yield Stress GridSearch Best Estimator:
+BaggingRegressor(base_estimator=ElasticNet(alpha=0.001, copy_X=True,
+                                           fit_intercept=True, l1_ratio=0.3,
+                                           max_iter=10000, normalize=False,
+                                           positive=False, precompute=False,
+                                           random_state=777, selection='cyclic',
+                                           tol=0.0001, warm_start=False),
+                 bootstrap=True, bootstrap_features=False, max_features=1.0,
+                 max_samples=0.9, n_estimators=10000, n_jobs=None,
+                 oob_score=False, random_state=777, verbose=0,
+                 warm_start=False)
+Elongation GridSearch Best Estimator:
+BaggingRegressor(base_estimator=ElasticNet(alpha=0.001, copy_X=True,
+                                           fit_intercept=True, l1_ratio=0.3,
+                                           max_iter=10000, normalize=False,
+                                           positive=False, precompute=False,
+                                           random_state=777, selection='cyclic',
+                                           tol=0.0001, warm_start=False),
+                 bootstrap=True, bootstrap_features=False, max_features=1.0,
+                 max_samples=0.9, n_estimators=100, n_jobs=None,
+                 oob_score=False, random_state=777, verbose=0,
+                 warm_start=False)             0         1
+0   120.805777 -0.104497
+1   166.027625 -0.020594
+2   194.239790  0.050295
+3   207.480985  0.088267
+4   226.907685  0.114805
+5   232.961384  0.122087
+6   240.353607  0.083165
+7   248.255037  0.114602
+8   244.573113  0.113549
+9   258.108975  0.113589
+10  260.340693  0.152896
+11  286.766433  0.189026
+12  285.023822  0.184305
+13  285.349970  0.215761
+14  287.846509  0.204041
+15  287.281586  0.239496
+16  305.329594  0.234813
+17  303.238758  0.231460
+18  302.419616  0.266053
+19  306.081078  0.262910
+20  310.996439  0.273263
+21  315.446354  0.296654
+22  327.485160  0.337097
+23  308.683356  0.391436
+24  331.646296  0.363231
+25  334.877935  0.375290
+26  315.557824  0.376478
+2020-06-04 23:02:47.684068
+Base model spec
+
+alpha: 0.001, l1_ratio: 0.4, sgd_penalty: NONE, sgd_power_t: 0, sgd_eta0: 0, en_max_iter: 1000
+
+Yield Stress GridSearch Best Estimator:
+BaggingRegressor(base_estimator=ElasticNet(alpha=0.001, copy_X=True,
+                                           fit_intercept=True, l1_ratio=0.4,
+                                           max_iter=1000, normalize=False,
+                                           positive=False, precompute=False,
+                                           random_state=777, selection='cyclic',
+                                           tol=0.0001, warm_start=False),
+                 bootstrap=True, bootstrap_features=False, max_features=1.0,
+                 max_samples=0.9, n_estimators=10000, n_jobs=None,
+                 oob_score=False, random_state=777, verbose=0,
+                 warm_start=False)
+Elongation GridSearch Best Estimator:
+BaggingRegressor(base_estimator=ElasticNet(alpha=0.001, copy_X=True,
+                                           fit_intercept=True, l1_ratio=0.4,
+                                           max_iter=1000, normalize=False,
+                                           positive=False, precompute=False,
+                                           random_state=777, selection='cyclic',
+                                           tol=0.0001, warm_start=False),
+                 bootstrap=True, bootstrap_features=False, max_features=1.0,
+                 max_samples=0.9, n_estimators=1000, n_jobs=None,
+                 oob_score=False, random_state=777, verbose=0,
+                 warm_start=False)             0         1
+0   119.840518 -0.102039
+1   164.774142 -0.019446
+2   196.923388  0.051277
+3   215.475701  0.090245
+4   227.938921  0.117225
+5   236.169889  0.123643
+6   242.904224  0.083049
+7   251.979949  0.113471
+8   242.693807  0.113419
+9   248.385845  0.112542
+10  255.235978  0.152968
+11  285.821710  0.189964
+12  291.980886  0.183809
+13  281.617743  0.216455
+14  293.026709  0.203808
+15  278.662500  0.237633
+16  302.431701  0.234079
+17  299.621181  0.232469
+18  295.578531  0.265040
+19  312.954667  0.260884
+20  313.698239  0.273302
+21  326.795441  0.296750
+22  322.911531  0.338022
+23  300.438335  0.393262
+24  324.484631  0.361266
+25  326.024804  0.374059
+26  330.978648  0.372567
+2020-06-05 03:24:17.494974
+Base model spec
+
+alpha: 0.001, l1_ratio: 0.4, sgd_penalty: NONE, sgd_power_t: 0, sgd_eta0: 0, en_max_iter: 10000
+
+Yield Stress GridSearch Best Estimator:
+BaggingRegressor(base_estimator=ElasticNet(alpha=0.001, copy_X=True,
+                                           fit_intercept=True, l1_ratio=0.4,
+                                           max_iter=10000, normalize=False,
+                                           positive=False, precompute=False,
+                                           random_state=777, selection='cyclic',
+                                           tol=0.0001, warm_start=False),
+                 bootstrap=True, bootstrap_features=False, max_features=1.0,
+                 max_samples=0.9, n_estimators=10000, n_jobs=None,
+                 oob_score=False, random_state=777, verbose=0,
+                 warm_start=False)
+Elongation GridSearch Best Estimator:
+BaggingRegressor(base_estimator=ElasticNet(alpha=0.001, copy_X=True,
+                                           fit_intercept=True, l1_ratio=0.4,
+                                           max_iter=10000, normalize=False,
+                                           positive=False, precompute=False,
+                                           random_state=777, selection='cyclic',
+                                           tol=0.0001, warm_start=False),
+                 bootstrap=True, bootstrap_features=False, max_features=1.0,
+                 max_samples=0.9, n_estimators=1000, n_jobs=None,
+                 oob_score=False, random_state=777, verbose=0,
+                 warm_start=False)             0         1
+0   119.757459 -0.101953
+1   165.891050 -0.019142
+2   194.342030  0.051877
+3   207.318177  0.089280
+4   226.805510  0.115833
+5   233.389263  0.122953
+6   240.772873  0.082616
+7   248.123131  0.112933
+8   244.262449  0.112333
+9   259.011565  0.111272
+10  260.284298  0.153999
+11  286.708149  0.190196
+12  285.102300  0.185246
+13  285.219976  0.215427
+14  287.936901  0.203540
+15  287.089547  0.238144
+16  304.798397  0.234247
+17  303.618982  0.231600
+18  302.462650  0.266090
+19  306.698826  0.261732
+20  311.130268  0.272650
+21  315.872234  0.296795
+22  327.612846  0.335915
+23  306.811352  0.391600
+24  331.511030  0.361269
+25  333.714468  0.375132
+26  315.773489  0.375161
+2020-06-05 04:13:35.390321
+Base model spec
+
+alpha: 0.005, l1_ratio: 0.2, sgd_penalty: NONE, sgd_power_t: 0, sgd_eta0: 0, en_max_iter: 1000
+
+Yield Stress GridSearch Best Estimator:
+BaggingRegressor(base_estimator=ElasticNet(alpha=0.005, copy_X=True,
+                                           fit_intercept=True, l1_ratio=0.2,
+                                           max_iter=1000, normalize=False,
+                                           positive=False, precompute=False,
+                                           random_state=777, selection='cyclic',
+                                           tol=0.0001, warm_start=False),
+                 bootstrap=True, bootstrap_features=False, max_features=1.0,
+                 max_samples=0.9, n_estimators=10000, n_jobs=None,
+                 oob_score=False, random_state=777, verbose=0,
+                 warm_start=False)
+Elongation GridSearch Best Estimator:
+BaggingRegressor(base_estimator=ElasticNet(alpha=0.005, copy_X=True,
+                                           fit_intercept=True, l1_ratio=0.2,
+                                           max_iter=1000, normalize=False,
+                                           positive=False, precompute=False,
+                                           random_state=777, selection='cyclic',
+                                           tol=0.0001, warm_start=False),
+                 bootstrap=True, bootstrap_features=False, max_features=1.0,
+                 max_samples=0.9, n_estimators=1000, n_jobs=None,
+                 oob_score=False, random_state=777, verbose=0,
+                 warm_start=False)             0         1
+0   126.610930 -0.084215
+1   171.755339 -0.008942
+2   200.499799  0.058849
+3   212.910586  0.094147
+4   229.714736  0.122769
+5   238.629352  0.128319
+6   239.579633  0.085338
+7   245.026912  0.112070
+8   242.537863  0.111403
+9   256.883337  0.106104
+10  263.069259  0.160190
+11  285.200495  0.193223
+12  287.876480  0.194721
+13  283.556572  0.213189
+14  286.649148  0.199718
+15  286.228802  0.232029
+16  298.681267  0.231747
+17  302.610123  0.230983
+18  299.517700  0.258964
+19  307.815196  0.253965
+20  311.558163  0.267309
+21  323.742260  0.301201
+22  326.545767  0.328973
+23  308.225904  0.395971
+24  335.064645  0.350133
+25  331.404811  0.367312
+26  327.181731  0.361278
+2020-06-05 08:15:39.444702
+Base model spec
+
+alpha: 0.005, l1_ratio: 0.2, sgd_penalty: NONE, sgd_power_t: 0, sgd_eta0: 0, en_max_iter: 10000
+
+Yield Stress GridSearch Best Estimator:
+BaggingRegressor(base_estimator=ElasticNet(alpha=0.005, copy_X=True,
+                                           fit_intercept=True, l1_ratio=0.2,
+                                           max_iter=10000, normalize=False,
+                                           positive=False, precompute=False,
+                                           random_state=777, selection='cyclic',
+                                           tol=0.0001, warm_start=False),
+                 bootstrap=True, bootstrap_features=False, max_features=1.0,
+                 max_samples=0.9, n_estimators=10000, n_jobs=None,
+                 oob_score=False, random_state=777, verbose=0,
+                 warm_start=False)
+Elongation GridSearch Best Estimator:
+BaggingRegressor(base_estimator=ElasticNet(alpha=0.005, copy_X=True,
+                                           fit_intercept=True, l1_ratio=0.2,
+                                           max_iter=10000, normalize=False,
+                                           positive=False, precompute=False,
+                                           random_state=777, selection='cyclic',
+                                           tol=0.0001, warm_start=False),
+                 bootstrap=True, bootstrap_features=False, max_features=1.0,
+                 max_samples=0.9, n_estimators=1000, n_jobs=None,
+                 oob_score=False, random_state=777, verbose=0,
+                 warm_start=False)             0         1
+0   131.330948 -0.084143
+1   172.429011 -0.008981
+2   198.662198  0.058818
+3   212.301279  0.094142
+4   229.761046  0.122756
+5   234.827325  0.128320
+6   238.161435  0.085340
+7   246.557182  0.112069
+8   243.035691  0.111438
+9   251.496335  0.106145
+10  262.873647  0.160105
+11  285.689563  0.193199
+12  285.897561  0.194759
+13  284.448056  0.213182
+14  286.137184  0.199719
+15  288.439530  0.232022
+16  302.055520  0.231751
+17  300.700971  0.230991
+18  301.007967  0.258868
+19  304.914962  0.253944
+20  310.238018  0.267317
+21  318.043388  0.301202
+22  325.862977  0.328998
+23  318.901247  0.395987
+24  334.328198  0.350049
+25  336.451812  0.367226
+26  324.188223  0.361208
+2020-06-05 09:05:56.417679
+Base model spec
+
+alpha: 0.005, l1_ratio: 0.3, sgd_penalty: NONE, sgd_power_t: 0, sgd_eta0: 0, en_max_iter: 1000
+
+Yield Stress GridSearch Best Estimator:
+BaggingRegressor(base_estimator=ElasticNet(alpha=0.005, copy_X=True,
+                                           fit_intercept=True, l1_ratio=0.3,
+                                           max_iter=1000, normalize=False,
+                                           positive=False, precompute=False,
+                                           random_state=777, selection='cyclic',
+                                           tol=0.0001, warm_start=False),
+                 bootstrap=True, bootstrap_features=False, max_features=1.0,
+                 max_samples=0.9, n_estimators=10000, n_jobs=None,
+                 oob_score=False, random_state=777, verbose=0,
+                 warm_start=False)
+Elongation GridSearch Best Estimator:
+BaggingRegressor(base_estimator=ElasticNet(alpha=0.005, copy_X=True,
+                                           fit_intercept=True, l1_ratio=0.3,
+                                           max_iter=1000, normalize=False,
+                                           positive=False, precompute=False,
+                                           random_state=777, selection='cyclic',
+                                           tol=0.0001, warm_start=False),
+                 bootstrap=True, bootstrap_features=False, max_features=1.0,
+                 max_samples=0.9, n_estimators=1000, n_jobs=None,
+                 oob_score=False, random_state=777, verbose=0,
+                 warm_start=False)             0         1
+0   125.405888 -0.079956
+1   171.056302 -0.005538
+2   200.440871  0.061000
+3   213.175038  0.094287
+4   229.758293  0.123698
+5   238.524967  0.129195
+6   239.736602  0.086536
+7   245.313639  0.112964
+8   242.512318  0.109936
+9   256.673178  0.102923
+10  262.213836  0.163948
+11  285.409468  0.196787
+12  288.174737  0.201411
+13  283.595040  0.212236
+14  286.920217  0.198565
+15  285.893176  0.231543
+16  298.386426  0.232141
+17  302.455672  0.230587
+18  299.535066  0.255313
+19  308.573326  0.250798
+20  311.664262  0.263671
+21  324.531782  0.301982
+22  326.269048  0.323659
+23  306.727762  0.398707
+24  334.138445  0.345960
+25  329.962166  0.363931
+26  327.612832  0.353903
+2020-06-05 13:13:30.069731
+Base model spec
+
+alpha: 0.005, l1_ratio: 0.3, sgd_penalty: NONE, sgd_power_t: 0, sgd_eta0: 0, en_max_iter: 10000
+
+Yield Stress GridSearch Best Estimator:
+BaggingRegressor(base_estimator=ElasticNet(alpha=0.005, copy_X=True,
+                                           fit_intercept=True, l1_ratio=0.3,
+                                           max_iter=10000, normalize=False,
+                                           positive=False, precompute=False,
+                                           random_state=777, selection='cyclic',
+                                           tol=0.0001, warm_start=False),
+                 bootstrap=True, bootstrap_features=False, max_features=1.0,
+                 max_samples=0.9, n_estimators=10000, n_jobs=None,
+                 oob_score=False, random_state=777, verbose=0,
+                 warm_start=False)
+Elongation GridSearch Best Estimator:
+BaggingRegressor(base_estimator=ElasticNet(alpha=0.005, copy_X=True,
+                                           fit_intercept=True, l1_ratio=0.3,
+                                           max_iter=10000, normalize=False,
+                                           positive=False, precompute=False,
+                                           random_state=777, selection='cyclic',
+                                           tol=0.0001, warm_start=False),
+                 bootstrap=True, bootstrap_features=False, max_features=1.0,
+                 max_samples=0.9, n_estimators=1000, n_jobs=None,
+                 oob_score=False, random_state=777, verbose=0,
+                 warm_start=False)             0         1
+0   130.619797 -0.079930
+1   171.840596 -0.005553
+2   198.276608  0.060971
+3   211.936911  0.094277
+4   229.543162  0.123683
+5   234.569533  0.129192
+6   238.383094  0.086536
+7   246.751166  0.112965
+8   243.152252  0.109936
+9   251.835131  0.102922
+10  262.619713  0.163913
+11  285.619261  0.196767
+12  285.891425  0.201449
+13  284.563415  0.212235
+14  286.313226  0.198571
+15  288.331147  0.231542
+16  302.395658  0.232163
+17  300.951813  0.230591
+18  301.331278  0.255297
+19  305.191078  0.250788
+20  310.322440  0.263676
+21  318.065315  0.301973
+22  325.832820  0.323675
+23  317.907232  0.398714
+24  333.980299  0.345912
+25  336.152212  0.363910
+26  324.028131  0.353875
+2020-06-05 14:03:25.288435
+Base model spec
+
+alpha: 0.005, l1_ratio: 0.4, sgd_penalty: NONE, sgd_power_t: 0, sgd_eta0: 0, en_max_iter: 1000
+
+Yield Stress GridSearch Best Estimator:
+BaggingRegressor(base_estimator=ElasticNet(alpha=0.005, copy_X=True,
+                                           fit_intercept=True, l1_ratio=0.4,
+                                           max_iter=1000, normalize=False,
+                                           positive=False, precompute=False,
+                                           random_state=777, selection='cyclic',
+                                           tol=0.0001, warm_start=False),
+                 bootstrap=True, bootstrap_features=False, max_features=1.0,
+                 max_samples=0.9, n_estimators=10000, n_jobs=None,
+                 oob_score=False, random_state=777, verbose=0,
+                 warm_start=False)
+Elongation GridSearch Best Estimator:
+BaggingRegressor(base_estimator=ElasticNet(alpha=0.005, copy_X=True,
+                                           fit_intercept=True, l1_ratio=0.4,
+                                           max_iter=1000, normalize=False,
+                                           positive=False, precompute=False,
+                                           random_state=777, selection='cyclic',
+                                           tol=0.0001, warm_start=False),
+                 bootstrap=True, bootstrap_features=False, max_features=1.0,
+                 max_samples=0.9, n_estimators=1000, n_jobs=None,
+                 oob_score=False, random_state=777, verbose=0,
+                 warm_start=False)             0         1
+0   124.109366 -0.076358
+1   170.269375 -0.002783
+2   200.361487  0.062881
+3   213.548484  0.094298
+4   229.778808  0.124221
+5   238.387864  0.129858
+6   239.824244  0.087789
+7   245.765844  0.113945
+8   242.507271  0.109228
+9   256.196769  0.101401
+10  261.246079  0.167204
+11  285.722642  0.200387
+12  288.524454  0.207158
+13  283.594789  0.211064
+14  287.284725  0.197645
+15  285.423879  0.231903
+16  298.223288  0.232441
+17  302.195905  0.230071
+18  299.414601  0.252113
+19  309.371592  0.247790
+20  311.781438  0.260177
+21  325.252933  0.301803
+22  325.955576  0.319013
+23  305.274605  0.400818
+24  333.054190  0.342180
+25  328.567867  0.360443
+26  328.030384  0.347243
+2020-06-05 17:30:02.883843
+Base model spec
+
+alpha: 0.005, l1_ratio: 0.4, sgd_penalty: NONE, sgd_power_t: 0, sgd_eta0: 0, en_max_iter: 10000
+
+Yield Stress GridSearch Best Estimator:
+BaggingRegressor(base_estimator=ElasticNet(alpha=0.005, copy_X=True,
+                                           fit_intercept=True, l1_ratio=0.4,
+                                           max_iter=10000, normalize=False,
+                                           positive=False, precompute=False,
+                                           random_state=777, selection='cyclic',
+                                           tol=0.0001, warm_start=False),
+                 bootstrap=True, bootstrap_features=False, max_features=1.0,
+                 max_samples=0.9, n_estimators=10000, n_jobs=None,
+                 oob_score=False, random_state=777, verbose=0,
+                 warm_start=False)
+Elongation GridSearch Best Estimator:
+BaggingRegressor(base_estimator=ElasticNet(alpha=0.005, copy_X=True,
+                                           fit_intercept=True, l1_ratio=0.4,
+                                           max_iter=10000, normalize=False,
+                                           positive=False, precompute=False,
+                                           random_state=777, selection='cyclic',
+                                           tol=0.0001, warm_start=False),
+                 bootstrap=True, bootstrap_features=False, max_features=1.0,
+                 max_samples=0.9, n_estimators=1000, n_jobs=None,
+                 oob_score=False, random_state=777, verbose=0,
+                 warm_start=False)             0         1
+0   129.773415 -0.076358
+1   171.216611 -0.002789
+2   196.581127  0.062851
+3   210.435375  0.094283
+4   228.457803  0.124200
+5   233.306454  0.129852
+6   238.619498  0.087790
+7   246.922686  0.113948
+8   243.229060  0.109222
+9   252.168342  0.101395
+10  262.354359  0.167192
+11  285.642380  0.200386
+12  285.990579  0.207192
+13  284.677750  0.211066
+14  286.573038  0.197648
+15  288.176930  0.231902
+16  302.755887  0.232458
+17  301.195613  0.230075
+18  301.636929  0.252114
+19  305.598112  0.247782
+20  310.427856  0.260181
+21  318.138433  0.301796
+22  325.821911  0.319027
+23  316.542876  0.400824
+24  333.578229  0.342157
+25  335.784855  0.360440
+26  324.099810  0.347229
+2020-06-05 18:10:05.756619
+Base model spec
+
+alpha: 0.01, l1_ratio: 0.2, sgd_penalty: NONE, sgd_power_t: 0, sgd_eta0: 0, en_max_iter: 1000
+
+Yield Stress GridSearch Best Estimator:
+BaggingRegressor(base_estimator=ElasticNet(alpha=0.01, copy_X=True,
+                                           fit_intercept=True, l1_ratio=0.2,
+                                           max_iter=1000, normalize=False,
+                                           positive=False, precompute=False,
+                                           random_state=777, selection='cyclic',
+                                           tol=0.0001, warm_start=False),
+                 bootstrap=True, bootstrap_features=False, max_features=1.0,
+                 max_samples=0.9, n_estimators=10000, n_jobs=None,
+                 oob_score=False, random_state=777, verbose=0,
+                 warm_start=False)
+Elongation GridSearch Best Estimator:
+BaggingRegressor(base_estimator=ElasticNet(alpha=0.01, copy_X=True,
+                                           fit_intercept=True, l1_ratio=0.2,
+                                           max_iter=1000, normalize=False,
+                                           positive=False, precompute=False,
+                                           random_state=777, selection='cyclic',
+                                           tol=0.0001, warm_start=False),
+                 bootstrap=True, bootstrap_features=False, max_features=1.0,
+                 max_samples=0.9, n_estimators=1000, n_jobs=None,
+                 oob_score=False, random_state=777, verbose=0,
+                 warm_start=False)             0         1
+0   132.578872 -0.073236
+1   175.448125 -0.000687
+2   200.182576  0.063515
+3   212.746124  0.094898
+4   229.076867  0.124955
+5   238.034229  0.130084
+6   236.577008  0.089037
+7   245.127468  0.114119
+8   243.223253  0.110570
+9   253.804266  0.102920
+10  265.901320  0.168213
+11  285.674761  0.200515
+12  285.909261  0.207745
+13  282.980158  0.210545
+14  284.487648  0.197561
+15  287.605865  0.232751
+16  300.750206  0.231785
+17  301.362212  0.229827
+18  297.916281  0.250913
+19  303.275497  0.247262
+20  309.837762  0.258793
+21  318.831275  0.301763
+22  328.736936  0.318112
+23  324.000285  0.400357
+24  338.046607  0.341217
+25  340.619229  0.358697
+26  324.119143  0.346156
+2020-06-05 21:08:54.047683
+Base model spec
+
+alpha: 0.01, l1_ratio: 0.2, sgd_penalty: NONE, sgd_power_t: 0, sgd_eta0: 0, en_max_iter: 10000
+
+Yield Stress GridSearch Best Estimator:
+BaggingRegressor(base_estimator=ElasticNet(alpha=0.01, copy_X=True,
+                                           fit_intercept=True, l1_ratio=0.2,
+                                           max_iter=10000, normalize=False,
+                                           positive=False, precompute=False,
+                                           random_state=777, selection='cyclic',
+                                           tol=0.0001, warm_start=False),
+                 bootstrap=True, bootstrap_features=False, max_features=1.0,
+                 max_samples=0.9, n_estimators=10000, n_jobs=None,
+                 oob_score=False, random_state=777, verbose=0,
+                 warm_start=False)
+Elongation GridSearch Best Estimator:
+BaggingRegressor(base_estimator=ElasticNet(alpha=0.01, copy_X=True,
+                                           fit_intercept=True, l1_ratio=0.2,
+                                           max_iter=10000, normalize=False,
+                                           positive=False, precompute=False,
+                                           random_state=777, selection='cyclic',
+                                           tol=0.0001, warm_start=False),
+                 bootstrap=True, bootstrap_features=False, max_features=1.0,
+                 max_samples=0.9, n_estimators=1000, n_jobs=None,
+                 oob_score=False, random_state=777, verbose=0,
+                 warm_start=False)             0         1
+0   136.855549 -0.073234
+1   176.538717 -0.000686
+2   200.007063  0.063515
+3   213.690208  0.094898
+4   230.246822  0.124955
+5   235.955224  0.130084
+6   236.601872  0.089037
+7   245.269915  0.114119
+8   242.022567  0.110570
+9   249.304358  0.102919
+10  264.305726  0.168213
+11  285.574867  0.200511
+12  285.903650  0.207745
+13  283.475400  0.210545
+14  284.646975  0.197561
+15  288.887055  0.232751
+16  299.928710  0.231785
+17  299.196320  0.229827
+18  299.491871  0.250916
+19  303.822879  0.247261
+20  309.408202  0.258793
+21  319.059770  0.301763
+22  326.448991  0.318112
+23  325.172023  0.400357
+24  336.297830  0.341217
+25  338.564702  0.358697
+26  327.500956  0.346156
+2020-06-05 21:49:43.059136
+Base model spec
+
+alpha: 0.01, l1_ratio: 0.3, sgd_penalty: NONE, sgd_power_t: 0, sgd_eta0: 0, en_max_iter: 1000
+
+Yield Stress GridSearch Best Estimator:
+BaggingRegressor(base_estimator=ElasticNet(alpha=0.01, copy_X=True,
+                                           fit_intercept=True, l1_ratio=0.3,
+                                           max_iter=1000, normalize=False,
+                                           positive=False, precompute=False,
+                                           random_state=777, selection='cyclic',
+                                           tol=0.0001, warm_start=False),
+                 bootstrap=True, bootstrap_features=False, max_features=1.0,
+                 max_samples=0.9, n_estimators=10000, n_jobs=None,
+                 oob_score=False, random_state=777, verbose=0,
+                 warm_start=False)
+Elongation GridSearch Best Estimator:
+BaggingRegressor(base_estimator=ElasticNet(alpha=0.01, copy_X=True,
+                                           fit_intercept=True, l1_ratio=0.3,
+                                           max_iter=1000, normalize=False,
+                                           positive=False, precompute=False,
+                                           random_state=777, selection='cyclic',
+                                           tol=0.0001, warm_start=False),
+                 bootstrap=True, bootstrap_features=False, max_features=1.0,
+                 max_samples=0.9, n_estimators=1000, n_jobs=None,
+                 oob_score=False, random_state=777, verbose=0,
+                 warm_start=False)             0         1
+0   131.871980 -0.068830
+1   174.910792  0.003512
+2   201.228385  0.066523
+3   213.275516  0.094418
+4   229.815948  0.124602
+5   238.854999  0.130443
+6   237.254835  0.091601
+7   244.979667  0.116207
+8   243.080466  0.111105
+9   254.832389  0.103889
+10  265.857897  0.172286
+11  285.325922  0.208217
+12  286.455172  0.215907
+13  283.119850  0.208062
+14  284.867332  0.196066
+15  287.298832  0.235521
+16  300.643920  0.231509
+17  301.876782  0.229210
+18  298.318914  0.246950
+19  303.883648  0.243037
+20  310.154344  0.252473
+21  319.340457  0.300429
+22  327.816615  0.310383
+23  320.161014  0.402408
+24  337.899899  0.335742
+25  339.236982  0.352783
+26  324.293755  0.335318
+2020-06-06 01:41:53.037851
+Base model spec
+
+alpha: 0.01, l1_ratio: 0.3, sgd_penalty: NONE, sgd_power_t: 0, sgd_eta0: 0, en_max_iter: 10000
+
+Yield Stress GridSearch Best Estimator:
+BaggingRegressor(base_estimator=ElasticNet(alpha=0.01, copy_X=True,
+                                           fit_intercept=True, l1_ratio=0.3,
+                                           max_iter=10000, normalize=False,
+                                           positive=False, precompute=False,
+                                           random_state=777, selection='cyclic',
+                                           tol=0.0001, warm_start=False),
+                 bootstrap=True, bootstrap_features=False, max_features=1.0,
+                 max_samples=0.9, n_estimators=10000, n_jobs=None,
+                 oob_score=False, random_state=777, verbose=0,
+                 warm_start=False)
+Elongation GridSearch Best Estimator:
+BaggingRegressor(base_estimator=ElasticNet(alpha=0.01, copy_X=True,
+                                           fit_intercept=True, l1_ratio=0.3,
+                                           max_iter=10000, normalize=False,
+                                           positive=False, precompute=False,
+                                           random_state=777, selection='cyclic',
+                                           tol=0.0001, warm_start=False),
+                 bootstrap=True, bootstrap_features=False, max_features=1.0,
+                 max_samples=0.9, n_estimators=1000, n_jobs=None,
+                 oob_score=False, random_state=777, verbose=0,
+                 warm_start=False)             0         1
+0   135.981914 -0.068829
+1   175.825459  0.003512
+2   199.531561  0.066523
+3   213.240629  0.094418
+4   229.968947  0.124602
+5   235.598148  0.130443
+6   236.894641  0.091601
+7   245.515284  0.116207
+8   242.212264  0.111105
+9   249.668561  0.103889
+10  264.082354  0.172286
+11  285.599016  0.208217
+12  285.910172  0.215907
+13  283.658846  0.208062
+14  284.917701  0.196066
+15  288.832654  0.235521
+16  300.374612  0.231509
+17  299.512308  0.229210
+18  299.851655  0.246950
+19  303.967806  0.243037
+20  309.545988  0.252473
+21  318.677572  0.300429
+22  326.384115  0.310383
+23  324.025666  0.402408
+24  335.950022  0.335742
+25  338.178764  0.352783
+26  326.785328  0.335317
+2020-06-06 02:36:09.207330
+Base model spec
+
+alpha: 0.01, l1_ratio: 0.4, sgd_penalty: NONE, sgd_power_t: 0, sgd_eta0: 0, en_max_iter: 1000
+
+Yield Stress GridSearch Best Estimator:
+BaggingRegressor(base_estimator=ElasticNet(alpha=0.01, copy_X=True,
+                                           fit_intercept=True, l1_ratio=0.4,
+                                           max_iter=1000, normalize=False,
+                                           positive=False, precompute=False,
+                                           random_state=777, selection='cyclic',
+                                           tol=0.0001, warm_start=False),
+                 bootstrap=True, bootstrap_features=False, max_features=1.0,
+                 max_samples=0.9, n_estimators=10000, n_jobs=None,
+                 oob_score=False, random_state=777, verbose=0,
+                 warm_start=False)
+Elongation GridSearch Best Estimator:
+BaggingRegressor(base_estimator=ElasticNet(alpha=0.01, copy_X=True,
+                                           fit_intercept=True, l1_ratio=0.4,
+                                           max_iter=1000, normalize=False,
+                                           positive=False, precompute=False,
+                                           random_state=777, selection='cyclic',
+                                           tol=0.0001, warm_start=False),
+                 bootstrap=True, bootstrap_features=False, max_features=1.0,
+                 max_samples=0.9, n_estimators=1000, n_jobs=None,
+                 oob_score=False, random_state=777, verbose=0,
+                 warm_start=False)             0         1
+0   130.928629 -0.063192
+1   174.252406  0.008056
+2   200.935667  0.069252
+3   212.866708  0.093760
+4   229.699562  0.123339
+5   238.781473  0.130415
+6   238.024423  0.094232
+7   244.842336  0.118350
+8   242.893544  0.112980
+9   255.755871  0.107316
+10  265.514312  0.174828
+11  285.040045  0.214909
+12  286.774228  0.221631
+13  283.270301  0.205197
+14  285.320769  0.194394
+15  287.043567  0.238450
+16  300.291585  0.230287
+17  302.308246  0.228509
+18  298.788820  0.243413
+19  304.740808  0.240009
+20  310.532227  0.246907
+21  320.112503  0.298946
+22  327.469620  0.303985
+23  316.286592  0.403532
+24  337.499132  0.332066
+25  337.340533  0.347907
+26  324.793733  0.325894
+2020-06-06 06:56:15.947807
+Base model spec
+
+alpha: 0.01, l1_ratio: 0.4, sgd_penalty: NONE, sgd_power_t: 0, sgd_eta0: 0, en_max_iter: 10000
+
+Yield Stress GridSearch Best Estimator:
+BaggingRegressor(base_estimator=ElasticNet(alpha=0.01, copy_X=True,
+                                           fit_intercept=True, l1_ratio=0.4,
+                                           max_iter=10000, normalize=False,
+                                           positive=False, precompute=False,
+                                           random_state=777, selection='cyclic',
+                                           tol=0.0001, warm_start=False),
+                 bootstrap=True, bootstrap_features=False, max_features=1.0,
+                 max_samples=0.9, n_estimators=10000, n_jobs=None,
+                 oob_score=False, random_state=777, verbose=0,
+                 warm_start=False)
+Elongation GridSearch Best Estimator:
+BaggingRegressor(base_estimator=ElasticNet(alpha=0.01, copy_X=True,
+                                           fit_intercept=True, l1_ratio=0.4,
+                                           max_iter=10000, normalize=False,
+                                           positive=False, precompute=False,
+                                           random_state=777, selection='cyclic',
+                                           tol=0.0001, warm_start=False),
+                 bootstrap=True, bootstrap_features=False, max_features=1.0,
+                 max_samples=0.9, n_estimators=1000, n_jobs=None,
+                 oob_score=False, random_state=777, verbose=0,
+                 warm_start=False)             0         1
+0   134.893163 -0.063192
+1   174.993220  0.008056
+2   198.985345  0.069252
+3   212.732504  0.093759
+4   229.695189  0.123339
+5   235.191973  0.130415
+6   237.213123  0.094232
+7   245.785396  0.118350
+8   242.441782  0.112980
+9   250.101090  0.107316
+10  263.798532  0.174828
+11  285.545356  0.214909
+12  285.932920  0.221631
+13  283.905233  0.205197
+14  285.201357  0.194394
+15  288.760073  0.238450
+16  300.875953  0.230287
+17  299.858411  0.228509
+18  300.283389  0.243413
+19  304.195211  0.240009
+20  309.701549  0.246907
+21  318.403666  0.298946
+22  326.297846  0.303985
+23  322.733050  0.403532
+24  335.547225  0.332066
+25  337.753335  0.347907
+26  325.987078  0.325894

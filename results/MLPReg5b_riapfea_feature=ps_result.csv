@@ -1,0 +1,3010 @@
+2020-10-25 21:44:54.962439MLPReg5b_riapfea-lr=0.007-wd=1e-05-lrST=40000-DO=0.9-fea=ps-feasec=1
+Learning rate: 0.007, Weight decay: 1e-05, LR adjust start: 40000, Dropout: 0.9
+Overall Results
+--------------------
+el:rmse   mean=0.09572860598564148 std=0.05720571428537369
+el:nrmse  mean=0.5351090581426201 std=0.3189991907672449
+el:r2     mean=-3.954684929589798 std=7.222318516157236
+el:adj-r2 mean=3.810034097798895 std=4.061261272196096
+
+
+2020-10-26 20:29:02.237741MLPReg5b_riapfea-lr=5e-06-wd=1e-06-lrST=20000-DO=0.9-fea=ps-feasec=2
+Learning rate: 5e-06, Weight decay: 1e-06, LR adjust start: 20000, Dropout: 0.9
+Overall Results
+--------------------
+el:rmse   mean=0.014432774856686592 std=0.0061004492454230785
+el:nrmse  mean=0.11376223975485862 std=0.10466236807566098
+el:r2     mean=0.8554296050309557 std=0.28142405614519933
+el:adj-r2 mean=1.0817191606123226 std=0.15770338649001456
+
+
+2020-10-26 20:30:16.423737MLPReg5b_riapfea-lr=5e-06-wd=1e-06-lrST=20000-DO=0.9-fea=ps-feasec=1
+Learning rate: 5e-06, Weight decay: 1e-06, LR adjust start: 20000, Dropout: 0.9
+Overall Results
+--------------------
+el:rmse   mean=0.013145187869668007 std=0.005307292565703392
+el:nrmse  mean=0.1036106387943401 std=0.09759025316887394
+el:r2     mean=0.8560792987282728 std=0.2843257402510207
+el:adj-r2 mean=1.0811985150089567 std=0.15938666656675565
+
+
+2020-10-26 20:31:07.168293MLPReg5b_riapfea-lr=5e-06-wd=1e-06-lrST=20000-DO=0.9-fea=ps-feasec=3
+Learning rate: 5e-06, Weight decay: 1e-06, LR adjust start: 20000, Dropout: 0.9
+Overall Results
+--------------------
+el:rmse   mean=0.01273964624851942 std=0.0048431213945150375
+el:nrmse  mean=0.10118830349703636 std=0.09863622409207964
+el:r2     mean=0.8524761333187278 std=0.3145097535005184
+el:adj-r2 mean=1.0832302867577606 std=0.17631481508715796
+
+
+2020-10-26 20:33:04.589292MLPReg5b_riapfea-lr=5e-06-wd=1e-06-lrST=20000-DO=0.9-fea=ps-feasec=6
+Learning rate: 5e-06, Weight decay: 1e-06, LR adjust start: 20000, Dropout: 0.9
+Overall Results
+--------------------
+el:rmse   mean=0.012914029881358147 std=0.006141145247966051
+el:nrmse  mean=0.09466899405998457 std=0.08254544473768372
+el:r2     mean=0.8981189028297335 std=0.2025239617670791
+el:adj-r2 mean=1.0577344388059713 std=0.1134651051227874
+
+
+2020-10-26 20:34:00.306986MLPReg5b_riapfea-lr=5e-06-wd=1e-06-lrST=20000-DO=0.9-fea=ps-feasec=4
+Learning rate: 5e-06, Weight decay: 1e-06, LR adjust start: 20000, Dropout: 0.9
+Overall Results
+--------------------
+el:rmse   mean=0.014614647254347801 std=0.00787200778722763
+el:nrmse  mean=0.13451488366930367 std=0.16245330744959002
+el:r2     mean=0.81305857345913 std=0.3725905494253069
+el:adj-r2 mean=1.1051990888149343 std=0.20887727486263089
+
+
+2020-10-26 20:46:34.390877MLPReg5b_riapfea-lr=5e-06-wd=1e-06-lrST=20000-DO=0.9-fea=ps-feasec=5
+Learning rate: 5e-06, Weight decay: 1e-06, LR adjust start: 20000, Dropout: 0.9
+Overall Results
+--------------------
+el:rmse   mean=0.015067435801029205 std=0.005356057547032833
+el:nrmse  mean=0.10597673074182912 std=0.08090276705323939
+el:r2     mean=0.8771542483433776 std=0.20611213168116413
+el:adj-r2 mean=1.069450836735262 std=0.11542805897610074
+
+
+2020-10-26 20:51:07.794538MLPReg5b_riapfea-lr=5e-06-wd=1e-06-lrST=40000-DO=0.9-fea=ps-feasec=2
+Learning rate: 5e-06, Weight decay: 1e-06, LR adjust start: 40000, Dropout: 0.9
+Overall Results
+--------------------
+el:rmse   mean=0.013003841042518616 std=0.0039696418680250645
+el:nrmse  mean=0.09467059659698637 std=0.08014597020005457
+el:r2     mean=0.8790865137392178 std=0.23477994817973694
+el:adj-r2 mean=1.0683897208029784 std=0.13156220009602973
+
+
+2020-10-26 20:53:00.259966MLPReg5b_riapfea-lr=5e-06-wd=1e-06-lrST=40000-DO=0.9-fea=ps-feasec=1
+Learning rate: 5e-06, Weight decay: 1e-06, LR adjust start: 40000, Dropout: 0.9
+Overall Results
+--------------------
+el:rmse   mean=0.012957891449332237 std=0.004919655621051788
+el:nrmse  mean=0.09013452053844935 std=0.0821568854272545
+el:r2     mean=0.8675805792016102 std=0.2587238616405301
+el:adj-r2 mean=1.074923185664184 std=0.14499753448827193
+
+
+2020-10-26 20:53:27.349500MLPReg5b_riapfea-lr=5e-06-wd=1e-06-lrST=40000-DO=0.9-fea=ps-feasec=3
+Learning rate: 5e-06, Weight decay: 1e-06, LR adjust start: 40000, Dropout: 0.9
+Overall Results
+--------------------
+el:rmse   mean=0.013728773221373558 std=0.003722147550433874
+el:nrmse  mean=0.10737664391469633 std=0.10045283399254235
+el:r2     mean=0.8451204006108732 std=0.3220162799189709
+el:adj-r2 mean=1.0873270179052343 std=0.18049621852119394
+
+
+2020-10-26 20:55:44.561800MLPReg5b_riapfea-lr=5e-06-wd=1e-06-lrST=40000-DO=0.9-fea=ps-feasec=6
+Learning rate: 5e-06, Weight decay: 1e-06, LR adjust start: 40000, Dropout: 0.9
+Overall Results
+--------------------
+el:rmse   mean=0.013592945411801338 std=0.006289991550147533
+el:nrmse  mean=0.11845256400962056 std=0.14255688231374894
+el:r2     mean=0.887584352579512 std=0.1983548548716875
+el:adj-r2 mean=1.0636118872559925 std=0.11114002717955586
+
+
+2020-10-26 20:56:52.706824MLPReg5b_riapfea-lr=5e-06-wd=1e-06-lrST=40000-DO=0.9-fea=ps-feasec=4
+Learning rate: 5e-06, Weight decay: 1e-06, LR adjust start: 40000, Dropout: 0.9
+Overall Results
+--------------------
+el:rmse   mean=0.014914996922016144 std=0.005785907153040171
+el:nrmse  mean=0.1262613482968649 std=0.13420923413875532
+el:r2     mean=0.8377286131909951 std=0.3078235063106566
+el:adj-r2 mean=1.0915018697856662 std=0.1725099196782128
+
+
+2020-10-26 21:08:55.598879MLPReg5b_riapfea-lr=5e-06-wd=1e-06-lrST=40000-DO=0.9-fea=ps-feasec=5
+Learning rate: 5e-06, Weight decay: 1e-06, LR adjust start: 40000, Dropout: 0.9
+Overall Results
+--------------------
+el:rmse   mean=0.016396725550293922 std=0.006003640126436949
+el:nrmse  mean=0.1282175544432947 std=0.12688880672523004
+el:r2     mean=0.8528812518809564 std=0.20601505811807935
+el:adj-r2 mean=1.083428557722954 std=0.11548519039482665
+
+
+2020-10-26 21:10:06.174533MLPReg5b_riapfea-lr=1e-05-wd=1e-06-lrST=20000-DO=0.9-fea=ps-feasec=2
+Learning rate: 1e-05, Weight decay: 1e-06, LR adjust start: 20000, Dropout: 0.9
+Overall Results
+--------------------
+el:rmse   mean=0.012882093898952007 std=0.005777344107627869
+el:nrmse  mean=0.107690447467614 std=0.11262704753670875
+el:r2     mean=0.8312409917808278 std=0.360078684763705
+el:adj-r2 mean=1.0950787510655715 std=0.20187827576147416
+
+
+2020-10-26 21:12:16.888839MLPReg5b_riapfea-lr=1e-05-wd=1e-06-lrST=20000-DO=0.9-fea=ps-feasec=1
+Learning rate: 1e-05, Weight decay: 1e-06, LR adjust start: 20000, Dropout: 0.9
+Overall Results
+--------------------
+el:rmse   mean=0.013519923202693462 std=0.0050825877115130424
+el:nrmse  mean=0.10560818557659221 std=0.09905603039897319
+el:r2     mean=0.8483040552931286 std=0.29829776141268693
+el:adj-r2 mean=1.0855139762548038 std=0.16721029532375337
+
+
+2020-10-26 21:12:44.141927MLPReg5b_riapfea-lr=1e-05-wd=1e-06-lrST=20000-DO=0.9-fea=ps-feasec=3
+Learning rate: 1e-05, Weight decay: 1e-06, LR adjust start: 20000, Dropout: 0.9
+Overall Results
+--------------------
+el:rmse   mean=0.013240707106888294 std=0.006416722666472197
+el:nrmse  mean=0.11373761654000758 std=0.12418692598839513
+el:r2     mean=0.8391519511026267 std=0.3226980422568427
+el:adj-r2 mean=1.0905654110989944 std=0.18091748148005604
+
+
+2020-10-26 21:15:32.615811MLPReg5b_riapfea-lr=1e-05-wd=1e-06-lrST=20000-DO=0.9-fea=ps-feasec=6
+Learning rate: 1e-05, Weight decay: 1e-06, LR adjust start: 20000, Dropout: 0.9
+Overall Results
+--------------------
+el:rmse   mean=0.013050615787506104 std=0.008543764241039753
+el:nrmse  mean=0.12504758008647432 std=0.1659316544636934
+el:r2     mean=0.8652017624412652 std=0.2437273837304028
+el:adj-r2 mean=1.0758519889477418 std=0.13663103544946212
+
+
+2020-10-26 21:16:14.520358MLPReg5b_riapfea-lr=1e-05-wd=1e-06-lrST=20000-DO=0.9-fea=ps-feasec=4
+Learning rate: 1e-05, Weight decay: 1e-06, LR adjust start: 20000, Dropout: 0.9
+Overall Results
+--------------------
+el:rmse   mean=0.014564420096576214 std=0.009689927101135254
+el:nrmse  mean=0.14386895307551764 std=0.19444578355355283
+el:r2     mean=0.8025992111315172 std=0.3982151599456099
+el:adj-r2 mean=1.111029059741249 std=0.2232709797927597
+
+
+2020-10-26 21:28:33.378219MLPReg5b_riapfea-lr=1e-05-wd=1e-06-lrST=20000-DO=0.9-fea=ps-feasec=5
+Learning rate: 1e-05, Weight decay: 1e-06, LR adjust start: 20000, Dropout: 0.9
+Overall Results
+--------------------
+el:rmse   mean=0.015487643890082836 std=0.011520780622959137
+el:nrmse  mean=0.14852074548885477 std=0.2092823007447959
+el:r2     mean=0.8262607179510553 std=0.261780508288161
+el:adj-r2 mean=1.097852929446591 std=0.14667260803423388
+
+
+2020-10-26 21:32:18.688507MLPReg5b_riapfea-lr=1e-05-wd=1e-06-lrST=40000-DO=0.9-fea=ps-feasec=2
+Learning rate: 1e-05, Weight decay: 1e-06, LR adjust start: 40000, Dropout: 0.9
+Overall Results
+--------------------
+el:rmse   mean=0.01282605342566967 std=0.004558940883725882
+el:nrmse  mean=0.0931315299861313 std=0.07635269037718703
+el:r2     mean=0.887998453262447 std=0.19826201847414462
+el:adj-r2 mean=1.0633297101361938 std=0.11107120155634409
+
+
+2020-10-26 21:34:56.298328MLPReg5b_riapfea-lr=1e-05-wd=1e-06-lrST=40000-DO=0.9-fea=ps-feasec=1
+Learning rate: 1e-05, Weight decay: 1e-06, LR adjust start: 40000, Dropout: 0.9
+Overall Results
+--------------------
+el:rmse   mean=0.014063130132853985 std=0.005992548540234566
+el:nrmse  mean=0.09755412789822342 std=0.0809274103800108
+el:r2     mean=0.8653957060042353 std=0.2464269365378966
+el:adj-r2 mean=1.0761350552552056 std=0.1380539899414146
+
+
+2020-10-26 21:35:21.798655MLPReg5b_riapfea-lr=1e-05-wd=1e-06-lrST=40000-DO=0.9-fea=ps-feasec=3
+Learning rate: 1e-05, Weight decay: 1e-06, LR adjust start: 40000, Dropout: 0.9
+Overall Results
+--------------------
+el:rmse   mean=0.011588431894779205 std=0.0035308392252773046
+el:nrmse  mean=0.092787950945945 std=0.09073934737865845
+el:r2     mean=0.889352734963014 std=0.22366166286754205
+el:adj-r2 mean=1.0624246109211 std=0.1253580802243603
+
+
+2020-10-26 21:38:11.001615MLPReg5b_riapfea-lr=1e-05-wd=1e-06-lrST=40000-DO=0.9-fea=ps-feasec=6
+Learning rate: 1e-05, Weight decay: 1e-06, LR adjust start: 40000, Dropout: 0.9
+Overall Results
+--------------------
+el:rmse   mean=0.012939075008034706 std=0.008586634881794453
+el:nrmse  mean=0.12041543375461136 std=0.16098549747207921
+el:r2     mean=0.8896818351549513 std=0.16839690788829462
+el:adj-r2 mean=1.0623676921860745 std=0.09436358222551816
+
+
+2020-10-26 21:39:01.945654MLPReg5b_riapfea-lr=1e-05-wd=1e-06-lrST=40000-DO=0.9-fea=ps-feasec=4
+Learning rate: 1e-05, Weight decay: 1e-06, LR adjust start: 40000, Dropout: 0.9
+Overall Results
+--------------------
+el:rmse   mean=0.013886265456676483 std=0.005501869134604931
+el:nrmse  mean=0.11639234457816561 std=0.12222339926162766
+el:r2     mean=0.856397877735701 std=0.2711621334687501
+el:adj-r2 mean=1.0810186182470896 std=0.1519535103941352
+
+
+2020-10-26 21:50:56.066834MLPReg5b_riapfea-lr=1e-05-wd=1e-06-lrST=40000-DO=0.9-fea=ps-feasec=5
+Learning rate: 1e-05, Weight decay: 1e-06, LR adjust start: 40000, Dropout: 0.9
+Overall Results
+--------------------
+el:rmse   mean=0.017396192997694016 std=0.008213264867663383
+el:nrmse  mean=0.14405099777018746 std=0.1699242736050207
+el:r2     mean=0.8617126528439499 std=0.15939773555304582
+el:adj-r2 mean=1.0783242851787365 std=0.08914563264908049
+
+
+2020-10-26 21:51:29.789880MLPReg5b_riapfea-lr=0.0001-wd=1e-06-lrST=20000-DO=0.9-fea=ps-feasec=2
+Learning rate: 0.0001, Weight decay: 1e-06, LR adjust start: 20000, Dropout: 0.9
+Overall Results
+--------------------
+el:rmse   mean=0.011973673477768898 std=0.00394862936809659
+el:nrmse  mean=0.093986509484223 std=0.08914721098477457
+el:r2     mean=0.9120149849926189 std=0.15026182083010975
+el:adj-r2 mean=1.0497026185636278 std=0.08418612202540389
+
+
+2020-10-26 21:54:16.382777MLPReg5b_riapfea-lr=0.0001-wd=1e-06-lrST=20000-DO=0.9-fea=ps-feasec=1
+Learning rate: 0.0001, Weight decay: 1e-06, LR adjust start: 20000, Dropout: 0.9
+Overall Results
+--------------------
+el:rmse   mean=0.012403692118823528 std=0.004731630906462669
+el:nrmse  mean=0.0906196946673492 std=0.08445321775756126
+el:r2     mean=0.8688649139696798 std=0.26543261447632216
+el:adj-r2 mean=1.0740760784966688 std=0.14876031976618148
+
+
+2020-10-26 21:54:43.294968MLPReg5b_riapfea-lr=0.0001-wd=1e-06-lrST=20000-DO=0.9-fea=ps-feasec=3
+Learning rate: 0.0001, Weight decay: 1e-06, LR adjust start: 20000, Dropout: 0.9
+Overall Results
+--------------------
+el:rmse   mean=0.012182769365608692 std=0.00475238636136055
+el:nrmse  mean=0.10230819518619008 std=0.10779896479156982
+el:r2     mean=0.8842224414626493 std=0.22821535302074378
+el:adj-r2 mean=1.0653443232519462 std=0.12791065279497899
+
+
+2020-10-26 21:57:50.911484MLPReg5b_riapfea-lr=0.0001-wd=1e-06-lrST=20000-DO=0.9-fea=ps-feasec=6
+Learning rate: 0.0001, Weight decay: 1e-06, LR adjust start: 20000, Dropout: 0.9
+Overall Results
+--------------------
+el:rmse   mean=0.011905036866664886 std=0.004989129491150379
+el:nrmse  mean=0.10031240816477165 std=0.1108833151516713
+el:r2     mean=0.8959024630567376 std=0.1966651150878198
+el:adj-r2 mean=1.0588132077101033 std=0.11022328086662013
+
+
+2020-10-26 21:58:25.473233MLPReg5b_riapfea-lr=0.0001-wd=1e-06-lrST=20000-DO=0.9-fea=ps-feasec=4
+Learning rate: 0.0001, Weight decay: 1e-06, LR adjust start: 20000, Dropout: 0.9
+Overall Results
+--------------------
+el:rmse   mean=0.0171432513743639 std=0.014982675202190876
+el:nrmse  mean=0.17630831644470657 std=0.2852753088636703
+el:r2     mean=0.8056055836758353 std=0.32257938339854775
+el:adj-r2 mean=1.1094772171136575 std=0.1807570062431184
+
+
+2020-10-26 22:10:37.597138MLPReg5b_riapfea-lr=0.0001-wd=1e-06-lrST=20000-DO=0.9-fea=ps-feasec=5
+Learning rate: 0.0001, Weight decay: 1e-06, LR adjust start: 20000, Dropout: 0.9
+Overall Results
+--------------------
+el:rmse   mean=0.014718103222548962 std=0.007525537628680468
+el:nrmse  mean=0.12744443823442922 std=0.1534998749856477
+el:r2     mean=0.8745272052877031 std=0.2038147628605353
+el:adj-r2 mean=1.0710776040819934 std=0.11418084488243584
+
+
+2020-10-26 22:13:36.219057MLPReg5b_riapfea-lr=0.0001-wd=1e-06-lrST=40000-DO=0.9-fea=ps-feasec=2
+Learning rate: 0.0001, Weight decay: 1e-06, LR adjust start: 40000, Dropout: 0.9
+Overall Results
+--------------------
+el:rmse   mean=0.011826323345303535 std=0.005882577039301395
+el:nrmse  mean=0.10531440741617396 std=0.12555848821748414
+el:r2     mean=0.8924720289349836 std=0.22848132322350162
+el:adj-r2 mean=1.0607083633082453 std=0.12806167143138197
+
+
+2020-10-26 22:16:57.420752MLPReg5b_riapfea-lr=0.0001-wd=1e-06-lrST=40000-DO=0.9-fea=ps-feasec=1
+Learning rate: 0.0001, Weight decay: 1e-06, LR adjust start: 40000, Dropout: 0.9
+Overall Results
+--------------------
+el:rmse   mean=0.01239694468677044 std=0.004096214659512043
+el:nrmse  mean=0.09735573879994501 std=0.0936975091048244
+el:r2     mean=0.867700316769897 std=0.28182754105240715
+el:adj-r2 mean=1.0746944292071212 std=0.15796682202539564
+
+
+2020-10-26 22:17:20.124167MLPReg5b_riapfea-lr=0.0001-wd=1e-06-lrST=40000-DO=0.9-fea=ps-feasec=3
+Learning rate: 0.0001, Weight decay: 1e-06, LR adjust start: 40000, Dropout: 0.9
+Overall Results
+--------------------
+el:rmse   mean=0.01255989633500576 std=0.005982948932796717
+el:nrmse  mean=0.11433105756288424 std=0.13830002874598918
+el:r2     mean=0.8603959255563272 std=0.3100370229667839
+el:adj-r2 mean=1.0787210648233647 std=0.17380136083869596
+
+
+2020-10-26 22:20:35.415944MLPReg5b_riapfea-lr=0.0001-wd=1e-06-lrST=40000-DO=0.9-fea=ps-feasec=6
+Learning rate: 0.0001, Weight decay: 1e-06, LR adjust start: 40000, Dropout: 0.9
+Overall Results
+--------------------
+el:rmse   mean=0.012854905799031258 std=0.007802912034094334
+el:nrmse  mean=0.11851074067733083 std=0.15523890539996457
+el:r2     mean=0.8896614521409483 std=0.21598823979810708
+el:adj-r2 mean=1.0623865239423185 std=0.12103073632193491
+
+
+2020-10-26 22:21:16.502213MLPReg5b_riapfea-lr=0.0001-wd=1e-06-lrST=40000-DO=0.9-fea=ps-feasec=4
+Learning rate: 0.0001, Weight decay: 1e-06, LR adjust start: 40000, Dropout: 0.9
+Overall Results
+--------------------
+el:rmse   mean=0.014525639824569225 std=0.010424566455185413
+el:nrmse  mean=0.1440857067616899 std=0.208114568450715
+el:r2     mean=0.8469512217740608 std=0.283171304360643
+el:adj-r2 mean=1.0862011521017159 std=0.15870638908362814
+
+
+2020-10-26 22:32:44.431261MLPReg5b_riapfea-lr=0.0005-wd=1e-06-lrST=20000-DO=0.9-fea=ps-feasec=2
+Learning rate: 0.0005, Weight decay: 1e-06, LR adjust start: 20000, Dropout: 0.9
+Overall Results
+--------------------
+el:rmse   mean=0.012881782837212086 std=0.005139108281582594
+el:nrmse  mean=0.10608904177522605 std=0.10994966200123284
+el:r2     mean=0.8901897077042269 std=0.22837290458060922
+el:adj-r2 mean=1.062132903713629 std=0.1279802197007852
+
+
+2020-10-26 22:33:07.177628MLPReg5b_riapfea-lr=0.0001-wd=1e-06-lrST=40000-DO=0.9-fea=ps-feasec=5
+Learning rate: 0.0001, Weight decay: 1e-06, LR adjust start: 40000, Dropout: 0.9
+Overall Results
+--------------------
+el:rmse   mean=0.014975701458752155 std=0.008250653743743896
+el:nrmse  mean=0.13445606324258938 std=0.16964864754458217
+el:r2     mean=0.862716666229769 std=0.2392318713019291
+el:adj-r2 mean=1.0776821766494986 std=0.1340329137315717
+
+
+2020-10-26 22:36:16.719969MLPReg5b_riapfea-lr=0.0005-wd=1e-06-lrST=20000-DO=0.9-fea=ps-feasec=1
+Learning rate: 0.0005, Weight decay: 1e-06, LR adjust start: 20000, Dropout: 0.9
+Overall Results
+--------------------
+el:rmse   mean=0.01316504180431366 std=0.004894066136330366
+el:nrmse  mean=0.11191617137900296 std=0.11951452109631869
+el:r2     mean=0.8551035545957196 std=0.32911034076775364
+el:adj-r2 mean=1.0817828993467793 std=0.18449514287545354
+
+
+2020-10-26 22:36:26.820185MLPReg5b_riapfea-lr=0.0005-wd=1e-06-lrST=20000-DO=0.9-fea=ps-feasec=3
+Learning rate: 0.0005, Weight decay: 1e-06, LR adjust start: 20000, Dropout: 0.9
+Overall Results
+--------------------
+el:rmse   mean=0.01273642759770155 std=0.005196284968405962
+el:nrmse  mean=0.10698456507351439 std=0.11397016928154026
+el:r2     mean=0.8754620291238181 std=0.27406885697708483
+el:adj-r2 mean=1.070376415792488 std=0.15361158355569005
+
+
+2020-10-26 22:40:15.610656MLPReg5b_riapfea-lr=0.0005-wd=1e-06-lrST=20000-DO=0.9-fea=ps-feasec=6
+Learning rate: 0.0005, Weight decay: 1e-06, LR adjust start: 20000, Dropout: 0.9
+Overall Results
+--------------------
+el:rmse   mean=0.012904529459774494 std=0.006124610081315041
+el:nrmse  mean=0.10997851023272578 std=0.12627157745750228
+el:r2     mean=0.8943677349467387 std=0.2146977198406719
+el:adj-r2 mean=1.0597400529959462 std=0.12032167385043428
+
+
+2020-10-26 22:40:39.330096MLPReg5b_riapfea-lr=0.0005-wd=1e-06-lrST=20000-DO=0.9-fea=ps-feasec=4
+Learning rate: 0.0005, Weight decay: 1e-06, LR adjust start: 20000, Dropout: 0.9
+Overall Results
+--------------------
+el:rmse   mean=0.01437959261238575 std=0.006084509659558535
+el:nrmse  mean=0.12094473924598917 std=0.127609362483533
+el:r2     mean=0.8514119191792199 std=0.31814358923222563
+el:adj-r2 mean=1.0838628556811527 std=0.1783097448721028
+
+
+2020-10-26 22:53:00.896913MLPReg5b_riapfea-lr=0.0005-wd=1e-06-lrST=20000-DO=0.9-fea=ps-feasec=5
+Learning rate: 0.0005, Weight decay: 1e-06, LR adjust start: 20000, Dropout: 0.9
+Overall Results
+--------------------
+el:rmse   mean=0.013926133513450623 std=0.005862478632479906
+el:nrmse  mean=0.11714979680061803 std=0.12737335656860357
+el:r2     mean=0.8650927164582332 std=0.28429768649405274
+el:adj-r2 mean=1.0763283089573474 std=0.15933958726161007
+
+
+2020-10-26 22:55:08.570303MLPReg5b_riapfea-lr=0.0005-wd=1e-06-lrST=40000-DO=0.9-fea=ps-feasec=2
+Learning rate: 0.0005, Weight decay: 1e-06, LR adjust start: 40000, Dropout: 0.9
+Overall Results
+--------------------
+el:rmse   mean=0.010961325839161873 std=0.004995613358914852
+el:nrmse  mean=0.0957142973634169 std=0.11222847486950345
+el:r2     mean=0.9102660716366058 std=0.19825102115033374
+el:adj-r2 mean=1.0506262888524056 std=0.11112845227117403
+
+
+2020-10-26 22:58:45.546095MLPReg5b_riapfea-lr=0.0005-wd=1e-06-lrST=40000-DO=0.9-fea=ps-feasec=1
+Learning rate: 0.0005, Weight decay: 1e-06, LR adjust start: 40000, Dropout: 0.9
+Overall Results
+--------------------
+el:rmse   mean=0.012929731979966164 std=0.005580861121416092
+el:nrmse  mean=0.11098501502552909 std=0.1222985377002448
+el:r2     mean=0.8635818516009557 std=0.30982747951987144
+el:adj-r2 mean=1.0770726206404422 std=0.1736827275309155
+
+
+2020-10-26 22:59:01.205033MLPReg5b_riapfea-lr=0.0005-wd=1e-06-lrST=40000-DO=0.9-fea=ps-feasec=3
+Learning rate: 0.0005, Weight decay: 1e-06, LR adjust start: 40000, Dropout: 0.9
+Overall Results
+--------------------
+el:rmse   mean=0.01154604833573103 std=0.005536091048270464
+el:nrmse  mean=0.10416346296116825 std=0.1251429988213872
+el:r2     mean=0.8664812860284918 std=0.3195417486676456
+el:adj-r2 mean=1.0752822067150822 std=0.17915116411047097
+
+
+2020-10-26 23:03:02.361384MLPReg5b_riapfea-lr=0.0005-wd=1e-06-lrST=40000-DO=0.9-fea=ps-feasec=6
+Learning rate: 0.0005, Weight decay: 1e-06, LR adjust start: 40000, Dropout: 0.9
+Overall Results
+--------------------
+el:rmse   mean=0.01078736037015915 std=0.006060816813260317
+el:nrmse  mean=0.0988166523233959 std=0.11987244453274279
+el:r2     mean=0.8996143837141777 std=0.22934537327922805
+el:adj-r2 mean=1.0567024076948823 std=0.12856820453943096
+
+
+2020-10-26 23:03:14.671598MLPReg5b_riapfea-lr=0.0005-wd=1e-06-lrST=40000-DO=0.9-fea=ps-feasec=4
+Learning rate: 0.0005, Weight decay: 1e-06, LR adjust start: 40000, Dropout: 0.9
+Overall Results
+--------------------
+el:rmse   mean=0.011675531044602394 std=0.006921305321156979
+el:nrmse  mean=0.10944722335315785 std=0.13748136223472465
+el:r2     mean=0.885018150924366 std=0.2583887310302609
+el:adj-r2 mean=1.064919349148171 std=0.14486002089054714
+
+
+2020-10-26 23:14:11.265271MLPReg5b_riapfea-lr=0.001-wd=1e-06-lrST=20000-DO=0.9-fea=ps-feasec=2
+Learning rate: 0.001, Weight decay: 1e-06, LR adjust start: 20000, Dropout: 0.9
+Overall Results
+--------------------
+el:rmse   mean=0.01215647254139185 std=0.004267666954547167
+el:nrmse  mean=0.09762028511557141 std=0.0964945342336702
+el:r2     mean=0.8928107079683383 std=0.23155213321065812
+el:adj-r2 mean=1.0605757643453617 std=0.12978797377038023
+
+
+2020-10-26 23:15:30.619761MLPReg5b_riapfea-lr=0.0005-wd=1e-06-lrST=40000-DO=0.9-fea=ps-feasec=5
+Learning rate: 0.0005, Weight decay: 1e-06, LR adjust start: 40000, Dropout: 0.9
+Overall Results
+--------------------
+el:rmse   mean=0.01262507401406765 std=0.005511966999620199
+el:nrmse  mean=0.1048713200625154 std=0.1112641075239904
+el:r2     mean=0.900431130522592 std=0.1945920868292595
+el:adj-r2 mean=1.0564629196093596 std=0.10907906009197865
+
+
+2020-10-26 23:18:05.530394MLPReg5b_riapfea-lr=0.001-wd=1e-06-lrST=20000-DO=0.9-fea=ps-feasec=3
+Learning rate: 0.001, Weight decay: 1e-06, LR adjust start: 20000, Dropout: 0.9
+Overall Results
+--------------------
+el:rmse   mean=0.011688235215842724 std=0.005269396584481001
+el:nrmse  mean=0.0990765467902786 std=0.10746147790166923
+el:r2     mean=0.8975406666820369 std=0.22443980354516319
+el:adj-r2 mean=1.0578960368906531 std=0.1258043952634963
+
+
+2020-10-26 23:18:07.390410MLPReg5b_riapfea-lr=0.001-wd=1e-06-lrST=20000-DO=0.9-fea=ps-feasec=1
+Learning rate: 0.001, Weight decay: 1e-06, LR adjust start: 20000, Dropout: 0.9
+Overall Results
+--------------------
+el:rmse   mean=0.012875469401478767 std=0.0056203389540314674
+el:nrmse  mean=0.09882886596029014 std=0.09887306330504214
+el:r2     mean=0.8469674511042505 std=0.3447678628210168
+el:adj-r2 mean=1.086492152471452 std=0.19330845360029472
+
+
+2020-10-26 23:22:26.012635MLPReg5b_riapfea-lr=0.001-wd=1e-06-lrST=20000-DO=0.9-fea=ps-feasec=6
+Learning rate: 0.001, Weight decay: 1e-06, LR adjust start: 20000, Dropout: 0.9
+Overall Results
+--------------------
+el:rmse   mean=0.01060058269649744 std=0.004843312315642834
+el:nrmse  mean=0.0881572767357889 std=0.09499066017792049
+el:r2     mean=0.9172339913200018 std=0.18787088952991138
+el:adj-r2 mean=1.04671666890844 std=0.10531265938836656
+
+
+2020-10-26 23:22:55.455807MLPReg5b_riapfea-lr=0.001-wd=1e-06-lrST=20000-DO=0.9-fea=ps-feasec=4
+Learning rate: 0.001, Weight decay: 1e-06, LR adjust start: 20000, Dropout: 0.9
+Overall Results
+--------------------
+el:rmse   mean=0.012928317300975323 std=0.0046327970921993256
+el:nrmse  mean=0.10828851849753589 std=0.11626192974137294
+el:r2     mean=0.8585902966866479 std=0.334537689613837
+el:adj-r2 mean=1.0796389775112707 std=0.1875633291503892
+
+
+2020-10-26 23:35:28.134559MLPReg5b_riapfea-lr=0.001-wd=1e-06-lrST=20000-DO=0.9-fea=ps-feasec=5
+Learning rate: 0.001, Weight decay: 1e-06, LR adjust start: 20000, Dropout: 0.9
+Overall Results
+--------------------
+el:rmse   mean=0.013128763064742088 std=0.005807814188301563
+el:nrmse  mean=0.11040592047959925 std=0.12238379571604233
+el:r2     mean=0.8854384644648923 std=0.23406011187520415
+el:adj-r2 mean=1.0648090950531444 std=0.13119495873226403
+
+
+2020-10-26 23:36:15.858186MLPReg5b_riapfea-lr=0.001-wd=1e-06-lrST=40000-DO=0.9-fea=ps-feasec=2
+Learning rate: 0.001, Weight decay: 1e-06, LR adjust start: 40000, Dropout: 0.9
+Overall Results
+--------------------
+el:rmse   mean=0.011221868917346 std=0.004667745903134346
+el:nrmse  mean=0.09029770616577044 std=0.09022265253468972
+el:r2     mean=0.9216719403525829 std=0.15492580672153353
+el:adj-r2 mean=1.044379954328325 std=0.08682045688764971
+
+
+2020-10-26 23:40:29.036758MLPReg5b_riapfea-lr=0.001-wd=1e-06-lrST=40000-DO=0.9-fea=ps-feasec=3
+Learning rate: 0.001, Weight decay: 1e-06, LR adjust start: 40000, Dropout: 0.9
+Overall Results
+--------------------
+el:rmse   mean=0.01194787211716175 std=0.004122843965888023
+el:nrmse  mean=0.09643019900976865 std=0.09691507530994906
+el:r2     mean=0.9031890147214948 std=0.19871298151252628
+el:adj-r2 mean=1.0547461773979276 std=0.1113746050787738
+
+
+2020-10-26 23:40:36.779136MLPReg5b_riapfea-lr=0.001-wd=1e-06-lrST=40000-DO=0.9-fea=ps-feasec=1
+Learning rate: 0.001, Weight decay: 1e-06, LR adjust start: 40000, Dropout: 0.9
+Overall Results
+--------------------
+el:rmse   mean=0.012648004107177258 std=0.004522612784057856
+el:nrmse  mean=0.09512440458359155 std=0.08514163674441019
+el:r2     mean=0.8902278980240304 std=0.2243186883728669
+el:adj-r2 mean=1.062107231173938 std=0.12573125563487095
+
+
+2020-10-26 23:45:03.431238MLPReg5b_riapfea-lr=0.001-wd=1e-06-lrST=40000-DO=0.9-fea=ps-feasec=6
+Learning rate: 0.001, Weight decay: 1e-06, LR adjust start: 40000, Dropout: 0.9
+Overall Results
+--------------------
+el:rmse   mean=0.012106386013329029 std=0.00457307742908597
+el:nrmse  mean=0.0995377556754815 std=0.10235858852928058
+el:r2     mean=0.8938011695068363 std=0.22728897139213838
+el:adj-r2 mean=1.0599918066297433 std=0.12740168740141997
+
+
+2020-10-26 23:45:46.793746MLPReg5b_riapfea-lr=0.001-wd=1e-06-lrST=40000-DO=0.9-fea=ps-feasec=4
+Learning rate: 0.001, Weight decay: 1e-06, LR adjust start: 40000, Dropout: 0.9
+Overall Results
+--------------------
+el:rmse   mean=0.013329796493053436 std=0.004055706784129143
+el:nrmse  mean=0.11032222595672936 std=0.11341934821664548
+el:r2     mean=0.8609726304982187 std=0.30521385534178397
+el:adj-r2 mean=1.0784443723184614 std=0.17109884685514412
+
+
+2020-10-26 23:55:30.025087MLPReg5b_riapfea-lr=5e-06-wd=5e-06-lrST=20000-DO=0.9-fea=ps-feasec=2
+Learning rate: 5e-06, Weight decay: 5e-06, LR adjust start: 20000, Dropout: 0.9
+Overall Results
+--------------------
+el:rmse   mean=0.0119151771068573 std=0.003578956937417388
+el:nrmse  mean=0.0919146550250106 std=0.08177271816702278
+el:r2     mean=0.9152082785772858 std=0.14132679448338867
+el:adj-r2 mean=1.0479298489507554 std=0.07915897859799774
+
+
+2020-10-26 23:57:51.893920MLPReg5b_riapfea-lr=0.001-wd=1e-06-lrST=40000-DO=0.9-fea=ps-feasec=5
+Learning rate: 0.001, Weight decay: 1e-06, LR adjust start: 40000, Dropout: 0.9
+Overall Results
+--------------------
+el:rmse   mean=0.012608173303306103 std=0.005886375904083252
+el:nrmse  mean=0.10316728264051007 std=0.10519509418778918
+el:r2     mean=0.8871998348848951 std=0.23442915702342743
+el:adj-r2 mean=1.0639106458966394 std=0.13140451273133635
+
+
+2020-10-26 23:59:40.265740MLPReg5b_riapfea-lr=5e-06-wd=5e-06-lrST=20000-DO=0.9-fea=ps-feasec=3
+Learning rate: 5e-06, Weight decay: 5e-06, LR adjust start: 20000, Dropout: 0.9
+Overall Results
+--------------------
+el:rmse   mean=0.012754512950778008 std=0.004212661180645227
+el:nrmse  mean=0.10183756011788572 std=0.09843659577769806
+el:r2     mean=0.901482274803832 std=0.16442041963268247
+el:adj-r2 mean=1.0556424406539486 std=0.0921064270233787
+
+
+2020-10-26 23:59:56.644538MLPReg5b_riapfea-lr=5e-06-wd=5e-06-lrST=20000-DO=0.9-fea=ps-feasec=1
+Learning rate: 5e-06, Weight decay: 5e-06, LR adjust start: 20000, Dropout: 0.9
+Overall Results
+--------------------
+el:rmse   mean=0.011446983553469181 std=0.003971377853304148
+el:nrmse  mean=0.0795839316197942 std=0.062288590579250944
+el:r2     mean=0.9150708055623283 std=0.14840051761887754
+el:adj-r2 mean=1.0481289816097168 std=0.0831607472356932
+
+
+2020-10-27 00:04:47.138448MLPReg5b_riapfea-lr=5e-06-wd=5e-06-lrST=20000-DO=0.9-fea=ps-feasec=6
+Learning rate: 5e-06, Weight decay: 5e-06, LR adjust start: 20000, Dropout: 0.9
+Overall Results
+--------------------
+el:rmse   mean=0.012152032926678658 std=0.005054412875324488
+el:nrmse  mean=0.10776814581518064 std=0.1253104839620155
+el:r2     mean=0.8906176833651209 std=0.22147029743581245
+el:adj-r2 mean=1.0616402196544772 std=0.12413827822834678
+
+
+2020-10-27 00:05:12.105937MLPReg5b_riapfea-lr=5e-06-wd=5e-06-lrST=20000-DO=0.9-fea=ps-feasec=4
+Learning rate: 5e-06, Weight decay: 5e-06, LR adjust start: 20000, Dropout: 0.9
+Overall Results
+--------------------
+el:rmse   mean=0.013339541852474213 std=0.006301882676780224
+el:nrmse  mean=0.11150552036746664 std=0.1159494799752666
+el:r2     mean=0.8609916762750999 std=0.2636581898482696
+el:adj-r2 mean=1.0782707947047077 std=0.1477815844229094
+
+
+2020-10-27 00:17:30.490346MLPReg5b_riapfea-lr=5e-06-wd=5e-06-lrST=40000-DO=0.9-fea=ps-feasec=2
+Learning rate: 5e-06, Weight decay: 5e-06, LR adjust start: 40000, Dropout: 0.9
+Overall Results
+--------------------
+el:rmse   mean=0.010977188125252724 std=0.0037096962332725525
+el:nrmse  mean=0.09124525812712232 std=0.0940529125357071
+el:r2     mean=0.903665834695434 std=0.21211126932914703
+el:adj-r2 mean=1.0543828993528792 std=0.11889735204549683
+
+
+2020-10-27 00:17:35.973197MLPReg5b_riapfea-lr=5e-06-wd=5e-06-lrST=20000-DO=0.9-fea=ps-feasec=5
+Learning rate: 5e-06, Weight decay: 5e-06, LR adjust start: 20000, Dropout: 0.9
+Overall Results
+--------------------
+el:rmse   mean=0.014448617585003376 std=0.005117977969348431
+el:nrmse  mean=0.11843257520740902 std=0.12196072855349657
+el:r2     mean=0.8775104831918504 std=0.21817116576139683
+el:adj-r2 mean=1.0690823524518571 std=0.1222367522649574
+
+
+2020-10-27 00:22:08.365426MLPReg5b_riapfea-lr=5e-06-wd=5e-06-lrST=40000-DO=0.9-fea=ps-feasec=3
+Learning rate: 5e-06, Weight decay: 5e-06, LR adjust start: 40000, Dropout: 0.9
+Overall Results
+--------------------
+el:rmse   mean=0.011798803694546223 std=0.004093317314982414
+el:nrmse  mean=0.0987355246068239 std=0.10371223476973353
+el:r2     mean=0.8880474741446026 std=0.24590565229651873
+el:adj-r2 mean=1.0632185851027527 std=0.13784322961562473
+
+
+2020-10-27 00:22:36.143481MLPReg5b_riapfea-lr=5e-06-wd=5e-06-lrST=40000-DO=0.9-fea=ps-feasec=1
+Learning rate: 5e-06, Weight decay: 5e-06, LR adjust start: 40000, Dropout: 0.9
+Overall Results
+--------------------
+el:rmse   mean=0.012093326076865196 std=0.00395545456558466
+el:nrmse  mean=0.09427495773477437 std=0.09223893311547582
+el:r2     mean=0.8692950192431823 std=0.2883025289050183
+el:adj-r2 mean=1.0737083286495817 std=0.16161695172549725
+
+
+2020-10-27 00:27:30.990827MLPReg5b_riapfea-lr=5e-06-wd=5e-06-lrST=40000-DO=0.9-fea=ps-feasec=6
+Learning rate: 5e-06, Weight decay: 5e-06, LR adjust start: 40000, Dropout: 0.9
+Overall Results
+--------------------
+el:rmse   mean=0.011557594873011112 std=0.004866349510848522
+el:nrmse  mean=0.10005761452168527 std=0.11271928483623123
+el:r2     mean=0.8996704007036908 std=0.21559007819375078
+el:adj-r2 mean=1.0566731030506913 std=0.12084100200768834
+
+
+2020-10-27 00:27:47.367306MLPReg5b_riapfea-lr=5e-06-wd=5e-06-lrST=40000-DO=0.9-fea=ps-feasec=4
+Learning rate: 5e-06, Weight decay: 5e-06, LR adjust start: 40000, Dropout: 0.9
+Overall Results
+--------------------
+el:rmse   mean=0.012803157791495323 std=0.006241670809686184
+el:nrmse  mean=0.12012136105727222 std=0.1495946349130804
+el:r2     mean=0.8481375819403034 std=0.3336565652916212
+el:adj-r2 mean=1.085490993727168 std=0.18706728791001773
+
+
+2020-10-27 00:36:50.621254MLPReg5b_riapfea-lr=1e-05-wd=5e-06-lrST=20000-DO=0.9-fea=ps-feasec=2
+Learning rate: 1e-05, Weight decay: 5e-06, LR adjust start: 20000, Dropout: 0.9
+Overall Results
+--------------------
+el:rmse   mean=0.011332924477756023 std=0.004409106448292732
+el:nrmse  mean=0.09157093643933654 std=0.091772742015206
+el:r2     mean=0.8887512995140957 std=0.2357363580058229
+el:adj-r2 mean=1.0628670397239552 std=0.1321350512333838
+
+
+2020-10-27 00:39:58.749125MLPReg5b_riapfea-lr=5e-06-wd=5e-06-lrST=40000-DO=0.9-fea=ps-feasec=5
+Learning rate: 5e-06, Weight decay: 5e-06, LR adjust start: 40000, Dropout: 0.9
+Overall Results
+--------------------
+el:rmse   mean=0.013056042604148388 std=0.005116157233715057
+el:nrmse  mean=0.10865692126786 std=0.11633874833127102
+el:r2     mean=0.8861987904021775 std=0.2152464470222064
+el:adj-r2 mean=1.0643904769235388 std=0.12064472848193006
+
+
+2020-10-27 00:41:23.001517MLPReg5b_riapfea-lr=1e-05-wd=5e-06-lrST=20000-DO=0.9-fea=ps-feasec=3
+Learning rate: 1e-05, Weight decay: 5e-06, LR adjust start: 20000, Dropout: 0.9
+Overall Results
+--------------------
+el:rmse   mean=0.011748647317290306 std=0.004701877944171429
+el:nrmse  mean=0.09640609907042544 std=0.0986213950856999
+el:r2     mean=0.8788426008262377 std=0.25838267222611644
+el:adj-r2 mean=1.0685331774836295 std=0.14484078343152024
+
+
+2020-10-27 00:42:15.424668MLPReg5b_riapfea-lr=1e-05-wd=5e-06-lrST=20000-DO=0.9-fea=ps-feasec=1
+Learning rate: 1e-05, Weight decay: 5e-06, LR adjust start: 20000, Dropout: 0.9
+Overall Results
+--------------------
+el:rmse   mean=0.012374094687402248 std=0.004839214496314526
+el:nrmse  mean=0.09220705205189114 std=0.0885541009534061
+el:r2     mean=0.8637814267530309 std=0.28394781127179103
+el:adj-r2 mean=1.077010376646612 std=0.1591577443713365
+
+
+2020-10-27 00:46:59.371017MLPReg5b_riapfea-lr=1e-05-wd=5e-06-lrST=20000-DO=0.9-fea=ps-feasec=6
+Learning rate: 1e-05, Weight decay: 5e-06, LR adjust start: 20000, Dropout: 0.9
+Overall Results
+--------------------
+el:rmse   mean=0.012697311118245125 std=0.007739685941487551
+el:nrmse  mean=0.11778729267785452 std=0.15562520285618198
+el:r2     mean=0.8868250102066757 std=0.19830846470876942
+el:adj-r2 mean=1.0638942195193135 std=0.1111221957957063
+
+
+2020-10-27 00:47:14.034785MLPReg5b_riapfea-lr=1e-05-wd=5e-06-lrST=20000-DO=0.9-fea=ps-feasec=4
+Learning rate: 1e-05, Weight decay: 5e-06, LR adjust start: 20000, Dropout: 0.9
+Overall Results
+--------------------
+el:rmse   mean=0.0135773541405797 std=0.006278462707996368
+el:nrmse  mean=0.119438534657789 std=0.13576193868686004
+el:r2     mean=0.8434459787268562 std=0.3189710653170483
+el:adj-r2 mean=1.0883797081834632 std=0.17877247702393154
+
+
+2020-10-27 00:59:02.445916MLPReg5b_riapfea-lr=1e-05-wd=5e-06-lrST=40000-DO=0.9-fea=ps-feasec=2
+Learning rate: 1e-05, Weight decay: 5e-06, LR adjust start: 40000, Dropout: 0.9
+Overall Results
+--------------------
+el:rmse   mean=0.011636016890406609 std=0.004319086670875549
+el:nrmse  mean=0.09779321146747169 std=0.10355899404715378
+el:r2     mean=0.8993302538202128 std=0.2198147592334854
+el:adj-r2 mean=1.0568248609645572 std=0.12320847840310767
+
+
+2020-10-27 00:59:42.341955MLPReg5b_riapfea-lr=1e-05-wd=5e-06-lrST=20000-DO=0.9-fea=ps-feasec=5
+Learning rate: 1e-05, Weight decay: 5e-06, LR adjust start: 20000, Dropout: 0.9
+Overall Results
+--------------------
+el:rmse   mean=0.014051975682377815 std=0.006823311559855938
+el:nrmse  mean=0.11860133319941993 std=0.13275741981724376
+el:r2     mean=0.8700428227568432 std=0.20867048247802186
+el:adj-r2 mean=1.0735837101992254 std=0.1169394038972637
+
+
+2020-10-27 01:03:57.502240MLPReg5b_riapfea-lr=1e-05-wd=5e-06-lrST=40000-DO=0.9-fea=ps-feasec=3
+Learning rate: 1e-05, Weight decay: 5e-06, LR adjust start: 40000, Dropout: 0.9
+Overall Results
+--------------------
+el:rmse   mean=0.01278000045567751 std=0.004621710628271103
+el:nrmse  mean=0.106295578170432 std=0.10941766822736769
+el:r2     mean=0.8805980997910474 std=0.2592038384507513
+el:adj-r2 mean=1.0674146290966329 std=0.14528231333224798
+
+
+2020-10-27 01:04:46.565164MLPReg5b_riapfea-lr=1e-05-wd=5e-06-lrST=40000-DO=0.9-fea=ps-feasec=1
+Learning rate: 1e-05, Weight decay: 5e-06, LR adjust start: 40000, Dropout: 0.9
+Overall Results
+--------------------
+el:rmse   mean=0.013146350160241127 std=0.00401260145008564
+el:nrmse  mean=0.10468133006153038 std=0.10057035565291092
+el:r2     mean=0.8657828060793124 std=0.28069255755184486
+el:adj-r2 mean=1.075790888279184 std=0.15732612323422243
+
+
+2020-10-27 01:09:38.917162MLPReg5b_riapfea-lr=1e-05-wd=5e-06-lrST=40000-DO=0.9-fea=ps-feasec=6
+Learning rate: 1e-05, Weight decay: 5e-06, LR adjust start: 40000, Dropout: 0.9
+Overall Results
+--------------------
+el:rmse   mean=0.01149135734885931 std=0.005273070652037859
+el:nrmse  mean=0.1038302652731051 std=0.1245668466970455
+el:r2     mean=0.8917350961053898 std=0.2434947948390468
+el:adj-r2 mean=1.0610546976336959 std=0.13649594312787583
+
+
+2020-10-27 01:09:51.124942MLPReg5b_riapfea-lr=1e-05-wd=5e-06-lrST=40000-DO=0.9-fea=ps-feasec=4
+Learning rate: 1e-05, Weight decay: 5e-06, LR adjust start: 40000, Dropout: 0.9
+Overall Results
+--------------------
+el:rmse   mean=0.013687727972865105 std=0.00853442121297121
+el:nrmse  mean=0.13310318887981976 std=0.1754098810547999
+el:r2     mean=0.829672011416277 std=0.37180912546339767
+el:adj-r2 mean=1.0958387523071567 std=0.2084639605523126
+
+
+2020-10-27 01:18:17.808630MLPReg5b_riapfea-lr=0.0001-wd=5e-06-lrST=20000-DO=0.9-fea=ps-feasec=2
+Learning rate: 0.0001, Weight decay: 5e-06, LR adjust start: 20000, Dropout: 0.9
+Overall Results
+--------------------
+el:rmse   mean=0.010919694788753986 std=0.004238203167915344
+el:nrmse  mean=0.09102227477988076 std=0.09758358682749792
+el:r2     mean=0.8992974159781537 std=0.22700902911877574
+el:adj-r2 mean=1.0568440960794727 std=0.12726529633351813
+
+
+2020-10-27 01:22:07.877767MLPReg5b_riapfea-lr=1e-05-wd=5e-06-lrST=40000-DO=0.9-fea=ps-feasec=5
+Learning rate: 1e-05, Weight decay: 5e-06, LR adjust start: 40000, Dropout: 0.9
+Overall Results
+--------------------
+el:rmse   mean=0.013285909779369831 std=0.005069596692919731
+el:nrmse  mean=0.1107572736865438 std=0.1148077210061919
+el:r2     mean=0.8743822375523284 std=0.24949538034497123
+el:adj-r2 mean=1.0709371891087633 std=0.1398181612093196
+
+
+2020-10-27 01:23:12.384317MLPReg5b_riapfea-lr=0.0001-wd=5e-06-lrST=20000-DO=0.9-fea=ps-feasec=3
+Learning rate: 0.0001, Weight decay: 5e-06, LR adjust start: 20000, Dropout: 0.9
+Overall Results
+--------------------
+el:rmse   mean=0.012212499976158142 std=0.004624041263014078
+el:nrmse  mean=0.10332064757264019 std=0.11204548976236813
+el:r2     mean=0.8708578836562445 std=0.28939065089078525
+el:adj-r2 mean=1.0729257516085238 std=0.16222681969819944
+
+
+2020-10-27 01:24:18.274911MLPReg5b_riapfea-lr=0.0001-wd=5e-06-lrST=20000-DO=0.9-fea=ps-feasec=1
+Learning rate: 0.0001, Weight decay: 5e-06, LR adjust start: 20000, Dropout: 0.9
+Overall Results
+--------------------
+el:rmse   mean=0.012689189985394478 std=0.0043911319226026535
+el:nrmse  mean=0.10100412020898089 std=0.10241475007607893
+el:r2     mean=0.8561606106505307 std=0.3280749621440346
+el:adj-r2 mean=1.0812397727196876 std=0.18391255472431076
+
+
+2020-10-27 01:29:02.170532MLPReg5b_riapfea-lr=0.0001-wd=5e-06-lrST=20000-DO=0.9-fea=ps-feasec=6
+Learning rate: 0.0001, Weight decay: 5e-06, LR adjust start: 20000, Dropout: 0.9
+Overall Results
+--------------------
+el:rmse   mean=0.011777011677622795 std=0.0061013586819171906
+el:nrmse  mean=0.10475638021509766 std=0.12713843632866464
+el:r2     mean=0.8985766119429712 std=0.21535600786008297
+el:adj-r2 mean=1.0572873311606936 std=0.12070801446056
+
+
+2020-10-27 01:29:11.320897MLPReg5b_riapfea-lr=0.0001-wd=5e-06-lrST=20000-DO=0.9-fea=ps-feasec=4
+Learning rate: 0.0001, Weight decay: 5e-06, LR adjust start: 20000, Dropout: 0.9
+Overall Results
+--------------------
+el:rmse   mean=0.013228517957031727 std=0.00639917328953743
+el:nrmse  mean=0.12257939081606643 std=0.15135074232954118
+el:r2     mean=0.8496756795068467 std=0.33060053208234713
+el:adj-r2 mean=1.0846478711133123 std=0.1853453995710338
+
+
+2020-10-27 01:40:22.911148MLPReg5b_riapfea-lr=0.0001-wd=5e-06-lrST=40000-DO=0.9-fea=ps-feasec=2
+Learning rate: 0.0001, Weight decay: 5e-06, LR adjust start: 40000, Dropout: 0.9
+Overall Results
+--------------------
+el:rmse   mean=0.011981689371168613 std=0.0050088693387806416
+el:nrmse  mean=0.10186334263956828 std=0.11285331203820236
+el:r2     mean=0.8836672820806697 std=0.2708093230864905
+el:adj-r2 mean=1.0656538804550244 std=0.15180685105911365
+
+
+2020-10-27 01:41:58.832174MLPReg5b_riapfea-lr=0.0001-wd=5e-06-lrST=20000-DO=0.9-fea=ps-feasec=5
+Learning rate: 0.0001, Weight decay: 5e-06, LR adjust start: 20000, Dropout: 0.9
+Overall Results
+--------------------
+el:rmse   mean=0.013891728594899178 std=0.0058753699995577335
+el:nrmse  mean=0.11735734225365904 std=0.13016883860212358
+el:r2     mean=0.8735069209750732 std=0.2279137989713148
+el:adj-r2 mean=1.071531911965097 std=0.12772319109425673
+
+
+2020-10-27 01:45:44.954278MLPReg5b_riapfea-lr=0.0001-wd=5e-06-lrST=40000-DO=0.9-fea=ps-feasec=3
+Learning rate: 0.0001, Weight decay: 5e-06, LR adjust start: 40000, Dropout: 0.9
+Overall Results
+--------------------
+el:rmse   mean=0.012924867682158947 std=0.005221924744546413
+el:nrmse  mean=0.10976024645098445 std=0.11954985255658301
+el:r2     mean=0.8649144343355873 std=0.31319067061446537
+el:adj-r2 mean=1.0762559000502527 std=0.17556011582005
+
+
+2020-10-27 01:46:47.241832MLPReg5b_riapfea-lr=0.0001-wd=5e-06-lrST=40000-DO=0.9-fea=ps-feasec=1
+Learning rate: 0.0001, Weight decay: 5e-06, LR adjust start: 40000, Dropout: 0.9
+Overall Results
+--------------------
+el:rmse   mean=0.013500422239303589 std=0.005126528441905975
+el:nrmse  mean=0.1117962789388 std=0.1169470186286252
+el:r2     mean=0.8549137320412605 std=0.3287942466433136
+el:adj-r2 mean=1.0820243175994106 std=0.18430981154093198
+
+
+2020-10-27 01:51:41.374081MLPReg5b_riapfea-lr=0.0001-wd=5e-06-lrST=40000-DO=0.9-fea=ps-feasec=6
+Learning rate: 0.0001, Weight decay: 5e-06, LR adjust start: 40000, Dropout: 0.9
+Overall Results
+--------------------
+el:rmse   mean=0.012078170664608479 std=0.005722864530980587
+el:nrmse  mean=0.10699040284433856 std=0.12790496255031839
+el:r2     mean=0.8875589254812171 std=0.24742266826241066
+el:adj-r2 mean=1.0634736552625808 std=0.1386873398595985
+
+
+2020-10-27 01:51:46.128984MLPReg5b_riapfea-lr=0.0001-wd=5e-06-lrST=40000-DO=0.9-fea=ps-feasec=4
+Learning rate: 0.0001, Weight decay: 5e-06, LR adjust start: 40000, Dropout: 0.9
+Overall Results
+--------------------
+el:rmse   mean=0.013607973232865334 std=0.007698825094848871
+el:nrmse  mean=0.1287283092779112 std=0.1673649137669946
+el:r2     mean=0.8442164291448954 std=0.3518293810802218
+el:adj-r2 mean=1.0877572995480334 std=0.19724794596522593
+
+
+2020-10-27 01:59:44.360276MLPReg5b_riapfea-lr=0.0005-wd=5e-06-lrST=20000-DO=0.9-fea=ps-feasec=2
+Learning rate: 0.0005, Weight decay: 5e-06, LR adjust start: 20000, Dropout: 0.9
+Overall Results
+--------------------
+el:rmse   mean=0.011554062366485596 std=0.004797101486474276
+el:nrmse  mean=0.0982834967322208 std=0.10846077314311818
+el:r2     mean=0.8988800769568034 std=0.22795422992054
+el:adj-r2 mean=1.0570752082305221 std=0.1277804363247916
+
+
+2020-10-27 02:04:22.169227MLPReg5b_riapfea-lr=0.0001-wd=5e-06-lrST=40000-DO=0.9-fea=ps-feasec=5
+Learning rate: 0.0001, Weight decay: 5e-06, LR adjust start: 40000, Dropout: 0.9
+Overall Results
+--------------------
+el:rmse   mean=0.013781329616904259 std=0.005413926672190428
+el:nrmse  mean=0.11545856765224487 std=0.12459354148123808
+el:r2     mean=0.8738311856147704 std=0.24900890776323123
+el:adj-r2 mean=1.0713964163091727 std=0.13955723680122795
+
+
+2020-10-27 02:05:04.275990MLPReg5b_riapfea-lr=0.0005-wd=5e-06-lrST=20000-DO=0.9-fea=ps-feasec=3
+Learning rate: 0.0005, Weight decay: 5e-06, LR adjust start: 20000, Dropout: 0.9
+Overall Results
+--------------------
+el:rmse   mean=0.01212894357740879 std=0.004856230225414038
+el:nrmse  mean=0.10514803477601135 std=0.11794704280248501
+el:r2     mean=0.8683826899822853 std=0.31079797087043903
+el:adj-r2 mean=1.0742328329637414 std=0.1742367823242165
+
+
+2020-10-27 02:06:36.256100MLPReg5b_riapfea-lr=0.0005-wd=5e-06-lrST=20000-DO=0.9-fea=ps-feasec=1
+Learning rate: 0.0005, Weight decay: 5e-06, LR adjust start: 20000, Dropout: 0.9
+Overall Results
+--------------------
+el:rmse   mean=0.01250818558037281 std=0.005746220238506794
+el:nrmse  mean=0.10874263005822929 std=0.12450588292640778
+el:r2     mean=0.8324171361295397 std=0.4193272760332531
+el:adj-r2 mean=1.094533673542393 std=0.2350976988510605
+
+
+2020-10-27 02:11:03.722614MLPReg5b_riapfea-lr=0.0005-wd=5e-06-lrST=20000-DO=0.9-fea=ps-feasec=6
+Learning rate: 0.0005, Weight decay: 5e-06, LR adjust start: 20000, Dropout: 0.9
+Overall Results
+--------------------
+el:rmse   mean=0.010825947858393192 std=0.005539005622267723
+el:nrmse  mean=0.09765694861678349 std=0.1192657501601847
+el:r2     mean=0.8992101678139017 std=0.23746322259121963
+el:adj-r2 mean=1.0567989788210135 std=0.13312967152389035
+
+
+2020-10-27 02:11:17.051972MLPReg5b_riapfea-lr=0.0005-wd=5e-06-lrST=20000-DO=0.9-fea=ps-feasec=4
+Learning rate: 0.0005, Weight decay: 5e-06, LR adjust start: 20000, Dropout: 0.9
+Overall Results
+--------------------
+el:rmse   mean=0.01346647460013628 std=0.0067263017408549786
+el:nrmse  mean=0.12239151653387004 std=0.14848897875497583
+el:r2     mean=0.856608553211229 std=0.3116205090201832
+el:adj-r2 mean=1.0808397052703296 std=0.1746827864044955
+
+
+2020-10-27 02:21:54.459664MLPReg5b_riapfea-lr=0.0005-wd=5e-06-lrST=40000-DO=0.9-fea=ps-feasec=2
+Learning rate: 0.0005, Weight decay: 5e-06, LR adjust start: 40000, Dropout: 0.9
+Overall Results
+--------------------
+el:rmse   mean=0.012942776083946228 std=0.004956428427249193
+el:nrmse  mean=0.1065800949793069 std=0.10910136233960432
+el:r2     mean=0.8853484181315772 std=0.24151163915172685
+el:adj-r2 mean=1.0649145658674297 std=0.1353706955777734
+
+
+2020-10-27 02:24:12.926279MLPReg5b_riapfea-lr=0.0005-wd=5e-06-lrST=20000-DO=0.9-fea=ps-feasec=5
+Learning rate: 0.0005, Weight decay: 5e-06, LR adjust start: 20000, Dropout: 0.9
+Overall Results
+--------------------
+el:rmse   mean=0.012136629782617092 std=0.005277973134070635
+el:nrmse  mean=0.10261488295488896 std=0.11009125097623952
+el:r2     mean=0.8866558342046466 std=0.24925929077158226
+el:adj-r2 mean=1.0641039388107885 std=0.1397192672837464
+
+
+2020-10-27 02:27:36.381540MLPReg5b_riapfea-lr=0.0005-wd=5e-06-lrST=40000-DO=0.9-fea=ps-feasec=3
+Learning rate: 0.0005, Weight decay: 5e-06, LR adjust start: 40000, Dropout: 0.9
+Overall Results
+--------------------
+el:rmse   mean=0.013780089095234871 std=0.004854915663599968
+el:nrmse  mean=0.11374320145374286 std=0.11618071100678509
+el:r2     mean=0.8599966433071788 std=0.3066518383032106
+el:adj-r2 mean=1.0791725658740279 std=0.17189593036853826
+
+
+2020-10-27 02:29:01.298551MLPReg5b_riapfea-lr=0.0005-wd=5e-06-lrST=40000-DO=0.9-fea=ps-feasec=1
+Learning rate: 0.0005, Weight decay: 5e-06, LR adjust start: 40000, Dropout: 0.9
+Overall Results
+--------------------
+el:rmse   mean=0.013434305787086487 std=0.00545102171599865
+el:nrmse  mean=0.11245975107996356 std=0.11721447607881644
+el:r2     mean=0.858796642764719 std=0.3142117473209013
+el:adj-r2 mean=1.0798716032237834 std=0.17616040487918316
+
+
+2020-10-27 02:33:37.942969MLPReg5b_riapfea-lr=0.0005-wd=5e-06-lrST=40000-DO=0.9-fea=ps-feasec=6
+Learning rate: 0.0005, Weight decay: 5e-06, LR adjust start: 40000, Dropout: 0.9
+Overall Results
+--------------------
+el:rmse   mean=0.012279161252081394 std=0.005320284515619278
+el:nrmse  mean=0.10602002523683089 std=0.11932654707100487
+el:r2     mean=0.8928857629008078 std=0.2316387479274952
+el:adj-r2 mean=1.0604940077396736 std=0.12982713030970416
+
+
+2020-10-27 02:34:01.647712MLPReg5b_riapfea-lr=0.0005-wd=5e-06-lrST=40000-DO=0.9-fea=ps-feasec=4
+Learning rate: 0.0005, Weight decay: 5e-06, LR adjust start: 40000, Dropout: 0.9
+Overall Results
+--------------------
+el:rmse   mean=0.0126631585881114 std=0.007405945099890232
+el:nrmse  mean=0.11918226390506251 std=0.14888899355827442
+el:r2     mean=0.8448253159807493 std=0.36859330105906735
+el:adj-r2 mean=1.087538377612316 std=0.206660600612703
+
+
+2020-10-27 02:41:04.264694MLPReg5b_riapfea-lr=0.001-wd=5e-06-lrST=20000-DO=0.9-fea=ps-feasec=2
+Learning rate: 0.001, Weight decay: 5e-06, LR adjust start: 20000, Dropout: 0.9
+Overall Results
+--------------------
+el:rmse   mean=0.012126515619456768 std=0.00354759837500751
+el:nrmse  mean=0.09845539609904123 std=0.10026783798185562
+el:r2     mean=0.898551385486585 std=0.20464098421813134
+el:adj-r2 mean=1.0573105600034851 std=0.1146942072406408
+
+
+2020-10-27 02:46:36.889475MLPReg5b_riapfea-lr=0.0005-wd=5e-06-lrST=40000-DO=0.9-fea=ps-feasec=5
+Learning rate: 0.0005, Weight decay: 5e-06, LR adjust start: 40000, Dropout: 0.9
+Overall Results
+--------------------
+el:rmse   mean=0.012447835877537727 std=0.005547605454921722
+el:nrmse  mean=0.10647503781747228 std=0.11634535170528519
+el:r2     mean=0.8724363850042016 std=0.2843611989385126
+el:adj-r2 mean=1.0721435414862337 std=0.15940327983557853
+
+
+2020-10-27 02:46:44.621665MLPReg5b_riapfea-lr=0.001-wd=5e-06-lrST=20000-DO=0.9-fea=ps-feasec=3
+Learning rate: 0.001, Weight decay: 5e-06, LR adjust start: 20000, Dropout: 0.9
+Overall Results
+--------------------
+el:rmse   mean=0.012175558134913445 std=0.005027099046856165
+el:nrmse  mean=0.10314159207692072 std=0.11315225446104041
+el:r2     mean=0.8832010887601942 std=0.25804627550736653
+el:adj-r2 mean=1.0659178501864273 std=0.14465319550865988
+
+
+2020-10-27 02:48:31.641344MLPReg5b_riapfea-lr=0.001-wd=5e-06-lrST=20000-DO=0.9-fea=ps-feasec=1
+Learning rate: 0.001, Weight decay: 5e-06, LR adjust start: 20000, Dropout: 0.9
+Overall Results
+--------------------
+el:rmse   mean=0.013335351832211018 std=0.004246834199875593
+el:nrmse  mean=0.10819848353720544 std=0.10888898869463705
+el:r2     mean=0.8656010596867887 std=0.2892435225333966
+el:adj-r2 mean=1.0759095106721372 std=0.16213117896684742
+
+
+2020-10-27 02:53:05.862747MLPReg5b_riapfea-lr=0.001-wd=5e-06-lrST=20000-DO=0.9-fea=ps-feasec=6
+Learning rate: 0.001, Weight decay: 5e-06, LR adjust start: 20000, Dropout: 0.9
+Overall Results
+--------------------
+el:rmse   mean=0.01136652659624815 std=0.0046655298210680485
+el:nrmse  mean=0.09744602865655379 std=0.10942781982604824
+el:r2     mean=0.9010747020318217 std=0.22028817218850935
+el:adj-r2 mean=1.05581357958972 std=0.12348778437835714
+
+
+2020-10-27 02:53:48.750895MLPReg5b_riapfea-lr=0.001-wd=5e-06-lrST=20000-DO=0.9-fea=ps-feasec=4
+Learning rate: 0.001, Weight decay: 5e-06, LR adjust start: 20000, Dropout: 0.9
+Overall Results
+--------------------
+el:rmse   mean=0.01289230864495039 std=0.006547379307448864
+el:nrmse  mean=0.11301078954232271 std=0.13164841592130658
+el:r2     mean=0.881637427461689 std=0.2613321738023029
+el:adj-r2 mean=1.066788358713519 std=0.14650184146195064
+
+
+2020-10-27 03:03:21.640320MLPReg5b_riapfea-lr=0.001-wd=5e-06-lrST=40000-DO=0.9-fea=ps-feasec=2
+Learning rate: 0.001, Weight decay: 5e-06, LR adjust start: 40000, Dropout: 0.9
+Overall Results
+--------------------
+el:rmse   mean=0.012419015169143677 std=0.00413829879835248
+el:nrmse  mean=0.1041489054658707 std=0.11222887869581333
+el:r2     mean=0.8834647583098636 std=0.2408267810222396
+el:adj-r2 mean=1.0657699403363154 std=0.1349879089898351
+
+
+2020-10-27 03:06:26.939375MLPReg5b_riapfea-lr=0.001-wd=5e-06-lrST=20000-DO=0.9-fea=ps-feasec=5
+Learning rate: 0.001, Weight decay: 5e-06, LR adjust start: 20000, Dropout: 0.9
+Overall Results
+--------------------
+el:rmse   mean=0.013267649337649345 std=0.0060260966420173645
+el:nrmse  mean=0.10811029733453312 std=0.10960022213045408
+el:r2     mean=0.8861983684812064 std=0.2356938700521688
+el:adj-r2 mean=1.0644153379568162 std=0.1321076930174601
+
+
+2020-10-27 03:09:12.941523MLPReg5b_riapfea-lr=0.001-wd=5e-06-lrST=40000-DO=0.9-fea=ps-feasec=3
+Learning rate: 0.001, Weight decay: 5e-06, LR adjust start: 40000, Dropout: 0.9
+Overall Results
+--------------------
+el:rmse   mean=0.011188080534338951 std=0.005067437421530485
+el:nrmse  mean=0.09154288991705561 std=0.09438149362741398
+el:r2     mean=0.925234262806845 std=0.14160778825330178
+el:adj-r2 mean=1.0423746378221144 std=0.07938022409575853
+
+
+2020-10-27 03:10:53.832521MLPReg5b_riapfea-lr=0.001-wd=5e-06-lrST=40000-DO=0.9-fea=ps-feasec=1
+Learning rate: 0.001, Weight decay: 5e-06, LR adjust start: 40000, Dropout: 0.9
+Overall Results
+--------------------
+el:rmse   mean=0.012962765991687775 std=0.004878737032413483
+el:nrmse  mean=0.10878741498438997 std=0.11505395924879099
+el:r2     mean=0.869714921116549 std=0.28572180026367133
+el:adj-r2 mean=1.0735812332946824 std=0.16016693405150945
+
+
+2020-10-27 03:15:45.594579MLPReg5b_riapfea-lr=0.001-wd=5e-06-lrST=40000-DO=0.9-fea=ps-feasec=6
+Learning rate: 0.001, Weight decay: 5e-06, LR adjust start: 40000, Dropout: 0.9
+Overall Results
+--------------------
+el:rmse   mean=0.011926173232495785 std=0.0055231996811926365
+el:nrmse  mean=0.10244737794028662 std=0.11531845377789253
+el:r2     mean=0.8872756290048555 std=0.2575134043583179
+el:adj-r2 mean=1.0636409820805985 std=0.14435794369753235
+
+
+2020-10-27 03:16:38.621865MLPReg5b_riapfea-lr=0.001-wd=5e-06-lrST=40000-DO=0.9-fea=ps-feasec=4
+Learning rate: 0.001, Weight decay: 5e-06, LR adjust start: 40000, Dropout: 0.9
+Overall Results
+--------------------
+el:rmse   mean=0.012682333588600159 std=0.00443395646288991
+el:nrmse  mean=0.1082777858662441 std=0.11809067180162765
+el:r2     mean=0.8689368952406202 std=0.2925806755371032
+el:adj-r2 mean=1.0739956283005851 std=0.1640139800245173
+
+
+2020-10-27 03:22:27.243936MLPReg5b_riapfea-lr=5e-06-wd=1e-05-lrST=20000-DO=0.9-fea=ps-feasec=2
+Learning rate: 5e-06, Weight decay: 1e-05, LR adjust start: 20000, Dropout: 0.9
+Overall Results
+--------------------
+el:rmse   mean=0.01272648572921753 std=0.004554861690849066
+el:nrmse  mean=0.10256501383733892 std=0.10081349863454042
+el:r2     mean=0.8885575131221273 std=0.20963134800641944
+el:adj-r2 mean=1.0630367457919143 std=0.11747928180590743
+
+
+2020-10-27 03:28:29.054587MLPReg5b_riapfea-lr=5e-06-wd=1e-05-lrST=20000-DO=0.9-fea=ps-feasec=3
+Learning rate: 5e-06, Weight decay: 1e-05, LR adjust start: 20000, Dropout: 0.9
+Overall Results
+--------------------
+el:rmse   mean=0.01346750557422638 std=0.004894737154245377
+el:nrmse  mean=0.10916457980626035 std=0.10789795089277769
+el:r2     mean=0.8750962149535939 std=0.2381084588493162
+el:adj-r2 mean=1.070658496364341 std=0.1334375898900659
+
+
+2020-10-27 03:28:56.554794MLPReg5b_riapfea-lr=0.001-wd=5e-06-lrST=40000-DO=0.9-fea=ps-feasec=5
+Learning rate: 0.001, Weight decay: 5e-06, LR adjust start: 40000, Dropout: 0.9
+Overall Results
+--------------------
+el:rmse   mean=0.012895551510155201 std=0.0048915063962340355
+el:nrmse  mean=0.10745082244611807 std=0.11399796947680248
+el:r2     mean=0.8771393913872199 std=0.2534293570323147
+el:adj-r2 mean=1.0694292530603349 std=0.14205583773136035
+
+
+2020-10-27 03:30:11.911624MLPReg5b_riapfea-lr=5e-06-wd=1e-05-lrST=20000-DO=0.9-fea=ps-feasec=1
+Learning rate: 5e-06, Weight decay: 1e-05, LR adjust start: 20000, Dropout: 0.9
+Overall Results
+--------------------
+el:rmse   mean=0.013139767572283745 std=0.0044792573899030685
+el:nrmse  mean=0.09764554006472703 std=0.08787550665832856
+el:r2     mean=0.8632380000689228 std=0.26508621491292234
+el:adj-r2 mean=1.0773776630288565 std=0.14857502735028053
+
+
+2020-10-27 03:35:33.728918MLPReg5b_riapfea-lr=5e-06-wd=1e-05-lrST=20000-DO=0.9-fea=ps-feasec=6
+Learning rate: 5e-06, Weight decay: 1e-05, LR adjust start: 20000, Dropout: 0.9
+Overall Results
+--------------------
+el:rmse   mean=0.01302152406424284 std=0.006291207391768694
+el:nrmse  mean=0.11460114788854729 std=0.13667658715572825
+el:r2     mean=0.8891540605408711 std=0.2053728687961108
+el:adj-r2 mean=1.0627092781692886 std=0.11508581939942508
+
+
+2020-10-27 03:36:03.088143MLPReg5b_riapfea-lr=5e-06-wd=1e-05-lrST=20000-DO=0.9-fea=ps-feasec=4
+Learning rate: 5e-06, Weight decay: 1e-05, LR adjust start: 20000, Dropout: 0.9
+Overall Results
+--------------------
+el:rmse   mean=0.01415258925408125 std=0.007349684834480286
+el:nrmse  mean=0.12870218736024247 std=0.15618561783656018
+el:r2     mean=0.8393019608527199 std=0.3086622015521792
+el:adj-r2 mean=1.0906045047038828 std=0.1729902278367638
+
+
+2020-10-27 03:44:30.859586MLPReg5b_riapfea-lr=5e-06-wd=1e-05-lrST=40000-DO=0.9-fea=ps-feasec=2
+Learning rate: 5e-06, Weight decay: 1e-05, LR adjust start: 40000, Dropout: 0.9
+Overall Results
+--------------------
+el:rmse   mean=0.012093856930732727 std=0.0049456399865448475
+el:nrmse  mean=0.10243066408115971 std=0.1110115749725014
+el:r2     mean=0.8880747187435867 std=0.2534209089036871
+el:adj-r2 mean=1.0631749447229273 std=0.14204660964720675
+
+
+2020-10-27 03:48:32.845015MLPReg5b_riapfea-lr=5e-06-wd=1e-05-lrST=20000-DO=0.9-fea=ps-feasec=5
+Learning rate: 5e-06, Weight decay: 1e-05, LR adjust start: 20000, Dropout: 0.9
+Overall Results
+--------------------
+el:rmse   mean=0.013491081073880196 std=0.005171340890228748
+el:nrmse  mean=0.11018586050456072 std=0.11571580279974497
+el:r2     mean=0.8824973478799867 std=0.20727523566697403
+el:adj-r2 mean=1.0665482647674966 std=0.11617192103256992
+
+
+2020-10-27 03:51:04.637717MLPReg5b_riapfea-lr=5e-06-wd=1e-05-lrST=40000-DO=0.9-fea=ps-feasec=3
+Learning rate: 5e-06, Weight decay: 1e-05, LR adjust start: 40000, Dropout: 0.9
+Overall Results
+--------------------
+el:rmse   mean=0.01285487599670887 std=0.004728935193270445
+el:nrmse  mean=0.10903168936781167 std=0.11750980565180856
+el:r2     mean=0.8737619218608395 std=0.2799444823743613
+el:adj-r2 mean=1.0712726652253424 std=0.15691365354513656
+
+
+2020-10-27 03:52:48.233794MLPReg5b_riapfea-lr=5e-06-wd=1e-05-lrST=40000-DO=0.9-fea=ps-feasec=1
+Learning rate: 5e-06, Weight decay: 1e-05, LR adjust start: 40000, Dropout: 0.9
+Overall Results
+--------------------
+el:rmse   mean=0.013499097898602486 std=0.004079949576407671
+el:nrmse  mean=0.11131159711324168 std=0.11330362932050786
+el:r2     mean=0.8588913927703914 std=0.31463587261759823
+el:adj-r2 mean=1.0796272535299987 std=0.17636632123549822
+
+
+2020-10-27 03:58:17.355007MLPReg5b_riapfea-lr=5e-06-wd=1e-05-lrST=40000-DO=0.9-fea=ps-feasec=6
+Learning rate: 5e-06, Weight decay: 1e-05, LR adjust start: 40000, Dropout: 0.9
+Overall Results
+--------------------
+el:rmse   mean=0.011467409320175648 std=0.006209466606378555
+el:nrmse  mean=0.10564180720075078 std=0.13478179990637162
+el:r2     mean=0.8963362552204017 std=0.22759122611191338
+el:adj-r2 mean=1.0584595299171573 std=0.12758026026346259
+
+
+2020-10-27 03:58:46.293612MLPReg5b_riapfea-lr=5e-06-wd=1e-05-lrST=40000-DO=0.9-fea=ps-feasec=4
+Learning rate: 5e-06, Weight decay: 1e-05, LR adjust start: 40000, Dropout: 0.9
+Overall Results
+--------------------
+el:rmse   mean=0.013036532327532768 std=0.006918585393577814
+el:nrmse  mean=0.12206806171283477 std=0.15184093073193689
+el:r2     mean=0.8526857956353856 std=0.3374511692121837
+el:adj-r2 mean=1.0829304009603793 std=0.189199977844043
+
+
+2020-10-27 04:03:56.069475MLPReg5b_riapfea-lr=1e-05-wd=1e-05-lrST=20000-DO=0.9-fea=ps-feasec=2
+Learning rate: 1e-05, Weight decay: 1e-05, LR adjust start: 20000, Dropout: 0.9
+Overall Results
+--------------------
+el:rmse   mean=0.012128486298024654 std=0.0042579928413033485
+el:nrmse  mean=0.10042329386092311 std=0.10372032480805704
+el:r2     mean=0.900963217919833 std=0.19925758818996947
+el:adj-r2 mean=1.0559216028616376 std=0.11166561246784408
+
+
+2020-10-27 04:10:35.626982MLPReg5b_riapfea-lr=1e-05-wd=1e-05-lrST=20000-DO=0.9-fea=ps-feasec=3
+Learning rate: 1e-05, Weight decay: 1e-05, LR adjust start: 20000, Dropout: 0.9
+Overall Results
+--------------------
+el:rmse   mean=0.01257996540516615 std=0.0046840873546898365
+el:nrmse  mean=0.10680930847220893 std=0.11466828801375505
+el:r2     mean=0.8733203757340323 std=0.2781371644840611
+el:adj-r2 mean=1.0715057096260876 std=0.1559031297292247
+
+
+2020-10-27 04:10:57.484861MLPReg5b_riapfea-lr=5e-06-wd=1e-05-lrST=40000-DO=0.9-fea=ps-feasec=5
+Learning rate: 5e-06, Weight decay: 1e-05, LR adjust start: 40000, Dropout: 0.9
+Overall Results
+--------------------
+el:rmse   mean=0.013565793633460999 std=0.004808503668755293
+el:nrmse  mean=0.1152076734589222 std=0.1268830739708215
+el:r2     mean=0.873465148520632 std=0.2564156130809259
+el:adj-r2 mean=1.0714442405465747 std=0.14371055674448488
+
+
+2020-10-27 04:12:01.787462MLPReg5b_riapfea-lr=1e-05-wd=1e-05-lrST=20000-DO=0.9-fea=ps-feasec=1
+Learning rate: 1e-05, Weight decay: 1e-05, LR adjust start: 20000, Dropout: 0.9
+Overall Results
+--------------------
+el:rmse   mean=0.01279152650386095 std=0.0037178571801632643
+el:nrmse  mean=0.09694867787255126 std=0.08976073081183653
+el:r2     mean=0.8687501293983904 std=0.2825722276434882
+el:adj-r2 mean=1.0741739741981178 std=0.15838532204141845
+
+
+2020-10-27 04:17:49.512036MLPReg5b_riapfea-lr=1e-05-wd=1e-05-lrST=20000-DO=0.9-fea=ps-feasec=6
+Learning rate: 1e-05, Weight decay: 1e-05, LR adjust start: 20000, Dropout: 0.9
+Overall Results
+--------------------
+el:rmse   mean=0.012574325315654278 std=0.006457419600337744
+el:nrmse  mean=0.11468450869352335 std=0.14645388077915794
+el:r2     mean=0.8858968728458458 std=0.23001380338008348
+el:adj-r2 mean=1.0643880305849567 std=0.12892157271968985
+
+
+2020-10-27 04:18:10.675491MLPReg5b_riapfea-lr=1e-05-wd=1e-05-lrST=20000-DO=0.9-fea=ps-feasec=4
+Learning rate: 1e-05, Weight decay: 1e-05, LR adjust start: 20000, Dropout: 0.9
+Overall Results
+--------------------
+el:rmse   mean=0.01392817497253418 std=0.008667638525366783
+el:nrmse  mean=0.13719476310025486 std=0.18805243702696736
+el:r2     mean=0.8292398440251372 std=0.34768696340130706
+el:adj-r2 mean=1.0960723691536898 std=0.1949329391475119
+
+
+2020-10-27 04:26:05.026773MLPReg5b_riapfea-lr=1e-05-wd=1e-05-lrST=40000-DO=0.9-fea=ps-feasec=2
+Learning rate: 1e-05, Weight decay: 1e-05, LR adjust start: 40000, Dropout: 0.9
+Overall Results
+--------------------
+el:rmse   mean=0.012096955440938473 std=0.0045158229768276215
+el:nrmse  mean=0.10320173170598243 std=0.11063353767630273
+el:r2     mean=0.8888257858904216 std=0.242939740547525
+el:adj-r2 mean=1.0627406902206482 std=0.1361702483138354
+
+
+2020-10-27 04:30:34.845759MLPReg5b_riapfea-lr=1e-05-wd=1e-05-lrST=20000-DO=0.9-fea=ps-feasec=5
+Learning rate: 1e-05, Weight decay: 1e-05, LR adjust start: 20000, Dropout: 0.9
+Overall Results
+--------------------
+el:rmse   mean=0.013242946937680244 std=0.005042523145675659
+el:nrmse  mean=0.11205883588339718 std=0.12214766155730221
+el:r2     mean=0.877038638828517 std=0.2366741683017448
+el:adj-r2 mean=1.0694730898762557 std=0.13264193958069537
+
+
+2020-10-27 04:33:02.456680MLPReg5b_riapfea-lr=1e-05-wd=1e-05-lrST=40000-DO=0.9-fea=ps-feasec=3
+Learning rate: 1e-05, Weight decay: 1e-05, LR adjust start: 40000, Dropout: 0.9
+Overall Results
+--------------------
+el:rmse   mean=0.013318312354385853 std=0.00466590141877532
+el:nrmse  mean=0.11108465167682195 std=0.11512466612881846
+el:r2     mean=0.8652704429057945 std=0.2973673257370098
+el:adj-r2 mean=1.0760642720051619 std=0.16667673005387218
+
+
+2020-10-27 04:34:44.577056MLPReg5b_riapfea-lr=1e-05-wd=1e-05-lrST=40000-DO=0.9-fea=ps-feasec=1
+Learning rate: 1e-05, Weight decay: 1e-05, LR adjust start: 40000, Dropout: 0.9
+Overall Results
+--------------------
+el:rmse   mean=0.01350628025829792 std=0.004521889612078667
+el:nrmse  mean=0.11336616711253873 std=0.11749354340387026
+el:r2     mean=0.8559561073614326 std=0.3162626558151867
+el:adj-r2 mean=1.0813534402795848 std=0.1772949179147551
+
+
+2020-10-27 04:40:22.263833MLPReg5b_riapfea-lr=1e-05-wd=1e-05-lrST=40000-DO=0.9-fea=ps-feasec=6
+Learning rate: 1e-05, Weight decay: 1e-05, LR adjust start: 40000, Dropout: 0.9
+Overall Results
+--------------------
+el:rmse   mean=0.011115028522908688 std=0.005437532439827919
+el:nrmse  mean=0.09968783112137757 std=0.12052877122705934
+el:r2     mean=0.8926849513014373 std=0.25056575009641124
+el:adj-r2 mean=1.0604931486211249 std=0.1404712456832444
+
+
+2020-10-27 04:40:52.691800MLPReg5b_riapfea-lr=1e-05-wd=1e-05-lrST=40000-DO=0.9-fea=ps-feasec=4
+Learning rate: 1e-05, Weight decay: 1e-05, LR adjust start: 40000, Dropout: 0.9
+Overall Results
+--------------------
+el:rmse   mean=0.013514785096049309 std=0.007503294385969639
+el:nrmse  mean=0.12768195362359577 std=0.16364610801439852
+el:r2     mean=0.839534753495163 std=0.368545686824331
+el:adj-r2 mean=1.0903822890966501 std=0.20662151186038785
+
+
+2020-10-27 04:45:42.381823MLPReg5b_riapfea-lr=0.0001-wd=1e-05-lrST=20000-DO=0.9-fea=ps-feasec=2
+Learning rate: 0.0001, Weight decay: 1e-05, LR adjust start: 20000, Dropout: 0.9
+Overall Results
+--------------------
+el:rmse   mean=0.01259448193013668 std=0.0053033544681966305
+el:nrmse  mean=0.1047922079001248 std=0.11164399981914824
+el:r2     mean=0.883473859139493 std=0.26094493772736443
+el:adj-r2 mean=1.0658675334543892 std=0.14625686045131095
+
+
+2020-10-27 04:52:21.746065MLPReg5b_riapfea-lr=0.0001-wd=1e-05-lrST=20000-DO=0.9-fea=ps-feasec=3
+Learning rate: 0.0001, Weight decay: 1e-05, LR adjust start: 20000, Dropout: 0.9
+Overall Results
+--------------------
+el:rmse   mean=0.013462317176163197 std=0.005338104907423258
+el:nrmse  mean=0.11283906900817646 std=0.1203231599466185
+el:r2     mean=0.8624895610903927 std=0.3096585029401428
+el:adj-r2 mean=1.0776885337996176 std=0.17356970833689106
+
+
+2020-10-27 04:53:06.934455MLPReg5b_riapfea-lr=1e-05-wd=1e-05-lrST=40000-DO=0.9-fea=ps-feasec=5
+Learning rate: 1e-05, Weight decay: 1e-05, LR adjust start: 40000, Dropout: 0.9
+Overall Results
+--------------------
+el:rmse   mean=0.012812085449695587 std=0.005009508226066828
+el:nrmse  mean=0.10883255392232642 std=0.11903772187001874
+el:r2     mean=0.8705476785436798 std=0.2888130529113744
+el:adj-r2 mean=1.0731153425467774 std=0.1618907257820562
+
+
+2020-10-27 04:54:05.938475MLPReg5b_riapfea-lr=0.0001-wd=1e-05-lrST=20000-DO=0.9-fea=ps-feasec=1
+Learning rate: 0.0001, Weight decay: 1e-05, LR adjust start: 20000, Dropout: 0.9
+Overall Results
+--------------------
+el:rmse   mean=0.013250517658889294 std=0.005325694102793932
+el:nrmse  mean=0.10936729270302217 std=0.11316701043777666
+el:r2     mean=0.8635385142339349 std=0.30662159601402905
+el:adj-r2 mean=1.0772041485217219 std=0.17187179964924038
+
+
+2020-10-27 05:00:02.333876MLPReg5b_riapfea-lr=0.0001-wd=1e-05-lrST=20000-DO=0.9-fea=ps-feasec=6
+Learning rate: 0.0001, Weight decay: 1e-05, LR adjust start: 20000, Dropout: 0.9
+Overall Results
+--------------------
+el:rmse   mean=0.011411946266889572 std=0.006861907429993153
+el:nrmse  mean=0.10510101479774017 std=0.131805849370182
+el:r2     mean=0.8874395211489015 std=0.2638445081166012
+el:adj-r2 mean=1.0634914876777422 std=0.14790474683533267
+
+
+2020-10-27 05:00:19.485693MLPReg5b_riapfea-lr=0.0001-wd=1e-05-lrST=20000-DO=0.9-fea=ps-feasec=4
+Learning rate: 0.0001, Weight decay: 1e-05, LR adjust start: 20000, Dropout: 0.9
+Overall Results
+--------------------
+el:rmse   mean=0.013369004242122173 std=0.008131762035191059
+el:nrmse  mean=0.12889709873867913 std=0.16890354844613234
+el:r2     mean=0.8315644438541376 std=0.39673723572492836
+el:adj-r2 mean=1.0948439884042795 std=0.22243785872072674
+
+
+2020-10-27 05:07:52.666443MLPReg5b_riapfea-lr=0.0001-wd=1e-05-lrST=40000-DO=0.9-fea=ps-feasec=2
+Learning rate: 0.0001, Weight decay: 1e-05, LR adjust start: 40000, Dropout: 0.9
+Overall Results
+--------------------
+el:rmse   mean=0.012448308058083057 std=0.004829675890505314
+el:nrmse  mean=0.10422843150187924 std=0.11149012815576384
+el:r2     mean=0.8862171606107856 std=0.2542368700602766
+el:adj-r2 mean=1.064265112008389 std=0.14249841730678095
+
+
+2020-10-27 05:12:42.851210MLPReg5b_riapfea-lr=0.0001-wd=1e-05-lrST=20000-DO=0.9-fea=ps-feasec=5
+Learning rate: 0.0001, Weight decay: 1e-05, LR adjust start: 20000, Dropout: 0.9
+Overall Results
+--------------------
+el:rmse   mean=0.013773662969470024 std=0.005454916972666979
+el:nrmse  mean=0.11593089843064405 std=0.12500258993099392
+el:r2     mean=0.8623315540319767 std=0.29446640976608374
+el:adj-r2 mean=1.0778185012572987 std=0.16503789865571042
+
+
+2020-10-27 05:14:55.117484MLPReg5b_riapfea-lr=0.0001-wd=1e-05-lrST=40000-DO=0.9-fea=ps-feasec=3
+Learning rate: 0.0001, Weight decay: 1e-05, LR adjust start: 40000, Dropout: 0.9
+Overall Results
+--------------------
+el:rmse   mean=0.013239316642284393 std=0.004936938639730215
+el:nrmse  mean=0.11124410680520957 std=0.11764049362026555
+el:r2     mean=0.863502911977607 std=0.3082131903957608
+el:adj-r2 mean=1.0770834056003662 std=0.17276241503158124
+
+
+2020-10-27 05:16:45.778246MLPReg5b_riapfea-lr=0.0001-wd=1e-05-lrST=40000-DO=0.9-fea=ps-feasec=1
+Learning rate: 0.0001, Weight decay: 1e-05, LR adjust start: 40000, Dropout: 0.9
+Overall Results
+--------------------
+el:rmse   mean=0.014025697484612465 std=0.004827243275940418
+el:nrmse  mean=0.11557075615436938 std=0.11731882477795116
+el:r2     mean=0.8545855735145647 std=0.3193580685892431
+el:adj-r2 mean=1.0822186175226698 std=0.17902624683568485
+
+
+2020-10-27 05:22:41.800454MLPReg5b_riapfea-lr=0.0001-wd=1e-05-lrST=40000-DO=0.9-fea=ps-feasec=6
+Learning rate: 0.0001, Weight decay: 1e-05, LR adjust start: 40000, Dropout: 0.9
+Overall Results
+--------------------
+el:rmse   mean=0.011230651289224625 std=0.005344741512089968
+el:nrmse  mean=0.09997723391317796 std=0.11945525037464198
+el:r2     mean=0.8897099309549017 std=0.257835995203506
+el:adj-r2 mean=1.0621695585688475 std=0.14454755011269643
+
+
+2020-10-27 05:23:07.666849MLPReg5b_riapfea-lr=0.0001-wd=1e-05-lrST=40000-DO=0.9-fea=ps-feasec=4
+Learning rate: 0.0001, Weight decay: 1e-05, LR adjust start: 40000, Dropout: 0.9
+Overall Results
+--------------------
+el:rmse   mean=0.013102841563522816 std=0.007578487507998943
+el:nrmse  mean=0.12465267119490864 std=0.1582679041736942
+el:r2     mean=0.8383304260171286 std=0.377974182460462
+el:adj-r2 mean=1.0910468224477283 std=0.2119272433285984
+
+
+2020-10-27 05:27:41.313462MLPReg5b_riapfea-lr=0.0005-wd=1e-05-lrST=20000-DO=0.9-fea=ps-feasec=2
+Learning rate: 0.0005, Weight decay: 1e-05, LR adjust start: 20000, Dropout: 0.9
+Overall Results
+--------------------
+el:rmse   mean=0.01139881182461977 std=0.0049919369630515575
+el:nrmse  mean=0.0970673241085918 std=0.10655833118977538
+el:r2     mean=0.89937471610745 std=0.23430787585093515
+el:adj-r2 mean=1.0567860185681703 std=0.13134600960038847
+
+
+2020-10-27 05:34:07.615538MLPReg5b_riapfea-lr=0.0005-wd=1e-05-lrST=20000-DO=0.9-fea=ps-feasec=3
+Learning rate: 0.0005, Weight decay: 1e-05, LR adjust start: 20000, Dropout: 0.9
+Overall Results
+--------------------
+el:rmse   mean=0.012222984805703163 std=0.004999304655939341
+el:nrmse  mean=0.10268130601837319 std=0.10999133236236339
+el:r2     mean=0.8804830708630751 std=0.2759640165863103
+el:adj-r2 mean=1.067522886779289 std=0.15469692411991706
+
+
+2020-10-27 05:35:04.885594MLPReg5b_riapfea-lr=0.0001-wd=1e-05-lrST=40000-DO=0.9-fea=ps-feasec=5
+Learning rate: 0.0001, Weight decay: 1e-05, LR adjust start: 40000, Dropout: 0.9
+Overall Results
+--------------------
+el:rmse   mean=0.013080703094601631 std=0.005092749837785959
+el:nrmse  mean=0.11058379518265815 std=0.11996387788236766
+el:r2     mean=0.8691586488378322 std=0.2905404011017743
+el:adj-r2 mean=1.073900129318093 std=0.16285729287942527
+
+
+2020-10-27 05:36:10.835827MLPReg5b_riapfea-lr=0.0005-wd=1e-05-lrST=20000-DO=0.9-fea=ps-feasec=1
+Learning rate: 0.0005, Weight decay: 1e-05, LR adjust start: 20000, Dropout: 0.9
+Overall Results
+--------------------
+el:rmse   mean=0.013490604236721992 std=0.005246676038950682
+el:nrmse  mean=0.11109117890259634 std=0.11597687189509609
+el:r2     mean=0.8388123290315926 std=0.3807368198806534
+el:adj-r2 mean=1.0910814197018945 std=0.21343999627488394
+
+
+2020-10-27 05:42:15.820788MLPReg5b_riapfea-lr=0.0005-wd=1e-05-lrST=20000-DO=0.9-fea=ps-feasec=6
+Learning rate: 0.0005, Weight decay: 1e-05, LR adjust start: 20000, Dropout: 0.9
+Overall Results
+--------------------
+el:rmse   mean=0.012294101528823376 std=0.00525727029889822
+el:nrmse  mean=0.10456680002578303 std=0.11540758397507159
+el:r2     mean=0.8778879643657701 std=0.2856138250467408
+el:adj-r2 mean=1.0688990030766041 std=0.16010434088704192
+
+
+2020-10-27 05:42:49.037594MLPReg5b_riapfea-lr=0.0005-wd=1e-05-lrST=20000-DO=0.9-fea=ps-feasec=4
+Learning rate: 0.0005, Weight decay: 1e-05, LR adjust start: 20000, Dropout: 0.9
+Overall Results
+--------------------
+el:rmse   mean=0.013425338082015514 std=0.007027588319033384
+el:nrmse  mean=0.12428111905396184 std=0.15092547106778417
+el:r2     mean=0.8401455789449349 std=0.37038789704535485
+el:adj-r2 mean=1.0901068702670544 std=0.20765908375648043
+
+
+2020-10-27 05:49:54.644847MLPReg5b_riapfea-lr=0.0005-wd=1e-05-lrST=40000-DO=0.9-fea=ps-feasec=2
+Learning rate: 0.0005, Weight decay: 1e-05, LR adjust start: 40000, Dropout: 0.9
+Overall Results
+--------------------
+el:rmse   mean=0.01296181045472622 std=0.005257580429315567
+el:nrmse  mean=0.10612938950488879 std=0.10970141315676146
+el:r2     mean=0.8861639929093542 std=0.24937990706324814
+el:adj-r2 mean=1.0643227459188842 std=0.1397624083498521
+
+
+2020-10-27 05:54:57.824162MLPReg5b_riapfea-lr=0.0005-wd=1e-05-lrST=20000-DO=0.9-fea=ps-feasec=5
+Learning rate: 0.0005, Weight decay: 1e-05, LR adjust start: 20000, Dropout: 0.9
+Overall Results
+--------------------
+el:rmse   mean=0.013083691708743572 std=0.005419631954282522
+el:nrmse  mean=0.10872563169339604 std=0.11521585190269315
+el:r2     mean=0.8648242613148633 std=0.30823578166254156
+el:adj-r2 mean=1.0764000672388088 std=0.17277847359317888
+
+
+2020-10-27 05:56:39.266926MLPReg5b_riapfea-lr=0.0005-wd=1e-05-lrST=40000-DO=0.9-fea=ps-feasec=3
+Learning rate: 0.0005, Weight decay: 1e-05, LR adjust start: 40000, Dropout: 0.9
+Overall Results
+--------------------
+el:rmse   mean=0.01330642681568861 std=0.004949665628373623
+el:nrmse  mean=0.11106072959674854 std=0.11674222132134927
+el:r2     mean=0.8620391105882337 std=0.3136674631781202
+el:adj-r2 mean=1.0778940341874985 std=0.17582995796964565
+
+
+2020-10-27 05:58:41.887257MLPReg5b_riapfea-lr=0.0005-wd=1e-05-lrST=40000-DO=0.9-fea=ps-feasec=1
+Learning rate: 0.0005, Weight decay: 1e-05, LR adjust start: 40000, Dropout: 0.9
+Overall Results
+--------------------
+el:rmse   mean=0.013991531915962696 std=0.004503221251070499
+el:nrmse  mean=0.11497664150338997 std=0.11712194847826243
+el:r2     mean=0.854626061415184 std=0.32130166985002984
+el:adj-r2 mean=1.0821331571688768 std=0.1801027780485455
+
+
+2020-10-27 06:04:57.828063MLPReg5b_riapfea-lr=0.0005-wd=1e-05-lrST=40000-DO=0.9-fea=ps-feasec=6
+Learning rate: 0.0005, Weight decay: 1e-05, LR adjust start: 40000, Dropout: 0.9
+Overall Results
+--------------------
+el:rmse   mean=0.012283770367503166 std=0.005741551052778959
+el:nrmse  mean=0.10248186930992069 std=0.11141997002495241
+el:r2     mean=0.8876446226487367 std=0.25289920907441593
+el:adj-r2 mean=1.0635124435606997 std=0.14174421935932816
+
+
+2020-10-27 06:05:28.360670MLPReg5b_riapfea-lr=0.0005-wd=1e-05-lrST=40000-DO=0.9-fea=ps-feasec=4
+Learning rate: 0.0005, Weight decay: 1e-05, LR adjust start: 40000, Dropout: 0.9
+Overall Results
+--------------------
+el:rmse   mean=0.013110212981700897 std=0.006324487738311291
+el:nrmse  mean=0.11491605172420472 std=0.1295698857163827
+el:r2     mean=0.854113341959381 std=0.3449077212989331
+el:adj-r2 mean=1.0822876312843928 std=0.19336441181635505
+
+
+2020-10-27 06:09:28.642408MLPReg5b_riapfea-lr=0.001-wd=1e-05-lrST=20000-DO=0.9-fea=ps-feasec=2
+Learning rate: 0.001, Weight decay: 1e-05, LR adjust start: 20000, Dropout: 0.9
+Overall Results
+--------------------
+el:rmse   mean=0.012790183536708355 std=0.0057855150662362576
+el:nrmse  mean=0.10400584879486027 std=0.10664219604450113
+el:r2     mean=0.8926454283063269 std=0.22995938808566094
+el:adj-r2 mean=1.0608162708570108 std=0.12890105724359324
+
+
+2020-10-27 06:16:02.001055MLPReg5b_riapfea-lr=0.001-wd=1e-05-lrST=20000-DO=0.9-fea=ps-feasec=3
+Learning rate: 0.001, Weight decay: 1e-05, LR adjust start: 20000, Dropout: 0.9
+Overall Results
+--------------------
+el:rmse   mean=0.011530488729476929 std=0.005836117081344128
+el:nrmse  mean=0.10078424465469622 std=0.11448681304280046
+el:r2     mean=0.8836068184731765 std=0.26065307312539676
+el:adj-r2 mean=1.0657760685931668 std=0.14612586508329936
+
+
+2020-10-27 06:17:23.286386MLPReg5b_riapfea-lr=0.0005-wd=1e-05-lrST=40000-DO=0.9-fea=ps-feasec=5
+Learning rate: 0.0005, Weight decay: 1e-05, LR adjust start: 40000, Dropout: 0.9
+Overall Results
+--------------------
+el:rmse   mean=0.013064379803836346 std=0.00512640830129385
+el:nrmse  mean=0.11189151004073591 std=0.12299889759620419
+el:r2     mean=0.8542072593843075 std=0.3381146541871487
+el:adj-r2 mean=1.0822799774924652 std=0.18954082287948903
+
+
+2020-10-27 06:18:12.088553MLPReg5b_riapfea-lr=0.001-wd=1e-05-lrST=20000-DO=0.9-fea=ps-feasec=1
+Learning rate: 0.001, Weight decay: 1e-05, LR adjust start: 20000, Dropout: 0.9
+Overall Results
+--------------------
+el:rmse   mean=0.012949083931744099 std=0.006243652198463678
+el:nrmse  mean=0.11467831751252877 std=0.13167664699509382
+el:r2     mean=0.8642018581410594 std=0.2966546795415288
+el:adj-r2 mean=1.0766929025769447 std=0.16630456093047974
+
+
+2020-10-27 06:24:36.823032MLPReg5b_riapfea-lr=0.001-wd=1e-05-lrST=20000-DO=0.9-fea=ps-feasec=6
+Learning rate: 0.001, Weight decay: 1e-05, LR adjust start: 20000, Dropout: 0.9
+Overall Results
+--------------------
+el:rmse   mean=0.012640033848583698 std=0.004875448532402515
+el:nrmse  mean=0.10460555322368412 std=0.11155900017479718
+el:r2     mean=0.8822578101974203 std=0.24092421216405613
+el:adj-r2 mean=1.066507315632612 std=0.1350263979988826
+
+
+2020-10-27 06:25:04.089697MLPReg5b_riapfea-lr=0.001-wd=1e-05-lrST=20000-DO=0.9-fea=ps-feasec=4
+Learning rate: 0.001, Weight decay: 1e-05, LR adjust start: 20000, Dropout: 0.9
+Overall Results
+--------------------
+el:rmse   mean=0.013746376149356365 std=0.006020399741828442
+el:nrmse  mean=0.11903522391909845 std=0.1350715339417299
+el:r2     mean=0.8564738426617797 std=0.3133299547218896
+el:adj-r2 mean=1.0809622636390697 std=0.17563146595219925
+
+
+2020-10-27 06:31:33.228327MLPReg5b_riapfea-lr=0.001-wd=1e-05-lrST=40000-DO=0.9-fea=ps-feasec=2
+Learning rate: 0.001, Weight decay: 1e-05, LR adjust start: 40000, Dropout: 0.9
+Overall Results
+--------------------
+el:rmse   mean=0.01075772289186716 std=0.004313654266297817
+el:nrmse  mean=0.09438778377993409 std=0.11028688251354732
+el:r2     mean=0.9091183167060052 std=0.1978353551391051
+el:adj-r2 mean=1.0511821897619653 std=0.1109131970494055
+
+
+2020-10-27 06:37:06.362585MLPReg5b_riapfea-lr=0.001-wd=1e-05-lrST=20000-DO=0.9-fea=ps-feasec=5
+Learning rate: 0.001, Weight decay: 1e-05, LR adjust start: 20000, Dropout: 0.9
+Overall Results
+--------------------
+el:rmse   mean=0.012837019748985767 std=0.005427567288279533
+el:nrmse  mean=0.10810051030864146 std=0.11676428162879166
+el:r2     mean=0.8758645238356995 std=0.26215119361573036
+el:adj-r2 mean=1.0702286318971783 std=0.14694298792887933
+
+
+2020-10-27 06:38:23.867086MLPReg5b_riapfea-lr=0.001-wd=1e-05-lrST=40000-DO=0.9-fea=ps-feasec=3
+Learning rate: 0.001, Weight decay: 1e-05, LR adjust start: 40000, Dropout: 0.9
+Overall Results
+--------------------
+el:rmse   mean=0.01260578352957964 std=0.005037790164351463
+el:nrmse  mean=0.10787396811942543 std=0.11939184004918518
+el:r2     mean=0.8605083988689725 std=0.3218023000663912
+el:adj-r2 mean=1.0787099502694517 std=0.1804176470371375
+
+
+2020-10-27 06:40:41.602730MLPReg5b_riapfea-lr=0.001-wd=1e-05-lrST=40000-DO=0.9-fea=ps-feasec=1
+Learning rate: 0.001, Weight decay: 1e-05, LR adjust start: 40000, Dropout: 0.9
+Overall Results
+--------------------
+el:rmse   mean=0.012435623444616795 std=0.004424136597663164
+el:nrmse  mean=0.10646749841553753 std=0.11714859805153428
+el:r2     mean=0.8736496363043198 std=0.28434317653706004
+el:adj-r2 mean=1.0712407275988514 std=0.1594013328421605
+
+
+2020-10-27 06:47:18.901013MLPReg5b_riapfea-lr=0.001-wd=1e-05-lrST=40000-DO=0.9-fea=ps-feasec=6
+Learning rate: 0.001, Weight decay: 1e-05, LR adjust start: 40000, Dropout: 0.9
+Overall Results
+--------------------
+el:rmse   mean=0.011179153807461262 std=0.005046701990067959
+el:nrmse  mean=0.0963214639100429 std=0.11126957734987818
+el:r2     mean=0.9045637255273802 std=0.19709354278401056
+el:adj-r2 mean=1.0539832719622737 std=0.11048335054898441
+
+
+2020-10-27 06:47:47.926327MLPReg5b_riapfea-lr=0.001-wd=1e-05-lrST=40000-DO=0.9-fea=ps-feasec=4
+Learning rate: 0.001, Weight decay: 1e-05, LR adjust start: 40000, Dropout: 0.9
+Overall Results
+--------------------
+el:rmse   mean=0.013951289467513561 std=0.006766531616449356
+el:nrmse  mean=0.12359157349302463 std=0.14860332121952619
+el:r2     mean=0.8746317384101593 std=0.2406200479302748
+el:adj-r2 mean=1.0707765150354018 std=0.13484856148977573
+
+
+2020-10-27 06:50:57.746322MLPReg5b_riapfea-lr=5e-06-wd=5e-05-lrST=20000-DO=0.9-fea=ps-feasec=2
+Learning rate: 5e-06, Weight decay: 5e-05, LR adjust start: 20000, Dropout: 0.9
+Overall Results
+--------------------
+el:rmse   mean=0.013064736500382423 std=0.004525492433458567
+el:nrmse  mean=0.1095266762561041 std=0.11686814561366649
+el:r2     mean=0.8834366709449626 std=0.23685709040522554
+el:adj-r2 mean=1.0657551952307587 std=0.1327499073561708
+
+
+2020-10-27 06:57:50.165274MLPReg5b_riapfea-lr=5e-06-wd=5e-05-lrST=20000-DO=0.9-fea=ps-feasec=3
+Learning rate: 5e-06, Weight decay: 5e-05, LR adjust start: 20000, Dropout: 0.9
+Overall Results
+--------------------
+el:rmse   mean=0.013213624246418476 std=0.004565095063298941
+el:nrmse  mean=0.11050574620344714 std=0.11569300812975776
+el:r2     mean=0.8702619277786237 std=0.26802780943246984
+el:adj-r2 mean=1.073198115379411 std=0.15023001139871828
+
+
+2020-10-27 06:59:33.432306MLPReg5b_riapfea-lr=0.001-wd=1e-05-lrST=40000-DO=0.9-fea=ps-feasec=5
+Learning rate: 0.001, Weight decay: 1e-05, LR adjust start: 40000, Dropout: 0.9
+Overall Results
+--------------------
+el:rmse   mean=0.01212552934885025 std=0.005197382997721434
+el:nrmse  mean=0.10476954796488187 std=0.1177823265848984
+el:r2     mean=0.8674321101149731 std=0.2965867193005392
+el:adj-r2 mean=1.0747718367685952 std=0.16627162647636837
+
+
+2020-10-27 07:00:13.168952MLPReg5b_riapfea-lr=5e-06-wd=5e-05-lrST=20000-DO=0.9-fea=ps-feasec=1
+Learning rate: 5e-06, Weight decay: 5e-05, LR adjust start: 20000, Dropout: 0.9
+Overall Results
+--------------------
+el:rmse   mean=0.013981309719383717 std=0.0041166553273797035
+el:nrmse  mean=0.11456125687294386 std=0.11566764521771696
+el:r2     mean=0.8601475831101475 std=0.28744225120684364
+el:adj-r2 mean=1.0788936407817955 std=0.1611088090932711
+
+
+2020-10-27 07:06:54.124479MLPReg5b_riapfea-lr=5e-06-wd=5e-05-lrST=20000-DO=0.9-fea=ps-feasec=6
+Learning rate: 5e-06, Weight decay: 5e-05, LR adjust start: 20000, Dropout: 0.9
+Overall Results
+--------------------
+el:rmse   mean=0.012958968058228493 std=0.005400438793003559
+el:nrmse  mean=0.10865053046486883 std=0.11748275383179675
+el:r2     mean=0.8847130714242238 std=0.24723373744527657
+el:adj-r2 mean=1.0651840378269326 std=0.13855605668148258
+
+
+2020-10-27 07:07:16.775899MLPReg5b_riapfea-lr=5e-06-wd=5e-05-lrST=20000-DO=0.9-fea=ps-feasec=4
+Learning rate: 5e-06, Weight decay: 5e-05, LR adjust start: 20000, Dropout: 0.9
+Overall Results
+--------------------
+el:rmse   mean=0.013400787487626076 std=0.005711594130843878
+el:nrmse  mean=0.11922830446427879 std=0.13743267769173917
+el:r2     mean=0.849892064508057 std=0.3400209632548418
+el:adj-r2 mean=1.0845996327314842 std=0.1906178623804104
+
+
+2020-10-27 07:13:06.600739MLPReg5b_riapfea-lr=5e-06-wd=5e-05-lrST=40000-DO=0.9-fea=ps-feasec=2
+Learning rate: 5e-06, Weight decay: 5e-05, LR adjust start: 40000, Dropout: 0.9
+Overall Results
+--------------------
+el:rmse   mean=0.013122203759849072 std=0.004566217307001352
+el:nrmse  mean=0.10935397079183162 std=0.11314379395488922
+el:r2     mean=0.8812556993434486 std=0.2514631461706301
+el:adj-r2 mean=1.0669826098968815 std=0.14094781999324765
+
+
+2020-10-27 07:19:10.490959MLPReg5b_riapfea-lr=5e-06-wd=5e-05-lrST=20000-DO=0.9-fea=ps-feasec=5
+Learning rate: 5e-06, Weight decay: 5e-05, LR adjust start: 20000, Dropout: 0.9
+Overall Results
+--------------------
+el:rmse   mean=0.015280956402420998 std=0.004083179868757725
+el:nrmse  mean=0.11935036676665142 std=0.1128095579250508
+el:r2     mean=0.8545311698290721 std=0.27098425924626585
+el:adj-r2 mean=1.082314449212347 std=0.151843352360841
+
+
+2020-10-27 07:20:15.548135MLPReg5b_riapfea-lr=5e-06-wd=5e-05-lrST=40000-DO=0.9-fea=ps-feasec=3
+Learning rate: 5e-06, Weight decay: 5e-05, LR adjust start: 40000, Dropout: 0.9
+Overall Results
+--------------------
+el:rmse   mean=0.013667683117091656 std=0.004147815052419901
+el:nrmse  mean=0.11363031466012585 std=0.11687503840144317
+el:r2     mean=0.8630429387343108 std=0.2934604521406324
+el:adj-r2 mean=1.0772689779823534 std=0.1644903176044237
+
+
+2020-10-27 07:22:42.895326MLPReg5b_riapfea-lr=5e-06-wd=5e-05-lrST=40000-DO=0.9-fea=ps-feasec=1
+Learning rate: 5e-06, Weight decay: 5e-05, LR adjust start: 40000, Dropout: 0.9
+Overall Results
+--------------------
+el:rmse   mean=0.014715416356921196 std=0.004198167938739061
+el:nrmse  mean=0.12025427062183698 std=0.11832024995742738
+el:r2     mean=0.849106447487953 std=0.3123503343892878
+el:adj-r2 mean=1.0852066171043437 std=0.17508132885167885
+
+
+2020-10-27 07:29:37.566848MLPReg5b_riapfea-lr=5e-06-wd=5e-05-lrST=40000-DO=0.9-fea=ps-feasec=6
+Learning rate: 5e-06, Weight decay: 5e-05, LR adjust start: 40000, Dropout: 0.9
+Overall Results
+--------------------
+el:rmse   mean=0.01193457655608654 std=0.0050367023795843124
+el:nrmse  mean=0.1030813960206786 std=0.11585808743748253
+el:r2     mean=0.890854786784635 std=0.24169265337786622
+el:adj-r2 mean=1.0615053121481886 std=0.13549189504822595
+
+
+2020-10-27 07:30:04.306545MLPReg5b_riapfea-lr=5e-06-wd=5e-05-lrST=40000-DO=0.9-fea=ps-feasec=4
+Learning rate: 5e-06, Weight decay: 5e-05, LR adjust start: 40000, Dropout: 0.9
+Overall Results
+--------------------
+el:rmse   mean=0.013836461119353771 std=0.007886173203587532
+el:nrmse  mean=0.1252300950783386 std=0.14953267780708426
+el:r2     mean=0.8495590666974999 std=0.33314287646704044
+el:adj-r2 mean=1.0848057122702262 std=0.18676477550093162
+
+
+2020-10-27 07:32:16.274712MLPReg5b_riapfea-lr=1e-05-wd=5e-05-lrST=20000-DO=0.9-fea=ps-feasec=2
+Learning rate: 1e-05, Weight decay: 5e-05, LR adjust start: 20000, Dropout: 0.9
+Overall Results
+--------------------
+el:rmse   mean=0.012544910423457623 std=0.004812229890376329
+el:nrmse  mean=0.10585606957223466 std=0.11332826457490264
+el:r2     mean=0.8899666887163175 std=0.24150143931804238
+el:adj-r2 mean=1.062064814682372 std=0.13536785356667205
+
+
+2020-10-27 07:39:39.212907MLPReg5b_riapfea-lr=1e-05-wd=5e-05-lrST=20000-DO=0.9-fea=ps-feasec=3
+Learning rate: 1e-05, Weight decay: 5e-05, LR adjust start: 20000, Dropout: 0.9
+Overall Results
+--------------------
+el:rmse   mean=0.013589310459792614 std=0.004125628620386124
+el:nrmse  mean=0.11255104349837428 std=0.1146518379805507
+el:r2     mean=0.8725339716724007 std=0.2684683479329117
+el:adj-r2 mean=1.0719546499964272 std=0.15047550223204903
+
+
+2020-10-27 07:41:35.624726MLPReg5b_riapfea-lr=5e-06-wd=5e-05-lrST=40000-DO=0.9-fea=ps-feasec=5
+Learning rate: 5e-06, Weight decay: 5e-05, LR adjust start: 40000, Dropout: 0.9
+Overall Results
+--------------------
+el:rmse   mean=0.013264508917927742 std=0.004096853546798229
+el:nrmse  mean=0.11201075620653607 std=0.11957717806864233
+el:r2     mean=0.8625791375078935 std=0.3040053495538054
+el:adj-r2 mean=1.0774616119550848 std=0.17041889807159927
+
+
+2020-10-27 07:42:21.761518MLPReg5b_riapfea-lr=1e-05-wd=5e-05-lrST=20000-DO=0.9-fea=ps-feasec=1
+Learning rate: 1e-05, Weight decay: 5e-05, LR adjust start: 20000, Dropout: 0.9
+Overall Results
+--------------------
+el:rmse   mean=0.013996047899127007 std=0.004495394881814718
+el:nrmse  mean=0.11612630113786741 std=0.11854227209721337
+el:r2     mean=0.8611728211261023 std=0.2962113944250485
+el:adj-r2 mean=1.0784303833259288 std=0.16604306074735978
+
+
+2020-10-27 07:49:08.825956MLPReg5b_riapfea-lr=1e-05-wd=5e-05-lrST=20000-DO=0.9-fea=ps-feasec=6
+Learning rate: 1e-05, Weight decay: 5e-05, LR adjust start: 20000, Dropout: 0.9
+Overall Results
+--------------------
+el:rmse   mean=0.011145559139549732 std=0.004891630262136459
+el:nrmse  mean=0.0987711385820432 std=0.11523931243500878
+el:r2     mean=0.8989235404688392 std=0.2329782962968095
+el:adj-r2 mean=1.0569511963029392 std=0.13061193097765936
+
+
+2020-10-27 07:49:24.440534MLPReg5b_riapfea-lr=1e-05-wd=5e-05-lrST=20000-DO=0.9-fea=ps-feasec=4
+Learning rate: 1e-05, Weight decay: 5e-05, LR adjust start: 20000, Dropout: 0.9
+Overall Results
+--------------------
+el:rmse   mean=0.012623995542526245 std=0.006391587667167187
+el:nrmse  mean=0.1151194167338494 std=0.13576830876908216
+el:r2     mean=0.8556982350869236 std=0.3402067317265754
+el:adj-r2 mean=1.0812912437384614 std=0.1907440458617838
+
+
+2020-10-27 07:54:33.263839MLPReg5b_riapfea-lr=1e-05-wd=5e-05-lrST=40000-DO=0.9-fea=ps-feasec=2
+Learning rate: 1e-05, Weight decay: 5e-05, LR adjust start: 40000, Dropout: 0.9
+Overall Results
+--------------------
+el:rmse   mean=0.012601746246218681 std=0.005054418463259935
+el:nrmse  mean=0.10667869722789661 std=0.11301360301808555
+el:r2     mean=0.8890295123100197 std=0.24076544437882388
+el:adj-r2 mean=1.0626178111045772 std=0.13495709372580778
+
+
+2020-10-27 08:01:22.152807MLPReg5b_riapfea-lr=1e-05-wd=5e-05-lrST=20000-DO=0.9-fea=ps-feasec=5
+Learning rate: 1e-05, Weight decay: 5e-05, LR adjust start: 20000, Dropout: 0.9
+Overall Results
+--------------------
+el:rmse   mean=0.013339607045054436 std=0.0042141517624258995
+el:nrmse  mean=0.11112565137762107 std=0.11580126780794187
+el:r2     mean=0.8732165589093226 std=0.27094357009909187
+el:adj-r2 mean=1.071548381600659 std=0.15186035630414538
+
+
+2020-10-27 08:02:11.381935MLPReg5b_riapfea-lr=1e-05-wd=5e-05-lrST=40000-DO=0.9-fea=ps-feasec=3
+Learning rate: 1e-05, Weight decay: 5e-05, LR adjust start: 40000, Dropout: 0.9
+Overall Results
+--------------------
+el:rmse   mean=0.01360493153333664 std=0.004404638893902302
+el:nrmse  mean=0.11320807038873462 std=0.11634895097427146
+el:r2     mean=0.8656037101764753 std=0.2888588792866389
+el:adj-r2 mean=1.0758662894001332 std=0.1619120393645064
+
+
+2020-10-27 08:04:49.225523MLPReg5b_riapfea-lr=1e-05-wd=5e-05-lrST=40000-DO=0.9-fea=ps-feasec=1
+Learning rate: 1e-05, Weight decay: 5e-05, LR adjust start: 40000, Dropout: 0.9
+Overall Results
+--------------------
+el:rmse   mean=0.014616193249821663 std=0.0044886767864227295
+el:nrmse  mean=0.11953328718751448 std=0.11774845835366417
+el:r2     mean=0.8540561310784327 std=0.3041545092284972
+el:adj-r2 mean=1.0824628464849064 std=0.17049222539620135
+
+
+2020-10-27 08:11:48.171529MLPReg5b_riapfea-lr=1e-05-wd=5e-05-lrST=40000-DO=0.9-fea=ps-feasec=6
+Learning rate: 1e-05, Weight decay: 5e-05, LR adjust start: 40000, Dropout: 0.9
+Overall Results
+--------------------
+el:rmse   mean=0.011301139369606972 std=0.005281645338982344
+el:nrmse  mean=0.10011345949072332 std=0.11595746018072221
+el:r2     mean=0.8951030026409154 std=0.24436486071039512
+el:adj-r2 mean=1.0590951439247964 std=0.13700203075009856
+
+
+2020-10-27 08:12:08.091455MLPReg5b_riapfea-lr=1e-05-wd=5e-05-lrST=40000-DO=0.9-fea=ps-feasec=4
+Learning rate: 1e-05, Weight decay: 5e-05, LR adjust start: 40000, Dropout: 0.9
+Overall Results
+--------------------
+el:rmse   mean=0.013499977998435497 std=0.007425067014992237
+el:nrmse  mean=0.12199854518243607 std=0.14288115268837814
+el:r2     mean=0.8510572844637426 std=0.33778741723702177
+el:adj-r2 mean=1.0839416241057542 std=0.1893773586131918
+
+
+2020-10-27 08:13:49.693443MLPReg5b_riapfea-lr=0.0001-wd=5e-05-lrST=20000-DO=0.9-fea=ps-feasec=2
+Learning rate: 0.0001, Weight decay: 5e-05, LR adjust start: 20000, Dropout: 0.9
+Overall Results
+--------------------
+el:rmse   mean=0.01250753365457058 std=0.005037997383624315
+el:nrmse  mean=0.10607172630720055 std=0.11397493474699608
+el:r2     mean=0.8862868700295407 std=0.24985928647901753
+el:adj-r2 mean=1.0641611012420604 std=0.14005670879843343
+
+
+2020-10-27 08:21:24.605745MLPReg5b_riapfea-lr=0.0001-wd=5e-05-lrST=20000-DO=0.9-fea=ps-feasec=3
+Learning rate: 0.0001, Weight decay: 5e-05, LR adjust start: 20000, Dropout: 0.9
+Overall Results
+--------------------
+el:rmse   mean=0.013424436561763287 std=0.004703499376773834
+el:nrmse  mean=0.1125557593085399 std=0.11777721709223837
+el:r2     mean=0.8665964651748095 std=0.2938839449382298
+el:adj-r2 mean=1.0753054112804423 std=0.16473154210269114
+
+
+2020-10-27 08:23:48.700424MLPReg5b_riapfea-lr=1e-05-wd=5e-05-lrST=40000-DO=0.9-fea=ps-feasec=5
+Learning rate: 1e-05, Weight decay: 5e-05, LR adjust start: 40000, Dropout: 0.9
+Overall Results
+--------------------
+el:rmse   mean=0.013211468234658241 std=0.004795263055711985
+el:nrmse  mean=0.11136376634272711 std=0.11868801141235384
+el:r2     mean=0.8661670298800012 std=0.30347700393432697
+el:adj-r2 mean=1.0754752388397364 std=0.17011670122353323
+
+
+2020-10-27 08:24:49.538634MLPReg5b_riapfea-lr=0.0001-wd=5e-05-lrST=20000-DO=0.9-fea=ps-feasec=1
+Learning rate: 0.0001, Weight decay: 5e-05, LR adjust start: 20000, Dropout: 0.9
+Overall Results
+--------------------
+el:rmse   mean=0.014434528537094593 std=0.004865081049501896
+el:nrmse  mean=0.11801949378083106 std=0.11733668897741564
+el:r2     mean=0.8607946791363288 std=0.292369903830626
+el:adj-r2 mean=1.0786860818077169 std=0.16388169703426872
+
+
+2020-10-27 08:31:15.705720MLPReg5b_riapfea-lr=0.0001-wd=5e-05-lrST=20000-DO=0.9-fea=ps-feasec=6
+Learning rate: 0.0001, Weight decay: 5e-05, LR adjust start: 20000, Dropout: 0.9
+Overall Results
+--------------------
+el:rmse   mean=0.011312279850244522 std=0.005374142434448004
+el:nrmse  mean=0.10003517251570611 std=0.11742259759377924
+el:r2     mean=0.8934857841678789 std=0.2459380572936751
+el:adj-r2 mean=1.0600021209616277 std=0.13788224457740667
+
+
+2020-10-27 08:31:42.802708MLPReg5b_riapfea-lr=0.0001-wd=5e-05-lrST=20000-DO=0.9-fea=ps-feasec=4
+Learning rate: 0.0001, Weight decay: 5e-05, LR adjust start: 20000, Dropout: 0.9
+Overall Results
+--------------------
+el:rmse   mean=0.013334624469280243 std=0.007299640215933323
+el:nrmse  mean=0.12090242923008418 std=0.14207550231653102
+el:r2     mean=0.8528235824231822 std=0.33332244075847506
+el:adj-r2 mean=1.0829492928033995 std=0.1868742246215978
+
+
+2020-10-27 08:35:57.761459MLPReg5b_riapfea-lr=0.0001-wd=5e-05-lrST=40000-DO=0.9-fea=ps-feasec=2
+Learning rate: 0.0001, Weight decay: 5e-05, LR adjust start: 40000, Dropout: 0.9
+Overall Results
+--------------------
+el:rmse   mean=0.012710748240351677 std=0.00490963039919734
+el:nrmse  mean=0.10625228663370742 std=0.1107883409842847
+el:r2     mean=0.8930402481082778 std=0.22640974364711225
+el:adj-r2 mean=1.0603696694716613 std=0.12690279388480774
+
+
+2020-10-27 08:43:19.599449MLPReg5b_riapfea-lr=0.0001-wd=5e-05-lrST=20000-DO=0.9-fea=ps-feasec=5
+Learning rate: 0.0001, Weight decay: 5e-05, LR adjust start: 20000, Dropout: 0.9
+Overall Results
+--------------------
+el:rmse   mean=0.013029481284320354 std=0.004649554379284382
+el:nrmse  mean=0.1101381063613232 std=0.11818884596008956
+el:r2     mean=0.869306129835449 std=0.2967777078968608
+el:adj-r2 mean=1.0736905013949483 std=0.16636551766100735
+
+
+2020-10-27 08:43:57.105572MLPReg5b_riapfea-lr=0.0001-wd=5e-05-lrST=40000-DO=0.9-fea=ps-feasec=3
+Learning rate: 0.0001, Weight decay: 5e-05, LR adjust start: 40000, Dropout: 0.9
+Overall Results
+--------------------
+el:rmse   mean=0.013723999261856079 std=0.004523128736764193
+el:nrmse  mean=0.11270932946528674 std=0.1142832052150005
+el:r2     mean=0.8697985241197493 std=0.2756107758673052
+el:adj-r2 mean=1.0735302705136984 std=0.1544755024683278
+
+
+2020-10-27 08:47:16.489669MLPReg5b_riapfea-lr=0.0001-wd=5e-05-lrST=40000-DO=0.9-fea=ps-feasec=1
+Learning rate: 0.0001, Weight decay: 5e-05, LR adjust start: 40000, Dropout: 0.9
+Overall Results
+--------------------
+el:rmse   mean=0.014851734042167664 std=0.004671485163271427
+el:nrmse  mean=0.1206307815147806 std=0.11772575908634063
+el:r2     mean=0.8522891408800227 std=0.3066377564780893
+el:adj-r2 mean=1.083447983609638 std=0.17187735196662476
+
+
+2020-10-27 08:54:02.457879MLPReg5b_riapfea-lr=0.0001-wd=5e-05-lrST=40000-DO=0.9-fea=ps-feasec=6
+Learning rate: 0.0001, Weight decay: 5e-05, LR adjust start: 40000, Dropout: 0.9
+Overall Results
+--------------------
+el:rmse   mean=0.010967030189931393 std=0.004956540651619434
+el:nrmse  mean=0.09832125548358549 std=0.1152976650136403
+el:r2     mean=0.8974548241208724 std=0.23994033831419567
+el:adj-r2 mean=1.0577489858030278 std=0.13452848942811263
+
+
+2020-10-27 08:54:23.270390MLPReg5b_riapfea-lr=0.0001-wd=5e-05-lrST=40000-DO=0.9-fea=ps-feasec=4
+Learning rate: 0.0001, Weight decay: 5e-05, LR adjust start: 40000, Dropout: 0.9
+Overall Results
+--------------------
+el:rmse   mean=0.013358758762478828 std=0.007045935373753309
+el:nrmse  mean=0.12030692530701606 std=0.1412147080199521
+el:r2     mean=0.8580152121663543 std=0.31804190381608793
+el:adj-r2 mean=1.0800032587317525 std=0.1783056129499215
+
+
+2020-10-27 08:55:16.610369MLPReg5b_riapfea-lr=0.0005-wd=5e-05-lrST=20000-DO=0.9-fea=ps-feasec=2
+Learning rate: 0.0005, Weight decay: 5e-05, LR adjust start: 20000, Dropout: 0.9
+Overall Results
+--------------------
+el:rmse   mean=0.013058425858616829 std=0.004922316409647465
+el:nrmse  mean=0.1076242117709032 std=0.11090708073547774
+el:r2     mean=0.8914590587545763 std=0.2278410340358509
+el:adj-r2 mean=1.061312842652783 std=0.12769186310888261
+
+
+2020-10-27 09:03:10.681634MLPReg5b_riapfea-lr=0.0005-wd=5e-05-lrST=20000-DO=0.9-fea=ps-feasec=3
+Learning rate: 0.0005, Weight decay: 5e-05, LR adjust start: 20000, Dropout: 0.9
+Overall Results
+--------------------
+el:rmse   mean=0.013151891529560089 std=0.005098187830299139
+el:nrmse  mean=0.1103473890868576 std=0.11482051915604452
+el:r2     mean=0.8773062528422363 std=0.2674459369313234
+el:adj-r2 mean=1.0692993366464099 std=0.14991568287317228
+
+
+2020-10-27 09:05:52.174968MLPReg5b_riapfea-lr=0.0001-wd=5e-05-lrST=40000-DO=0.9-fea=ps-feasec=5
+Learning rate: 0.0001, Weight decay: 5e-05, LR adjust start: 40000, Dropout: 0.9
+Overall Results
+--------------------
+el:rmse   mean=0.013137663714587688 std=0.0046770391054451466
+el:nrmse  mean=0.11053243022026069 std=0.11716151671874483
+el:r2     mean=0.8722361870294388 std=0.2859738463628792
+el:adj-r2 mean=1.072060204026818 std=0.16030319944319343
+
+
+2020-10-27 09:06:55.591252MLPReg5b_riapfea-lr=0.0005-wd=5e-05-lrST=20000-DO=0.9-fea=ps-feasec=1
+Learning rate: 0.0005, Weight decay: 5e-05, LR adjust start: 20000, Dropout: 0.9
+Overall Results
+--------------------
+el:rmse   mean=0.014989694580435753 std=0.004779231268912554
+el:nrmse  mean=0.12091608235684684 std=0.11579837198171772
+el:r2     mean=0.8523777822824922 std=0.3018397390771166
+el:adj-r2 mean=1.0834593599941864 std=0.1691851218077755
+
+
+2020-10-27 09:13:27.482325MLPReg5b_riapfea-lr=0.0005-wd=5e-05-lrST=20000-DO=0.9-fea=ps-feasec=6
+Learning rate: 0.0005, Weight decay: 5e-05, LR adjust start: 20000, Dropout: 0.9
+Overall Results
+--------------------
+el:rmse   mean=0.01180550642311573 std=0.005774681456387043
+el:nrmse  mean=0.10175373378902748 std=0.11432421487255189
+el:r2     mean=0.8967888315180812 std=0.23785373035839222
+el:adj-r2 mean=1.0582084612792546 std=0.133332673449418
+
+
+2020-10-27 09:14:00.331995MLPReg5b_riapfea-lr=0.0005-wd=5e-05-lrST=20000-DO=0.9-fea=ps-feasec=4
+Learning rate: 0.0005, Weight decay: 5e-05, LR adjust start: 20000, Dropout: 0.9
+Overall Results
+--------------------
+el:rmse   mean=0.013318521901965141 std=0.00686729047447443
+el:nrmse  mean=0.12067310949422853 std=0.14038508295514357
+el:r2     mean=0.8489616406989438 std=0.346651070104337
+el:adj-r2 mean=1.085082217781071 std=0.19436124036573338
+
+
+2020-10-27 09:17:30.654217MLPReg5b_riapfea-lr=0.0005-wd=5e-05-lrST=40000-DO=0.9-fea=ps-feasec=2
+Learning rate: 0.0005, Weight decay: 5e-05, LR adjust start: 40000, Dropout: 0.9
+Overall Results
+--------------------
+el:rmse   mean=0.01296979933977127 std=0.005160847213119268
+el:nrmse  mean=0.1086652679446088 std=0.11338411629457712
+el:r2     mean=0.8851019071844638 std=0.2508154633018152
+el:adj-r2 mean=1.064851507102985 std=0.14058767920087345
+
+
+2020-10-27 09:25:16.921606MLPReg5b_riapfea-lr=0.0005-wd=5e-05-lrST=20000-DO=0.9-fea=ps-feasec=5
+Learning rate: 0.0005, Weight decay: 5e-05, LR adjust start: 20000, Dropout: 0.9
+Overall Results
+--------------------
+el:rmse   mean=0.013541826978325844 std=0.004852005280554295
+el:nrmse  mean=0.11274003201599432 std=0.11685339600168705
+el:r2     mean=0.866096714013261 std=0.2993263326791131
+el:adj-r2 mean=1.075563477755706 std=0.16777901503706527
+
+
+2020-10-27 09:25:44.470226MLPReg5b_riapfea-lr=0.0005-wd=5e-05-lrST=40000-DO=0.9-fea=ps-feasec=3
+Learning rate: 0.0005, Weight decay: 5e-05, LR adjust start: 40000, Dropout: 0.9
+Overall Results
+--------------------
+el:rmse   mean=0.013675178401172161 std=0.0050026485696434975
+el:nrmse  mean=0.11358677501435618 std=0.11681172461933083
+el:r2     mean=0.8661149661227476 std=0.29417693389611693
+el:adj-r2 mean=1.0755829844191152 std=0.16489378365677548
+
+
+2020-10-27 09:29:29.705976MLPReg5b_riapfea-lr=0.0005-wd=5e-05-lrST=40000-DO=0.9-fea=ps-feasec=1
+Learning rate: 0.0005, Weight decay: 5e-05, LR adjust start: 40000, Dropout: 0.9
+Overall Results
+--------------------
+el:rmse   mean=0.014964056201279163 std=0.004435008857399225
+el:nrmse  mean=0.1206877377699422 std=0.1162054628368572
+el:r2     mean=0.8528328547243597 std=0.29879530111898206
+el:adj-r2 mean=1.0831439067043782 std=0.16747997163809006
+
+
+2020-10-27 09:36:11.949849MLPReg5b_riapfea-lr=0.0005-wd=5e-05-lrST=40000-DO=0.9-fea=ps-feasec=6
+Learning rate: 0.0005, Weight decay: 5e-05, LR adjust start: 40000, Dropout: 0.9
+Overall Results
+--------------------
+el:rmse   mean=0.011839205399155617 std=0.006206636317074299
+el:nrmse  mean=0.10384576044013616 std=0.11850365313773041
+el:r2     mean=0.8881258830054586 std=0.26378356508612505
+el:adj-r2 mean=1.0630580720736167 std=0.14788207410241697
+
+
+2020-10-27 09:36:42.124212MLPReg5b_riapfea-lr=0.0005-wd=5e-05-lrST=40000-DO=0.9-fea=ps-feasec=4
+Learning rate: 0.0005, Weight decay: 5e-05, LR adjust start: 40000, Dropout: 0.9
+Overall Results
+--------------------
+el:rmse   mean=0.013561347499489784 std=0.006925530731678009
+el:nrmse  mean=0.12070876234889731 std=0.13988778976889116
+el:r2     mean=0.8528364576397524 std=0.3331999433065771
+el:adj-r2 mean=1.0829414775050148 std=0.18680177638216502
+
+
+2020-10-27 09:36:50.073095MLPReg5b_riapfea-lr=0.001-wd=5e-05-lrST=20000-DO=0.9-fea=ps-feasec=2
+Learning rate: 0.001, Weight decay: 5e-05, LR adjust start: 20000, Dropout: 0.9
+Overall Results
+--------------------
+el:rmse   mean=0.012895139865577221 std=0.005852460395544767
+el:nrmse  mean=0.1071397598519365 std=0.11182583801231082
+el:r2     mean=0.8900600260808064 std=0.2355811370751394
+el:adj-r2 mean=1.06213504892788 std=0.13203718485885174
+
+
+2020-10-27 09:45:00.015984MLPReg5b_riapfea-lr=0.001-wd=5e-05-lrST=20000-DO=0.9-fea=ps-feasec=3
+Learning rate: 0.001, Weight decay: 5e-05, LR adjust start: 20000, Dropout: 0.9
+Overall Results
+--------------------
+el:rmse   mean=0.012778675183653831 std=0.005067280028015375
+el:nrmse  mean=0.10993459618261947 std=0.119722891934365
+el:r2     mean=0.8662492445179432 std=0.2995432275761249
+el:adj-r2 mean=1.0754760894875466 std=0.16792512336903745
+
+
+2020-10-27 09:47:44.802301MLPReg5b_riapfea-lr=0.0005-wd=5e-05-lrST=40000-DO=0.9-fea=ps-feasec=5
+Learning rate: 0.0005, Weight decay: 5e-05, LR adjust start: 40000, Dropout: 0.9
+Overall Results
+--------------------
+el:rmse   mean=0.01311087142676115 std=0.005177628714591265
+el:nrmse  mean=0.11038731914883175 std=0.11632639978966273
+el:r2     mean=0.876331587030648 std=0.2774797260388866
+el:adj-r2 mean=1.0697763100666162 std=0.1555367205724661
+
+
+2020-10-27 09:49:00.580495MLPReg5b_riapfea-lr=0.001-wd=5e-05-lrST=20000-DO=0.9-fea=ps-feasec=1
+Learning rate: 0.001, Weight decay: 5e-05, LR adjust start: 20000, Dropout: 0.9
+Overall Results
+--------------------
+el:rmse   mean=0.01566656306385994 std=0.005388496443629265
+el:nrmse  mean=0.131157155951628 std=0.13722555273361398
+el:r2     mean=0.8328567945494527 std=0.34976525426726246
+el:adj-r2 mean=1.094400154945618 std=0.19606539279574225
+
+
+2020-10-27 09:55:47.533536MLPReg5b_riapfea-lr=0.001-wd=5e-05-lrST=20000-DO=0.9-fea=ps-feasec=6
+Learning rate: 0.001, Weight decay: 5e-05, LR adjust start: 20000, Dropout: 0.9
+Overall Results
+--------------------
+el:rmse   mean=0.011910321190953255 std=0.005264518782496452
+el:nrmse  mean=0.10111704431160426 std=0.10931483150928668
+el:r2     mean=0.9112886240239 std=0.18481124628303947
+el:adj-r2 mean=1.0500705218246726 std=0.10357818739713806
+
+
+2020-10-27 09:56:17.583699MLPReg5b_riapfea-lr=0.001-wd=5e-05-lrST=20000-DO=0.9-fea=ps-feasec=4
+Learning rate: 0.001, Weight decay: 5e-05, LR adjust start: 20000, Dropout: 0.9
+Overall Results
+--------------------
+el:rmse   mean=0.014086577109992504 std=0.0074808308854699135
+el:nrmse  mean=0.1238186883618986 std=0.14328713792757
+el:r2     mean=0.8423782623190625 std=0.3525905065120209
+el:adj-r2 mean=1.088697044346926 std=0.1977010968308756
+
+
+2020-10-27 09:59:00.211721MLPReg5b_riapfea-lr=0.001-wd=5e-05-lrST=40000-DO=0.9-fea=ps-feasec=2
+Learning rate: 0.001, Weight decay: 5e-05, LR adjust start: 40000, Dropout: 0.9
+Overall Results
+--------------------
+el:rmse   mean=0.013146805576980114 std=0.006251834332942963
+el:nrmse  mean=0.1092857211928869 std=0.11243121856474156
+el:r2     mean=0.8890983861071893 std=0.23711528881468286
+el:adj-r2 mean=1.0626966050489925 std=0.13289333664941289
+
+
+2020-10-27 10:07:26.445662MLPReg5b_riapfea-lr=0.001-wd=5e-05-lrST=40000-DO=0.9-fea=ps-feasec=3
+Learning rate: 0.001, Weight decay: 5e-05, LR adjust start: 40000, Dropout: 0.9
+Overall Results
+--------------------
+el:rmse   mean=0.013659417629241943 std=0.004259486682713032
+el:nrmse  mean=0.11228513758139595 std=0.114322801455748
+el:r2     mean=0.8716935097640667 std=0.2748766003633703
+el:adj-r2 mean=1.0723896069474028 std=0.15407999705146638
+
+
+2020-10-27 10:07:36.553958MLPReg5b_riapfea-lr=0.001-wd=5e-05-lrST=20000-DO=0.9-fea=ps-feasec=5
+Learning rate: 0.001, Weight decay: 5e-05, LR adjust start: 20000, Dropout: 0.9
+Overall Results
+--------------------
+el:rmse   mean=0.01220207940787077 std=0.004445545841008425
+el:nrmse  mean=0.10156335563139685 std=0.1064992915145896
+el:r2     mean=0.9040644288541693 std=0.19097691737086123
+el:adj-r2 mean=1.0542791604763013 std=0.10704152922953579
+
+
+2020-10-27 10:11:30.515858MLPReg5b_riapfea-lr=0.001-wd=5e-05-lrST=40000-DO=0.9-fea=ps-feasec=1
+Learning rate: 0.001, Weight decay: 5e-05, LR adjust start: 40000, Dropout: 0.9
+Overall Results
+--------------------
+el:rmse   mean=0.014663184992969036 std=0.005253397393971682
+el:nrmse  mean=0.12555025268598471 std=0.1350284999555663
+el:r2     mean=0.8473046448472583 std=0.31467109852080444
+el:adj-r2 mean=1.0862582385072959 std=0.17641133955948615
+
+
+2020-10-27 10:18:29.176642MLPReg5b_riapfea-lr=0.001-wd=5e-05-lrST=40000-DO=0.9-fea=ps-feasec=6
+Learning rate: 0.001, Weight decay: 5e-05, LR adjust start: 40000, Dropout: 0.9
+Overall Results
+--------------------
+el:rmse   mean=0.011369168758392334 std=0.00566868856549263
+el:nrmse  mean=0.10395900606019462 std=0.12661919136938687
+el:r2     mean=0.889140779708207 std=0.253226584487742
+el:adj-r2 mean=1.062477314248147 std=0.1419698990432377
+
+
+2020-10-27 10:18:34.767305MLPReg5b_riapfea-lr=5e-06-wd=0.0001-lrST=20000-DO=0.9-fea=ps-feasec=2
+Learning rate: 5e-06, Weight decay: 0.0001, LR adjust start: 20000, Dropout: 0.9
+Overall Results
+--------------------
+el:rmse   mean=0.01339130848646164 std=0.004261689260601997
+el:nrmse  mean=0.10965167241641934 std=0.11141796714354663
+el:r2     mean=0.8936306897814067 std=0.20191377661970028
+el:adj-r2 mean=1.0600532137633225 std=0.11313595075082392
+
+
+2020-10-27 10:18:53.463254MLPReg5b_riapfea-lr=0.001-wd=5e-05-lrST=40000-DO=0.9-fea=ps-feasec=4
+Learning rate: 0.001, Weight decay: 5e-05, LR adjust start: 40000, Dropout: 0.9
+Overall Results
+--------------------
+el:rmse   mean=0.013338799588382244 std=0.005773908458650112
+el:nrmse  mean=0.11457902748499824 std=0.12445391356783095
+el:r2     mean=0.8676805827287557 std=0.290960248965312
+el:adj-r2 mean=1.0746219572762103 std=0.16311280802790815
+
+
+2020-10-27 10:26:44.198919MLPReg5b_riapfea-lr=5e-06-wd=0.0001-lrST=20000-DO=0.9-fea=ps-feasec=3
+Learning rate: 5e-06, Weight decay: 0.0001, LR adjust start: 20000, Dropout: 0.9
+Overall Results
+--------------------
+el:rmse   mean=0.013879695907235146 std=0.003909716382622719
+el:nrmse  mean=0.11354927348612658 std=0.11429072907305439
+el:r2     mean=0.8803935226322345 std=0.23057904037497498
+el:adj-r2 mean=1.0675222708933707 std=0.12921021081819445
+
+
+2020-10-27 10:30:02.948632MLPReg5b_riapfea-lr=0.001-wd=5e-05-lrST=40000-DO=0.9-fea=ps-feasec=5
+Learning rate: 0.001, Weight decay: 5e-05, LR adjust start: 40000, Dropout: 0.9
+Overall Results
+--------------------
+el:rmse   mean=0.013304007239639759 std=0.005286125466227531
+el:nrmse  mean=0.11113908081175725 std=0.1148041021966101
+el:r2     mean=0.8772532243285326 std=0.26746640353041423
+el:adj-r2 mean=1.0693487144493894 std=0.14991075138929325
+
+
+2020-10-27 10:31:11.519565MLPReg5b_riapfea-lr=5e-06-wd=0.0001-lrST=20000-DO=0.9-fea=ps-feasec=1
+Learning rate: 5e-06, Weight decay: 0.0001, LR adjust start: 20000, Dropout: 0.9
+Overall Results
+--------------------
+el:rmse   mean=0.014451700262725353 std=0.0037860549055039883
+el:nrmse  mean=0.1181073652642947 std=0.11818099711748387
+el:r2     mean=0.8626236704804627 std=0.2640054595809208
+el:adj-r2 mean=1.0774858163633625 std=0.14795443103361938
+
+
+2020-10-27 10:38:01.525976MLPReg5b_riapfea-lr=5e-06-wd=0.0001-lrST=20000-DO=0.9-fea=ps-feasec=6
+Learning rate: 5e-06, Weight decay: 0.0001, LR adjust start: 20000, Dropout: 0.9
+Overall Results
+--------------------
+el:rmse   mean=0.011406942270696163 std=0.004847649484872818
+el:nrmse  mean=0.10185188039945674 std=0.11883517970923488
+el:r2     mean=0.8957066379064574 std=0.2352445914018937
+el:adj-r2 mean=1.0587701001417351 std=0.13188328311314426
+
+
+2020-10-27 10:38:27.761841MLPReg5b_riapfea-lr=5e-06-wd=0.0001-lrST=20000-DO=0.9-fea=ps-feasec=4
+Learning rate: 5e-06, Weight decay: 0.0001, LR adjust start: 20000, Dropout: 0.9
+Overall Results
+--------------------
+el:rmse   mean=0.01357246469706297 std=0.005335073918104172
+el:nrmse  mean=0.11843317309507648 std=0.13077343839690633
+el:r2     mean=0.8533842031258307 std=0.31402759229238597
+el:adj-r2 mean=1.0825896034887637 std=0.1760431672388266
+
+
+2020-10-27 10:40:44.357032MLPReg5b_riapfea-lr=5e-06-wd=0.0001-lrST=40000-DO=0.9-fea=ps-feasec=2
+Learning rate: 5e-06, Weight decay: 0.0001, LR adjust start: 40000, Dropout: 0.9
+Overall Results
+--------------------
+el:rmse   mean=0.013022947125136852 std=0.0055103907361626625
+el:nrmse  mean=0.10982850349696556 std=0.11544860508732602
+el:r2     mean=0.8892971541708494 std=0.229399455960035
+el:adj-r2 mean=1.0624382012635558 std=0.12857877340161547
+
+
+2020-10-27 10:49:07.095793MLPReg5b_riapfea-lr=5e-06-wd=0.0001-lrST=40000-DO=0.9-fea=ps-feasec=3
+Learning rate: 5e-06, Weight decay: 0.0001, LR adjust start: 40000, Dropout: 0.9
+Overall Results
+--------------------
+el:rmse   mean=0.01361838448792696 std=0.00479430565610528
+el:nrmse  mean=0.1144305889273433 std=0.11875281378300089
+el:r2     mean=0.8692539677112976 std=0.27793896752374375
+el:adj-r2 mean=1.073745230004974 std=0.15579286561912672
+
+
+2020-10-27 10:49:54.437860MLPReg5b_riapfea-lr=5e-06-wd=0.0001-lrST=20000-DO=0.9-fea=ps-feasec=5
+Learning rate: 5e-06, Weight decay: 0.0001, LR adjust start: 20000, Dropout: 0.9
+Overall Results
+--------------------
+el:rmse   mean=0.01387074589729309 std=0.003857464762404561
+el:nrmse  mean=0.11283692129578782 std=0.11295401668761908
+el:r2     mean=0.8812757025384599 std=0.2201535082715824
+el:adj-r2 mean=1.0669889528457743 std=0.12335851276691051
+
+
+2020-10-27 10:53:41.648066MLPReg5b_riapfea-lr=5e-06-wd=0.0001-lrST=40000-DO=0.9-fea=ps-feasec=1
+Learning rate: 5e-06, Weight decay: 0.0001, LR adjust start: 40000, Dropout: 0.9
+Overall Results
+--------------------
+el:rmse   mean=0.014866811223328114 std=0.00470521068200469
+el:nrmse  mean=0.12185788270268097 std=0.12051655775636509
+el:r2     mean=0.8549408200411754 std=0.2952400792415852
+el:adj-r2 mean=1.081873115063577 std=0.16548182920158522
+
+
+2020-10-27 11:00:17.364523MLPReg5b_riapfea-lr=1e-05-wd=0.0001-lrST=20000-DO=0.9-fea=ps-feasec=2
+Learning rate: 1e-05, Weight decay: 0.0001, LR adjust start: 20000, Dropout: 0.9
+Overall Results
+--------------------
+el:rmse   mean=0.012968475930392742 std=0.005754980258643627
+el:nrmse  mean=0.10950329079668004 std=0.11588409640766652
+el:r2     mean=0.8884169576420724 std=0.23585859762607292
+el:adj-r2 mean=1.062928687989844 std=0.13220475217126396
+
+
+2020-10-27 11:00:43.767075MLPReg5b_riapfea-lr=5e-06-wd=0.0001-lrST=40000-DO=0.9-fea=ps-feasec=6
+Learning rate: 5e-06, Weight decay: 0.0001, LR adjust start: 40000, Dropout: 0.9
+Overall Results
+--------------------
+el:rmse   mean=0.011287745088338852 std=0.00564604951068759
+el:nrmse  mean=0.1009158756728618 std=0.11832022931430052
+el:r2     mean=0.900085580562258 std=0.22990579593922814
+el:adj-r2 mean=1.056268176738112 std=0.12889833506546117
+
+
+2020-10-27 11:01:10.577037MLPReg5b_riapfea-lr=5e-06-wd=0.0001-lrST=40000-DO=0.9-fea=ps-feasec=4
+Learning rate: 5e-06, Weight decay: 0.0001, LR adjust start: 40000, Dropout: 0.9
+Overall Results
+--------------------
+el:rmse   mean=0.013479726389050484 std=0.006836946588009596
+el:nrmse  mean=0.11654455648310798 std=0.12746150419232188
+el:r2     mean=0.8589731555562518 std=0.3179828585916598
+el:adj-r2 mean=1.079521275649616 std=0.17826526792324163
+
+
+2020-10-27 11:08:45.293208MLPReg5b_riapfea-lr=1e-05-wd=0.0001-lrST=20000-DO=0.9-fea=ps-feasec=3
+Learning rate: 1e-05, Weight decay: 0.0001, LR adjust start: 20000, Dropout: 0.9
+Overall Results
+--------------------
+el:rmse   mean=0.013862892985343933 std=0.005004935897886753
+el:nrmse  mean=0.11523274604064027 std=0.11801107908978507
+el:r2     mean=0.8699281368886554 std=0.27386469489314386
+el:adj-r2 mean=1.0733920921319011 std=0.15350231642856704
+
+
+2020-10-27 11:12:19.200197MLPReg5b_riapfea-lr=5e-06-wd=0.0001-lrST=40000-DO=0.9-fea=ps-feasec=5
+Learning rate: 5e-06, Weight decay: 0.0001, LR adjust start: 40000, Dropout: 0.9
+Overall Results
+--------------------
+el:rmse   mean=0.013465775176882744 std=0.004775993060320616
+el:nrmse  mean=0.1131437579299062 std=0.11942786932084555
+el:r2     mean=0.8711780375815907 std=0.28124971174275354
+el:adj-r2 mean=1.0726198225424215 std=0.15765295876565388
+
+
+2020-10-27 11:13:28.871558MLPReg5b_riapfea-lr=1e-05-wd=0.0001-lrST=20000-DO=0.9-fea=ps-feasec=1
+Learning rate: 1e-05, Weight decay: 0.0001, LR adjust start: 20000, Dropout: 0.9
+Overall Results
+--------------------
+el:rmse   mean=0.014691134914755821 std=0.005033785477280617
+el:nrmse  mean=0.11999718306354183 std=0.1182049196113994
+el:r2     mean=0.8647018316948882 std=0.27030416608689106
+el:adj-r2 mean=1.0764176995970112 std=0.15149750652254745
+
+
+2020-10-27 11:20:17.446737MLPReg5b_riapfea-lr=1e-05-wd=0.0001-lrST=20000-DO=0.9-fea=ps-feasec=6
+Learning rate: 1e-05, Weight decay: 0.0001, LR adjust start: 20000, Dropout: 0.9
+Overall Results
+--------------------
+el:rmse   mean=0.011070141568779945 std=0.005338700022548437
+el:nrmse  mean=0.0997071009502303 std=0.11839795461648747
+el:r2     mean=0.9015908603350121 std=0.22668707935112264
+el:adj-r2 mean=1.05541314964726 std=0.12709572163193233
+
+
+2020-10-27 11:20:54.594257MLPReg5b_riapfea-lr=1e-05-wd=0.0001-lrST=20000-DO=0.9-fea=ps-feasec=4
+Learning rate: 1e-05, Weight decay: 0.0001, LR adjust start: 20000, Dropout: 0.9
+Overall Results
+--------------------
+el:rmse   mean=0.013359646312892437 std=0.006727784872055054
+el:nrmse  mean=0.11706031420092375 std=0.1308832548387548
+el:r2     mean=0.8610809827642194 std=0.31001961135899464
+el:adj-r2 mean=1.078282396987881 std=0.17380565973882173
+
+
+2020-10-27 11:22:25.513108MLPReg5b_riapfea-lr=1e-05-wd=0.0001-lrST=40000-DO=0.9-fea=ps-feasec=2
+Learning rate: 1e-05, Weight decay: 0.0001, LR adjust start: 40000, Dropout: 0.9
+Overall Results
+--------------------
+el:rmse   mean=0.012681648135185242 std=0.005588462110608816
+el:nrmse  mean=0.1078773351365491 std=0.115763973164427
+el:r2     mean=0.893507894754703 std=0.22689361628869617
+el:adj-r2 mean=1.0600568678878788 std=0.12718213205525966
+
+
+2020-10-27 11:31:15.674566MLPReg5b_riapfea-lr=1e-05-wd=0.0001-lrST=40000-DO=0.9-fea=ps-feasec=3
+Learning rate: 1e-05, Weight decay: 0.0001, LR adjust start: 40000, Dropout: 0.9
+Overall Results
+--------------------
+el:rmse   mean=0.013544444926083088 std=0.005013741087168455
+el:nrmse  mean=0.11403248424324142 std=0.11961733859784839
+el:r2     mean=0.8705096358650636 std=0.28050016260673993
+el:adj-r2 mean=1.0730469952093278 std=0.15723235958726436
+
+
+2020-10-27 11:31:56.689739MLPReg5b_riapfea-lr=1e-05-wd=0.0001-lrST=20000-DO=0.9-fea=ps-feasec=5
+Learning rate: 1e-05, Weight decay: 0.0001, LR adjust start: 20000, Dropout: 0.9
+Overall Results
+--------------------
+el:rmse   mean=0.01361849159002304 std=0.004925208166241646
+el:nrmse  mean=0.1134499649257779 std=0.11863673715040408
+el:r2     mean=0.873596488885228 std=0.2699599836655593
+el:adj-r2 mean=1.071269765922553 std=0.15131592156483542
+
+
+2020-10-27 11:36:00.101961MLPReg5b_riapfea-lr=1e-05-wd=0.0001-lrST=40000-DO=0.9-fea=ps-feasec=1
+Learning rate: 1e-05, Weight decay: 0.0001, LR adjust start: 40000, Dropout: 0.9
+Overall Results
+--------------------
+el:rmse   mean=0.014451411552727222 std=0.005087993573397398
+el:nrmse  mean=0.12001304157383477 std=0.12121758652353778
+el:r2     mean=0.8609396905580569 std=0.28916931749813374
+el:adj-r2 mean=1.0784939325999698 std=0.1620892514048115
+
+
+2020-10-27 11:41:53.763953MLPReg5b_riapfea-lr=0.0001-wd=0.0001-lrST=20000-DO=0.9-fea=ps-feasec=2
+Learning rate: 0.0001, Weight decay: 0.0001, LR adjust start: 20000, Dropout: 0.9
+Overall Results
+--------------------
+el:rmse   mean=0.012585747055709362 std=0.005652979016304016
+el:nrmse  mean=0.10647101420721558 std=0.1134973369175391
+el:r2     mean=0.8990715877622794 std=0.21071914505097697
+el:adj-r2 mean=1.0569414424421448 std=0.11811012641575602
+
+
+2020-10-27 11:42:56.848906MLPReg5b_riapfea-lr=1e-05-wd=0.0001-lrST=40000-DO=0.9-fea=ps-feasec=6
+Learning rate: 1e-05, Weight decay: 0.0001, LR adjust start: 40000, Dropout: 0.9
+Overall Results
+--------------------
+el:rmse   mean=0.011078236624598503 std=0.005582902580499649
+el:nrmse  mean=0.10003018660299887 std=0.11879848980991296
+el:r2     mean=0.90066597313156 std=0.23003004458489587
+el:adj-r2 mean=1.055922862936809 std=0.1289743971142935
+
+
+2020-10-27 11:43:29.865046MLPReg5b_riapfea-lr=1e-05-wd=0.0001-lrST=40000-DO=0.9-fea=ps-feasec=4
+Learning rate: 1e-05, Weight decay: 0.0001, LR adjust start: 40000, Dropout: 0.9
+Overall Results
+--------------------
+el:rmse   mean=0.013785826042294502 std=0.00612548878416419
+el:nrmse  mean=0.11847662235940715 std=0.13004988052858862
+el:r2     mean=0.8571625960126331 std=0.31018333874061516
+el:adj-r2 mean=1.0804990769707818 std=0.17388663502660004
+
+
+2020-10-27 11:50:51.406598MLPReg5b_riapfea-lr=0.0001-wd=0.0001-lrST=20000-DO=0.9-fea=ps-feasec=3
+Learning rate: 0.0001, Weight decay: 0.0001, LR adjust start: 20000, Dropout: 0.9
+Overall Results
+--------------------
+el:rmse   mean=0.013481691479682922 std=0.004711053799837828
+el:nrmse  mean=0.11321714541723953 std=0.11862675072407129
+el:r2     mean=0.8721202383823158 std=0.2751696479630556
+el:adj-r2 mean=1.0721369485960908 std=0.15424333027292647
+
+
+2020-10-27 11:54:25.334062MLPReg5b_riapfea-lr=1e-05-wd=0.0001-lrST=40000-DO=0.9-fea=ps-feasec=5
+Learning rate: 1e-05, Weight decay: 0.0001, LR adjust start: 40000, Dropout: 0.9
+Overall Results
+--------------------
+el:rmse   mean=0.013240349479019642 std=0.00506986677646637
+el:nrmse  mean=0.11214252403164568 std=0.12011056259966416
+el:r2     mean=0.8739885466027907 std=0.2786627641182457
+el:adj-r2 mean=1.0710210706203749 std=0.15620984743102959
+
+
+2020-10-27 11:55:45.883147MLPReg5b_riapfea-lr=0.0001-wd=0.0001-lrST=20000-DO=0.9-fea=ps-feasec=1
+Learning rate: 0.0001, Weight decay: 0.0001, LR adjust start: 20000, Dropout: 0.9
+Overall Results
+--------------------
+el:rmse   mean=0.014640025794506073 std=0.005020545329898596
+el:nrmse  mean=0.11966450380735856 std=0.11837302179363159
+el:r2     mean=0.8639455193306501 std=0.27695554455512217
+el:adj-r2 mean=1.0768178637048098 std=0.15522897313579823
+
+
+2020-10-27 12:02:26.686072MLPReg5b_riapfea-lr=0.0001-wd=0.0001-lrST=20000-DO=0.9-fea=ps-feasec=6
+Learning rate: 0.0001, Weight decay: 0.0001, LR adjust start: 20000, Dropout: 0.9
+Overall Results
+--------------------
+el:rmse   mean=0.01100410521030426 std=0.005655014421790838
+el:nrmse  mean=0.0997360254066259 std=0.11842412828793297
+el:r2     mean=0.9011328211477707 std=0.2293796917424562
+el:adj-r2 mean=1.055653495570368 std=0.12861289345296914
+
+
+2020-10-27 12:03:20.754133MLPReg5b_riapfea-lr=0.0001-wd=0.0001-lrST=20000-DO=0.9-fea=ps-feasec=4
+Learning rate: 0.0001, Weight decay: 0.0001, LR adjust start: 20000, Dropout: 0.9
+Overall Results
+--------------------
+el:rmse   mean=0.013764525763690472 std=0.006448698230087757
+el:nrmse  mean=0.11819096459879208 std=0.12920568266399515
+el:r2     mean=0.8575846650560178 std=0.3119345815029496
+el:adj-r2 mean=1.0802748245630263 std=0.17486715297055988
+
+
+2020-10-27 12:04:03.573327MLPReg5b_riapfea-lr=0.0001-wd=0.0001-lrST=40000-DO=0.9-fea=ps-feasec=2
+Learning rate: 0.0001, Weight decay: 0.0001, LR adjust start: 40000, Dropout: 0.9
+Overall Results
+--------------------
+el:rmse   mean=0.013003960251808167 std=0.005442046094685793
+el:nrmse  mean=0.10890780766214447 std=0.114151460881104
+el:r2     mean=0.8931426405071555 std=0.22329097555051364
+el:adj-r2 mean=1.0602778373792918 std=0.12515518735589562
+
+
+2020-10-27 12:13:22.945094MLPReg5b_riapfea-lr=0.0001-wd=0.0001-lrST=40000-DO=0.9-fea=ps-feasec=3
+Learning rate: 0.0001, Weight decay: 0.0001, LR adjust start: 40000, Dropout: 0.9
+Overall Results
+--------------------
+el:rmse   mean=0.013497439213097095 std=0.00496640196070075
+el:nrmse  mean=0.11405206247321602 std=0.12003384859939553
+el:r2     mean=0.869881641911595 std=0.28381424914730136
+el:adj-r2 mean=1.0733925122245966 std=0.15909507917152063
+
+
+2020-10-27 12:13:58.533623MLPReg5b_riapfea-lr=0.0001-wd=0.0001-lrST=20000-DO=0.9-fea=ps-feasec=5
+Learning rate: 0.0001, Weight decay: 0.0001, LR adjust start: 20000, Dropout: 0.9
+Overall Results
+--------------------
+el:rmse   mean=0.01351544726639986 std=0.005124294199049473
+el:nrmse  mean=0.11291104924696163 std=0.11832359668146292
+el:r2     mean=0.8754629535411531 std=0.27028321531411936
+el:adj-r2 mean=1.0702270964275682 std=0.15149919865917114
+
+
+2020-10-27 12:18:11.574461MLPReg5b_riapfea-lr=0.0001-wd=0.0001-lrST=40000-DO=0.9-fea=ps-feasec=1
+Learning rate: 0.0001, Weight decay: 0.0001, LR adjust start: 40000, Dropout: 0.9
+Overall Results
+--------------------
+el:rmse   mean=0.014616131782531738 std=0.004939668346196413
+el:nrmse  mean=0.12035503298943555 std=0.12024301830626234
+el:r2     mean=0.8587270778746483 std=0.29207585652170864
+el:adj-r2 mean=1.0797338274727104 std=0.16371562546466392
+
+
+2020-10-27 12:23:27.649224MLPReg5b_riapfea-lr=0.0005-wd=0.0001-lrST=20000-DO=0.9-fea=ps-feasec=2
+Learning rate: 0.0005, Weight decay: 0.0001, LR adjust start: 20000, Dropout: 0.9
+Overall Results
+--------------------
+el:rmse   mean=0.012795178219676018 std=0.005108661483973265
+el:nrmse  mean=0.10702467951005926 std=0.11221467115251674
+el:r2     mean=0.8990440859901442 std=0.20614456400403217
+el:adj-r2 mean=1.0569586419221655 std=0.11553615693789562
+
+
+2020-10-27 12:25:02.571823MLPReg5b_riapfea-lr=0.0001-wd=0.0001-lrST=40000-DO=0.9-fea=ps-feasec=6
+Learning rate: 0.0001, Weight decay: 0.0001, LR adjust start: 40000, Dropout: 0.9
+Overall Results
+--------------------
+el:rmse   mean=0.01090855523943901 std=0.005377965047955513
+el:nrmse  mean=0.09961225255258092 std=0.11963119082205126
+el:r2     mean=0.8994902883701907 std=0.23414381390322284
+el:adj-r2 mean=1.0565676866731164 std=0.13128717914271135
+
+
+2020-10-27 12:26:04.025714MLPReg5b_riapfea-lr=0.0001-wd=0.0001-lrST=40000-DO=0.9-fea=ps-feasec=4
+Learning rate: 0.0001, Weight decay: 0.0001, LR adjust start: 40000, Dropout: 0.9
+Overall Results
+--------------------
+el:rmse   mean=0.013721121475100517 std=0.006605769973248243
+el:nrmse  mean=0.11857229172557986 std=0.13064337974381032
+el:r2     mean=0.8600661429436498 std=0.3065836490485509
+el:adj-r2 mean=1.0788828335048972 std=0.1718669520973425
+
+
+2020-10-27 12:33:02.845535MLPReg5b_riapfea-lr=0.0005-wd=0.0001-lrST=20000-DO=0.9-fea=ps-feasec=3
+Learning rate: 0.0005, Weight decay: 0.0001, LR adjust start: 20000, Dropout: 0.9
+Overall Results
+--------------------
+el:rmse   mean=0.013408620841801167 std=0.005110889673233032
+el:nrmse  mean=0.11333728779414272 std=0.11921113444362595
+el:r2     mean=0.8714855242945196 std=0.2830260050984656
+el:adj-r2 mean=1.0725267066647652 std=0.1586464637268148
+
+
+2020-10-27 12:36:26.103419MLPReg5b_riapfea-lr=0.0001-wd=0.0001-lrST=40000-DO=0.9-fea=ps-feasec=5
+Learning rate: 0.0001, Weight decay: 0.0001, LR adjust start: 40000, Dropout: 0.9
+Overall Results
+--------------------
+el:rmse   mean=0.01289784163236618 std=0.004625058267265558
+el:nrmse  mean=0.11041783613351501 std=0.11980072297421082
+el:r2     mean=0.8755543333544514 std=0.27533640426864003
+el:adj-r2 mean=1.0701183110699024 std=0.15435193902671224
+
+
+2020-10-27 12:37:59.014644MLPReg5b_riapfea-lr=0.0005-wd=0.0001-lrST=20000-DO=0.9-fea=ps-feasec=1
+Learning rate: 0.0005, Weight decay: 0.0001, LR adjust start: 20000, Dropout: 0.9
+Overall Results
+--------------------
+el:rmse   mean=0.01410104800015688 std=0.005291354842483997
+el:nrmse  mean=0.11877577892589934 std=0.12257021292215191
+el:r2     mean=0.85809217491116 std=0.3024695673670462
+el:adj-r2 mean=1.0800741536979541 std=0.16955999075226064
+
+
+2020-10-27 12:44:54.432674MLPReg5b_riapfea-lr=0.0005-wd=0.0001-lrST=20000-DO=0.9-fea=ps-feasec=6
+Learning rate: 0.0005, Weight decay: 0.0001, LR adjust start: 20000, Dropout: 0.9
+Overall Results
+--------------------
+el:rmse   mean=0.011192692443728447 std=0.005603198893368244
+el:nrmse  mean=0.1005981523376975 std=0.11854555116561717
+el:r2     mean=0.9039249624944619 std=0.21882916401701552
+el:adj-r2 mean=1.0540964377209545 std=0.1226901406725002
+
+
+2020-10-27 12:45:35.187982MLPReg5b_riapfea-lr=0.0005-wd=0.0001-lrST=40000-DO=0.9-fea=ps-feasec=2
+Learning rate: 0.0005, Weight decay: 0.0001, LR adjust start: 40000, Dropout: 0.9
+Overall Results
+--------------------
+el:rmse   mean=0.013046021573245525 std=0.005721589550375938
+el:nrmse  mean=0.11043807306856501 std=0.116945353957244
+el:r2     mean=0.8854002734309919 std=0.24642850449820874
+el:adj-r2 mean=1.0646363466719722 std=0.1381328301022826
+
+
+2020-10-27 12:45:43.489605MLPReg5b_riapfea-lr=0.0005-wd=0.0001-lrST=20000-DO=0.9-fea=ps-feasec=4
+Learning rate: 0.0005, Weight decay: 0.0001, LR adjust start: 20000, Dropout: 0.9
+Overall Results
+--------------------
+el:rmse   mean=0.014671750366687775 std=0.007454663049429655
+el:nrmse  mean=0.12289825600015496 std=0.13218956473722557
+el:r2     mean=0.8597270867684544 std=0.29228710724404017
+el:adj-r2 mean=1.079105101794111 std=0.1638377703439825
+
+
+2020-10-27 12:55:30.092020MLPReg5b_riapfea-lr=0.0005-wd=0.0001-lrST=40000-DO=0.9-fea=ps-feasec=3
+Learning rate: 0.0005, Weight decay: 0.0001, LR adjust start: 40000, Dropout: 0.9
+Overall Results
+--------------------
+el:rmse   mean=0.013596832752227783 std=0.005397005006670952
+el:nrmse  mean=0.11434045374795077 std=0.1192332124878874
+el:r2     mean=0.8714906945351846 std=0.2776790751998644
+el:adj-r2 mean=1.072478942553144 std=0.15565148364497586
+
+
+2020-10-27 12:56:09.527777MLPReg5b_riapfea-lr=0.0005-wd=0.0001-lrST=20000-DO=0.9-fea=ps-feasec=5
+Learning rate: 0.0005, Weight decay: 0.0001, LR adjust start: 20000, Dropout: 0.9
+Overall Results
+--------------------
+el:rmse   mean=0.013411955907940865 std=0.0055376882664859295
+el:nrmse  mean=0.11431468507654481 std=0.12431170643659337
+el:r2     mean=0.8814327130256526 std=0.2519014133148184
+el:adj-r2 mean=1.0668551237279322 std=0.14119530952081838
+
+
+2020-10-27 13:00:29.925756MLPReg5b_riapfea-lr=0.0005-wd=0.0001-lrST=40000-DO=0.9-fea=ps-feasec=1
+Learning rate: 0.0005, Weight decay: 0.0001, LR adjust start: 40000, Dropout: 0.9
+Overall Results
+--------------------
+el:rmse   mean=0.014116820879280567 std=0.004946769680827856
+el:nrmse  mean=0.11812245854955908 std=0.1206757115732415
+el:r2     mean=0.8643993910766262 std=0.28350502262359867
+el:adj-r2 mean=1.076519313562755 std=0.15892371279344855
+
+
+2020-10-27 13:05:02.435431MLPReg5b_riapfea-lr=0.001-wd=0.0001-lrST=20000-DO=0.9-fea=ps-feasec=2
+Learning rate: 0.001, Weight decay: 0.0001, LR adjust start: 20000, Dropout: 0.9
+Overall Results
+--------------------
+el:rmse   mean=0.012937957420945168 std=0.005588487256318331
+el:nrmse  mean=0.10868744793731602 std=0.11445125204403035
+el:r2     mean=0.895622344198231 std=0.21369128384967362
+el:adj-r2 mean=1.0588989416590953 std=0.11977099331624712
+
+
+2020-10-27 13:07:30.896242MLPReg5b_riapfea-lr=0.0005-wd=0.0001-lrST=40000-DO=0.9-fea=ps-feasec=6
+Learning rate: 0.0005, Weight decay: 0.0001, LR adjust start: 40000, Dropout: 0.9
+Overall Results
+--------------------
+el:rmse   mean=0.01074109598994255 std=0.0054353936575353146
+el:nrmse  mean=0.09851974085209901 std=0.11873260855846222
+el:r2     mean=0.9018183930500138 std=0.2297160805261969
+el:adj-r2 mean=1.0552627379750512 std=0.12880448587178134
+
+
+2020-10-27 13:08:27.315745MLPReg5b_riapfea-lr=0.0005-wd=0.0001-lrST=40000-DO=0.9-fea=ps-feasec=4
+Learning rate: 0.0005, Weight decay: 0.0001, LR adjust start: 40000, Dropout: 0.9
+Overall Results
+--------------------
+el:rmse   mean=0.014326319098472595 std=0.006606076844036579
+el:nrmse  mean=0.119892998324341 std=0.12684302023043223
+el:r2     mean=0.8638261678102678 std=0.28495856761016
+el:adj-r2 mean=1.0768171339046322 std=0.15972420162689893
+
+
+2020-10-27 13:15:07.490460MLPReg5b_riapfea-lr=0.001-wd=0.0001-lrST=20000-DO=0.9-fea=ps-feasec=3
+Learning rate: 0.001, Weight decay: 0.0001, LR adjust start: 20000, Dropout: 0.9
+Overall Results
+--------------------
+el:rmse   mean=0.013706283643841743 std=0.005546399392187595
+el:nrmse  mean=0.11966380937876842 std=0.1335394573142861
+el:r2     mean=0.871643253583944 std=0.2641239657608676
+el:adj-r2 mean=1.0723839935753101 std=0.14805976844570798
+
+
+2020-10-27 13:18:28.864074MLPReg5b_riapfea-lr=0.0005-wd=0.0001-lrST=40000-DO=0.9-fea=ps-feasec=5
+Learning rate: 0.0005, Weight decay: 0.0001, LR adjust start: 40000, Dropout: 0.9
+Overall Results
+--------------------
+el:rmse   mean=0.013256482779979706 std=0.005733254365622997
+el:nrmse  mean=0.11091519734893344 std=0.11838302252248731
+el:r2     mean=0.8791465781211647 std=0.2680210904759925
+el:adj-r2 mean=1.0681269661275978 std=0.1502406371867241
+
+
+2020-10-27 13:20:12.159770MLPReg5b_riapfea-lr=0.001-wd=0.0001-lrST=20000-DO=0.9-fea=ps-feasec=1
+Learning rate: 0.001, Weight decay: 0.0001, LR adjust start: 20000, Dropout: 0.9
+Overall Results
+--------------------
+el:rmse   mean=0.014351630583405495 std=0.005235749296844006
+el:nrmse  mean=0.12204527101877723 std=0.1310543831348111
+el:r2     mean=0.8702266070570508 std=0.2539712791551597
+el:adj-r2 mean=1.0732358642434523 std=0.1423532545478694
+
+
+2020-10-27 13:27:14.664397MLPReg5b_riapfea-lr=0.001-wd=0.0001-lrST=40000-DO=0.9-fea=ps-feasec=2
+Learning rate: 0.001, Weight decay: 0.0001, LR adjust start: 40000, Dropout: 0.9
+Overall Results
+--------------------
+el:rmse   mean=0.013498088344931602 std=0.005871749948710203
+el:nrmse  mean=0.11573920386764965 std=0.12926792054094718
+el:r2     mean=0.8938003939971674 std=0.20399304317241063
+el:adj-r2 mean=1.0599068966398075 std=0.11432192311925579
+
+
+2020-10-27 13:27:29.479604MLPReg5b_riapfea-lr=0.001-wd=0.0001-lrST=20000-DO=0.9-fea=ps-feasec=6
+Learning rate: 0.001, Weight decay: 0.0001, LR adjust start: 20000, Dropout: 0.9
+Overall Results
+--------------------
+el:rmse   mean=0.012406236492097378 std=0.00614317599684
+el:nrmse  mean=0.10572756054600019 std=0.11700748897313988
+el:r2     mean=0.8940302456396729 std=0.23091775128288905
+el:adj-r2 mean=1.0597192745143096 std=0.12944815793805264
+
+
+2020-10-27 13:27:53.730704MLPReg5b_riapfea-lr=0.001-wd=0.0001-lrST=20000-DO=0.9-fea=ps-feasec=4
+Learning rate: 0.001, Weight decay: 0.0001, LR adjust start: 20000, Dropout: 0.9
+Overall Results
+--------------------
+el:rmse   mean=0.013892428949475288 std=0.006718294229358435
+el:nrmse  mean=0.11757096926950059 std=0.12457514749902945
+el:r2     mean=0.8594848585514088 std=0.3061284637307774
+el:adj-r2 mean=1.0792639809559708 std=0.171605062567206
+
+
+2020-10-27 13:37:11.098914MLPReg5b_riapfea-lr=0.001-wd=0.0001-lrST=40000-DO=0.9-fea=ps-feasec=3
+Learning rate: 0.001, Weight decay: 0.0001, LR adjust start: 40000, Dropout: 0.9
+Overall Results
+--------------------
+el:rmse   mean=0.0137478681281209 std=0.006029000971466303
+el:nrmse  mean=0.1197275727853119 std=0.13474550600598767
+el:r2     mean=0.8733085607527444 std=0.26752582793271706
+el:adj-r2 mean=1.0714599529313147 std=0.14995368001590412
+
+
+2020-10-27 13:37:26.884186MLPReg5b_riapfea-lr=0.001-wd=0.0001-lrST=20000-DO=0.9-fea=ps-feasec=5
+Learning rate: 0.001, Weight decay: 0.0001, LR adjust start: 20000, Dropout: 0.9
+Overall Results
+--------------------
+el:rmse   mean=0.014953052625060081 std=0.00565718300640583
+el:nrmse  mean=0.12621393503614634 std=0.13412970407840227
+el:r2     mean=0.8619787685352838 std=0.2629058443883181
+el:adj-r2 mean=1.0780433022702538 std=0.14739011195697527
+
+
+2020-10-27 13:42:02.331564MLPReg5b_riapfea-lr=0.001-wd=0.0001-lrST=40000-DO=0.9-fea=ps-feasec=1
+Learning rate: 0.001, Weight decay: 0.0001, LR adjust start: 40000, Dropout: 0.9
+Overall Results
+--------------------
+el:rmse   mean=0.01451030932366848 std=0.0055020893923938274
+el:nrmse  mean=0.12271108460329919 std=0.13031943569276655
+el:r2     mean=0.8738567485154421 std=0.23744671063627204
+el:adj-r2 mean=1.0712837683093555 std=0.13310959565925112
+
+
+2020-10-27 13:48:41.058118MLPReg5b_riapfea-lr=0.001-wd=0.0001-lrST=40000-DO=0.9-fea=ps-feasec=6
+Learning rate: 0.001, Weight decay: 0.0001, LR adjust start: 40000, Dropout: 0.9
+Overall Results
+--------------------
+el:rmse   mean=0.012071600183844566 std=0.0065683783032000065
+el:nrmse  mean=0.11010764157814998 std=0.1352049674230971
+el:r2     mean=0.8960305614763774 std=0.22508877062242985
+el:adj-r2 mean=1.058557550972957 std=0.12618763822010678
+
+
+2020-10-27 13:48:59.031427MLPReg5b_riapfea-lr=0.001-wd=0.0001-lrST=40000-DO=0.9-fea=ps-feasec=4
+Learning rate: 0.001, Weight decay: 0.0001, LR adjust start: 40000, Dropout: 0.9
+Overall Results
+--------------------
+el:rmse   mean=0.014430413022637367 std=0.006887177936732769
+el:nrmse  mean=0.12502522651718226 std=0.14030973567258997
+el:r2     mean=0.8539711224825368 std=0.3026212302992063
+el:adj-r2 mean=1.082313048498778 std=0.16963217065942635
+
+
+2020-10-27 13:57:45.107765MLPReg5b_riapfea-lr=0.001-wd=0.0001-lrST=40000-DO=0.9-fea=ps-feasec=5
+Learning rate: 0.001, Weight decay: 0.0001, LR adjust start: 40000, Dropout: 0.9
+Overall Results
+--------------------
+el:rmse   mean=0.013747138902544975 std=0.006184099707752466
+el:nrmse  mean=0.12058516004741568 std=0.13823919004949642
+el:r2     mean=0.8670146864432985 std=0.29035894314903576
+el:adj-r2 mean=1.074936102324458 std=0.16276547443407555
+
+

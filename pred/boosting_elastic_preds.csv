@@ -1,0 +1,573 @@
+
+2020-06-04 03:10:44.147590
+Base model spec
+
+alpha: 0.001, l1_ratio: 0.3, sgd_penalty: NONE
+
+Yield Stress GridSearch Best Estimator:
+AdaBoostRegressor(base_estimator=ElasticNet(alpha=0.001, copy_X=True,
+                                            fit_intercept=True, l1_ratio=0.3,
+                                            max_iter=1000, normalize=False,
+                                            positive=False, precompute=False,
+                                            random_state=777,
+                                            selection='cyclic', tol=0.0001,
+                                            warm_start=False),
+                  learning_rate=0.01, loss='linear', n_estimators=10000,
+                  random_state=777)
+Elongation GridSearch Best Estimator:
+AdaBoostRegressor(base_estimator=ElasticNet(alpha=0.001, copy_X=True,
+                                            fit_intercept=True, l1_ratio=0.3,
+                                            max_iter=1000, normalize=False,
+                                            positive=False, precompute=False,
+                                            random_state=777,
+                                            selection='cyclic', tol=0.0001,
+                                            warm_start=False),
+                  learning_rate=0.005, loss='linear', n_estimators=100,
+                  random_state=777)             0         1
+0   112.028496 -0.111132
+1   158.566369 -0.022376
+2   189.493327  0.051049
+3   207.606387  0.091056
+4   223.438682  0.118002
+5   232.216360  0.124860
+6   245.450587  0.083461
+7   254.351544  0.114928
+8   242.328723  0.117108
+9   249.322977  0.116080
+10  246.720203  0.150130
+11  285.761139  0.186391
+12  291.381411  0.181101
+13  280.606782  0.216050
+14  293.673133  0.206103
+15  279.429602  0.238714
+16  303.262337  0.235297
+17  300.146867  0.233175
+18  296.688142  0.265807
+19  315.798265  0.264825
+20  311.774950  0.277782
+21  327.327057  0.297475
+22  321.733789  0.342556
+23  295.599917  0.392460
+24  321.070253  0.364284
+25  325.927981  0.374591
+26  325.493901  0.375269
+2020-06-04 03:22:44.554530
+Base model spec
+
+alpha: 0.001, l1_ratio: 0.5, sgd_penalty: NONE
+
+Yield Stress GridSearch Best Estimator:
+AdaBoostRegressor(base_estimator=ElasticNet(alpha=0.001, copy_X=True,
+                                            fit_intercept=True, l1_ratio=0.5,
+                                            max_iter=1000, normalize=False,
+                                            positive=False, precompute=False,
+                                            random_state=777,
+                                            selection='cyclic', tol=0.0001,
+                                            warm_start=False),
+                  learning_rate=0.01, loss='linear', n_estimators=10000,
+                  random_state=777)
+Elongation GridSearch Best Estimator:
+AdaBoostRegressor(base_estimator=ElasticNet(alpha=0.001, copy_X=True,
+                                            fit_intercept=True, l1_ratio=0.5,
+                                            max_iter=1000, normalize=False,
+                                            positive=False, precompute=False,
+                                            random_state=777,
+                                            selection='cyclic', tol=0.0001,
+                                            warm_start=False),
+                  learning_rate=0.001, loss='linear', n_estimators=100,
+                  random_state=777)             0         1
+0   114.863546 -0.102227
+1   159.360507 -0.017685
+2   189.072636  0.053711
+3   207.379021  0.092863
+4   222.376011  0.120625
+5   231.614905  0.125412
+6   246.014346  0.083661
+7   254.885516  0.112673
+8   242.433283  0.113035
+9   249.013903  0.111637
+10  246.138173  0.153298
+11  284.564702  0.190959
+12  292.085052  0.181907
+13  280.522008  0.215889
+14  293.577233  0.203780
+15  278.421121  0.238382
+16  303.878365  0.235211
+17  299.863991  0.232357
+18  295.915918  0.266645
+19  313.367509  0.262218
+20  312.519826  0.276737
+21  324.886175  0.295668
+22  320.677235  0.339999
+23  296.716917  0.388715
+24  320.387230  0.362014
+25  325.876424  0.377800
+26  327.691083  0.378077
+2020-06-04 03:36:47.094622
+Base model spec
+
+alpha: 0.001, l1_ratio: 0.7, sgd_penalty: NONE
+
+Yield Stress GridSearch Best Estimator:
+AdaBoostRegressor(base_estimator=ElasticNet(alpha=0.001, copy_X=True,
+                                            fit_intercept=True, l1_ratio=0.7,
+                                            max_iter=1000, normalize=False,
+                                            positive=False, precompute=False,
+                                            random_state=777,
+                                            selection='cyclic', tol=0.0001,
+                                            warm_start=False),
+                  learning_rate=0.01, loss='linear', n_estimators=10000,
+                  random_state=777)
+Elongation GridSearch Best Estimator:
+AdaBoostRegressor(base_estimator=ElasticNet(alpha=0.001, copy_X=True,
+                                            fit_intercept=True, l1_ratio=0.7,
+                                            max_iter=1000, normalize=False,
+                                            positive=False, precompute=False,
+                                            random_state=777,
+                                            selection='cyclic', tol=0.0001,
+                                            warm_start=False),
+                  learning_rate=0.001, loss='linear', n_estimators=100,
+                  random_state=777)             0         1
+0   114.753892 -0.095694
+1   158.403153 -0.015504
+2   188.916708  0.055277
+3   206.819231  0.095204
+4   221.846897  0.122571
+5   231.733306  0.127605
+6   246.520366  0.084692
+7   255.297258  0.112106
+8   242.685711  0.113257
+9   248.558826  0.110488
+10  246.073040  0.155583
+11  283.501923  0.192844
+12  292.771008  0.185165
+13  279.845871  0.215256
+14  294.433197  0.202414
+15  277.671260  0.237094
+16  304.612901  0.233003
+17  299.679659  0.232370
+18  295.391421  0.266020
+19  312.118365  0.260701
+20  313.400256  0.274924
+21  324.247356  0.297442
+22  320.135335  0.338176
+23  299.249425  0.389012
+24  319.860256  0.358791
+25  325.873913  0.377167
+26  328.341853  0.376718
+2020-06-04 03:37:18.320431
+Base model spec
+
+alpha: 0.01, l1_ratio: 0.3, sgd_penalty: NONE
+
+Yield Stress GridSearch Best Estimator:
+AdaBoostRegressor(base_estimator=ElasticNet(alpha=0.01, copy_X=True,
+                                            fit_intercept=True, l1_ratio=0.3,
+                                            max_iter=1000, normalize=False,
+                                            positive=False, precompute=False,
+                                            random_state=777,
+                                            selection='cyclic', tol=0.0001,
+                                            warm_start=False),
+                  learning_rate=0.005, loss='linear', n_estimators=100,
+                  random_state=777)
+Elongation GridSearch Best Estimator:
+AdaBoostRegressor(base_estimator=ElasticNet(alpha=0.01, copy_X=True,
+                                            fit_intercept=True, l1_ratio=0.3,
+                                            max_iter=1000, normalize=False,
+                                            positive=False, precompute=False,
+                                            random_state=777,
+                                            selection='cyclic', tol=0.0001,
+                                            warm_start=False),
+                  learning_rate=0.001, loss='linear', n_estimators=100,
+                  random_state=777)             0         1
+0   132.134322 -0.077317
+1   174.296132 -0.002882
+2   196.260359  0.074435
+3   208.856386  0.097976
+4   227.321896  0.126659
+5   235.391590  0.133467
+6   237.740178  0.087385
+7   245.891599  0.112365
+8   244.697311  0.108673
+9   257.106509  0.098249
+10  266.724543  0.169508
+11  285.860874  0.219623
+12  285.438262  0.224160
+13  283.134997  0.208793
+14  285.928201  0.196430
+15  287.192348  0.231804
+16  302.784989  0.235619
+17  302.439431  0.229545
+18  298.465206  0.249559
+19  303.654149  0.245716
+20  310.470470  0.262535
+21  316.616123  0.288247
+22  328.171294  0.300469
+23  319.312499  0.396504
+24  337.905717  0.335132
+25  338.806126  0.357154
+26  323.462363  0.351141
+2020-06-04 03:38:01.665960
+Base model spec
+
+alpha: 0.01, l1_ratio: 0.5, sgd_penalty: NONE
+
+Yield Stress GridSearch Best Estimator:
+AdaBoostRegressor(base_estimator=ElasticNet(alpha=0.01, copy_X=True,
+                                            fit_intercept=True, l1_ratio=0.5,
+                                            max_iter=1000, normalize=False,
+                                            positive=False, precompute=False,
+                                            random_state=777,
+                                            selection='cyclic', tol=0.0001,
+                                            warm_start=False),
+                  learning_rate=0.01, loss='linear', n_estimators=100,
+                  random_state=777)
+Elongation GridSearch Best Estimator:
+AdaBoostRegressor(base_estimator=ElasticNet(alpha=0.01, copy_X=True,
+                                            fit_intercept=True, l1_ratio=0.5,
+                                            max_iter=1000, normalize=False,
+                                            positive=False, precompute=False,
+                                            random_state=777,
+                                            selection='cyclic', tol=0.0001,
+                                            warm_start=False),
+                  learning_rate=0.001, loss='linear', n_estimators=100,
+                  random_state=777)             0         1
+0   121.409566 -0.074762
+1   167.130002  0.001196
+2   194.877459  0.079988
+3   207.384899  0.095781
+4   226.942445  0.122282
+5   236.425867  0.132516
+6   239.556543  0.086827
+7   245.530841  0.114279
+8   244.227537  0.109829
+9   259.271465  0.099696
+10  266.001788  0.168000
+11  284.890737  0.233847
+12  285.942021  0.236855
+13  283.011827  0.202941
+14  286.497533  0.189951
+15  286.576645  0.249154
+16  301.746268  0.229202
+17  303.465322  0.227713
+18  299.838426  0.243955
+19  306.647436  0.238967
+20  310.528221  0.241447
+21  320.832487  0.282581
+22  327.372708  0.285367
+23  310.823596  0.444289
+24  336.638989  0.329611
+25  333.972378  0.344927
+26  322.744563  0.313618
+2020-06-04 03:38:41.307554
+Base model spec
+
+alpha: 0.01, l1_ratio: 0.7, sgd_penalty: NONE
+
+Yield Stress GridSearch Best Estimator:
+AdaBoostRegressor(base_estimator=ElasticNet(alpha=0.01, copy_X=True,
+                                            fit_intercept=True, l1_ratio=0.7,
+                                            max_iter=1000, normalize=False,
+                                            positive=False, precompute=False,
+                                            random_state=777,
+                                            selection='cyclic', tol=0.0001,
+                                            warm_start=False),
+                  learning_rate=0.01, loss='linear', n_estimators=100,
+                  random_state=777)
+Elongation GridSearch Best Estimator:
+AdaBoostRegressor(base_estimator=ElasticNet(alpha=0.01, copy_X=True,
+                                            fit_intercept=True, l1_ratio=0.7,
+                                            max_iter=1000, normalize=False,
+                                            positive=False, precompute=False,
+                                            random_state=777,
+                                            selection='cyclic', tol=0.0001,
+                                            warm_start=False),
+                  learning_rate=0.001, loss='linear', n_estimators=100,
+                  random_state=777)             0         1
+0   120.634597 -0.066860
+1   166.596041  0.008507
+2   191.237700  0.076036
+3   206.270903  0.088109
+4   226.069355  0.115813
+5   234.742556  0.127497
+6   241.107418  0.093598
+7   246.009158  0.122347
+8   243.615296  0.113379
+9   258.830737  0.101786
+10  263.526083  0.173043
+11  285.407508  0.247727
+12  286.922586  0.238691
+13  283.026132  0.197048
+14  287.039706  0.184475
+15  285.294411  0.258974
+16  299.694842  0.226555
+17  303.216784  0.226646
+18  300.065533  0.237423
+19  310.223431  0.236075
+20  311.387236  0.219127
+21  324.466599  0.279621
+22  326.657192  0.285403
+23  304.595783  0.459177
+24  334.314231  0.329037
+25  327.788558  0.344296
+26  325.609618  0.297018
+2020-06-04 03:38:56.692942
+Base model spec
+
+alpha: 0.1, l1_ratio: 0.3, sgd_penalty: NONE
+
+Yield Stress GridSearch Best Estimator:
+AdaBoostRegressor(base_estimator=ElasticNet(alpha=0.1, copy_X=True,
+                                            fit_intercept=True, l1_ratio=0.3,
+                                            max_iter=1000, normalize=False,
+                                            positive=False, precompute=False,
+                                            random_state=777,
+                                            selection='cyclic', tol=0.0001,
+                                            warm_start=False),
+                  learning_rate=0.01, loss='linear', n_estimators=100,
+                  random_state=777)
+Elongation GridSearch Best Estimator:
+AdaBoostRegressor(base_estimator=ElasticNet(alpha=0.1, copy_X=True,
+                                            fit_intercept=True, l1_ratio=0.3,
+                                            max_iter=1000, normalize=False,
+                                            positive=False, precompute=False,
+                                            random_state=777,
+                                            selection='cyclic', tol=0.0001,
+                                            warm_start=False),
+                  learning_rate=0.001, loss='linear', n_estimators=100,
+                  random_state=777)             0         1
+0   165.472550  0.037342
+1   197.773526  0.087948
+2   214.273714  0.110087
+3   224.813218  0.106693
+4   237.337080  0.125378
+5   244.587395  0.138094
+6   231.599218  0.123309
+7   241.646748  0.143655
+8   237.536732  0.166885
+9   242.257507  0.174891
+10  266.283121  0.205078
+11  286.591379  0.263899
+12  286.042019  0.246217
+13  278.220948  0.202991
+14  278.748746  0.182413
+15  290.765673  0.246072
+16  292.940912  0.219048
+17  291.001445  0.207625
+18  292.385054  0.230451
+19  298.208150  0.215267
+20  303.158779  0.206405
+21  320.721281  0.265575
+22  323.744783  0.236549
+23  352.254046  0.392723
+24  342.754419  0.280241
+25  348.041133  0.280472
+26  333.044572  0.252679
+2020-06-04 03:39:13.560097
+Base model spec
+
+alpha: 0.1, l1_ratio: 0.5, sgd_penalty: NONE
+
+Yield Stress GridSearch Best Estimator:
+AdaBoostRegressor(base_estimator=ElasticNet(alpha=0.1, copy_X=True,
+                                            fit_intercept=True, l1_ratio=0.5,
+                                            max_iter=1000, normalize=False,
+                                            positive=False, precompute=False,
+                                            random_state=777,
+                                            selection='cyclic', tol=0.0001,
+                                            warm_start=False),
+                  learning_rate=0.01, loss='linear', n_estimators=100,
+                  random_state=777)
+Elongation GridSearch Best Estimator:
+AdaBoostRegressor(base_estimator=ElasticNet(alpha=0.1, copy_X=True,
+                                            fit_intercept=True, l1_ratio=0.5,
+                                            max_iter=1000, normalize=False,
+                                            positive=False, precompute=False,
+                                            random_state=777,
+                                            selection='cyclic', tol=0.0001,
+                                            warm_start=False),
+                  learning_rate=0.001, loss='linear', n_estimators=100,
+                  random_state=777)             0         1
+0   157.377945  0.114893
+1   192.545773  0.145980
+2   208.832979  0.142711
+3   221.393744  0.140830
+4   233.879007  0.152885
+5   241.852332  0.160907
+6   232.417733  0.158621
+7   242.651953  0.174891
+8   237.946675  0.194706
+9   242.936988  0.199035
+10  266.258087  0.215857
+11  286.854855  0.253024
+12  285.547381  0.236596
+13  279.403671  0.215706
+14  279.919136  0.195258
+15  290.421710  0.248162
+16  293.567556  0.222378
+17  292.302579  0.218268
+18  293.857027  0.232451
+19  298.474671  0.218674
+20  304.677696  0.208899
+21  318.926961  0.255711
+22  324.859121  0.230556
+23  348.261179  0.348729
+24  341.166558  0.256579
+25  346.294692  0.256159
+26  332.352384  0.245845
+2020-06-04 03:39:35.856087
+Base model spec
+
+alpha: 0.1, l1_ratio: 0.7, sgd_penalty: NONE
+
+Yield Stress GridSearch Best Estimator:
+AdaBoostRegressor(base_estimator=ElasticNet(alpha=0.1, copy_X=True,
+                                            fit_intercept=True, l1_ratio=0.7,
+                                            max_iter=1000, normalize=False,
+                                            positive=False, precompute=False,
+                                            random_state=777,
+                                            selection='cyclic', tol=0.0001,
+                                            warm_start=False),
+                  learning_rate=0.001, loss='linear', n_estimators=100,
+                  random_state=777)
+Elongation GridSearch Best Estimator:
+AdaBoostRegressor(base_estimator=ElasticNet(alpha=0.1, copy_X=True,
+                                            fit_intercept=True, l1_ratio=0.7,
+                                            max_iter=1000, normalize=False,
+                                            positive=False, precompute=False,
+                                            random_state=777,
+                                            selection='cyclic', tol=0.0001,
+                                            warm_start=False),
+                  learning_rate=0.001, loss='linear', n_estimators=100,
+                  random_state=777)             0         1
+0   153.396357  0.192090
+1   189.463721  0.203837
+2   203.729678  0.187177
+3   216.529401  0.185312
+4   232.308858  0.190710
+5   237.678610  0.195606
+6   233.658916  0.186548
+7   243.256633  0.196559
+8   238.934415  0.176206
+9   243.133770  0.178022
+10  266.334274  0.193317
+11  286.984922  0.242146
+12  285.643004  0.235401
+13  280.201425  0.228392
+14  280.997216  0.197435
+15  289.261919  0.239693
+16  295.276676  0.203052
+17  293.810671  0.219938
+18  295.633803  0.234378
+19  300.072042  0.209882
+20  306.082646  0.203684
+21  319.328631  0.231416
+22  324.296448  0.233801
+23  341.356230  0.295799
+24  340.841194  0.231716
+25  345.610148  0.231630
+26  333.202904  0.224505
+2020-06-06 20:06:22.234581
+Base model spec
+
+alpha: 0.0001, l1_ratio: 0.2, sgd_penalty: NONE, sgd_power_t: 0, sgd_eta0: 0, en_max_iter: 1000
+
+Yield Stress GridSearch Best Estimator:
+AdaBoostRegressor(base_estimator=ElasticNet(alpha=0.0001, copy_X=True,
+                                            fit_intercept=True, l1_ratio=0.2,
+                                            max_iter=1000, normalize=False,
+                                            positive=False, precompute=False,
+                                            random_state=777,
+                                            selection='cyclic', tol=0.0001,
+                                            warm_start=False),
+                  learning_rate=0.005, loss='square', n_estimators=50000,
+                  random_state=777)
+Elongation GridSearch Best Estimator:
+AdaBoostRegressor(base_estimator=ElasticNet(alpha=0.0001, copy_X=True,
+                                            fit_intercept=True, l1_ratio=0.2,
+                                            max_iter=1000, normalize=False,
+                                            positive=False, precompute=False,
+                                            random_state=777,
+                                            selection='cyclic', tol=0.0001,
+                                            warm_start=False),
+                  learning_rate=0.0001, loss='linear', n_estimators=1000,
+                  random_state=777)             0         1
+0   114.489619 -0.134109
+1   157.198650 -0.023019
+2   188.192066  0.049063
+3   202.993410  0.103188
+4   220.579256  0.111755
+5   229.231878  0.124877
+6   247.521968  0.087608
+7   256.337023  0.123322
+8   243.451403  0.127741
+9   248.423971  0.147987
+10  244.753111  0.095201
+11  281.338703  0.185452
+12  297.328572  0.189789
+13  278.828066  0.207986
+14  295.630237  0.212937
+15  278.094827  0.223638
+16  306.289473  0.219052
+17  299.153847  0.240472
+18  294.566357  0.243101
+19  313.569488  0.286983
+20  313.435475  0.285801
+21  323.767146  0.330883
+22  316.557577  0.339096
+23  298.947121  0.395757
+24  318.479073  0.367979
+25  325.562193  0.348100
+26  329.210579  0.382410
+2020-06-16 07:17:50.000113
+Base model spec
+
+alpha: 0.0001, l1_ratio: 0.2, sgd_penalty: NONE, sgd_power_t: 0, sgd_eta0: 0, en_max_iter: 5000
+
+Yield Stress GridSearch Best Estimator:
+AdaBoostRegressor(base_estimator=ElasticNet(alpha=0.0001, copy_X=True,
+                                            fit_intercept=True, l1_ratio=0.2,
+                                            max_iter=5000, normalize=False,
+                                            positive=False, precompute=False,
+                                            random_state=777,
+                                            selection='cyclic', tol=0.0001,
+                                            warm_start=False),
+                  learning_rate=0.005, loss='square', n_estimators=50000,
+                  random_state=777)
+Elongation GridSearch Best Estimator:
+AdaBoostRegressor(base_estimator=ElasticNet(alpha=0.0001, copy_X=True,
+                                            fit_intercept=True, l1_ratio=0.2,
+                                            max_iter=5000, normalize=False,
+                                            positive=False, precompute=False,
+                                            random_state=777,
+                                            selection='cyclic', tol=0.0001,
+                                            warm_start=False),
+                  learning_rate=0.0001, loss='linear', n_estimators=500,
+                  random_state=777)             0         1
+0   111.048324 -0.125913
+1   157.221729 -0.020400
+2   187.141341  0.047506
+3   202.880295  0.097118
+4   222.232679  0.111522
+5   233.343122  0.125514
+6   247.723573  0.088502
+7   255.517263  0.121292
+8   242.048998  0.124066
+9   245.538063  0.153808
+10  243.534971  0.100386
+11  283.783893  0.177231
+12  294.837681  0.190488
+13  278.526796  0.214390
+14  294.933712  0.210119
+15  279.941108  0.226202
+16  304.787377  0.218594
+17  297.767093  0.240297
+18  294.638495  0.259697
+19  318.177847  0.283873
+20  311.190811  0.285224
+21  324.363025  0.319957
+22  321.435796  0.344441
+23  292.921356  0.395500
+24  320.058527  0.372153
+25  326.316499  0.340232
+26  324.390548  0.386905

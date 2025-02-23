@@ -1,0 +1,1207 @@
+28:45.7,,,
+Base model spec,,,
+alpha: 0.1, l1_ratio: 0.1, sgd_penalty: NONE,
+,,,
+Overall Results,,,
+ys:rmse   mean=15.513163429450184 std=6.708136209337652,,,
+ys:nrmse  mean=0.06077381933454323 std=0.03534371637796336,,,
+ys:r2     mean=0.3504258725967503 std=0.5568282694709524,,,
+ys:adj-r2 mean=1.0316190619408352 std=0.030008237014071213,,,
+--------------------,,,
+el:rmse   mean=0.046814740507140525 std=0.014505869436619747,,,
+el:nrmse  mean=0.35095565291862724 std=0.3223039684145218,,,
+el:r2     mean=-0.4536393861627762 std=2.8664569083911253,,,
+el:adj-r2 mean=1.0762138108409016 std=0.16034959329462262,,,
+,,,
+,,,
+36:49.6,,,
+Base model spec,,,
+alpha: 0.3, l1_ratio: 0.3, sgd_penalty: NONE,
+,,,
+Overall Results,,,
+ys:rmse   mean=20.90395856219249 std=5.392442910771351,,,
+ys:nrmse  mean=0.08012301620089321 std=0.028836187119677135,,,
+ys:r2     mean=0.4801169794972945 std=0.4566750646803211,,,
+ys:adj-r2 mean=1.0650225436738894 std=0.052011293530129774,,,
+--------------------,,,
+el:rmse   mean=0.11246243044574411 std=0.02078488443105683,,,
+el:nrmse  mean=0.6507957680481018 std=0.2774024736818316,,,
+el:r2     mean=-1.0032173307401346 std=1.869459920398436,,,
+el:adj-r2 mean=1.2519377832433367 std=0.21430650562852482,,,
+,,,
+,,,
+57:28.8,,,
+Base model spec,,,
+alpha: 0.3, l1_ratio: 0.5, sgd_penalty: NONE,
+,,,
+Overall Results,,,
+ys:rmse   mean=20.22979282877398 std=5.070404840239426,,,
+ys:nrmse  mean=0.07752364116324453 std=0.027326162185129864,,,
+ys:r2     mean=0.5256725257981254 std=0.3898950336736066,,,
+ys:adj-r2 mean=1.0597212104918001 std=0.04439702191955607,,,
+--------------------,,,
+el:rmse   mean=0.1251805605825998 std=0.018421379299995048,,,
+el:nrmse  mean=0.7256286420833096 std=0.3004966410563225,,,
+el:r2     mean=-1.3792124460323767 std=2.0366947546988734,,,
+el:adj-r2 mean=1.2996314624175649 std=0.2323489005682022,,,
+,,,
+,,,
+17:52.0,,,
+Base model spec,,,
+alpha: 0.3, l1_ratio: 0.7, sgd_penalty: NONE,
+,,,
+Overall Results,,,
+ys:rmse   mean=19.26584806480214 std=4.674830674812953,,,
+ys:nrmse  mean=0.07379614215540276 std=0.02533163915977073,,,
+ys:r2     mean=0.5803589977866931 std=0.3176888114328864,,,
+ys:adj-r2 mean=1.0533269435768826 std=0.03637851457413165,,,
+--------------------,,,
+el:rmse   mean=0.1258218337674666 std=0.017862134964277906,,,
+el:nrmse  mean=0.7290590149356114 std=0.29975149878771423,,,
+el:r2     mean=-1.3957077684310257 std=2.035734647630041,,,
+el:adj-r2 mean=1.30169875611562 std=0.23211562074902067,,,
+,,,
+,,,
+45:18.7,,,
+Base model spec,,,
+alpha: 0.001, l1_ratio: 0.3, sgd_penalty: NONE,
+,,,
+Overall Results,,,
+,,,
+Yield Stress GridSearch Best Estimator:,,,
+BaggingRegressor(base_estimator=ElasticNet(alpha=0.001, copy_X=True,,
+                                           fit_intercept=True, l1_ratio=0.3,,
+                                           max_iter=1000, normalize=False,,
+                                           positive=False, precompute=False,,
+                                           random_state=777, selection='cyclic',,
+                                           tol=0.0001, warm_start=False),,
+                 bootstrap=True, bootstrap_features=False, max_features=1.0,
+                 max_samples=0.9, n_estimators=10000, n_jobs=None,
+                 oob_score=True, random_state=777, verbose=0, warm_start=False)
+,,,
+ys:rmse   mean=11.599944787828871 std=3.799948457284131,,,
+ys:nrmse  mean=0.04453764131569034 std=0.01761585233098881,,,
+ys:r2     mean=0.8772381439996018 std=0.051986325088781316,,,
+ys:adj-r2 mean=1.0158730063308001 std=0.006299267567323235,,,
+,,,
+--------------------,,,
+,,,
+Elongation GridSearch Best Estimator:,,,
+BaggingRegressor(base_estimator=ElasticNet(alpha=0.001, copy_X=True,,
+                                           fit_intercept=True, l1_ratio=0.3,,
+                                           max_iter=1000, normalize=False,,
+                                           positive=False, precompute=False,,
+                                           random_state=777, selection='cyclic',,
+                                           tol=0.0001, warm_start=False),,
+                 bootstrap=True, bootstrap_features=False, max_features=1.0,
+                 max_samples=0.9, n_estimators=1000, n_jobs=None,
+                 oob_score=True, random_state=777, verbose=0, warm_start=False)
+,,,
+el:rmse   mean=0.02828622348963341 std=0.014946921724300267,,,
+el:nrmse  mean=0.18612819114505572 std=0.14246548299397344,,,
+el:r2     mean=0.8896578160746531 std=0.07854575359880461,,,
+el:adj-r2 mean=1.0138067936818853 std=0.009363291098301562,,,
+,,,
+,,,
+17:35.8,,,
+Base model spec,,,
+alpha: 0.001, l1_ratio: 0.5, sgd_penalty: NONE,
+,,,
+Overall Results,,,
+,,,
+Yield Stress GridSearch Best Estimator:,,,
+BaggingRegressor(base_estimator=ElasticNet(alpha=0.001, copy_X=True,,
+                                           fit_intercept=True, l1_ratio=0.5,,
+                                           max_iter=1000, normalize=False,,
+                                           positive=False, precompute=False,,
+                                           random_state=777, selection='cyclic',,
+                                           tol=0.0001, warm_start=False),,
+                 bootstrap=True, bootstrap_features=False, max_features=1.0,
+                 max_samples=0.9, n_estimators=10000, n_jobs=None,
+                 oob_score=True, random_state=777, verbose=0, warm_start=False)
+,,,
+ys:rmse   mean=11.617691936270912 std=3.746867130250346,,,
+ys:nrmse  mean=0.04456527534621745 std=0.01738409764680625,,,
+ys:r2     mean=0.8754745126515207 std=0.053658164105098397,,,
+ys:adj-r2 mean=1.0161140065670522 std=0.006613380088202173,,,
+,,,
+--------------------,,,
+,,,
+Elongation GridSearch Best Estimator:,,,
+BaggingRegressor(base_estimator=ElasticNet(alpha=0.001, copy_X=True,,
+                                           fit_intercept=True, l1_ratio=0.5,,
+                                           max_iter=1000, normalize=False,,
+                                           positive=False, precompute=False,,
+                                           random_state=777, selection='cyclic',,
+                                           tol=0.0001, warm_start=False),,
+                 bootstrap=True, bootstrap_features=False, max_features=1.0,
+                 max_samples=0.9, n_estimators=1000, n_jobs=None,
+                 oob_score=True, random_state=777, verbose=0, warm_start=False)
+,,,
+el:rmse   mean=0.02846208849709116 std=0.013304502207887333,,,
+el:nrmse  mean=0.18552647335090194 std=0.13463387228916876,,,
+el:r2     mean=0.8910376322318813 std=0.06853041903421954,,,
+el:adj-r2 mean=1.0137509899672343 std=0.008349865111267795,,,
+,,,
+,,,
+51:04.8,,,
+Base model spec,,,
+alpha: 0.001, l1_ratio: 0.7, sgd_penalty: NONE,
+,,,
+Overall Results,,,
+,,,
+Yield Stress GridSearch Best Estimator:,,,
+BaggingRegressor(base_estimator=ElasticNet(alpha=0.001, copy_X=True,,
+                                           fit_intercept=True, l1_ratio=0.7,,
+                                           max_iter=1000, normalize=False,,
+                                           positive=False, precompute=False,,
+                                           random_state=777, selection='cyclic',,
+                                           tol=0.0001, warm_start=False),,
+                 bootstrap=True, bootstrap_features=False, max_features=1.0,
+                 max_samples=0.9, n_estimators=10000, n_jobs=None,
+                 oob_score=True, random_state=777, verbose=0, warm_start=False)
+,,,
+ys:rmse   mean=11.833780743091443 std=3.7348251708563147,,,
+ys:nrmse  mean=0.045451588587682806 std=0.017631106649198258,,,
+ys:r2     mean=0.8715533313850086 std=0.05265603034226109,,,
+ys:adj-r2 mean=1.016690635721163 std=0.006594666953304012,,,
+,,,
+--------------------,,,
+,,,
+Elongation GridSearch Best Estimator:,,,
+BaggingRegressor(base_estimator=ElasticNet(alpha=0.001, copy_X=True,,
+                                           fit_intercept=True, l1_ratio=0.7,,
+                                           max_iter=1000, normalize=False,,
+                                           positive=False, precompute=False,,
+                                           random_state=777, selection='cyclic',,
+                                           tol=0.0001, warm_start=False),,
+                 bootstrap=True, bootstrap_features=False, max_features=1.0,
+                 max_samples=0.9, n_estimators=1000, n_jobs=None,
+                 oob_score=True, random_state=777, verbose=0, warm_start=False)
+,,,
+el:rmse   mean=0.028610311646788022 std=0.012252282674021543,,,
+el:nrmse  mean=0.18493793968205058 std=0.1290345338104794,,,
+el:r2     mean=0.8905218080024296 std=0.06307643010370753,,,
+el:adj-r2 mean=1.0138704087384824 std=0.007820491598221908,,,
+,,,
+,,,
+21:37.0,,,
+Base model spec,,,
+alpha: 0.01, l1_ratio: 0.3, sgd_penalty: NONE,
+,,,
+Overall Results,,,
+,,,
+Yield Stress GridSearch Best Estimator:,,,
+BaggingRegressor(base_estimator=ElasticNet(alpha=0.01, copy_X=True,,
+                                           fit_intercept=True, l1_ratio=0.3,,
+                                           max_iter=1000, normalize=False,,
+                                           positive=False, precompute=False,,
+                                           random_state=777, selection='cyclic',,
+                                           tol=0.0001, warm_start=False),,
+                 bootstrap=True, bootstrap_features=False, max_features=1.0,
+                 max_samples=0.9, n_estimators=10000, n_jobs=None,
+                 oob_score=True, random_state=777, verbose=0, warm_start=False)
+,,,
+ys:rmse   mean=9.637903401488336 std=4.017124327397702,,,
+ys:nrmse  mean=0.037477350662069094 std=0.018885349891665345,,,
+ys:r2     mean=0.9087701124551792 std=0.055927430204203495,,,
+ys:adj-r2 mean=1.01222902876433 std=0.0074935278106342765,,,
+,,,
+--------------------,,,
+,,,
+Elongation GridSearch Best Estimator:,,,
+BaggingRegressor(base_estimator=ElasticNet(alpha=0.01, copy_X=True,,
+                                           fit_intercept=True, l1_ratio=0.3,,
+                                           max_iter=1000, normalize=False,,
+                                           positive=False, precompute=False,,
+                                           random_state=777, selection='cyclic',,
+                                           tol=0.0001, warm_start=False),,
+                 bootstrap=True, bootstrap_features=False, max_features=1.0,
+                 max_samples=0.9, n_estimators=1000, n_jobs=None,
+                 oob_score=True, random_state=777, verbose=0, warm_start=False)
+,,,
+el:rmse   mean=0.03465490396657007 std=0.00862679468577787,,,
+el:nrmse  mean=0.20900091496330558 std=0.11236178399778976,,,
+el:r2     mean=0.8194690803587514 std=0.14115591649093698,,,
+el:adj-r2 mean=1.022800459009407 std=0.016597679141793935,,,
+,,,
+,,,
+52:51.7,,,
+Base model spec,,,
+alpha: 0.01, l1_ratio: 0.5, sgd_penalty: NONE,
+,,,
+Overall Results,,,
+,,,
+Yield Stress GridSearch Best Estimator:,,,
+BaggingRegressor(base_estimator=ElasticNet(alpha=0.01, copy_X=True,,
+                                           fit_intercept=True, l1_ratio=0.5,,
+                                           max_iter=1000, normalize=False,,
+                                           positive=False, precompute=False,,
+                                           random_state=777, selection='cyclic',,
+                                           tol=0.0001, warm_start=False),,
+                 bootstrap=True, bootstrap_features=False, max_features=1.0,
+                 max_samples=0.9, n_estimators=10000, n_jobs=None,
+                 oob_score=True, random_state=777, verbose=0, warm_start=False)
+,,,
+ys:rmse   mean=9.680088501464402 std=3.7324476662151276,,,
+ys:nrmse  mean=0.0376470004224146 std=0.01794327709655005,,,
+ys:r2     mean=0.9190542981894106 std=0.032545794364601414,,,
+ys:adj-r2 mean=1.0108296645700214 std=0.004809241522409155,,,
+,,,
+--------------------,,,
+,,,
+Elongation GridSearch Best Estimator:,,,
+BaggingRegressor(base_estimator=ElasticNet(alpha=0.01, copy_X=True,,
+                                           fit_intercept=True, l1_ratio=0.5,,
+                                           max_iter=1000, normalize=False,,
+                                           positive=False, precompute=False,,
+                                           random_state=777, selection='cyclic',,
+                                           tol=0.0001, warm_start=False),,
+                 bootstrap=True, bootstrap_features=False, max_features=1.0,
+                 max_samples=0.9, n_estimators=1000, n_jobs=None,
+                 oob_score=True, random_state=777, verbose=0, warm_start=False)
+,,,
+el:rmse   mean=0.03789974114500873 std=0.009670983045242724,,,
+el:nrmse  mean=0.22328244802500063 std=0.11130009920591262,,,
+el:r2     mean=0.7615471439945776 std=0.2325379793937371,,,
+el:adj-r2 mean=1.0298240853357383 std=0.0270467704105657,,,
+,,,
+,,,
+22:48.3,,,
+Base model spec,,,
+alpha: 0.01, l1_ratio: 0.7, sgd_penalty: NONE,
+,,,
+Overall Results,,,
+,,,
+Yield Stress GridSearch Best Estimator:,,,
+BaggingRegressor(base_estimator=ElasticNet(alpha=0.01, copy_X=True,,
+                                           fit_intercept=True, l1_ratio=0.7,,
+                                           max_iter=1000, normalize=False,,
+                                           positive=False, precompute=False,,
+                                           random_state=777, selection='cyclic',,
+                                           tol=0.0001, warm_start=False),,
+                 bootstrap=True, bootstrap_features=False, max_features=1.0,
+                 max_samples=0.9, n_estimators=10000, n_jobs=None,
+                 oob_score=True, random_state=777, verbose=0, warm_start=False)
+,,,
+ys:rmse   mean=10.244555057405947 std=3.691165842716317,,,
+ys:nrmse  mean=0.03974606493253898 std=0.017885927042733854,,,
+ys:r2     mean=0.9110781449117831 std=0.027665578768571106,,,
+ys:adj-r2 mean=1.0116710350109988 std=0.003654285802103947,,,
+,,,
+--------------------,,,
+,,,
+Elongation GridSearch Best Estimator:,,,
+BaggingRegressor(base_estimator=ElasticNet(alpha=0.01, copy_X=True,,
+                                           fit_intercept=True, l1_ratio=0.7,,
+                                           max_iter=1000, normalize=False,,
+                                           positive=False, precompute=False,,
+                                           random_state=777, selection='cyclic',,
+                                           tol=0.0001, warm_start=False),,
+                 bootstrap=True, bootstrap_features=False, max_features=1.0,
+                 max_samples=0.9, n_estimators=1000, n_jobs=None,
+                 oob_score=True, random_state=777, verbose=0, warm_start=False)
+,,,
+el:rmse   mean=0.041244586185756965 std=0.01107888683014776,,,
+el:nrmse  mean=0.2395819356276402 std=0.11361090384676163,,,
+el:r2     mean=0.7000049452645455 std=0.32381943212129477,,,
+el:adj-r2 mean=1.0373030319692709 std=0.037594018447095,,,
+,,,
+,,,
+50:33.2,,,
+Base model spec,,,
+alpha: 0.1, l1_ratio: 0.3, sgd_penalty: NONE,
+,,,
+Overall Results,,,
+,,,
+Yield Stress GridSearch Best Estimator:,,,
+BaggingRegressor(base_estimator=ElasticNet(alpha=0.1, copy_X=True,,
+                                           fit_intercept=True, l1_ratio=0.3,,
+                                           max_iter=1000, normalize=False,,
+                                           positive=False, precompute=False,,
+                                           random_state=777, selection='cyclic',,
+                                           tol=0.0001, warm_start=False),,
+                 bootstrap=True, bootstrap_features=False, max_features=1.0,
+                 max_samples=0.9, n_estimators=1000, n_jobs=None,
+                 oob_score=True, random_state=777, verbose=0, warm_start=False)
+,,,
+ys:rmse   mean=16.482488964077646 std=3.8720318180936584,,,
+ys:nrmse  mean=0.0630566964142943 std=0.021169589760449484,,,
+ys:r2     mean=0.684793651043106 std=0.2461139095673821,,,
+ys:adj-r2 mean=1.0403258080310396 std=0.028704787955076663,,,
+,,,
+--------------------,,,
+,,,
+Elongation GridSearch Best Estimator:,,,
+BaggingRegressor(base_estimator=ElasticNet(alpha=0.1, copy_X=True,,
+                                           fit_intercept=True, l1_ratio=0.3,,
+                                           max_iter=1000, normalize=False,,
+                                           positive=False, precompute=False,,
+                                           random_state=777, selection='cyclic',,
+                                           tol=0.0001, warm_start=False),,
+                 bootstrap=True, bootstrap_features=False, max_features=1.0,
+                 max_samples=0.9, n_estimators=1000, n_jobs=None,
+                 oob_score=True, random_state=777, verbose=0, warm_start=False)
+,,,
+el:rmse   mean=0.06311847592431045 std=0.01860348580421153,,,
+el:nrmse  mean=0.36392607396877835 std=0.1767951739689415,,,
+el:r2     mean=0.27777485298602494 std=0.8167553427596641,,,
+el:adj-r2 mean=1.0905617549092126 std=0.09471408586721834,,,
+,,,
+,,,
+22:33.8,,,
+Base model spec,,,
+alpha: 0.1, l1_ratio: 0.5, sgd_penalty: NONE,
+,,,
+Overall Results,,,
+,,,
+Yield Stress GridSearch Best Estimator:,,,
+BaggingRegressor(base_estimator=ElasticNet(alpha=0.1, copy_X=True,,
+                                           fit_intercept=True, l1_ratio=0.5,,
+                                           max_iter=1000, normalize=False,,
+                                           positive=False, precompute=False,,
+                                           random_state=777, selection='cyclic',,
+                                           tol=0.0001, warm_start=False),,
+                 bootstrap=True, bootstrap_features=False, max_features=1.0,
+                 max_samples=0.9, n_estimators=10000, n_jobs=None,
+                 oob_score=True, random_state=777, verbose=0, warm_start=False)
+,,,
+ys:rmse   mean=15.471459611553948 std=3.6867868152319625,,,
+ys:nrmse  mean=0.05919841295834242 std=0.01992680846864643,,,
+ys:r2     mean=0.7251537256716591 std=0.20663729281128396,,,
+ys:adj-r2 mean=1.0354064229908224 std=0.02441230267220333,,,
+,,,
+--------------------,,,
+,,,
+Elongation GridSearch Best Estimator:,,,
+BaggingRegressor(base_estimator=ElasticNet(alpha=0.1, copy_X=True,,
+                                           fit_intercept=True, l1_ratio=0.5,,
+                                           max_iter=1000, normalize=False,,
+                                           positive=False, precompute=False,,
+                                           random_state=777, selection='cyclic',,
+                                           tol=0.0001, warm_start=False),,
+                 bootstrap=True, bootstrap_features=False, max_features=1.0,
+                 max_samples=0.9, n_estimators=1000, n_jobs=None,
+                 oob_score=True, random_state=777, verbose=0, warm_start=False)
+,,,
+el:rmse   mean=0.0798771595875771 std=0.023181306138972717,,,
+el:nrmse  mean=0.46157000932399816 std=0.2240116494994203,,,
+el:r2     mean=-0.13016052944478473 std=1.2365275658820098,,,
+el:adj-r2 mean=1.1421726882785443 std=0.14314160340528864,,,
+,,,
+,,,
+52:56.1,,,
+Base model spec,,,
+alpha: 0.1, l1_ratio: 0.7, sgd_penalty: NONE,
+,,,
+Overall Results,,,
+,,,
+Yield Stress GridSearch Best Estimator:,,,
+BaggingRegressor(base_estimator=ElasticNet(alpha=0.1, copy_X=True,,
+                                           fit_intercept=True, l1_ratio=0.7,,
+                                           max_iter=1000, normalize=False,,
+                                           positive=False, precompute=False,,
+                                           random_state=777, selection='cyclic',,
+                                           tol=0.0001, warm_start=False),,
+                 bootstrap=True, bootstrap_features=False, max_features=1.0,
+                 max_samples=0.9, n_estimators=10000, n_jobs=None,
+                 oob_score=True, random_state=777, verbose=0, warm_start=False)
+,,,
+ys:rmse   mean=13.968715158639176 std=3.6682544109633604,,,
+ys:nrmse  mean=0.05351298483648272 std=0.019048215454248656,,,
+ys:r2     mean=0.7759217356008719 std=0.16773371214826058,,,
+ys:adj-r2 mean=1.0291782454823477 std=0.02035788980541773,,,
+,,,
+--------------------,,,
+,,,
+Elongation GridSearch Best Estimator:,,,
+BaggingRegressor(base_estimator=ElasticNet(alpha=0.1, copy_X=True,,
+                                           fit_intercept=True, l1_ratio=0.7,,
+                                           max_iter=1000, normalize=False,,
+                                           positive=False, precompute=False,,
+                                           random_state=777, selection='cyclic',,
+                                           tol=0.0001, warm_start=False),,
+                 bootstrap=True, bootstrap_features=False, max_features=1.0,
+                 max_samples=0.8, n_estimators=1000, n_jobs=None,
+                 oob_score=True, random_state=777, verbose=0, warm_start=False)
+,,,
+el:rmse   mean=0.10812273743366094 std=0.03075688061067745,,,
+el:nrmse  mean=0.6284628792064932 std=0.30110605552348796,,,
+el:r2     mean=-1.0565333949368627 std=2.2274213066858164,,,
+el:adj-r2 mean=1.2551198531317571 std=0.256568170947821,,,
+,,,
+200604 10:47pm 확인완료================================================,,,
+2020-06-04 12:07:07.315258
+Base model spec
+alpha: 0.001, l1_ratio: 0.2, sgd_penalty: NONE, sgd_power_t: 0, sgd_eta0: 0, en_max_iter: 1000
+
+Overall Results
+
+Yield Stress GridSearch Best Estimator:
+BaggingRegressor(base_estimator=ElasticNet(alpha=0.001, copy_X=True,
+                                           fit_intercept=True, l1_ratio=0.2,
+                                           max_iter=1000, normalize=False,
+                                           positive=False, precompute=False,
+                                           random_state=777, selection='cyclic',
+                                           tol=0.0001, warm_start=False),
+                 bootstrap=True, bootstrap_features=False, max_features=1.0,
+                 max_samples=0.9, n_estimators=10000, n_jobs=None,
+                 oob_score=False, random_state=777, verbose=0,
+                 warm_start=False)
+
+ys:rmse   mean=11.665643168425973 std=3.9189344989182278
+ys:nrmse  mean=0.0448481166814655 std=0.018210681796973636
+ys:r2     mean=0.87768290737319 std=0.050292907068186
+ys:adj-r2 mean=1.0158021899539427 std=0.006032210777025375
+
+--------------------
+
+Elongation GridSearch Best Estimator:
+BaggingRegressor(base_estimator=ElasticNet(alpha=0.001, copy_X=True,
+                                           fit_intercept=True, l1_ratio=0.2,
+                                           max_iter=1000, normalize=False,
+                                           positive=False, precompute=False,
+                                           random_state=777, selection='cyclic',
+                                           tol=0.0001, warm_start=False),
+                 bootstrap=True, bootstrap_features=False, max_features=1.0,
+                 max_samples=0.9, n_estimators=1000, n_jobs=None,
+                 oob_score=False, random_state=777, verbose=0,
+                 warm_start=False)
+
+el:rmse   mean=0.02822733768304677 std=0.016311724125267716
+el:nrmse  mean=0.18761455992618833 std=0.15004717010911986
+el:r2     mean=0.8879704284426039 std=0.08751501093632624
+el:adj-r2 mean=1.0139756103596438 std=0.01038797648460195
+
+
+2020-06-04 16:46:27.022517
+Base model spec
+alpha: 0.001, l1_ratio: 0.2, sgd_penalty: NONE, sgd_power_t: 0, sgd_eta0: 0, en_max_iter: 10000
+
+Overall Results
+
+Yield Stress GridSearch Best Estimator:
+BaggingRegressor(base_estimator=ElasticNet(alpha=0.001, copy_X=True,
+                                           fit_intercept=True, l1_ratio=0.2,
+                                           max_iter=10000, normalize=False,
+                                           positive=False, precompute=False,
+                                           random_state=777, selection='cyclic',
+                                           tol=0.0001, warm_start=False),
+                 bootstrap=True, bootstrap_features=False, max_features=1.0,
+                 max_samples=0.9, n_estimators=10000, n_jobs=None,
+                 oob_score=False, random_state=777, verbose=0,
+                 warm_start=False)
+
+ys:rmse   mean=9.485417959537777 std=2.9164222016271064
+ys:nrmse  mean=0.03646058040124121 std=0.014959506889123092
+ys:r2     mean=0.8984569023848271 std=0.08298738097164533
+ys:adj-r2 mean=1.0128988875770715 std=0.00962959553807913
+
+--------------------
+
+Elongation GridSearch Best Estimator:
+BaggingRegressor(base_estimator=ElasticNet(alpha=0.001, copy_X=True,
+                                           fit_intercept=True, l1_ratio=0.2,
+                                           max_iter=10000, normalize=False,
+                                           positive=False, precompute=False,
+                                           random_state=777, selection='cyclic',
+                                           tol=0.0001, warm_start=False),
+                 bootstrap=True, bootstrap_features=False, max_features=1.0,
+                 max_samples=0.9, n_estimators=100, n_jobs=None,
+                 oob_score=False, random_state=777, verbose=0,
+                 warm_start=False)
+
+el:rmse   mean=0.027869112999865053 std=0.015184164545486442
+el:nrmse  mean=0.1842377209962096 std=0.14321109110146846
+el:r2     mean=0.8930123367107609 std=0.07932379506663349
+el:adj-r2 mean=1.0133882361988222 std=0.009454934018034059
+
+
+2020-06-04 17:41:53.056804
+Base model spec
+alpha: 0.001, l1_ratio: 0.3, sgd_penalty: NONE, sgd_power_t: 0, sgd_eta0: 0, en_max_iter: 1000
+
+Overall Results
+
+Yield Stress GridSearch Best Estimator:
+BaggingRegressor(base_estimator=ElasticNet(alpha=0.001, copy_X=True,
+                                           fit_intercept=True, l1_ratio=0.3,
+                                           max_iter=1000, normalize=False,
+                                           positive=False, precompute=False,
+                                           random_state=777, selection='cyclic',
+                                           tol=0.0001, warm_start=False),
+                 bootstrap=True, bootstrap_features=False, max_features=1.0,
+                 max_samples=0.9, n_estimators=10000, n_jobs=None,
+                 oob_score=False, random_state=777, verbose=0,
+                 warm_start=False)
+
+ys:rmse   mean=11.599944787828871 std=3.799948457284131
+ys:nrmse  mean=0.04453764131569034 std=0.01761585233098881
+ys:r2     mean=0.8772381439996018 std=0.051986325088781316
+ys:adj-r2 mean=1.0158730063308001 std=0.006299267567323235
+
+--------------------
+
+Elongation GridSearch Best Estimator:
+BaggingRegressor(base_estimator=ElasticNet(alpha=0.001, copy_X=True,
+                                           fit_intercept=True, l1_ratio=0.3,
+                                           max_iter=1000, normalize=False,
+                                           positive=False, precompute=False,
+                                           random_state=777, selection='cyclic',
+                                           tol=0.0001, warm_start=False),
+                 bootstrap=True, bootstrap_features=False, max_features=1.0,
+                 max_samples=0.9, n_estimators=1000, n_jobs=None,
+                 oob_score=False, random_state=777, verbose=0,
+                 warm_start=False)
+
+el:rmse   mean=0.02828622348963341 std=0.014946921724300267
+el:nrmse  mean=0.18612819114505572 std=0.14246548299397344
+el:r2     mean=0.8896578160746531 std=0.07854575359880461
+el:adj-r2 mean=1.0138067936818853 std=0.009363291098301562
+
+
+2020-06-04 22:10:00.682512
+Base model spec
+alpha: 0.001, l1_ratio: 0.3, sgd_penalty: NONE, sgd_power_t: 0, sgd_eta0: 0, en_max_iter: 10000
+
+Overall Results
+
+Yield Stress GridSearch Best Estimator:
+BaggingRegressor(base_estimator=ElasticNet(alpha=0.001, copy_X=True,
+                                           fit_intercept=True, l1_ratio=0.3,
+                                           max_iter=10000, normalize=False,
+                                           positive=False, precompute=False,
+                                           random_state=777, selection='cyclic',
+                                           tol=0.0001, warm_start=False),
+                 bootstrap=True, bootstrap_features=False, max_features=1.0,
+                 max_samples=0.9, n_estimators=10000, n_jobs=None,
+                 oob_score=False, random_state=777, verbose=0,
+                 warm_start=False)
+
+ys:rmse   mean=9.632953512897936 std=2.9903845386770995
+ys:nrmse  mean=0.03703057153030516 std=0.015282006022074825
+ys:r2     mean=0.8972102588049544 std=0.0813608836898351
+ys:adj-r2 mean=1.0130190741013307 std=0.009385097843725468
+
+--------------------
+
+Elongation GridSearch Best Estimator:
+BaggingRegressor(base_estimator=ElasticNet(alpha=0.001, copy_X=True,
+                                           fit_intercept=True, l1_ratio=0.3,
+                                           max_iter=10000, normalize=False,
+                                           positive=False, precompute=False,
+                                           random_state=777, selection='cyclic',
+                                           tol=0.0001, warm_start=False),
+                 bootstrap=True, bootstrap_features=False, max_features=1.0,
+                 max_samples=0.9, n_estimators=100, n_jobs=None,
+                 oob_score=False, random_state=777, verbose=0,
+                 warm_start=False)
+
+el:rmse   mean=0.027990832420533962 std=0.014431491315345744
+el:nrmse  mean=0.1839511158373116 std=0.139689357893503
+el:r2     mean=0.8933558415480066 std=0.07605613488425242
+el:adj-r2 mean=1.01336788113261 std=0.00906429835750009
+
+
+2020-06-04 23:02:47.679452
+Base model spec
+alpha: 0.001, l1_ratio: 0.4, sgd_penalty: NONE, sgd_power_t: 0, sgd_eta0: 0, en_max_iter: 1000
+
+Overall Results
+
+Yield Stress GridSearch Best Estimator:
+BaggingRegressor(base_estimator=ElasticNet(alpha=0.001, copy_X=True,
+                                           fit_intercept=True, l1_ratio=0.4,
+                                           max_iter=1000, normalize=False,
+                                           positive=False, precompute=False,
+                                           random_state=777, selection='cyclic',
+                                           tol=0.0001, warm_start=False),
+                 bootstrap=True, bootstrap_features=False, max_features=1.0,
+                 max_samples=0.9, n_estimators=10000, n_jobs=None,
+                 oob_score=False, random_state=777, verbose=0,
+                 warm_start=False)
+
+ys:rmse   mean=11.614462656458333 std=3.777599746780679
+ys:nrmse  mean=0.04457298048461109 std=0.017510807047803393
+ys:r2     mean=0.8762905175927284 std=0.05283083368256687
+ys:adj-r2 mean=1.0160020398852136 std=0.0064558255243601205
+
+--------------------
+
+Elongation GridSearch Best Estimator:
+BaggingRegressor(base_estimator=ElasticNet(alpha=0.001, copy_X=True,
+                                           fit_intercept=True, l1_ratio=0.4,
+                                           max_iter=1000, normalize=False,
+                                           positive=False, precompute=False,
+                                           random_state=777, selection='cyclic',
+                                           tol=0.0001, warm_start=False),
+                 bootstrap=True, bootstrap_features=False, max_features=1.0,
+                 max_samples=0.9, n_estimators=1000, n_jobs=None,
+                 oob_score=False, random_state=777, verbose=0,
+                 warm_start=False)
+
+el:rmse   mean=0.028437621345928137 std=0.01402857561334807
+el:nrmse  mean=0.18620563419050826 std=0.13835571275154648
+el:r2     mean=0.890313688431496 std=0.0729955673780084
+el:adj-r2 mean=1.0137960136934836 std=0.008802671466762373
+
+
+2020-06-05 03:24:17.491640
+Base model spec
+alpha: 0.001, l1_ratio: 0.4, sgd_penalty: NONE, sgd_power_t: 0, sgd_eta0: 0, en_max_iter: 10000
+
+Overall Results
+
+Yield Stress GridSearch Best Estimator:
+BaggingRegressor(base_estimator=ElasticNet(alpha=0.001, copy_X=True,
+                                           fit_intercept=True, l1_ratio=0.4,
+                                           max_iter=10000, normalize=False,
+                                           positive=False, precompute=False,
+                                           random_state=777, selection='cyclic',
+                                           tol=0.0001, warm_start=False),
+                 bootstrap=True, bootstrap_features=False, max_features=1.0,
+                 max_samples=0.9, n_estimators=10000, n_jobs=None,
+                 oob_score=False, random_state=777, verbose=0,
+                 warm_start=False)
+
+ys:rmse   mean=9.786653242324585 std=3.161369098266539
+ys:nrmse  mean=0.037653846404669955 std=0.015909773453854553
+ys:r2     mean=0.898832474164314 std=0.07264714550096786
+ys:adj-r2 mean=1.012800229460595 std=0.00831270793749017
+
+--------------------
+
+Elongation GridSearch Best Estimator:
+BaggingRegressor(base_estimator=ElasticNet(alpha=0.001, copy_X=True,
+                                           fit_intercept=True, l1_ratio=0.4,
+                                           max_iter=10000, normalize=False,
+                                           positive=False, precompute=False,
+                                           random_state=777, selection='cyclic',
+                                           tol=0.0001, warm_start=False),
+                 bootstrap=True, bootstrap_features=False, max_features=1.0,
+                 max_samples=0.9, n_estimators=1000, n_jobs=None,
+                 oob_score=False, random_state=777, verbose=0,
+                 warm_start=False)
+
+el:rmse   mean=0.02822168789555569 std=0.013809234097798188
+el:nrmse  mean=0.18465660836919257 std=0.13688666855975654
+el:r2     mean=0.8927709014206823 std=0.07220779610174942
+el:adj-r2 mean=1.013484653015793 std=0.008665690455821077
+
+
+2020-06-05 04:13:35.386985
+Base model spec
+alpha: 0.005, l1_ratio: 0.2, sgd_penalty: NONE, sgd_power_t: 0, sgd_eta0: 0, en_max_iter: 1000
+
+Overall Results
+
+Yield Stress GridSearch Best Estimator:
+BaggingRegressor(base_estimator=ElasticNet(alpha=0.005, copy_X=True,
+                                           fit_intercept=True, l1_ratio=0.2,
+                                           max_iter=1000, normalize=False,
+                                           positive=False, precompute=False,
+                                           random_state=777, selection='cyclic',
+                                           tol=0.0001, warm_start=False),
+                 bootstrap=True, bootstrap_features=False, max_features=1.0,
+                 max_samples=0.9, n_estimators=10000, n_jobs=None,
+                 oob_score=False, random_state=777, verbose=0,
+                 warm_start=False)
+
+ys:rmse   mean=9.99731545910316 std=3.7128016151535777
+ys:nrmse  mean=0.0388431937752606 std=0.017935910902808667
+ys:r2     mean=0.9163485502722297 std=0.025426686080165118
+ys:adj-r2 mean=1.0110671656112458 std=0.003701952093120881
+
+--------------------
+
+Elongation GridSearch Best Estimator:
+BaggingRegressor(base_estimator=ElasticNet(alpha=0.005, copy_X=True,
+                                           fit_intercept=True, l1_ratio=0.2,
+                                           max_iter=1000, normalize=False,
+                                           positive=False, precompute=False,
+                                           random_state=777, selection='cyclic',
+                                           tol=0.0001, warm_start=False),
+                 bootstrap=True, bootstrap_features=False, max_features=1.0,
+                 max_samples=0.9, n_estimators=1000, n_jobs=None,
+                 oob_score=False, random_state=777, verbose=0,
+                 warm_start=False)
+
+el:rmse   mean=0.029739945351218915 std=0.010626752820133393
+el:nrmse  mean=0.18874485965667379 std=0.1219634180452816
+el:r2     mean=0.8810477285161309 std=0.06345941314863685
+el:adj-r2 mean=1.0151575529834216 std=0.008066726462236693
+
+
+2020-06-05 08:15:39.441451
+Base model spec
+alpha: 0.005, l1_ratio: 0.2, sgd_penalty: NONE, sgd_power_t: 0, sgd_eta0: 0, en_max_iter: 10000
+
+Overall Results
+
+Yield Stress GridSearch Best Estimator:
+BaggingRegressor(base_estimator=ElasticNet(alpha=0.005, copy_X=True,
+                                           fit_intercept=True, l1_ratio=0.2,
+                                           max_iter=10000, normalize=False,
+                                           positive=False, precompute=False,
+                                           random_state=777, selection='cyclic',
+                                           tol=0.0001, warm_start=False),
+                 bootstrap=True, bootstrap_features=False, max_features=1.0,
+                 max_samples=0.9, n_estimators=10000, n_jobs=None,
+                 oob_score=False, random_state=777, verbose=0,
+                 warm_start=False)
+
+ys:rmse   mean=8.90506175263397 std=3.7012068645592184
+ys:nrmse  mean=0.0345932743448199 std=0.017214816757623104
+ys:r2     mean=0.9248428496697738 std=0.043920997479253016
+ys:adj-r2 mean=1.0101638741795145 std=0.00633348803630538
+
+--------------------
+
+Elongation GridSearch Best Estimator:
+BaggingRegressor(base_estimator=ElasticNet(alpha=0.005, copy_X=True,
+                                           fit_intercept=True, l1_ratio=0.2,
+                                           max_iter=10000, normalize=False,
+                                           positive=False, precompute=False,
+                                           random_state=777, selection='cyclic',
+                                           tol=0.0001, warm_start=False),
+                 bootstrap=True, bootstrap_features=False, max_features=1.0,
+                 max_samples=0.9, n_estimators=1000, n_jobs=None,
+                 oob_score=False, random_state=777, verbose=0,
+                 warm_start=False)
+
+el:rmse   mean=0.029736900371445562 std=0.010621168719398746
+el:nrmse  mean=0.18870825900980553 std=0.12190752540275414
+el:r2     mean=0.8810337131972602 std=0.06350063661039082
+el:adj-r2 mean=1.015158745601656 std=0.008070330755472673
+
+
+2020-06-05 09:05:56.414587
+Base model spec
+alpha: 0.005, l1_ratio: 0.3, sgd_penalty: NONE, sgd_power_t: 0, sgd_eta0: 0, en_max_iter: 1000
+
+Overall Results
+
+Yield Stress GridSearch Best Estimator:
+BaggingRegressor(base_estimator=ElasticNet(alpha=0.005, copy_X=True,
+                                           fit_intercept=True, l1_ratio=0.3,
+                                           max_iter=1000, normalize=False,
+                                           positive=False, precompute=False,
+                                           random_state=777, selection='cyclic',
+                                           tol=0.0001, warm_start=False),
+                 bootstrap=True, bootstrap_features=False, max_features=1.0,
+                 max_samples=0.9, n_estimators=10000, n_jobs=None,
+                 oob_score=False, random_state=777, verbose=0,
+                 warm_start=False)
+
+ys:rmse   mean=10.176179516210121 std=3.7203905955574226
+ys:nrmse  mean=0.03950731522482095 std=0.017987347501160416
+ys:r2     mean=0.9130543805503301 std=0.025997992990810532
+ys:adj-r2 mean=1.0114400177750926 std=0.0035613161745494913
+
+--------------------
+
+Elongation GridSearch Best Estimator:
+BaggingRegressor(base_estimator=ElasticNet(alpha=0.005, copy_X=True,
+                                           fit_intercept=True, l1_ratio=0.3,
+                                           max_iter=1000, normalize=False,
+                                           positive=False, precompute=False,
+                                           random_state=777, selection='cyclic',
+                                           tol=0.0001, warm_start=False),
+                 bootstrap=True, bootstrap_features=False, max_features=1.0,
+                 max_samples=0.9, n_estimators=1000, n_jobs=None,
+                 oob_score=False, random_state=777, verbose=0,
+                 warm_start=False)
+
+el:rmse   mean=0.031145478821503546 std=0.009528296183468319
+el:nrmse  mean=0.19433407515667417 std=0.1175686310234053
+el:r2     mean=0.8671997727972934 std=0.07523902114622899
+el:adj-r2 mean=1.0168993393456125 std=0.009280652176818335
+
+
+2020-06-05 13:13:30.065415
+Base model spec
+alpha: 0.005, l1_ratio: 0.3, sgd_penalty: NONE, sgd_power_t: 0, sgd_eta0: 0, en_max_iter: 10000
+
+Overall Results
+
+Yield Stress GridSearch Best Estimator:
+BaggingRegressor(base_estimator=ElasticNet(alpha=0.005, copy_X=True,
+                                           fit_intercept=True, l1_ratio=0.3,
+                                           max_iter=10000, normalize=False,
+                                           positive=False, precompute=False,
+                                           random_state=777, selection='cyclic',
+                                           tol=0.0001, warm_start=False),
+                 bootstrap=True, bootstrap_features=False, max_features=1.0,
+                 max_samples=0.9, n_estimators=10000, n_jobs=None,
+                 oob_score=False, random_state=777, verbose=0,
+                 warm_start=False)
+
+ys:rmse   mean=8.853963459961252 std=3.6234084191789524
+ys:nrmse  mean=0.034389573858738476 std=0.016922935923934176
+ys:r2     mean=0.926997977139874 std=0.04105588339116307
+ys:adj-r2 mean=1.009867054312113 std=0.005989445030976422
+
+--------------------
+
+Elongation GridSearch Best Estimator:
+BaggingRegressor(base_estimator=ElasticNet(alpha=0.005, copy_X=True,
+                                           fit_intercept=True, l1_ratio=0.3,
+                                           max_iter=10000, normalize=False,
+                                           positive=False, precompute=False,
+                                           random_state=777, selection='cyclic',
+                                           tol=0.0001, warm_start=False),
+                 bootstrap=True, bootstrap_features=False, max_features=1.0,
+                 max_samples=0.9, n_estimators=1000, n_jobs=None,
+                 oob_score=False, random_state=777, verbose=0,
+                 warm_start=False)
+
+el:rmse   mean=0.031144586846968587 std=0.009523010624846649
+el:nrmse  mean=0.1943158216737705 std=0.11752721468105265
+el:r2     mean=0.8671928365147717 std=0.0752711010785884
+el:adj-r2 mean=1.0168998509801181 std=0.009283046852203514
+
+
+2020-06-05 14:03:25.284278
+Base model spec
+alpha: 0.005, l1_ratio: 0.4, sgd_penalty: NONE, sgd_power_t: 0, sgd_eta0: 0, en_max_iter: 1000
+
+Overall Results
+
+Yield Stress GridSearch Best Estimator:
+BaggingRegressor(base_estimator=ElasticNet(alpha=0.005, copy_X=True,
+                                           fit_intercept=True, l1_ratio=0.4,
+                                           max_iter=1000, normalize=False,
+                                           positive=False, precompute=False,
+                                           random_state=777, selection='cyclic',
+                                           tol=0.0001, warm_start=False),
+                 bootstrap=True, bootstrap_features=False, max_features=1.0,
+                 max_samples=0.9, n_estimators=10000, n_jobs=None,
+                 oob_score=False, random_state=777, verbose=0,
+                 warm_start=False)
+
+ys:rmse   mean=10.392652153152385 std=3.7488500851535917
+ys:nrmse  mean=0.040311635472357464 std=0.01810697751475663
+ys:r2     mean=0.9088120063378288 std=0.027795398093240234
+ys:adj-r2 mean=1.0119381369439477 std=0.0035725153923027446
+
+--------------------
+
+Elongation GridSearch Best Estimator:
+BaggingRegressor(base_estimator=ElasticNet(alpha=0.005, copy_X=True,
+                                           fit_intercept=True, l1_ratio=0.4,
+                                           max_iter=1000, normalize=False,
+                                           positive=False, precompute=False,
+                                           random_state=777, selection='cyclic',
+                                           tol=0.0001, warm_start=False),
+                 bootstrap=True, bootstrap_features=False, max_features=1.0,
+                 max_samples=0.9, n_estimators=1000, n_jobs=None,
+                 oob_score=False, random_state=777, verbose=0,
+                 warm_start=False)
+
+el:rmse   mean=0.03247909890838706 std=0.00885173695998425
+el:nrmse  mean=0.19989617604087564 std=0.11481273277331455
+el:r2     mean=0.8517836970814857 std=0.09325120353543945
+el:adj-r2 mean=1.0188191701663838 std=0.011217735397849848
+
+
+2020-06-05 17:30:02.881054
+Base model spec
+alpha: 0.005, l1_ratio: 0.4, sgd_penalty: NONE, sgd_power_t: 0, sgd_eta0: 0, en_max_iter: 10000
+
+Overall Results
+
+Yield Stress GridSearch Best Estimator:
+BaggingRegressor(base_estimator=ElasticNet(alpha=0.005, copy_X=True,
+                                           fit_intercept=True, l1_ratio=0.4,
+                                           max_iter=10000, normalize=False,
+                                           positive=False, precompute=False,
+                                           random_state=777, selection='cyclic',
+                                           tol=0.0001, warm_start=False),
+                 bootstrap=True, bootstrap_features=False, max_features=1.0,
+                 max_samples=0.9, n_estimators=10000, n_jobs=None,
+                 oob_score=False, random_state=777, verbose=0,
+                 warm_start=False)
+
+ys:rmse   mean=8.668636468210163 std=3.4365082388514283
+ys:nrmse  mean=0.03361651277821783 std=0.016091497920792907
+ys:r2     mean=0.9312803718793699 std=0.037384703391921674
+ys:adj-r2 mean=1.0092677172422757 std=0.0055743916265502185
+
+--------------------
+
+Elongation GridSearch Best Estimator:
+BaggingRegressor(base_estimator=ElasticNet(alpha=0.005, copy_X=True,
+                                           fit_intercept=True, l1_ratio=0.4,
+                                           max_iter=10000, normalize=False,
+                                           positive=False, precompute=False,
+                                           random_state=777, selection='cyclic',
+                                           tol=0.0001, warm_start=False),
+                 bootstrap=True, bootstrap_features=False, max_features=1.0,
+                 max_samples=0.9, n_estimators=1000, n_jobs=None,
+                 oob_score=False, random_state=777, verbose=0,
+                 warm_start=False)
+
+el:rmse   mean=0.03247933090841747 std=0.008847921950427643
+el:nrmse  mean=0.19988877815723569 std=0.11478252814175877
+el:r2     mean=0.8517742046947306 std=0.09327583217579105
+el:adj-r2 mean=1.0188198315751582 std=0.01121905037331673
+
+
+2020-06-05 18:10:05.752112
+Base model spec
+alpha: 0.01, l1_ratio: 0.2, sgd_penalty: NONE, sgd_power_t: 0, sgd_eta0: 0, en_max_iter: 1000
+
+Overall Results
+
+Yield Stress GridSearch Best Estimator:
+BaggingRegressor(base_estimator=ElasticNet(alpha=0.01, copy_X=True,
+                                           fit_intercept=True, l1_ratio=0.2,
+                                           max_iter=1000, normalize=False,
+                                           positive=False, precompute=False,
+                                           random_state=777, selection='cyclic',
+                                           tol=0.0001, warm_start=False),
+                 bootstrap=True, bootstrap_features=False, max_features=1.0,
+                 max_samples=0.9, n_estimators=10000, n_jobs=None,
+                 oob_score=False, random_state=777, verbose=0,
+                 warm_start=False)
+
+ys:rmse   mean=9.586717752044683 std=4.013617216810446
+ys:nrmse  mean=0.03721335667302925 std=0.018693560798389946
+ys:r2     mean=0.9042533789174352 std=0.06541890871325963
+ys:adj-r2 mean=1.0127932274523928 std=0.008575444099089221
+
+--------------------
+
+Elongation GridSearch Best Estimator:
+BaggingRegressor(base_estimator=ElasticNet(alpha=0.01, copy_X=True,
+                                           fit_intercept=True, l1_ratio=0.2,
+                                           max_iter=1000, normalize=False,
+                                           positive=False, precompute=False,
+                                           random_state=777, selection='cyclic',
+                                           tol=0.0001, warm_start=False),
+                 bootstrap=True, bootstrap_features=False, max_features=1.0,
+                 max_samples=0.9, n_estimators=1000, n_jobs=None,
+                 oob_score=False, random_state=777, verbose=0,
+                 warm_start=False)
+
+el:rmse   mean=0.03246980790233196 std=0.008788613457533198
+el:nrmse  mean=0.1992363658252349 std=0.11387616022088223
+el:r2     mean=0.8498815785675398 std=0.0988550869530325
+el:adj-r2 mean=1.0190715177344989 std=0.01190103879624744
+
+
+2020-06-05 21:08:54.045669
+Base model spec
+alpha: 0.01, l1_ratio: 0.2, sgd_penalty: NONE, sgd_power_t: 0, sgd_eta0: 0, en_max_iter: 10000
+
+Overall Results
+
+Yield Stress GridSearch Best Estimator:
+BaggingRegressor(base_estimator=ElasticNet(alpha=0.01, copy_X=True,
+                                           fit_intercept=True, l1_ratio=0.2,
+                                           max_iter=10000, normalize=False,
+                                           positive=False, precompute=False,
+                                           random_state=777, selection='cyclic',
+                                           tol=0.0001, warm_start=False),
+                 bootstrap=True, bootstrap_features=False, max_features=1.0,
+                 max_samples=0.9, n_estimators=10000, n_jobs=None,
+                 oob_score=False, random_state=777, verbose=0,
+                 warm_start=False)
+
+ys:rmse   mean=9.392207960678723 std=3.954139025889435
+ys:nrmse  mean=0.03639491143680161 std=0.018101136825377593
+ys:r2     mean=0.9078308173952448 std=0.06278239890880308
+ys:adj-r2 mean=1.0124456598618217 std=0.008665390736377924
+
+--------------------
+
+Elongation GridSearch Best Estimator:
+BaggingRegressor(base_estimator=ElasticNet(alpha=0.01, copy_X=True,
+                                           fit_intercept=True, l1_ratio=0.2,
+                                           max_iter=10000, normalize=False,
+                                           positive=False, precompute=False,
+                                           random_state=777, selection='cyclic',
+                                           tol=0.0001, warm_start=False),
+                 bootstrap=True, bootstrap_features=False, max_features=1.0,
+                 max_samples=0.9, n_estimators=1000, n_jobs=None,
+                 oob_score=False, random_state=777, verbose=0,
+                 warm_start=False)
+
+el:rmse   mean=0.03246943369088812 std=0.008788378468380173
+el:nrmse  mean=0.19923346822808982 std=0.11387368940160894
+el:r2     mean=0.849884001502516 std=0.09885593542949189
+el:adj-r2 mean=1.0190712324701772 std=0.011901175158984392
+
+
+2020-06-05 21:49:43.056063
+Base model spec
+alpha: 0.01, l1_ratio: 0.3, sgd_penalty: NONE, sgd_power_t: 0, sgd_eta0: 0, en_max_iter: 1000
+
+Overall Results
+
+Yield Stress GridSearch Best Estimator:
+BaggingRegressor(base_estimator=ElasticNet(alpha=0.01, copy_X=True,
+                                           fit_intercept=True, l1_ratio=0.3,
+                                           max_iter=1000, normalize=False,
+                                           positive=False, precompute=False,
+                                           random_state=777, selection='cyclic',
+                                           tol=0.0001, warm_start=False),
+                 bootstrap=True, bootstrap_features=False, max_features=1.0,
+                 max_samples=0.9, n_estimators=10000, n_jobs=None,
+                 oob_score=False, random_state=777, verbose=0,
+                 warm_start=False)
+
+ys:rmse   mean=9.637903401488336 std=4.017124327397702
+ys:nrmse  mean=0.037477350662069094 std=0.018885349891665345
+ys:r2     mean=0.9087701124551792 std=0.055927430204203495
+ys:adj-r2 mean=1.01222902876433 std=0.0074935278106342765
+
+--------------------
+
+Elongation GridSearch Best Estimator:
+BaggingRegressor(base_estimator=ElasticNet(alpha=0.01, copy_X=True,
+                                           fit_intercept=True, l1_ratio=0.3,
+                                           max_iter=1000, normalize=False,
+                                           positive=False, precompute=False,
+                                           random_state=777, selection='cyclic',
+                                           tol=0.0001, warm_start=False),
+                 bootstrap=True, bootstrap_features=False, max_features=1.0,
+                 max_samples=0.9, n_estimators=1000, n_jobs=None,
+                 oob_score=False, random_state=777, verbose=0,
+                 warm_start=False)
+
+el:rmse   mean=0.03465490396657007 std=0.00862679468577787
+el:nrmse  mean=0.20900091496330558 std=0.11236178399778976
+el:r2     mean=0.8194690803587514 std=0.14115591649093698
+el:adj-r2 mean=1.022800459009407 std=0.016597679141793935
+
+
+2020-06-06 01:41:53.034938
+Base model spec
+alpha: 0.01, l1_ratio: 0.3, sgd_penalty: NONE, sgd_power_t: 0, sgd_eta0: 0, en_max_iter: 10000
+
+Overall Results
+
+Yield Stress GridSearch Best Estimator:
+BaggingRegressor(base_estimator=ElasticNet(alpha=0.01, copy_X=True,
+                                           fit_intercept=True, l1_ratio=0.3,
+                                           max_iter=10000, normalize=False,
+                                           positive=False, precompute=False,
+                                           random_state=777, selection='cyclic',
+                                           tol=0.0001, warm_start=False),
+                 bootstrap=True, bootstrap_features=False, max_features=1.0,
+                 max_samples=0.9, n_estimators=10000, n_jobs=None,
+                 oob_score=False, random_state=777, verbose=0,
+                 warm_start=False)
+
+ys:rmse   mean=9.215418493442643 std=3.908133830986197
+ys:nrmse  mean=0.035726585977599284 std=0.01787860799532262
+ys:r2     mean=0.9123637358603295 std=0.05894832262192433
+ys:adj-r2 mean=1.0118467004328806 std=0.008207329982554823
+
+--------------------
+
+Elongation GridSearch Best Estimator:
+BaggingRegressor(base_estimator=ElasticNet(alpha=0.01, copy_X=True,
+                                           fit_intercept=True, l1_ratio=0.3,
+                                           max_iter=10000, normalize=False,
+                                           positive=False, precompute=False,
+                                           random_state=777, selection='cyclic',
+                                           tol=0.0001, warm_start=False),
+                 bootstrap=True, bootstrap_features=False, max_features=1.0,
+                 max_samples=0.9, n_estimators=1000, n_jobs=None,
+                 oob_score=False, random_state=777, verbose=0,
+                 warm_start=False)
+
+el:rmse   mean=0.03465489064879836 std=0.008626781021579415
+el:nrmse  mean=0.20900076237758008 std=0.11236151620917198
+el:r2     mean=0.8194689882752468 std=0.14115645243147668
+el:adj-r2 mean=1.022800463896278 std=0.01659773253018658
+
+
+2020-06-06 02:36:09.203037
+Base model spec
+alpha: 0.01, l1_ratio: 0.4, sgd_penalty: NONE, sgd_power_t: 0, sgd_eta0: 0, en_max_iter: 1000
+
+Overall Results
+
+Yield Stress GridSearch Best Estimator:
+BaggingRegressor(base_estimator=ElasticNet(alpha=0.01, copy_X=True,
+                                           fit_intercept=True, l1_ratio=0.4,
+                                           max_iter=1000, normalize=False,
+                                           positive=False, precompute=False,
+                                           random_state=777, selection='cyclic',
+                                           tol=0.0001, warm_start=False),
+                 bootstrap=True, bootstrap_features=False, max_features=1.0,
+                 max_samples=0.9, n_estimators=10000, n_jobs=None,
+                 oob_score=False, random_state=777, verbose=0,
+                 warm_start=False)
+
+ys:rmse   mean=9.620578264893359 std=3.838154919670662
+ys:nrmse  mean=0.03741449854746625 std=0.018298372481157864
+ys:r2     mean=0.9148064485691767 std=0.044270550739340456
+ys:adj-r2 mean=1.0114218008320868 std=0.006156186433257748
+
+--------------------
+
+Elongation GridSearch Best Estimator:
+BaggingRegressor(base_estimator=ElasticNet(alpha=0.01, copy_X=True,
+                                           fit_intercept=True, l1_ratio=0.4,
+                                           max_iter=1000, normalize=False,
+                                           positive=False, precompute=False,
+                                           random_state=777, selection='cyclic',
+                                           tol=0.0001, warm_start=False),
+                 bootstrap=True, bootstrap_features=False, max_features=1.0,
+                 max_samples=0.9, n_estimators=1000, n_jobs=None,
+                 oob_score=False, random_state=777, verbose=0,
+                 warm_start=False)
+
+el:rmse   mean=0.03632234372497935 std=0.009008663504292101
+el:nrmse  mean=0.21620312876200734 std=0.11134899213936525
+el:r2     mean=0.7908324132822383 std=0.186132611668455
+el:adj-r2 mean=1.0262769865525354 std=0.021712961693522496
+
+
+2020-06-06 06:56:15.944653
+Base model spec
+alpha: 0.01, l1_ratio: 0.4, sgd_penalty: NONE, sgd_power_t: 0, sgd_eta0: 0, en_max_iter: 10000
+
+Overall Results
+
+Yield Stress GridSearch Best Estimator:
+BaggingRegressor(base_estimator=ElasticNet(alpha=0.01, copy_X=True,
+                                           fit_intercept=True, l1_ratio=0.4,
+                                           max_iter=10000, normalize=False,
+                                           positive=False, precompute=False,
+                                           random_state=777, selection='cyclic',
+                                           tol=0.0001, warm_start=False),
+                 bootstrap=True, bootstrap_features=False, max_features=1.0,
+                 max_samples=0.9, n_estimators=10000, n_jobs=None,
+                 oob_score=False, random_state=777, verbose=0,
+                 warm_start=False)
+
+ys:rmse   mean=9.046449095846778 std=3.833967699521203
+ys:nrmse  mean=0.03508259224907844 std=0.017564618862249217
+ys:r2     mean=0.9167613124330766 std=0.05505418188222047
+ys:adj-r2 mean=1.0112575108746351 std=0.007724810075980945
+
+--------------------
+
+Elongation GridSearch Best Estimator:
+BaggingRegressor(base_estimator=ElasticNet(alpha=0.01, copy_X=True,
+                                           fit_intercept=True, l1_ratio=0.4,
+                                           max_iter=10000, normalize=False,
+                                           positive=False, precompute=False,
+                                           random_state=777, selection='cyclic',
+                                           tol=0.0001, warm_start=False),
+                 bootstrap=True, bootstrap_features=False, max_features=1.0,
+                 max_samples=0.9, n_estimators=1000, n_jobs=None,
+                 oob_score=False, random_state=777, verbose=0,
+                 warm_start=False)
+
+el:rmse   mean=0.03632230485314174 std=0.00900861424139802
+el:nrmse  mean=0.21620278482583638 std=0.11134840867420664
+el:r2     mean=0.7908326770066763 std=0.1861328080008198
+el:adj-r2 mean=1.0262769429694871 std=0.021712971749958166
+
+
