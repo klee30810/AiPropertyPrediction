@@ -9,7 +9,7 @@
 
 # publish folder ignore
 publish/
-plot/
+plots/
 
 ### Python ###
 # Byte-compiled / optimized / DLL files
