@@ -42,7 +42,7 @@ warnings.filterwarnings(action='ignore')
 GPU_NUM = 0  # 원하는 GPU 번호 입력
 device = torch.device(f'cuda:{GPU_NUM}' if torch.cuda.is_available() else 'cpu')
 torch.cuda.set_device(device)  # change allocation of current GPU
-#print(device)
+# print(device)
 print('Current cuda device ', torch.cuda.current_device())  # check
 
 # Seed Setting
@@ -60,54 +60,54 @@ def batch_run(LR, WD, ITERATION, LR_ADJUST_START, MODEL, DO, FEATURE):
     # Extract Datasets
     df = pd.read_excel("induced_voltage_corrected_10-1000Hz.xlsx", sheet_name='real,imag', skiprows=0)
     df_ri = pd.read_excel("induced_voltage_corrected_10-1000Hz.xlsx", sheet_name='real,imag', skiprows=0); feasec = 'all';
-    #df_ap = pd.read_excel("induced_voltage_corrected_10-1000Hz.xlsx", sheet_name='amp,phs', skiprows=0); feasec = 'all';
-    #df_riap = pd.read_excel("induced_voltage_corrected_10-1000Hz.xlsx", sheet_name='real,imag,amp,phs', skiprows=0); feasec = 'all'
+    # df_ap = pd.read_excel("induced_voltage_corrected_10-1000Hz.xlsx", sheet_name='amp,phs', skiprows=0); feasec = 'all';
+    # df_riap = pd.read_excel("induced_voltage_corrected_10-1000Hz.xlsx", sheet_name='real,imag,amp,phs', skiprows=0); feasec = 'all'
 
     # 1/6
     # ri sub-dataset for real,imag dataset 1/6
-    #X = df_ri.iloc[:, 8:]; X = np.array(X); feasec = 1;
-    #arr1 = np.linspace(2,7,7-2+1); arr2 = np.linspace(14,39,39-14+1); arr = np.concatenate((arr1,arr2)); X = df_ri.iloc[:, arr]; X = np.array(X); feasec = 2;
-    #arr1 = np.linspace(2,13,13-2+1); arr2 = np.linspace(20,39,39-20+1); arr = np.concatenate((arr1,arr2)); X = df_ri.iloc[:, arr]; X = np.array(X); feasec = 3;
-    #arr1 = np.linspace(2,19,19-2+1); arr2 = np.linspace(26,39,39-26+1); arr = np.concatenate((arr1,arr2)); X = df_ri.iloc[:, arr]; X = np.array(X); feasec = 4;
-    #arr1 = np.linspace(2,25,25-2+1); arr2 = np.linspace(32,39,39-32+1); arr = np.concatenate((arr1,arr2)); X = df_ri.iloc[:, arr]; X = np.array(X); feasec = 5;
-    #X = df_ri.iloc[:, 2:34]; X = np.array(X); feasec = 6
+    # X = df_ri.iloc[:, 8:]; X = np.array(X); feasec = 1;
+    # arr1 = np.linspace(2,7,7-2+1); arr2 = np.linspace(14,39,39-14+1); arr = np.concatenate((arr1,arr2)); X = df_ri.iloc[:, arr]; X = np.array(X); feasec = 2;
+    # arr1 = np.linspace(2,13,13-2+1); arr2 = np.linspace(20,39,39-20+1); arr = np.concatenate((arr1,arr2)); X = df_ri.iloc[:, arr]; X = np.array(X); feasec = 3;
+    # arr1 = np.linspace(2,19,19-2+1); arr2 = np.linspace(26,39,39-26+1); arr = np.concatenate((arr1,arr2)); X = df_ri.iloc[:, arr]; X = np.array(X); feasec = 4;
+    # arr1 = np.linspace(2,25,25-2+1); arr2 = np.linspace(32,39,39-32+1); arr = np.concatenate((arr1,arr2)); X = df_ri.iloc[:, arr]; X = np.array(X); feasec = 5;
+    # X = df_ri.iloc[:, 2:34]; X = np.array(X); feasec = 6
 
     # ap sub-dataset for amp,phs dataset 1/6
-    #X = df_ap.iloc[:, 8:]; X = np.array(X); feasec = 1;
-    #arr1 = np.linspace(2,7,7-2+1); arr2 = np.linspace(14,39,39-14+1); arr = np.concatenate((arr1,arr2)); X = df_ap.iloc[:, arr]; X = np.array(X); feasec = 2;
-    #arr1 = np.linspace(2,13,13-2+1); arr2 = np.linspace(20,39,39-20+1); arr = np.concatenate((arr1,arr2)); X = df_ap.iloc[:, arr]; X = np.array(X); feasec = 3;
-    #arr1 = np.linspace(2,19,19-2+1); arr2 = np.linspace(26,39,39-26+1); arr = np.concatenate((arr1,arr2)); X = df_ap.iloc[:, arr]; X = np.array(X); feasec = 4;
-    #arr1 = np.linspace(2,25,25-2+1); arr2 = np.linspace(32,39,39-32+1); arr = np.concatenate((arr1,arr2)); X = df_ap.iloc[:, arr]; X = np.array(X); feasec = 5;
-    #X = df_ap.iloc[:, 2:34]; X = np.array(X) feasec = 6;
+    # X = df_ap.iloc[:, 8:]; X = np.array(X); feasec = 1;
+    # arr1 = np.linspace(2,7,7-2+1); arr2 = np.linspace(14,39,39-14+1); arr = np.concatenate((arr1,arr2)); X = df_ap.iloc[:, arr]; X = np.array(X); feasec = 2;
+    # arr1 = np.linspace(2,13,13-2+1); arr2 = np.linspace(20,39,39-20+1); arr = np.concatenate((arr1,arr2)); X = df_ap.iloc[:, arr]; X = np.array(X); feasec = 3;
+    # arr1 = np.linspace(2,19,19-2+1); arr2 = np.linspace(26,39,39-26+1); arr = np.concatenate((arr1,arr2)); X = df_ap.iloc[:, arr]; X = np.array(X); feasec = 4;
+    # arr1 = np.linspace(2,25,25-2+1); arr2 = np.linspace(32,39,39-32+1); arr = np.concatenate((arr1,arr2)); X = df_ap.iloc[:, arr]; X = np.array(X); feasec = 5;
+    # X = df_ap.iloc[:, 2:34]; X = np.array(X) feasec = 6;
 
     # riap sub-dataset for real,imag,amp,phs dataset 1/6
-    #X = df_riap.iloc[:, 14:]; X = np.array(X); feasec = 1;
-    #arr1 = np.linspace(2,13,13-2+1); arr2 = np.linspace(26,77,77-26+1); arr = np.concatenate((arr1,arr2)); X = df_riap.iloc[:, arr]; X = np.array(X); feasec = 2;
-    #arr1 = np.linspace(2,25,25-2+1); arr2 = np.linspace(38,77,77-38+1); arr = np.concatenate((arr1,arr2)); X = df_riap.iloc[:, arr]; X = np.array(X); feasec = 3;
-    #arr1 = np.linspace(2,37,37-2+1); arr2 = np.linspace(50,77,77-50+1); arr = np.concatenate((arr1,arr2)); X = df_riap.iloc[:, arr]; X = np.array(X); feasec = 4;
-    #arr1 = np.linspace(2,49,49-2+1); arr2 = np.linspace(62,77,77-62+1); arr = np.concatenate((arr1,arr2)); X = df_riap.iloc[:, arr]; X = np.array(X); feasec = 5;
-    #X = df_riap.iloc[:, 2:66]; X = np.array(X); feasec = 6;
+    # X = df_riap.iloc[:, 14:]; X = np.array(X); feasec = 1;
+    # arr1 = np.linspace(2,13,13-2+1); arr2 = np.linspace(26,77,77-26+1); arr = np.concatenate((arr1,arr2)); X = df_riap.iloc[:, arr]; X = np.array(X); feasec = 2;
+    # arr1 = np.linspace(2,25,25-2+1); arr2 = np.linspace(38,77,77-38+1); arr = np.concatenate((arr1,arr2)); X = df_riap.iloc[:, arr]; X = np.array(X); feasec = 3;
+    # arr1 = np.linspace(2,37,37-2+1); arr2 = np.linspace(50,77,77-50+1); arr = np.concatenate((arr1,arr2)); X = df_riap.iloc[:, arr]; X = np.array(X); feasec = 4;
+    # arr1 = np.linspace(2,49,49-2+1); arr2 = np.linspace(62,77,77-62+1); arr = np.concatenate((arr1,arr2)); X = df_riap.iloc[:, arr]; X = np.array(X); feasec = 5;
+    # X = df_riap.iloc[:, 2:66]; X = np.array(X); feasec = 6;
 
     # 1/3
     # ri sub-dataset for real,imag dataset 1/3
-    #X = df_ri.iloc[:, 24:]; X = np.array(X); feasec = 0.3;
-    #arr1 = np.linspace(2,23,23-2+1); arr2 = np.linspace(34,39,39-34+1); arr = np.concatenate((arr1,arr2)); X = df_ri.iloc[:, arr]; X = np.array(X); feasec = 0.6;
-    #X = df_ri.iloc[:, 2:34]; X = np.array(X); feasec = 0.9
+    # X = df_ri.iloc[:, 24:]; X = np.array(X); feasec = 0.3;
+    # arr1 = np.linspace(2,23,23-2+1); arr2 = np.linspace(34,39,39-34+1); arr = np.concatenate((arr1,arr2)); X = df_ri.iloc[:, arr]; X = np.array(X); feasec = 0.6;
+    # X = df_ri.iloc[:, 2:34]; X = np.array(X); feasec = 0.9
 
     # ap sub-dataset for amp,phs dataset 1/3
-    #X = df_ap.iloc[:, 24:]; X = np.array(X); feasec = 0.3;
-    #arr1 = np.linspace(2,23,23-2+1); arr2 = np.linspace(34,39,39-34+1); arr = np.concatenate((arr1,arr2)); X = df_ap.iloc[:, arr]; X = np.array(X); feasec = 0.6;
-    #X = df_ap.iloc[:, 2:34]; X = np.array(X) feasec = 0.9;
+    # X = df_ap.iloc[:, 24:]; X = np.array(X); feasec = 0.3;
+    # arr1 = np.linspace(2,23,23-2+1); arr2 = np.linspace(34,39,39-34+1); arr = np.concatenate((arr1,arr2)); X = df_ap.iloc[:, arr]; X = np.array(X); feasec = 0.6;
+    # X = df_ap.iloc[:, 2:34]; X = np.array(X) feasec = 0.9;
 
     # riap sub-dataset for real,imag,amp,phs dataset 1/3
-    #X = df_riap.iloc[:, 46:]; X = np.array(X); feasec = 0.3;
-    #arr1 = np.linspace(2,45,45-2+1); arr2 = np.linspace(66,77,77-67+1); arr = np.concatenate((arr1,arr2)); X = df_riap.iloc[:, arr]; X = np.array(X); feasec = 0.6;
-    #X = df_riap.iloc[:, 2:66]; X = np.array(X); feasec = 0.9;
+    # X = df_riap.iloc[:, 46:]; X = np.array(X); feasec = 0.3;
+    # arr1 = np.linspace(2,45,45-2+1); arr2 = np.linspace(66,77,77-67+1); arr = np.concatenate((arr1,arr2)); X = df_riap.iloc[:, arr]; X = np.array(X); feasec = 0.6;
+    # X = df_riap.iloc[:, 2:66]; X = np.array(X); feasec = 0.9;
 
     # full-datasets
     X = df_ri.iloc[:,2:]; X = np.array(X);
-    #X = df_ap.iloc[:,2:]; X = np.array(X);
-    #X = df_riap.iloc[:,2:]; X = np.array(X);
+    # X = df_ap.iloc[:,2:]; X = np.array(X);
+    # X = df_riap.iloc[:,2:]; X = np.array(X);
 
     Y = df.iloc[:, [0, 1]];
     ys = Y.iloc[:,0]; ys = np.array(ys);
@@ -263,7 +263,7 @@ def batch_run(LR, WD, ITERATION, LR_ADJUST_START, MODEL, DO, FEATURE):
     print('\n')
 
     # save the model and state_dict
-    MODELPATH = 'models/'
+    MODELPATH = '../models/'
 
     torch.save(net1, MODELPATH + model_class_name + '_ys.pt')  # 전체 모델 저장
     torch.save(net1.state_dict(), MODELPATH + model_class_name + '_ys_state_dict.pt')  # 모델 객체의 state_dict 저장
@@ -272,7 +272,7 @@ def batch_run(LR, WD, ITERATION, LR_ADJUST_START, MODEL, DO, FEATURE):
     print('\nModel saved!\n')
 
     # save the result
-    result_filename = 'results/' + MODEL + '_feature=' + str(FEATURE) + '_result.csv'
+    result_filename = '../results/' + MODEL + '_feature=' + str(FEATURE) + '_result.csv'
     print(result_filename)
     with open(result_filename, 'a') as f:
         f.write(str(datetime.datetime.now()))
@@ -296,7 +296,7 @@ def batch_run(LR, WD, ITERATION, LR_ADJUST_START, MODEL, DO, FEATURE):
     print('\nResults saved! \n')
 
     # Save the predictions
-    pred_filename = 'pred/' + MODEL + '_feature=' + str(FEATURE)+ '_y_pred.csv'
+    pred_filename = '../pred/' + MODEL + '_feature=' + str(FEATURE)+ '_y_pred.csv'
     print(pred_filename)
     with open(pred_filename, 'a') as f:
         f.write(str(datetime.datetime.now()))
@@ -332,7 +332,7 @@ def batch_run(LR, WD, ITERATION, LR_ADJUST_START, MODEL, DO, FEATURE):
     plt.xlabel("True Values")
     plt.ylabel("Predicted Valued")
 
-    plt.savefig('plots/' + model_class_name + '_G1_plot_' + Y_LABEL[yi] + '.png', bbox_inches='tight')
+    plt.savefig('../plots/' + model_class_name + '_G1_plot_' + Y_LABEL[yi] + '.png', bbox_inches='tight')
     # plt.show()
     plt.close()
     print('\nG1 plot saved! \n')
@@ -359,7 +359,7 @@ def batch_run(LR, WD, ITERATION, LR_ADJUST_START, MODEL, DO, FEATURE):
     plt.xlabel("Instance ID")
     plt.ylabel("Values")
 
-    plt.savefig('plots/' + model_class_name + '_G2_plot_' + Y_LABEL[yi] + '.png', bbox_inches='tight')
+    plt.savefig('../plots/' + model_class_name + '_G2_plot_' + Y_LABEL[yi] + '.png', bbox_inches='tight')
     # plt.show()
     plt.close()
 
@@ -391,7 +391,7 @@ def batch_run(LR, WD, ITERATION, LR_ADJUST_START, MODEL, DO, FEATURE):
     plt.xlabel("Instance ID")
     plt.ylabel("Difference")
 
-    plt.savefig('plots/' + model_class_name + '_G3_plot_' + Y_LABEL[yi] + '.png', bbox_inches='tight')
+    plt.savefig('../plots/' + model_class_name + '_G3_plot_' + Y_LABEL[yi] + '.png', bbox_inches='tight')
     # plt.show()
     plt.close()
     print('\nG3 plot saved! \n')
